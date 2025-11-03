@@ -1,16 +1,8 @@
 # 🔮 Exorcismo Extracurricular 👻
 
-<div align="center">
-
 ![Unity](https://img.shields.io/badge/Unity-2D-black?style=for-the-badge&logo=unity)
 ![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow?style=for-the-badge)
 ![Gênero](https://img.shields.io/badge/Gêneros-Survival%202D%20ARPG%20TwinStick-red?style=for-the-badge)
-
-*Um jogo 2D de exploração e sobrevivência em hordas*
-
-[📖 História](#história) • [🎯 Características](#características) • [🛠️ Tecnologias](#tecnologias)
-
-</div>
 
 ---
 
