@@ -41,6 +41,6 @@ Esta era caótica ficou conhecida como a **"Idade Média Tecnomágica"** - o pre
 
 ## 🛠️ Tecnologias
 
-- **Engine**: Unity 2D ver. 6000.2.10f1
+- **Engine**: <a href="https://download.unity3d.com/download_unity/d3d30d158480/Windows64EditorInstaller/UnitySetup64-6000.2.10f1.exe">Unity 2D ver. 6000.2.10f1</a>
 - **Linguagem**: C#
 - **Controle de Versão**: Git & GitHub
