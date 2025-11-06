@@ -1,0 +1,4289 @@
+fileFormatVersion: 2
+guid: d65cccc64a8fa1b4d9d29c8a98e77150
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1698076764250075221
+    second: tiles_darkForest_castle4_0
+  - first:
+      213: -4672196302184346143
+    second: tiles_darkForest_castle4_1
+  - first:
+      213: 9019785843729770011
+    second: tiles_darkForest_castle4_2
+  - first:
+      213: -555900111499073191
+    second: tiles_darkForest_castle4_3
+  - first:
+      213: -368705452580677804
+    second: tiles_darkForest_castle4_4
+  - first:
+      213: -3631472571603213767
+    second: tiles_darkForest_castle4_5
+  - first:
+      213: 4508858585308403675
+    second: tiles_darkForest_castle4_6
+  - first:
+      213: 4910005951422509409
+    second: tiles_darkForest_castle4_7
+  - first:
+      213: -976505288966196678
+    second: tiles_darkForest_castle4_8
+  - first:
+      213: -9122750432464160645
+    second: tiles_darkForest_castle4_9
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 48
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 760
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 550787ef1d7c09710800000000000000
+      internalID: 1698076764250075221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 760
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ed886fa736092fb0800000000000000
+      internalID: -4672196302184346143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_2
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 760
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b162c9d9f67bc2d70800000000000000
+      internalID: 9019785843729770011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_3
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 760
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9596f7b3bcb0948f0800000000000000
+      internalID: -555900111499073191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_4
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 760
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 457dd28285812eaf0800000000000000
+      internalID: -368705452580677804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_5
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 760
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 932240ebfea6a9dc0800000000000000
+      internalID: -3631472571603213767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_6
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 760
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd717cf8efea29e30800000000000000
+      internalID: 4508858585308403675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_7
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 760
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 161b7930668d32440800000000000000
+      internalID: 4910005951422509409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_8
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 760
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3231e90d91c272f0800000000000000
+      internalID: -976505288966196678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_9
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 760
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b78be6ae0da756180800000000000000
+      internalID: -9122750432464160645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_10
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 760
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88b3e947968e6d5449034b241a746c75
+      internalID: 1513693668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_11
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 760
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f0e05b60c79c4547a46daf30e15e1bd
+      internalID: 1635328882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_12
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 760
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68647343e4168284c9c268e3e37f40f8
+      internalID: -1321343406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_13
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 760
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92ab7a11edc8dfa47a895d85bf909b4e
+      internalID: -816221901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_14
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 760
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 278e9e44490a12146b13eb76743e9c32
+      internalID: -1617500425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_15
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 760
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 944c911badfaa6a4997d994842956250
+      internalID: -218383914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_16
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 712
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fefd5f9274b5b864d8478cb0fb778ad4
+      internalID: 391539322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_17
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 712
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f9d18a2372ed0d46ba42e2a72f38497
+      internalID: 1197145575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_18
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 712
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f57427f797fd9664f8f2d15ae2f2cef1
+      internalID: -1460173209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_19
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 712
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c0053c928bab3f4fb135a2d752e88b4
+      internalID: -454689136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_20
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 712
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bfd886db883d1840b2ad6fa2191c2ac
+      internalID: 1172411217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_21
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 712
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a7933a334deb1a4499e2cdbfb2925fb
+      internalID: 1729879430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_22
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 712
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00642f096a729ef4ab1e38fc78a2ecb4
+      internalID: -1563723453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_23
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 712
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0eddffd7734f1d409befa834eee570b
+      internalID: 8031881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_24
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 712
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30ce5314ddc3beb4ba604ec6a625a271
+      internalID: 319332911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_25
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 712
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f357062402df0f8438e617f81c36c8f4
+      internalID: 1726502949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_26
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 712
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a2acd21ac734a941a85cd80f23099bb
+      internalID: 726580680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_27
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 712
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2bac94527a400e42afbe3f67cd1d303
+      internalID: -980734771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_28
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 712
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 553da4b463154624a85fb22f0b8f5657
+      internalID: -468825395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_29
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 712
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3161d4b0b44013045856b596a306a63f
+      internalID: 169026895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_30
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 712
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21bbc07ea378f324bbcaf30ed2e9575b
+      internalID: 339506050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_31
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 712
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38bd6af4aa5881949b05a88c2bee7aeb
+      internalID: 1815023458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_32
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 712
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1a23dd3984b43348abc49542fceb99c
+      internalID: 866932615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_33
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 664
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1395cdd8a11bd145b0dcfa8084a0c5a
+      internalID: -810834355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_34
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 664
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdb20fc6611617949abe345e49057fe4
+      internalID: -357918820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_35
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 664
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d990d7151dc44b4a8e4c62a519da5cf
+      internalID: 1792732147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_36
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 664
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62b66b21f8869e44396d691db5f6aa7f
+      internalID: -1862773315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_37
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 664
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a06b48f81d89cbf4b82f26ebcb3e7c3d
+      internalID: -437041232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_38
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 664
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b77ce3b4ff9962f40b2d545a9b86f927
+      internalID: 395991433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_39
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 664
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 094509a21e789ad408c81e9fd7b48257
+      internalID: -1076616924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_40
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 616
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db2dcb0bc95b3ca4b9f11543499f1e50
+      internalID: -971858810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_41
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 616
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1131d70830f90a46b6f9abd602338b8
+      internalID: -196403754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_42
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 616
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ccf697efc1794148953a4f42a4a043b
+      internalID: -1245240718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_43
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 616
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cb76d40564319f4197946584251e32c
+      internalID: 340816225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_44
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 616
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 631f12a8a1dfcdf40866fd9fe4e164a2
+      internalID: -1532220534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_45
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 568
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21d975fb1cb67cb4cb4e6f288ea22101
+      internalID: -1392930657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_46
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 568
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 336b1d656093a29498b3283500c3c5a0
+      internalID: -1020316220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_47
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 568
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f77f37053fdd59540b822842fd9eb665
+      internalID: -406453457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_48
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 568
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f1e1f208bc15a941b38633e7d2d17b0
+      internalID: 1157324477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_49
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 568
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 413013161843ec442860e0b2e91befc9
+      internalID: 962463225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_50
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 568
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3cc0fe54deaa474b8719cb44614c98b
+      internalID: 823027753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_51
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 568
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc38b2491039c7c4391a58af88b1ff5c
+      internalID: 57859991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_52
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 568
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6eb84d586a8767498f5a861fc9ee68b
+      internalID: 836959077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_53
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 568
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d23dd17b8a7d854fb36cb380e3daf01
+      internalID: -1321851085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_54
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 568
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6793410f1039c674c9fda75dd79a5795
+      internalID: 776898526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_55
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 568
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c30cf99f2b528db4b9823eaf01c3316e
+      internalID: -499646327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_56
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 568
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc0a7fba079dce444bd473ec77a11bc1
+      internalID: -585602102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_57
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 568
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a49c5c651248d6f4c823e6c142e931b2
+      internalID: 567211691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_58
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 568
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9690ea00dacef504fbcc2f3de014e205
+      internalID: -1092881675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_59
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 568
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed48d3d2d0945664183aa6ff448ae349
+      internalID: 902739250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_60
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 568
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc2823a72ffa3944093eb3db32eac16e
+      internalID: -854386198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_61
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 520
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c8ef9cba6f7a0441a83d65ae96dcabf
+      internalID: 1383720076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_62
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 520
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c01c54c31296e944be93c3a8a5347fa
+      internalID: 6454626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_63
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 520
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a31a6184ff3b0e34c85e760aa977511a
+      internalID: -1551308677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_64
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 520
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e810acf6017091849832ca4065793465
+      internalID: -1648369171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_65
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 520
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aec24f17090060a4ab14b689abc4e637
+      internalID: -1608233974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_66
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 520
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f06dc5509cb8178468e80076cf089269
+      internalID: -1873324472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_67
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 520
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce70e964bf8f2ad438edbc818fa449e9
+      internalID: 361961088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_68
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 520
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b05f2b3121bd25428f54b178e050eba
+      internalID: 936840315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_69
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 520
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81bfb8079f0c5e9468dcb63f0f47ebb8
+      internalID: 1144926271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_70
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 520
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd6036ab25e20fa4aabf6b6ec7e02634
+      internalID: 1459232391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_71
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 520
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2de619fbbd33df3458f1efa34eb2aac6
+      internalID: -256422212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_72
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 520
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95302ae09e51c4c42b08c78495b8cb35
+      internalID: 94064303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_73
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 520
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d9ca727e70ebbc45bffff5b2e65e0a1
+      internalID: -772363160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_74
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 520
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1c6c3cc2c41b7241ab02fe396b9f241
+      internalID: -247234334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_75
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 520
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f47890cb03ba2914c88a57775a617731
+      internalID: -2024311174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_76
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 520
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d5b599af7cf16449915d7a66ad5a294
+      internalID: 748979458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_77
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 520
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dc46c19e48f6ed45a7bfa71dec88ee5
+      internalID: -410233457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_78
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 520
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eef2942e169d8f4a856bcff59ac1931
+      internalID: -1328390253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_79
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 472
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59da4a52559f1184fbac5ff2081657b0
+      internalID: 2016911183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_80
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 472
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79620478abe56ca4684f81eec54c9cc7
+      internalID: 1300290371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_81
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 472
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a4448b4128a4dd4a9df95d224b7b7e8
+      internalID: 1967172419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_82
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 472
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 281c25e6b2218d1488ad17f1390e39c6
+      internalID: 39618402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_83
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 472
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbfcafcd8ab37a84393cf8867b0e5b4c
+      internalID: -1788760913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_84
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 472
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f36209fb0429f2a4495ea640a2001888
+      internalID: 64367565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_85
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 472
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1feac67043869034fa874fbec1c36786
+      internalID: 1536025870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_86
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 472
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7832d16d1e2c2954f9c673a8a35829ad
+      internalID: -476598093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_87
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 472
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b41be658c648ea4aa26ab1400908567
+      internalID: 1096082143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_88
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 472
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37bede83051eba547b6eb2cae247f505
+      internalID: -551119022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_89
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 472
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a3a3b5b6242e1241b21a9e808094756
+      internalID: 1907142638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_90
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 472
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 096da8262491db549bef0d451945e71d
+      internalID: -857994970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_91
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 472
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6abeda0deb155334281e798e39a7ae8e
+      internalID: -1965937799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_92
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 472
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9bbea88b4963eb47b3c1f152c9f4075
+      internalID: 1993172545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_93
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 472
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9b3758c32d2a3a4899e0b1a073331f4
+      internalID: -308879787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_94
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 472
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ac41672512a55d45a5b0fcb7b0d4edb
+      internalID: 179715483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_95
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 472
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2600ffedeaba0e248b7db4901ffb6bff
+      internalID: 623391805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_96
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 376
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b32e4e3a3663f643ab9fd3896bcf66a
+      internalID: 49207106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_97
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 376
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5b5d1a4039455e41b688ee2a5d0e3de
+      internalID: -1131933906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_98
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 376
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7605117eef442a049bbcc0c0d3286159
+      internalID: -528418715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_99
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 376
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17da7701ab308bd4bad504cd7af7f30c
+      internalID: 2050138775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_100
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 376
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89e44a7813505ae4084d8ac919812023
+      internalID: 322772832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_101
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 376
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffc9255528040eb45ad21ce2e6fe2aab
+      internalID: -1431879338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_102
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 376
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2362e80f83b0404884548884f0eb133
+      internalID: -1899981424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_103
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 376
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3473228e6917bbf4aa2f74056b974968
+      internalID: 1827800989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_104
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 376
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50ed4dd9f99407b40a7a513bb8a9360f
+      internalID: 111149733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_105
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 376
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6df971997cc96a4a980651b0b0b6799
+      internalID: -1633189419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_106
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 376
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9da2984bdfd59b4f84cb9315d8cae2e
+      internalID: -492900764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_107
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 376
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88af7d1234da4884ea3bf5f0762e0cb7
+      internalID: -868846742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_108
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 376
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c032b4443fa20d4d87d77ed6040651a
+      internalID: -502240913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_109
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 376
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83caf1417843ecf4abd9e8c62f06c38e
+      internalID: 1259451815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_110
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 376
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b46afd260cbc68e4c87d18e51228b27a
+      internalID: -1757095518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_111
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 376
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 995874d7c1f9a2c43b278cd30292af9d
+      internalID: -2022727138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_112
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 328
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 863a54fa718a82141909790eef7c84e9
+      internalID: -1182116828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_113
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 328
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f40ddb41d18e9b74fb1f643672d09f7f
+      internalID: 503130562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_114
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 328
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bbb6a2253a29db448442944306bd49e
+      internalID: 1955200134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_115
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 328
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9968c7aa293b03049bce14774eb54131
+      internalID: -874049202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_116
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 328
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a7edd5d6a3850d47b1eb03689aac261
+      internalID: 130839563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_117
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 328
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 548d1ba3a472c09479901f668b448afc
+      internalID: -98496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_118
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 328
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c252dd1f8425784aa99b2287a8de521
+      internalID: -928358051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_119
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 328
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a797b50ca14159143ba41326b22e3ae4
+      internalID: 856161748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_120
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 328
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a2589fc0268e4a40aa58db09411acd7
+      internalID: -891149632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_121
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 328
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2a5ede3c1dc43f43aaec92834584122
+      internalID: -277025837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_122
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 280
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56c9230c71403a54fa3488c279f69220
+      internalID: 2034122314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_123
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 280
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 416d769ca62b0234db48a51952a80b1b
+      internalID: 950918538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_124
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 280
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a142adaeba6317846bd740793335aafe
+      internalID: -711484476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_125
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 280
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fee2fe24657ff554187bcd711255e669
+      internalID: 2070062993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_126
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 280
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e3d3561e591b3e44976dfea40779cdd
+      internalID: -2041017586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_127
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 280
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d56a576149e1914fa7c68ed3c1e3f75
+      internalID: -1366716413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_128
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 280
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e367078509ea5f048a0c2507bd4716fa
+      internalID: -417423803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_129
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 280
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b0045d028b55b04a82d8e97e3a0aad1
+      internalID: 655554756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_130
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 280
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b4d2f34b9665024faa97115bb2f9766
+      internalID: -954952883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_131
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 280
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b446185e0fa7ee489eba51720bf097b
+      internalID: 327135943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_132
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 280
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fff483bb321e2a1448690e89b300ce05
+      internalID: -924951873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_133
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 232
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 461899e3bcf22eb489929ef93f4fec8f
+      internalID: 252778940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_134
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 232
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa31fdd97e658bb46a1f9fba5d716f98
+      internalID: -1125158081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_135
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 232
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0490b0e249f5fb4faeeefde71568d94
+      internalID: -1516749864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_136
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 232
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6be08790eb5fc964584ee5663f31e3b0
+      internalID: 1740537138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_137
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 232
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13662510d2cc62246935e0aa0eb216ac
+      internalID: -1002175826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_138
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 232
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20d6771f600ba8448ad2f81c20f06b84
+      internalID: 1439174390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_139
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 232
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4af9ba3343795e499b1222b52eea9f8
+      internalID: 1259627053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_140
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 232
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eaee28178e34ef4f91fbbbd07fd5f6e
+      internalID: -1446088185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_141
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 232
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aaf3350f29b2ac49bf19184cfb4c2f6
+      internalID: 609866419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_142
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 184
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65f8ccecfa70bd644be31313c3676998
+      internalID: -139563575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_143
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 184
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63ed19204cb524c4cb1848b22f891787
+      internalID: -1889574204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_144
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 184
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33b0471131eed3441b6ab6865ebba13c
+      internalID: 992568740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_145
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 184
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 362db5de906c1d2449964aa0f2b815b3
+      internalID: 986600469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_146
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 184
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43386a8518b61554592fa100bf95fadc
+      internalID: 720518303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_147
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 184
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a70b2097a4258df47b76077384747360
+      internalID: 920491563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_148
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 184
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df932a8dd98001341b9e95aa88404ff8
+      internalID: -348302199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_149
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 184
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a794465018535814fa1d4f375b4dddde
+      internalID: 1295914861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_150
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 184
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3a4f974fac64334284b0b61a8bd0288
+      internalID: -127068004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_151
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 184
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37d563dcacc83444896222a176416f39
+      internalID: -1481289590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_152
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 184
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58b0e731fbbb54d46a000eee787a4121
+      internalID: -1849325113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_153
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 184
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d81384083d30404198680c467bf5e22
+      internalID: -2122358705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_154
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 184
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b4516d7762c5874baaa37553429511b
+      internalID: 1050437170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_155
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 136
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d00c3b880cec967408c18dc780c71460
+      internalID: -1762444967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_156
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 136
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d30c7324cd3304847bdc3faadecbcc42
+      internalID: 721126355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_157
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 136
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcad4f9134c565d419f524fb5ea647bd
+      internalID: 140837880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_158
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 136
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b786af48a8d568445873276732b1830b
+      internalID: 1331084807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_159
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 136
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe5161598d779a341be50ca64f26a11e
+      internalID: 136414018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_160
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 136
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b079f170a6678744af2b4000baf1205
+      internalID: -1260596911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_161
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 136
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e3f38b9adbf78d4d949f2eda8a09c7f
+      internalID: -576311458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_162
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 136
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eac25a57e37b6145a83dba47809d50c
+      internalID: 1418112939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_163
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 136
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06cfa1523ebed2948b5f10f8af6b90dc
+      internalID: -1365645079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_164
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 136
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c935f1f7235469499976ed2f3f9d6e1
+      internalID: -341672147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_165
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 136
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfeaf84e050e63a4cae47b864e0e9f0f
+      internalID: -817363999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_166
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 136
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fc41405e79f02e41b96505b803f598a
+      internalID: -1437405738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_167
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 136
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89e1093d4eefb784db7777ad5e60787b
+      internalID: -262467912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_168
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 88
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57658b260e6162948b7b0bf18357a163
+      internalID: 736677785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_169
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 88
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d77c324489151d468c95bdbd65614fd
+      internalID: -1209729693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_170
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 88
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c80cf430f2edb674fb22d0943583a44c
+      internalID: -320367397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_171
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 88
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 210e9058fcba86a49bd6a06b998a6870
+      internalID: -2109142431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_172
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 88
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34675e4858ce1dc4ab76fced52b395dd
+      internalID: 37644645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_173
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 88
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e8b36ed55932914fa8c51c79df08b6b
+      internalID: -191481134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_174
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 88
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 915c3ab8da30cad4f8d49e630f55a571
+      internalID: -1357391509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_175
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 88
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ade5c05fea9fb474189993cd2c5a040d
+      internalID: 409152747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_176
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 88
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e667763b9a0f1f945ad7381a0b8b5a4d
+      internalID: 1100992174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_177
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 88
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0945c2495a576594b9fcd3c45927ab5d
+      internalID: -2090159881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_178
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 88
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1998ea75a4a3f0b4c9f73570da221ef6
+      internalID: 1513801574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_darkForest_castle4_179
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 88
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84bd7a36d702ef446a983bf926249382
+      internalID: -1861855639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 581f3bd55cb713a49bb143ea0db267ac
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":48.0,"y":48.0},"gridSpriteOffset":{"x":16.0,"y":16.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      tiles_darkForest_castle4_0: 1698076764250075221
+      tiles_darkForest_castle4_1: -4672196302184346143
+      tiles_darkForest_castle4_10: 1513693668
+      tiles_darkForest_castle4_100: 322772832
+      tiles_darkForest_castle4_101: -1431879338
+      tiles_darkForest_castle4_102: -1899981424
+      tiles_darkForest_castle4_103: 1827800989
+      tiles_darkForest_castle4_104: 111149733
+      tiles_darkForest_castle4_105: -1633189419
+      tiles_darkForest_castle4_106: -492900764
+      tiles_darkForest_castle4_107: -868846742
+      tiles_darkForest_castle4_108: -502240913
+      tiles_darkForest_castle4_109: 1259451815
+      tiles_darkForest_castle4_11: 1635328882
+      tiles_darkForest_castle4_110: -1757095518
+      tiles_darkForest_castle4_111: -2022727138
+      tiles_darkForest_castle4_112: -1182116828
+      tiles_darkForest_castle4_113: 503130562
+      tiles_darkForest_castle4_114: 1955200134
+      tiles_darkForest_castle4_115: -874049202
+      tiles_darkForest_castle4_116: 130839563
+      tiles_darkForest_castle4_117: -98496
+      tiles_darkForest_castle4_118: -928358051
+      tiles_darkForest_castle4_119: 856161748
+      tiles_darkForest_castle4_12: -1321343406
+      tiles_darkForest_castle4_120: -891149632
+      tiles_darkForest_castle4_121: -277025837
+      tiles_darkForest_castle4_122: 2034122314
+      tiles_darkForest_castle4_123: 950918538
+      tiles_darkForest_castle4_124: -711484476
+      tiles_darkForest_castle4_125: 2070062993
+      tiles_darkForest_castle4_126: -2041017586
+      tiles_darkForest_castle4_127: -1366716413
+      tiles_darkForest_castle4_128: -417423803
+      tiles_darkForest_castle4_129: 655554756
+      tiles_darkForest_castle4_13: -816221901
+      tiles_darkForest_castle4_130: -954952883
+      tiles_darkForest_castle4_131: 327135943
+      tiles_darkForest_castle4_132: -924951873
+      tiles_darkForest_castle4_133: 252778940
+      tiles_darkForest_castle4_134: -1125158081
+      tiles_darkForest_castle4_135: -1516749864
+      tiles_darkForest_castle4_136: 1740537138
+      tiles_darkForest_castle4_137: -1002175826
+      tiles_darkForest_castle4_138: 1439174390
+      tiles_darkForest_castle4_139: 1259627053
+      tiles_darkForest_castle4_14: -1617500425
+      tiles_darkForest_castle4_140: -1446088185
+      tiles_darkForest_castle4_141: 609866419
+      tiles_darkForest_castle4_142: -139563575
+      tiles_darkForest_castle4_143: -1889574204
+      tiles_darkForest_castle4_144: 992568740
+      tiles_darkForest_castle4_145: 986600469
+      tiles_darkForest_castle4_146: 720518303
+      tiles_darkForest_castle4_147: 920491563
+      tiles_darkForest_castle4_148: -348302199
+      tiles_darkForest_castle4_149: 1295914861
+      tiles_darkForest_castle4_15: -218383914
+      tiles_darkForest_castle4_150: -127068004
+      tiles_darkForest_castle4_151: -1481289590
+      tiles_darkForest_castle4_152: -1849325113
+      tiles_darkForest_castle4_153: -2122358705
+      tiles_darkForest_castle4_154: 1050437170
+      tiles_darkForest_castle4_155: -1762444967
+      tiles_darkForest_castle4_156: 721126355
+      tiles_darkForest_castle4_157: 140837880
+      tiles_darkForest_castle4_158: 1331084807
+      tiles_darkForest_castle4_159: 136414018
+      tiles_darkForest_castle4_16: 391539322
+      tiles_darkForest_castle4_160: -1260596911
+      tiles_darkForest_castle4_161: -576311458
+      tiles_darkForest_castle4_162: 1418112939
+      tiles_darkForest_castle4_163: -1365645079
+      tiles_darkForest_castle4_164: -341672147
+      tiles_darkForest_castle4_165: -817363999
+      tiles_darkForest_castle4_166: -1437405738
+      tiles_darkForest_castle4_167: -262467912
+      tiles_darkForest_castle4_168: 736677785
+      tiles_darkForest_castle4_169: -1209729693
+      tiles_darkForest_castle4_17: 1197145575
+      tiles_darkForest_castle4_170: -320367397
+      tiles_darkForest_castle4_171: -2109142431
+      tiles_darkForest_castle4_172: 37644645
+      tiles_darkForest_castle4_173: -191481134
+      tiles_darkForest_castle4_174: -1357391509
+      tiles_darkForest_castle4_175: 409152747
+      tiles_darkForest_castle4_176: 1100992174
+      tiles_darkForest_castle4_177: -2090159881
+      tiles_darkForest_castle4_178: 1513801574
+      tiles_darkForest_castle4_179: -1861855639
+      tiles_darkForest_castle4_18: -1460173209
+      tiles_darkForest_castle4_19: -454689136
+      tiles_darkForest_castle4_2: 9019785843729770011
+      tiles_darkForest_castle4_20: 1172411217
+      tiles_darkForest_castle4_21: 1729879430
+      tiles_darkForest_castle4_22: -1563723453
+      tiles_darkForest_castle4_23: 8031881
+      tiles_darkForest_castle4_24: 319332911
+      tiles_darkForest_castle4_25: 1726502949
+      tiles_darkForest_castle4_26: 726580680
+      tiles_darkForest_castle4_27: -980734771
+      tiles_darkForest_castle4_28: -468825395
+      tiles_darkForest_castle4_29: 169026895
+      tiles_darkForest_castle4_3: -555900111499073191
+      tiles_darkForest_castle4_30: 339506050
+      tiles_darkForest_castle4_31: 1815023458
+      tiles_darkForest_castle4_32: 866932615
+      tiles_darkForest_castle4_33: -810834355
+      tiles_darkForest_castle4_34: -357918820
+      tiles_darkForest_castle4_35: 1792732147
+      tiles_darkForest_castle4_36: -1862773315
+      tiles_darkForest_castle4_37: -437041232
+      tiles_darkForest_castle4_38: 395991433
+      tiles_darkForest_castle4_39: -1076616924
+      tiles_darkForest_castle4_4: -368705452580677804
+      tiles_darkForest_castle4_40: -971858810
+      tiles_darkForest_castle4_41: -196403754
+      tiles_darkForest_castle4_42: -1245240718
+      tiles_darkForest_castle4_43: 340816225
+      tiles_darkForest_castle4_44: -1532220534
+      tiles_darkForest_castle4_45: -1392930657
+      tiles_darkForest_castle4_46: -1020316220
+      tiles_darkForest_castle4_47: -406453457
+      tiles_darkForest_castle4_48: 1157324477
+      tiles_darkForest_castle4_49: 962463225
+      tiles_darkForest_castle4_5: -3631472571603213767
+      tiles_darkForest_castle4_50: 823027753
+      tiles_darkForest_castle4_51: 57859991
+      tiles_darkForest_castle4_52: 836959077
+      tiles_darkForest_castle4_53: -1321851085
+      tiles_darkForest_castle4_54: 776898526
+      tiles_darkForest_castle4_55: -499646327
+      tiles_darkForest_castle4_56: -585602102
+      tiles_darkForest_castle4_57: 567211691
+      tiles_darkForest_castle4_58: -1092881675
+      tiles_darkForest_castle4_59: 902739250
+      tiles_darkForest_castle4_6: 4508858585308403675
+      tiles_darkForest_castle4_60: -854386198
+      tiles_darkForest_castle4_61: 1383720076
+      tiles_darkForest_castle4_62: 6454626
+      tiles_darkForest_castle4_63: -1551308677
+      tiles_darkForest_castle4_64: -1648369171
+      tiles_darkForest_castle4_65: -1608233974
+      tiles_darkForest_castle4_66: -1873324472
+      tiles_darkForest_castle4_67: 361961088
+      tiles_darkForest_castle4_68: 936840315
+      tiles_darkForest_castle4_69: 1144926271
+      tiles_darkForest_castle4_7: 4910005951422509409
+      tiles_darkForest_castle4_70: 1459232391
+      tiles_darkForest_castle4_71: -256422212
+      tiles_darkForest_castle4_72: 94064303
+      tiles_darkForest_castle4_73: -772363160
+      tiles_darkForest_castle4_74: -247234334
+      tiles_darkForest_castle4_75: -2024311174
+      tiles_darkForest_castle4_76: 748979458
+      tiles_darkForest_castle4_77: -410233457
+      tiles_darkForest_castle4_78: -1328390253
+      tiles_darkForest_castle4_79: 2016911183
+      tiles_darkForest_castle4_8: -976505288966196678
+      tiles_darkForest_castle4_80: 1300290371
+      tiles_darkForest_castle4_81: 1967172419
+      tiles_darkForest_castle4_82: 39618402
+      tiles_darkForest_castle4_83: -1788760913
+      tiles_darkForest_castle4_84: 64367565
+      tiles_darkForest_castle4_85: 1536025870
+      tiles_darkForest_castle4_86: -476598093
+      tiles_darkForest_castle4_87: 1096082143
+      tiles_darkForest_castle4_88: -551119022
+      tiles_darkForest_castle4_89: 1907142638
+      tiles_darkForest_castle4_9: -9122750432464160645
+      tiles_darkForest_castle4_90: -857994970
+      tiles_darkForest_castle4_91: -1965937799
+      tiles_darkForest_castle4_92: 1993172545
+      tiles_darkForest_castle4_93: -308879787
+      tiles_darkForest_castle4_94: 179715483
+      tiles_darkForest_castle4_95: 623391805
+      tiles_darkForest_castle4_96: 49207106
+      tiles_darkForest_castle4_97: -1131933906
+      tiles_darkForest_castle4_98: -528418715
+      tiles_darkForest_castle4_99: 2050138775
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

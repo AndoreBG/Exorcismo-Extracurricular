@@ -1,0 +1,637 @@
+fileFormatVersion: 2
+guid: 1c16729e6dd0a884e85f3d09ce068d88
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1128512529649197799
+    second: ShortSwordSheet_0
+  - first:
+      213: 8836099950592120332
+    second: ShortSwordSheet_1
+  - first:
+      213: -9057848774399662768
+    second: ShortSwordSheet_2
+  - first:
+      213: -3009170245746078761
+    second: ShortSwordSheet_3
+  - first:
+      213: -4966754952233094834
+    second: ShortSwordSheet_4
+  - first:
+      213: -1715939024740026187
+    second: ShortSwordSheet_5
+  - first:
+      213: -8880265010265530653
+    second: ShortSwordSheet_6
+  - first:
+      213: -1871815203757714084
+    second: ShortSwordSheet_7
+  - first:
+      213: -3863187943929325100
+    second: ShortSwordSheet_8
+  - first:
+      213: 6817175149778542301
+    second: ShortSwordSheet_9
+  - first:
+      213: 384871755607133865
+    second: ShortSwordSheet_10
+  - first:
+      213: -7923452114448586721
+    second: ShortSwordSheet_11
+  - first:
+      213: -7677382323146864896
+    second: ShortSwordSheet_12
+  - first:
+      213: 7090840648429658039
+    second: ShortSwordSheet_13
+  - first:
+      213: -308545763518439491
+    second: ShortSwordSheet_14
+  - first:
+      213: -64671520063560521
+    second: ShortSwordSheet_15
+  - first:
+      213: -1503670946964039114
+    second: ShortSwordSheet_16
+  - first:
+      213: 8709718091357213759
+    second: ShortSwordSheet_17
+  - first:
+      213: 2297999788810858487
+    second: ShortSwordSheet_18
+  - first:
+      213: 8609145423568127492
+    second: ShortSwordSheet_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ShortSwordSheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 17
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e26156aa2849af00800000000000000
+      internalID: 1128512529649197799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShortSwordSheet_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 17
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c06d3e2e61220aa70800000000000000
+      internalID: 8836099950592120332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShortSwordSheet_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 17
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05563bcb78e0c4280800000000000000
+      internalID: -9057848774399662768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShortSwordSheet_3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 17
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7db41a1da974d36d0800000000000000
+      internalID: -3009170245746078761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShortSwordSheet_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 17
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e41fbb99faa821bb0800000000000000
+      internalID: -4966754952233094834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShortSwordSheet_5
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 17
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b8f3266c82cf28e0800000000000000
+      internalID: -1715939024740026187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShortSwordSheet_6
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 17
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3eedac7d506f2c480800000000000000
+      internalID: -8880265010265530653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShortSwordSheet_7
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 17
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5598de4df9f506e0800000000000000
+      internalID: -1871815203757714084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShortSwordSheet_8
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 17
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d955857803336ac0800000000000000
+      internalID: -3863187943929325100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShortSwordSheet_9
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 17
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dde9b260ea87b9e50800000000000000
+      internalID: 6817175149778542301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShortSwordSheet_10
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 17
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ae4b0592d6575500800000000000000
+      internalID: 384871755607133865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShortSwordSheet_11
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f18697b384e3a0290800000000000000
+      internalID: -7923452114448586721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShortSwordSheet_12
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 1
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 007c7ff1475747590800000000000000
+      internalID: -7677382323146864896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShortSwordSheet_13
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bfdc88300ab76260800000000000000
+      internalID: 7090840648429658039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShortSwordSheet_14
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbf18884343d7bbf0800000000000000
+      internalID: -308545763518439491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShortSwordSheet_15
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b4e68b589d3a1ff0800000000000000
+      internalID: -64671520063560521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShortSwordSheet_16
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 1
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63a12239d33e12be0800000000000000
+      internalID: -1503670946964039114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShortSwordSheet_17
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f34d32145722fd870800000000000000
+      internalID: 8709718091357213759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShortSwordSheet_18
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ff6ef1f1a224ef10800000000000000
+      internalID: 2297999788810858487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShortSwordSheet_19
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40645774624d97770800000000000000
+      internalID: 8609145423568127492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ShortSwordSheet_0: 1128512529649197799
+      ShortSwordSheet_1: 8836099950592120332
+      ShortSwordSheet_10: 384871755607133865
+      ShortSwordSheet_11: -7923452114448586721
+      ShortSwordSheet_12: -7677382323146864896
+      ShortSwordSheet_13: 7090840648429658039
+      ShortSwordSheet_14: -308545763518439491
+      ShortSwordSheet_15: -64671520063560521
+      ShortSwordSheet_16: -1503670946964039114
+      ShortSwordSheet_17: 8709718091357213759
+      ShortSwordSheet_18: 2297999788810858487
+      ShortSwordSheet_19: 8609145423568127492
+      ShortSwordSheet_2: -9057848774399662768
+      ShortSwordSheet_3: -3009170245746078761
+      ShortSwordSheet_4: -4966754952233094834
+      ShortSwordSheet_5: -1715939024740026187
+      ShortSwordSheet_6: -8880265010265530653
+      ShortSwordSheet_7: -1871815203757714084
+      ShortSwordSheet_8: -3863187943929325100
+      ShortSwordSheet_9: 6817175149778542301
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

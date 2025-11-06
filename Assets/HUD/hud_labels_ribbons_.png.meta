@@ -1,0 +1,793 @@
+fileFormatVersion: 2
+guid: e4d853ec9253fdf4db940117e586befd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -89907009784842451
+    second: hud_labels_ribbons__0
+  - first:
+      213: 8395721325093747494
+    second: hud_labels_ribbons__1
+  - first:
+      213: -6543753569872426951
+    second: hud_labels_ribbons__2
+  - first:
+      213: -7932873035974201836
+    second: hud_labels_ribbons__3
+  - first:
+      213: -6704797371445382351
+    second: hud_labels_ribbons__4
+  - first:
+      213: 1240475408908187894
+    second: hud_labels_ribbons__5
+  - first:
+      213: -291923864853760393
+    second: hud_labels_ribbons__6
+  - first:
+      213: -2996569310332238588
+    second: hud_labels_ribbons__7
+  - first:
+      213: 8839991896213557040
+    second: hud_labels_ribbons__8
+  - first:
+      213: -2392052392532597592
+    second: hud_labels_ribbons__9
+  - first:
+      213: -1174443944998802094
+    second: hud_labels_ribbons__10
+  - first:
+      213: 7594335179823317227
+    second: hud_labels_ribbons__11
+  - first:
+      213: -1151356644884740560
+    second: hud_labels_ribbons__12
+  - first:
+      213: 6992360502226028502
+    second: hud_labels_ribbons__13
+  - first:
+      213: -2960410672164806938
+    second: hud_labels_ribbons__14
+  - first:
+      213: -7229715211342644413
+    second: hud_labels_ribbons__15
+  - first:
+      213: -5497448911541015362
+    second: hud_labels_ribbons__16
+  - first:
+      213: 1363379621012890204
+    second: hud_labels_ribbons__17
+  - first:
+      213: 2126183374655326454
+    second: hud_labels_ribbons__18
+  - first:
+      213: -9036061631127269163
+    second: hud_labels_ribbons__19
+  - first:
+      213: -2905898894649974759
+    second: hud_labels_ribbons__20
+  - first:
+      213: 7287423397652275222
+    second: hud_labels_ribbons__21
+  - first:
+      213: -7488055015995989980
+    second: hud_labels_ribbons__22
+  - first:
+      213: -4620265044391712480
+    second: hud_labels_ribbons__23
+  - first:
+      213: -3569014516458589990
+    second: hud_labels_ribbons__24
+  - first:
+      213: 4232468199641317713
+    second: hud_labels_ribbons__25
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: hud_labels_ribbons__0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 207
+        width: 81
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d27f4fa0d0690cef0800000000000000
+      internalID: -89907009784842451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hud_labels_ribbons__1
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 207
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62b726f0018938470800000000000000
+      internalID: 8395721325093747494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hud_labels_ribbons__2
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 227
+        width: 44
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9384f0a6ccaef25a0800000000000000
+      internalID: -6543753569872426951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hud_labels_ribbons__3
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 230
+        width: 50
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41eab720106c8e190800000000000000
+      internalID: -7932873035974201836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hud_labels_ribbons__4
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13376007056c3f2a0800000000000000
+      internalID: -6704797371445382351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hud_labels_ribbons__5
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f87494efcd073110800000000000000
+      internalID: 1240475408908187894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hud_labels_ribbons__6
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 776bee5aac0e2fbf0800000000000000
+      internalID: -291923864853760393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hud_labels_ribbons__7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 175
+        width: 161
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4054fc8b61c0a66d0800000000000000
+      internalID: -2996569310332238588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hud_labels_ribbons__8
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 191
+        width: 50
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03f04271bc5fdaa70800000000000000
+      internalID: 8839991896213557040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hud_labels_ribbons__9
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 191
+        width: 66
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a4a8fac509bdced0800000000000000
+      internalID: -2392052392532597592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hud_labels_ribbons__10
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 160
+        width: 47
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25decb9547983bfe0800000000000000
+      internalID: -1174443944998802094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hud_labels_ribbons__11
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 192
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be00f9a0c9f746960800000000000000
+      internalID: 7594335179823317227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hud_labels_ribbons__12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 143
+        width: 218
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0360cdb4b3f8500f0800000000000000
+      internalID: -1151356644884740560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hud_labels_ribbons__13
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 162
+        width: 50
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d787a464dad90160800000000000000
+      internalID: 6992360502226028502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hud_labels_ribbons__14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 31
+        width: 257
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ee5758bd228ae6d0800000000000000
+      internalID: -2960410672164806938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hud_labels_ribbons__15
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 128
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34bfea8e154eaab90800000000000000
+      internalID: -7229715211342644413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hud_labels_ribbons__16
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 127
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebc6db8775325b3b0800000000000000
+      internalID: -5497448911541015362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hud_labels_ribbons__17
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 98
+        width: 62
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c52ea74ba82bbe210800000000000000
+      internalID: 1363379621012890204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hud_labels_ribbons__18
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 65
+        width: 64
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f80ca5a388b18d10800000000000000
+      internalID: 2126183374655326454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hud_labels_ribbons__19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 65
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d05f1452d5799280800000000000000
+      internalID: -9036061631127269163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hud_labels_ribbons__20
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 33
+        width: 64
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9102037f95c2ca7d0800000000000000
+      internalID: -2905898894649974759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hud_labels_ribbons__21
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6102fe048f0222560800000000000000
+      internalID: 7287423397652275222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hud_labels_ribbons__22
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 0
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4202af8e2a5151890800000000000000
+      internalID: -7488055015995989980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hud_labels_ribbons__23
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 1
+        width: 62
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 029a0ecdb6581efb0800000000000000
+      internalID: -4620265044391712480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hud_labels_ribbons__24
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 0
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad0f54ce430587ec0800000000000000
+      internalID: -3569014516458589990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hud_labels_ribbons__25
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 0
+        width: 56
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15102ca276fbcba30800000000000000
+      internalID: 4232468199641317713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      hud_labels_ribbons__0: -89907009784842451
+      hud_labels_ribbons__1: 8395721325093747494
+      hud_labels_ribbons__10: -1174443944998802094
+      hud_labels_ribbons__11: 7594335179823317227
+      hud_labels_ribbons__12: -1151356644884740560
+      hud_labels_ribbons__13: 6992360502226028502
+      hud_labels_ribbons__14: -2960410672164806938
+      hud_labels_ribbons__15: -7229715211342644413
+      hud_labels_ribbons__16: -5497448911541015362
+      hud_labels_ribbons__17: 1363379621012890204
+      hud_labels_ribbons__18: 2126183374655326454
+      hud_labels_ribbons__19: -9036061631127269163
+      hud_labels_ribbons__2: -6543753569872426951
+      hud_labels_ribbons__20: -2905898894649974759
+      hud_labels_ribbons__21: 7287423397652275222
+      hud_labels_ribbons__22: -7488055015995989980
+      hud_labels_ribbons__23: -4620265044391712480
+      hud_labels_ribbons__24: -3569014516458589990
+      hud_labels_ribbons__25: 4232468199641317713
+      hud_labels_ribbons__3: -7932873035974201836
+      hud_labels_ribbons__4: -6704797371445382351
+      hud_labels_ribbons__5: 1240475408908187894
+      hud_labels_ribbons__6: -291923864853760393
+      hud_labels_ribbons__7: -2996569310332238588
+      hud_labels_ribbons__8: 8839991896213557040
+      hud_labels_ribbons__9: -2392052392532597592
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

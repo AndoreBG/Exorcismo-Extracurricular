@@ -1,0 +1,793 @@
+fileFormatVersion: 2
+guid: 56b7c41bb1066ce43bea4cb2189b4810
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6139443762018269043
+    second: hud_labels_ribbons_wood_0
+  - first:
+      213: -1041598570227865330
+    second: hud_labels_ribbons_wood_1
+  - first:
+      213: -8468852636841094676
+    second: hud_labels_ribbons_wood_2
+  - first:
+      213: -7543000972555181626
+    second: hud_labels_ribbons_wood_3
+  - first:
+      213: -4020718250704256290
+    second: hud_labels_ribbons_wood_4
+  - first:
+      213: -6321989959412108012
+    second: hud_labels_ribbons_wood_5
+  - first:
+      213: -7732058158561700521
+    second: hud_labels_ribbons_wood_6
+  - first:
+      213: -286346875276551889
+    second: hud_labels_ribbons_wood_7
+  - first:
+      213: 8874254459013025542
+    second: hud_labels_ribbons_wood_8
+  - first:
+      213: -2710715654324780715
+    second: hud_labels_ribbons_wood_9
+  - first:
+      213: -1197490553944578351
+    second: hud_labels_ribbons_wood_10
+  - first:
+      213: -4335650276135516921
+    second: hud_labels_ribbons_wood_11
+  - first:
+      213: -5907008329651541638
+    second: hud_labels_ribbons_wood_12
+  - first:
+      213: -1513431585842340274
+    second: hud_labels_ribbons_wood_13
+  - first:
+      213: 2925806417241657756
+    second: hud_labels_ribbons_wood_14
+  - first:
+      213: 5216786795118346926
+    second: hud_labels_ribbons_wood_15
+  - first:
+      213: -8492804001450449379
+    second: hud_labels_ribbons_wood_16
+  - first:
+      213: 4805988293020669500
+    second: hud_labels_ribbons_wood_17
+  - first:
+      213: 2867760874672890233
+    second: hud_labels_ribbons_wood_18
+  - first:
+      213: 4476529441893540735
+    second: hud_labels_ribbons_wood_19
+  - first:
+      213: 4405640070565478251
+    second: hud_labels_ribbons_wood_20
+  - first:
+      213: 4097954539813567185
+    second: hud_labels_ribbons_wood_21
+  - first:
+      213: -9056682659375268669
+    second: hud_labels_ribbons_wood_22
+  - first:
+      213: 804597396416320133
+    second: hud_labels_ribbons_wood_23
+  - first:
+      213: -7678100016030832830
+    second: hud_labels_ribbons_wood_24
+  - first:
+      213: 6636310890163500646
+    second: hud_labels_ribbons_wood_25
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: hud_labels_ribbons_wood_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 207
+        width: 81
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d88c9663d605ccaa0800000000000000
+      internalID: -6139443762018269043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hud_labels_ribbons_wood_1
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 207
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0963077e9f7b81f0800000000000000
+      internalID: -1041598570227865330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hud_labels_ribbons_wood_2
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 227
+        width: 44
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce1d4fd8567987a80800000000000000
+      internalID: -8468852636841094676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hud_labels_ribbons_wood_3
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 230
+        width: 50
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c12c6a7490e15790800000000000000
+      internalID: -7543000972555181626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hud_labels_ribbons_wood_4
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed2c7dcbd0a8338c0800000000000000
+      internalID: -4020718250704256290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hud_labels_ribbons_wood_5
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 415b7a390a7c348a0800000000000000
+      internalID: -6321989959412108012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hud_labels_ribbons_wood_6
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 755d44c221632b490800000000000000
+      internalID: -7732058158561700521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hud_labels_ribbons_wood_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 175
+        width: 161
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f291998b801b60cf0800000000000000
+      internalID: -286346875276551889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hud_labels_ribbons_wood_8
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 191
+        width: 50
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60fc5e3a96fa72b70800000000000000
+      internalID: 8874254459013025542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hud_labels_ribbons_wood_9
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 191
+        width: 66
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55181e0797a916ad0800000000000000
+      internalID: -2710715654324780715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hud_labels_ribbons_wood_10
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 160
+        width: 47
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d66f3e8fa8a16fe0800000000000000
+      internalID: -1197490553944578351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hud_labels_ribbons_wood_11
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 192
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7054e9c8b0da4d3c0800000000000000
+      internalID: -4335650276135516921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hud_labels_ribbons_wood_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 143
+        width: 218
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a79a8d98837160ea0800000000000000
+      internalID: -5907008329651541638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hud_labels_ribbons_wood_13
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 162
+        width: 50
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4ed20ebdf53ffae0800000000000000
+      internalID: -1513431585842340274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hud_labels_ribbons_wood_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 31
+        width: 257
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c915f355f6d8a9820800000000000000
+      internalID: 2925806417241657756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hud_labels_ribbons_wood_15
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 128
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea24aff43ffb56840800000000000000
+      internalID: 5216786795118346926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hud_labels_ribbons_wood_16
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 127
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d16a78ae1cf732a80800000000000000
+      internalID: -8492804001450449379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hud_labels_ribbons_wood_17
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 98
+        width: 62
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c36de28a3ec42b240800000000000000
+      internalID: 4805988293020669500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hud_labels_ribbons_wood_18
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 65
+        width: 64
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97124ab42555cc720800000000000000
+      internalID: 2867760874672890233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hud_labels_ribbons_wood_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 65
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7364aa4fc3df1e30800000000000000
+      internalID: 4476529441893540735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hud_labels_ribbons_wood_20
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 33
+        width: 64
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6f38465d4af32d30800000000000000
+      internalID: 4405640070565478251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hud_labels_ribbons_wood_21
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1da794b21fbded830800000000000000
+      internalID: 4097954539813567185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hud_labels_ribbons_wood_22
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 0
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cc3f7c0b13305280800000000000000
+      internalID: -9056682659375268669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hud_labels_ribbons_wood_23
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 1
+        width: 62
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5825990b1118a2b00800000000000000
+      internalID: 804597396416320133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hud_labels_ribbons_wood_24
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 0
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 247af8a37b8e17590800000000000000
+      internalID: -7678100016030832830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hud_labels_ribbons_wood_25
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 0
+        width: 56
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 666704b0899e81c50800000000000000
+      internalID: 6636310890163500646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      hud_labels_ribbons_wood_0: -6139443762018269043
+      hud_labels_ribbons_wood_1: -1041598570227865330
+      hud_labels_ribbons_wood_10: -1197490553944578351
+      hud_labels_ribbons_wood_11: -4335650276135516921
+      hud_labels_ribbons_wood_12: -5907008329651541638
+      hud_labels_ribbons_wood_13: -1513431585842340274
+      hud_labels_ribbons_wood_14: 2925806417241657756
+      hud_labels_ribbons_wood_15: 5216786795118346926
+      hud_labels_ribbons_wood_16: -8492804001450449379
+      hud_labels_ribbons_wood_17: 4805988293020669500
+      hud_labels_ribbons_wood_18: 2867760874672890233
+      hud_labels_ribbons_wood_19: 4476529441893540735
+      hud_labels_ribbons_wood_2: -8468852636841094676
+      hud_labels_ribbons_wood_20: 4405640070565478251
+      hud_labels_ribbons_wood_21: 4097954539813567185
+      hud_labels_ribbons_wood_22: -9056682659375268669
+      hud_labels_ribbons_wood_23: 804597396416320133
+      hud_labels_ribbons_wood_24: -7678100016030832830
+      hud_labels_ribbons_wood_25: 6636310890163500646
+      hud_labels_ribbons_wood_3: -7543000972555181626
+      hud_labels_ribbons_wood_4: -4020718250704256290
+      hud_labels_ribbons_wood_5: -6321989959412108012
+      hud_labels_ribbons_wood_6: -7732058158561700521
+      hud_labels_ribbons_wood_7: -286346875276551889
+      hud_labels_ribbons_wood_8: 8874254459013025542
+      hud_labels_ribbons_wood_9: -2710715654324780715
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,793 @@
+fileFormatVersion: 2
+guid: 16eafc6cdfbd5484796b913311f3c005
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4418268755069729950
+    second: hud_labels_ribbons_darGreen_0
+  - first:
+      213: -2213916832007932064
+    second: hud_labels_ribbons_darGreen_1
+  - first:
+      213: 2453666711237829284
+    second: hud_labels_ribbons_darGreen_2
+  - first:
+      213: 5072825489373926945
+    second: hud_labels_ribbons_darGreen_3
+  - first:
+      213: -7859192717449136138
+    second: hud_labels_ribbons_darGreen_4
+  - first:
+      213: 515090465311349332
+    second: hud_labels_ribbons_darGreen_5
+  - first:
+      213: 7947072138920496899
+    second: hud_labels_ribbons_darGreen_6
+  - first:
+      213: 5322776751325411374
+    second: hud_labels_ribbons_darGreen_7
+  - first:
+      213: -1415934464700111283
+    second: hud_labels_ribbons_darGreen_8
+  - first:
+      213: -8504156825882590
+    second: hud_labels_ribbons_darGreen_9
+  - first:
+      213: -8901021705062364541
+    second: hud_labels_ribbons_darGreen_10
+  - first:
+      213: -7591458146449693859
+    second: hud_labels_ribbons_darGreen_11
+  - first:
+      213: -4145438832563610678
+    second: hud_labels_ribbons_darGreen_12
+  - first:
+      213: -3602097639002608527
+    second: hud_labels_ribbons_darGreen_13
+  - first:
+      213: -1691671404149620985
+    second: hud_labels_ribbons_darGreen_14
+  - first:
+      213: 5907330221796179512
+    second: hud_labels_ribbons_darGreen_15
+  - first:
+      213: 5024351402458034272
+    second: hud_labels_ribbons_darGreen_16
+  - first:
+      213: 7030710087817366858
+    second: hud_labels_ribbons_darGreen_17
+  - first:
+      213: -5943739867055455078
+    second: hud_labels_ribbons_darGreen_18
+  - first:
+      213: -7515013813271732765
+    second: hud_labels_ribbons_darGreen_19
+  - first:
+      213: -6095296611579317042
+    second: hud_labels_ribbons_darGreen_20
+  - first:
+      213: 3079222391090521733
+    second: hud_labels_ribbons_darGreen_21
+  - first:
+      213: -7567855254162196943
+    second: hud_labels_ribbons_darGreen_22
+  - first:
+      213: 3660559023731146734
+    second: hud_labels_ribbons_darGreen_23
+  - first:
+      213: -4693306029325698177
+    second: hud_labels_ribbons_darGreen_24
+  - first:
+      213: 4388240637888845453
+    second: hud_labels_ribbons_darGreen_25
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: hud_labels_ribbons_darGreen_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 207
+        width: 81
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9c73241608d05d30800000000000000
+      internalID: 4418268755069729950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hud_labels_ribbons_darGreen_1
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 207
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 067b8e10f569641e0800000000000000
+      internalID: -2213916832007932064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hud_labels_ribbons_darGreen_2
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 227
+        width: 44
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a22880bfdc2d0220800000000000000
+      internalID: 2453666711237829284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hud_labels_ribbons_darGreen_3
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 230
+        width: 50
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1261ea5d7eb466640800000000000000
+      internalID: 5072825489373926945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hud_labels_ribbons_darGreen_4
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f77b1ffcd98ee290800000000000000
+      internalID: -7859192717449136138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hud_labels_ribbons_darGreen_5
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45ad2149c08f52700800000000000000
+      internalID: 515090465311349332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hud_labels_ribbons_darGreen_6
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30f82c4410ca94e60800000000000000
+      internalID: 7947072138920496899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hud_labels_ribbons_darGreen_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 175
+        width: 161
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e287579014d4ed940800000000000000
+      internalID: 5322776751325411374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hud_labels_ribbons_darGreen_8
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 191
+        width: 50
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4621563b17995ce0800000000000000
+      internalID: -1415934464700111283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hud_labels_ribbons_darGreen_9
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 191
+        width: 66
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2207741b389c1eff0800000000000000
+      internalID: -8504156825882590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hud_labels_ribbons_darGreen_10
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 160
+        width: 47
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38a47bb3be7397480800000000000000
+      internalID: -8901021705062364541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hud_labels_ribbons_darGreen_11
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 192
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d53ee9d7909b5a690800000000000000
+      internalID: -7591458146449693859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hud_labels_ribbons_darGreen_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 143
+        width: 218
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acb9fe268517876c0800000000000000
+      internalID: -4145438832563610678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hud_labels_ribbons_darGreen_13
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 162
+        width: 50
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17ce9f43847c20ec0800000000000000
+      internalID: -3602097639002608527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hud_labels_ribbons_darGreen_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 31
+        width: 257
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70fb9fe12d9f588e0800000000000000
+      internalID: -1691671404149620985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hud_labels_ribbons_darGreen_15
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 128
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83e3711d98d0bf150800000000000000
+      internalID: 5907330221796179512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hud_labels_ribbons_darGreen_16
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 127
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0603f3afaf41ab540800000000000000
+      internalID: 5024351402458034272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hud_labels_ribbons_darGreen_17
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 98
+        width: 62
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4d0c171399129160800000000000000
+      internalID: 7030710087817366858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hud_labels_ribbons_darGreen_18
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 65
+        width: 64
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9405da0518938da0800000000000000
+      internalID: -5943739867055455078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hud_labels_ribbons_darGreen_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 65
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3edd8c9c0ce45b790800000000000000
+      internalID: -7515013813271732765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hud_labels_ribbons_darGreen_20
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 33
+        width: 64
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec43c2aa608296ba0800000000000000
+      internalID: -6095296611579317042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hud_labels_ribbons_darGreen_21
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 586216543789bba20800000000000000
+      internalID: 3079222391090521733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hud_labels_ribbons_darGreen_22
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 0
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 136b6181eb399f690800000000000000
+      internalID: -7567855254162196943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hud_labels_ribbons_darGreen_23
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 1
+        width: 62
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eef78d0a90becc230800000000000000
+      internalID: 3660559023731146734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hud_labels_ribbons_darGreen_24
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 0
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7bb7d358070edeb0800000000000000
+      internalID: -4693306029325698177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hud_labels_ribbons_darGreen_25
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 0
+        width: 56
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d865c4a3c9926ec30800000000000000
+      internalID: 4388240637888845453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      hud_labels_ribbons_darGreen_0: 4418268755069729950
+      hud_labels_ribbons_darGreen_1: -2213916832007932064
+      hud_labels_ribbons_darGreen_10: -8901021705062364541
+      hud_labels_ribbons_darGreen_11: -7591458146449693859
+      hud_labels_ribbons_darGreen_12: -4145438832563610678
+      hud_labels_ribbons_darGreen_13: -3602097639002608527
+      hud_labels_ribbons_darGreen_14: -1691671404149620985
+      hud_labels_ribbons_darGreen_15: 5907330221796179512
+      hud_labels_ribbons_darGreen_16: 5024351402458034272
+      hud_labels_ribbons_darGreen_17: 7030710087817366858
+      hud_labels_ribbons_darGreen_18: -5943739867055455078
+      hud_labels_ribbons_darGreen_19: -7515013813271732765
+      hud_labels_ribbons_darGreen_2: 2453666711237829284
+      hud_labels_ribbons_darGreen_20: -6095296611579317042
+      hud_labels_ribbons_darGreen_21: 3079222391090521733
+      hud_labels_ribbons_darGreen_22: -7567855254162196943
+      hud_labels_ribbons_darGreen_23: 3660559023731146734
+      hud_labels_ribbons_darGreen_24: -4693306029325698177
+      hud_labels_ribbons_darGreen_25: 4388240637888845453
+      hud_labels_ribbons_darGreen_3: 5072825489373926945
+      hud_labels_ribbons_darGreen_4: -7859192717449136138
+      hud_labels_ribbons_darGreen_5: 515090465311349332
+      hud_labels_ribbons_darGreen_6: 7947072138920496899
+      hud_labels_ribbons_darGreen_7: 5322776751325411374
+      hud_labels_ribbons_darGreen_8: -1415934464700111283
+      hud_labels_ribbons_darGreen_9: -8504156825882590
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

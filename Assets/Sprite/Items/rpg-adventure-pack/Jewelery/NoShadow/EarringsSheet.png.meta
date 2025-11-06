@@ -1,0 +1,1209 @@
+fileFormatVersion: 2
+guid: 59aaa1bb6da243648bc3113a7a3658ec
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7904355024629718256
+    second: EarringsSheet_0
+  - first:
+      213: 3108866247005211917
+    second: EarringsSheet_1
+  - first:
+      213: -571082495949717432
+    second: EarringsSheet_2
+  - first:
+      213: 7845157973322759945
+    second: EarringsSheet_3
+  - first:
+      213: 3322578545183203556
+    second: EarringsSheet_4
+  - first:
+      213: 6721394336260366159
+    second: EarringsSheet_5
+  - first:
+      213: -6580499507171765227
+    second: EarringsSheet_6
+  - first:
+      213: -8784661129580373171
+    second: EarringsSheet_7
+  - first:
+      213: 234759579110470263
+    second: EarringsSheet_8
+  - first:
+      213: -8476306956071461400
+    second: EarringsSheet_9
+  - first:
+      213: -1994117161380186271
+    second: EarringsSheet_10
+  - first:
+      213: 1083994597035224774
+    second: EarringsSheet_11
+  - first:
+      213: 1557867858300429247
+    second: EarringsSheet_12
+  - first:
+      213: -7557730323376496623
+    second: EarringsSheet_13
+  - first:
+      213: 8274626612186466984
+    second: EarringsSheet_14
+  - first:
+      213: 3487429174113959463
+    second: EarringsSheet_15
+  - first:
+      213: -3477921038746578444
+    second: EarringsSheet_16
+  - first:
+      213: -558262918057552156
+    second: EarringsSheet_17
+  - first:
+      213: -5541620044915778012
+    second: EarringsSheet_18
+  - first:
+      213: 6607828681541805952
+    second: EarringsSheet_19
+  - first:
+      213: -236519567391681088
+    second: EarringsSheet_20
+  - first:
+      213: -2564972158208684611
+    second: EarringsSheet_21
+  - first:
+      213: 4886835996657324105
+    second: EarringsSheet_22
+  - first:
+      213: 3845405479273701344
+    second: EarringsSheet_23
+  - first:
+      213: 5677784416626383031
+    second: EarringsSheet_24
+  - first:
+      213: 3687976132023514679
+    second: EarringsSheet_25
+  - first:
+      213: 6399582073385087760
+    second: EarringsSheet_26
+  - first:
+      213: -2805064544342410681
+    second: EarringsSheet_27
+  - first:
+      213: 5312191075514513367
+    second: EarringsSheet_28
+  - first:
+      213: -9014267701009551213
+    second: EarringsSheet_29
+  - first:
+      213: 5123192216027683503
+    second: EarringsSheet_30
+  - first:
+      213: 4843544510677008023
+    second: EarringsSheet_31
+  - first:
+      213: -3686800587906520104
+    second: EarringsSheet_32
+  - first:
+      213: 2965567578189136526
+    second: EarringsSheet_33
+  - first:
+      213: -565365154564679432
+    second: EarringsSheet_34
+  - first:
+      213: 8194800467737888319
+    second: EarringsSheet_35
+  - first:
+      213: 1607263868801060676
+    second: EarringsSheet_36
+  - first:
+      213: -2361930515215614528
+    second: EarringsSheet_37
+  - first:
+      213: 5981863021195687363
+    second: EarringsSheet_38
+  - first:
+      213: 6324881012440432480
+    second: EarringsSheet_39
+  - first:
+      213: 689421345956132583
+    second: EarringsSheet_40
+  - first:
+      213: 4026634516839843053
+    second: EarringsSheet_41
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: EarringsSheet_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 99
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0132f52fbf61e4290800000000000000
+      internalID: -7904355024629718256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarringsSheet_1
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 97
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0d82f25169e42b20800000000000000
+      internalID: 3108866247005211917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarringsSheet_2
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 99
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8404973ee7b1318f0800000000000000
+      internalID: -571082495949717432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarringsSheet_3
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 97
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90ff9be7c999fdc60800000000000000
+      internalID: 7845157973322759945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarringsSheet_4
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 99
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e0aaf3459b2c1e20800000000000000
+      internalID: 3322578545183203556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarringsSheet_5
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 97
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4f1f109980374d50800000000000000
+      internalID: 6721394336260366159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarringsSheet_6
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 83
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 514d46e209e5da4a0800000000000000
+      internalID: -6580499507171765227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarringsSheet_7
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 81
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4b1e2bee3d961680800000000000000
+      internalID: -8784661129580373171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarringsSheet_8
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 83
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 772ff78e798024300800000000000000
+      internalID: 234759579110470263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarringsSheet_9
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 81
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ed103c9bbb1e5a80800000000000000
+      internalID: -8476306956071461400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarringsSheet_10
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 83
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1677c6bc1097354e0800000000000000
+      internalID: -1994117161380186271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarringsSheet_11
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 81
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ce2abeb75f1b0f00800000000000000
+      internalID: 1083994597035224774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarringsSheet_12
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 67
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb3eefc2098ae9510800000000000000
+      internalID: 1557867858300429247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarringsSheet_13
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 65
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11022fe305c8d1790800000000000000
+      internalID: -7557730323376496623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarringsSheet_14
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 67
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8aa4e5c101165d270800000000000000
+      internalID: 8274626612186466984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarringsSheet_15
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 65
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72e756e4b56d56030800000000000000
+      internalID: 3487429174113959463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarringsSheet_16
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 67
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f117a8fd31fbbfc0800000000000000
+      internalID: -3477921038746578444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarringsSheet_17
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 65
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e618e575d6a048f0800000000000000
+      internalID: -558262918057552156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarringsSheet_18
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 51
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42e5c9e0ee53813b0800000000000000
+      internalID: -5541620044915778012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarringsSheet_19
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 49
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 087efe31d29b3bb50800000000000000
+      internalID: 6607828681541805952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarringsSheet_20
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 51
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c59033e4b6b7bcf0800000000000000
+      internalID: -236519567391681088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarringsSheet_21
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 49
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbd44337963676cd0800000000000000
+      internalID: -2564972158208684611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarringsSheet_22
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 51
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9401a58827781d340800000000000000
+      internalID: 4886835996657324105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarringsSheet_23
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 49
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ef1379d8ef9d5530800000000000000
+      internalID: 3845405479273701344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarringsSheet_24
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 35
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b8934048da8bce40800000000000000
+      internalID: 5677784416626383031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarringsSheet_25
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 33
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 736716990c25e2330800000000000000
+      internalID: 3687976132023514679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarringsSheet_26
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 35
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01373134df1efc850800000000000000
+      internalID: 6399582073385087760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarringsSheet_27
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 33
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74a7d66a8a86219d0800000000000000
+      internalID: -2805064544342410681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarringsSheet_28
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 35
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d7fa0353a1b8b940800000000000000
+      internalID: 5312191075514513367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarringsSheet_29
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 33
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3907c0b1943e6e280800000000000000
+      internalID: -9014267701009551213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarringsSheet_30
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 19
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faa50683d2c391740800000000000000
+      internalID: 5123192216027683503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarringsSheet_31
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 17
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79e32bcf11ab73340800000000000000
+      internalID: 4843544510677008023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarringsSheet_32
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 19
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8db6128166ad5dcc0800000000000000
+      internalID: -3686800587906520104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarringsSheet_33
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 17
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8201670000d72920800000000000000
+      internalID: 2965567578189136526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarringsSheet_34
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 19
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f8d9c9236b6728f0800000000000000
+      internalID: -565365154564679432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarringsSheet_35
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 17
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f36c8b48b97c9b170800000000000000
+      internalID: 8194800467737888319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarringsSheet_36
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44f053819f52e4610800000000000000
+      internalID: 1607263868801060676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarringsSheet_37
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cdfa60e5bcb83fd0800000000000000
+      internalID: -2361930515215614528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarringsSheet_38
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 3
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c5f96979b8d30350800000000000000
+      internalID: 5981863021195687363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarringsSheet_39
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 1
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06fff1925cd76c750800000000000000
+      internalID: 6324881012440432480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarringsSheet_40
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 3
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e6794abf01519900800000000000000
+      internalID: 689421345956132583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarringsSheet_41
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 1
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de4c09052ca71e730800000000000000
+      internalID: 4026634516839843053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      EarringsSheet_0: -7904355024629718256
+      EarringsSheet_1: 3108866247005211917
+      EarringsSheet_10: -1994117161380186271
+      EarringsSheet_11: 1083994597035224774
+      EarringsSheet_12: 1557867858300429247
+      EarringsSheet_13: -7557730323376496623
+      EarringsSheet_14: 8274626612186466984
+      EarringsSheet_15: 3487429174113959463
+      EarringsSheet_16: -3477921038746578444
+      EarringsSheet_17: -558262918057552156
+      EarringsSheet_18: -5541620044915778012
+      EarringsSheet_19: 6607828681541805952
+      EarringsSheet_2: -571082495949717432
+      EarringsSheet_20: -236519567391681088
+      EarringsSheet_21: -2564972158208684611
+      EarringsSheet_22: 4886835996657324105
+      EarringsSheet_23: 3845405479273701344
+      EarringsSheet_24: 5677784416626383031
+      EarringsSheet_25: 3687976132023514679
+      EarringsSheet_26: 6399582073385087760
+      EarringsSheet_27: -2805064544342410681
+      EarringsSheet_28: 5312191075514513367
+      EarringsSheet_29: -9014267701009551213
+      EarringsSheet_3: 7845157973322759945
+      EarringsSheet_30: 5123192216027683503
+      EarringsSheet_31: 4843544510677008023
+      EarringsSheet_32: -3686800587906520104
+      EarringsSheet_33: 2965567578189136526
+      EarringsSheet_34: -565365154564679432
+      EarringsSheet_35: 8194800467737888319
+      EarringsSheet_36: 1607263868801060676
+      EarringsSheet_37: -2361930515215614528
+      EarringsSheet_38: 5981863021195687363
+      EarringsSheet_39: 6324881012440432480
+      EarringsSheet_4: 3322578545183203556
+      EarringsSheet_40: 689421345956132583
+      EarringsSheet_41: 4026634516839843053
+      EarringsSheet_5: 6721394336260366159
+      EarringsSheet_6: -6580499507171765227
+      EarringsSheet_7: -8784661129580373171
+      EarringsSheet_8: 234759579110470263
+      EarringsSheet_9: -8476306956071461400
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

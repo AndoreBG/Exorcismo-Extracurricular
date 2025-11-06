@@ -1,0 +1,897 @@
+fileFormatVersion: 2
+guid: 9e9cac1f848a7934080464118883c3e2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2034996977370266252
+    second: MugSheet_0
+  - first:
+      213: -7698079942206799031
+    second: MugSheet_1
+  - first:
+      213: 5990276067809776401
+    second: MugSheet_2
+  - first:
+      213: -1273216348769304333
+    second: MugSheet_3
+  - first:
+      213: -9091138121508333090
+    second: MugSheet_4
+  - first:
+      213: -8181049562472011487
+    second: MugSheet_5
+  - first:
+      213: 2244537106359497333
+    second: MugSheet_6
+  - first:
+      213: 855524707113184068
+    second: MugSheet_7
+  - first:
+      213: -81218977035403808
+    second: MugSheet_8
+  - first:
+      213: -1575482869010127059
+    second: MugSheet_9
+  - first:
+      213: -3577414811789747978
+    second: MugSheet_10
+  - first:
+      213: -4357255963704847418
+    second: MugSheet_11
+  - first:
+      213: 8634388173888437577
+    second: MugSheet_12
+  - first:
+      213: 6225920237266843366
+    second: MugSheet_13
+  - first:
+      213: -6642815242542333702
+    second: MugSheet_14
+  - first:
+      213: -3783022468626613961
+    second: MugSheet_15
+  - first:
+      213: 3646652053749486535
+    second: MugSheet_16
+  - first:
+      213: 1811130027525729510
+    second: MugSheet_17
+  - first:
+      213: 5499097883840209732
+    second: MugSheet_18
+  - first:
+      213: -8536326613848776530
+    second: MugSheet_19
+  - first:
+      213: -3440478352577246117
+    second: MugSheet_20
+  - first:
+      213: -3942851166696617323
+    second: MugSheet_21
+  - first:
+      213: -2082008860124139110
+    second: MugSheet_22
+  - first:
+      213: 3723998464824866379
+    second: MugSheet_23
+  - first:
+      213: 2124895227284492615
+    second: MugSheet_24
+  - first:
+      213: 5246109338663918638
+    second: MugSheet_25
+  - first:
+      213: 1640358525504339483
+    second: MugSheet_26
+  - first:
+      213: -2942673344391905359
+    second: MugSheet_27
+  - first:
+      213: 9220604155130357622
+    second: MugSheet_28
+  - first:
+      213: 6227594272515468751
+    second: MugSheet_29
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MugSheet_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 80
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4750adce70d32c3e0800000000000000
+      internalID: -2034996977370266252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MugSheet_1
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 80
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9434438241dea2590800000000000000
+      internalID: -7698079942206799031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MugSheet_2
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 80
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1135358885cb12350800000000000000
+      internalID: 5990276067809776401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MugSheet_3
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 80
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f0c2610a70a45ee0800000000000000
+      internalID: -1273216348769304333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MugSheet_4
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 80
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed9db7f9b0ac5d180800000000000000
+      internalID: -9091138121508333090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MugSheet_5
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 64
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 129adfa94c2177e80800000000000000
+      internalID: -8181049562472011487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MugSheet_6
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 64
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 572bdbd2b92362f10800000000000000
+      internalID: 2244537106359497333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MugSheet_7
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 64
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44b2d08303f6fdb00800000000000000
+      internalID: 855524707113184068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MugSheet_8
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 64
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0edb8cc45c37fdef0800000000000000
+      internalID: -81218977035403808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MugSheet_9
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 64
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2720fa8da2c22ae0800000000000000
+      internalID: -1575482869010127059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MugSheet_10
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 48
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f81d01ce287a5ec0800000000000000
+      internalID: -3577414811789747978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MugSheet_11
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 48
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c39be769cae783c0800000000000000
+      internalID: -4357255963704847418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MugSheet_12
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 48
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94d34751c4283d770800000000000000
+      internalID: 8634388173888437577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MugSheet_13
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 48
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e6b43e2879e66650800000000000000
+      internalID: 6225920237266843366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MugSheet_14
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 48
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af0c6b76bbaffc3a0800000000000000
+      internalID: -6642815242542333702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MugSheet_15
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 32
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 739703cab11008bc0800000000000000
+      internalID: -3783022468626613961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MugSheet_16
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 32
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c3df2bd8b28b9230800000000000000
+      internalID: 3646652053749486535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MugSheet_17
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 32
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ece6bc0a2d622910800000000000000
+      internalID: 1811130027525729510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MugSheet_18
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 32
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 443e56fc368b05c40800000000000000
+      internalID: 5499097883840209732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MugSheet_19
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 32
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea0a4de0c20e88980800000000000000
+      internalID: -8536326613848776530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MugSheet_20
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 16
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5c4631ba27f040d0800000000000000
+      internalID: -3440478352577246117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MugSheet_21
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 16
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59a40d601cd2849c0800000000000000
+      internalID: -3942851166696617323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MugSheet_22
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 16
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a91b51109f73b13e0800000000000000
+      internalID: -2082008860124139110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MugSheet_23
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 16
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b467cf78fdc4ea330800000000000000
+      internalID: 3723998464824866379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MugSheet_24
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 16
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 741173773f42d7d10800000000000000
+      internalID: 2124895227284492615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MugSheet_25
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 0
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2c1ceff5acedc840800000000000000
+      internalID: 5246109338663918638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MugSheet_26
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 0
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1e38f05369b3c610800000000000000
+      internalID: 1640358525504339483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MugSheet_27
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 0
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bf72892f268927d0800000000000000
+      internalID: -2942673344391905359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MugSheet_28
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 0
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 677290150aa26ff70800000000000000
+      internalID: 9220604155130357622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MugSheet_29
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 0
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcdaa82eefbdc6650800000000000000
+      internalID: 6227594272515468751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      MugSheet_0: -2034996977370266252
+      MugSheet_1: -7698079942206799031
+      MugSheet_10: -3577414811789747978
+      MugSheet_11: -4357255963704847418
+      MugSheet_12: 8634388173888437577
+      MugSheet_13: 6225920237266843366
+      MugSheet_14: -6642815242542333702
+      MugSheet_15: -3783022468626613961
+      MugSheet_16: 3646652053749486535
+      MugSheet_17: 1811130027525729510
+      MugSheet_18: 5499097883840209732
+      MugSheet_19: -8536326613848776530
+      MugSheet_2: 5990276067809776401
+      MugSheet_20: -3440478352577246117
+      MugSheet_21: -3942851166696617323
+      MugSheet_22: -2082008860124139110
+      MugSheet_23: 3723998464824866379
+      MugSheet_24: 2124895227284492615
+      MugSheet_25: 5246109338663918638
+      MugSheet_26: 1640358525504339483
+      MugSheet_27: -2942673344391905359
+      MugSheet_28: 9220604155130357622
+      MugSheet_29: 6227594272515468751
+      MugSheet_3: -1273216348769304333
+      MugSheet_4: -9091138121508333090
+      MugSheet_5: -8181049562472011487
+      MugSheet_6: 2244537106359497333
+      MugSheet_7: 855524707113184068
+      MugSheet_8: -81218977035403808
+      MugSheet_9: -1575482869010127059
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
