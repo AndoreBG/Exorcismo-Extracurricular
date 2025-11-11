@@ -15,6 +15,7 @@ public class avatarMovement : MonoBehaviour
     [SerializeField] private float moveSpeed = 5f;
     [SerializeField] private float jumpForce = 5f;
     [SerializeField] private LayerMask groundLayer;
+    [SerializeField] private LayerMask obstacleLayer;
     [SerializeField] private bool isFacingRight = true;
 
     private bool isJumping = false;
@@ -65,7 +66,7 @@ public class avatarMovement : MonoBehaviour
 
     void IsGrounded()
     {
-        if (collider.IsTouchingLayers(groundLayer))
+        if (collider.IsTouchingLayers(groundLayer) || collider.IsTouchingLayers(obstacleLayer))
         {
             isJumping = false;
         }

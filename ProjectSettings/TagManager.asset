@@ -12,8 +12,8 @@ TagManager:
   - Water
   - UI
   - Ground
-  - 
-  - 
+  - Obstacle
+  - Iteragible
   - 
   - 
   - 
@@ -58,6 +58,12 @@ TagManager:
     locked: 0
   - name: FrontFX
     uniqueID: 1378727851
+    locked: 0
+  - name: Obstacle
+    uniqueID: 2717858615
+    locked: 0
+  - name: Interagible
+    uniqueID: 3016411467
     locked: 0
   - name: Items
     uniqueID: 2342503839
