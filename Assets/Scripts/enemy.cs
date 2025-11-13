@@ -67,22 +67,22 @@ public class enemy : MonoBehaviour
         foreach (Image imagem in frame)
         {
             Debug.Log(imagem.sprite.name);
-			if(imagem.sorceImage.name == idSymbol){
-				Drestroy(imagem);
-			}
+			//if(imagem.sourceImage.name == idSymbol){
+			//	Destroy(imagem);
+			//}
             
         }
 		animator.SetBool("Hurting", false); //Definir a animator
-		if(){
-			enemyDie();
-		}
+		//if(){
+		//	enemyDie();
+		//}
 		recuoGolpeado();
 		// TODO - Definir transições
     }
 	
 	public void enemyDie(){
 		animator.SetBool("Die", true);
-		Destroy.GameObject(this); // TODO - Passivel de ERRO
+		//Destroy.GameObject(this); // TODO - Passivel de ERRO
 	}
 	
 	// TODO - Criar um collider pro bendito aqui

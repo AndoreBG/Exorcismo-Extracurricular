@@ -35,7 +35,7 @@ public class symbolSetter : MonoBehaviour
             Debug.LogError($"{name} falta referencias para o invocar os simbolos");
         }
         enemy = GetComponent<enemy>();
-        enemy.recebeDano();
+       // enemy.recebeDano();
     }
 
     private void SpawnSymbols()

@@ -5,13 +5,13 @@ using System;
 public class avatarMovement : MonoBehaviour
 {
     [Space]
-    [Header("Componentes")]
+    [Header("== Componentes ==")]
     [SerializeField] private Rigidbody2D rb;
-    [SerializeField] private BoxCollider2D collider;
+    [SerializeField] private BoxCollider2D boxCollider;
     [SerializeField] private Animator animator;
 
     [Space]
-    [Header("Movimentação")]
+    [Header("== Movimentação ==")]
     [SerializeField] private float moveSpeed = 5f;
     [SerializeField] private float jumpForce = 5f;
     [SerializeField] private LayerMask groundLayer;
@@ -45,11 +45,11 @@ public class avatarMovement : MonoBehaviour
         rb.linearVelocity = new Vector2(moveInput * moveSpeed, rb.linearVelocityY);
         if(Math.Abs(moveInput) > 0)
         {
-            animator.SetBool("Walking", true);
+            animator.SetBool("isWalking", true);
         }
         else
         {
-            animator.SetBool("Walking", false);
+            animator.SetBool("isWalking", false);
         }
     }
 
@@ -66,7 +66,7 @@ public class avatarMovement : MonoBehaviour
 
     void IsGrounded()
     {
-        if (collider.IsTouchingLayers(groundLayer) || collider.IsTouchingLayers(obstacleLayer))
+        if (boxCollider.IsTouchingLayers(groundLayer) || boxCollider.IsTouchingLayers(obstacleLayer))
         {
             isJumping = false;
         }
@@ -81,11 +81,11 @@ public class avatarMovement : MonoBehaviour
         if (!isJumping && Input.GetKeyDown(KeyCode.Space))
         {
             rb.linearVelocity = new Vector2(rb.linearVelocityX, jumpForce * 1.5f);
-            animator.SetBool("Jumping", true);
+            animator.SetBool("isJumping", true);
         }
         if (!isJumping && rb.linearVelocityY <= 0)
         {
-            animator.SetBool("Jumping", false);
+            animator.SetBool("isJumping", false);
         }
     }
 }
