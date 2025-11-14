@@ -149,14 +149,14 @@ public class avatarHealth : MonoBehaviour
         // Tocar animação de morte se existir
         if (animator != null)
         {
-            animator.SetBool("IsDead", true);
+            animator.SetTrigger("isDead");
         }
 
         // Desabilitar controles do jogador
         avatarMovement.enabled = false;
 
         // Iniciar sequência de morte
-        StartCoroutine(DeathSequence());
+       StartCoroutine(DeathSequence());
     }
 
     public void Respawn(Vector3 respawnPosition)
@@ -261,7 +261,7 @@ public class avatarHealth : MonoBehaviour
     IEnumerator DeathSequence()
     {
         // Aguardar animação de morte (ajuste o tempo conforme necessário)
-        yield return new WaitForSeconds(3f);
+        yield return new WaitForSeconds(10f);
 
         // Adicionar aqui o sistema de Game Over:
         // - Mostrar tela de game over
