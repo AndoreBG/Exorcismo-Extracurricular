@@ -146,14 +146,11 @@ public class avatarHealth : MonoBehaviour
         isDead = true;
         OnDeath?.Invoke();
 
-        // Tocar animação de morte se existir
         if (animator != null)
         {
             animator.SetTrigger("isDead");
         }
 
-        // Desabilitar controles do jogador
-        avatarMovement.enabled = false;
 
         // Iniciar sequência de morte
        StartCoroutine(DeathSequence());
@@ -182,9 +179,6 @@ public class avatarHealth : MonoBehaviour
         {
             animator.SetBool("IsDead", false);
         }
-
-        // Reabilitar controles
-        avatarMovement.enabled = true;
 
         // Disparar eventos
         OnRespawn?.Invoke();

@@ -18,6 +18,7 @@ public class avatarMovement : MonoBehaviour
     [SerializeField] private LayerMask obstacleLayer;
     [SerializeField] private bool isFacingRight = true;
 
+    private bool isDead = false;
     private bool isJumping = false;
     private float moveInput;
 
@@ -28,10 +29,14 @@ public class avatarMovement : MonoBehaviour
 
     void Update()
     {
-        HorizontalMovement();
-        Flip();
         IsGrounded();
-        VerticalMovement();
+
+        if (!isDead)
+        {
+            HorizontalMovement();
+            Flip();
+            VerticalMovement();
+        }
     }
 
     void FixedUpate()
@@ -87,5 +92,16 @@ public class avatarMovement : MonoBehaviour
         {
             animator.SetBool("isJumping", false);
         }
+    }
+
+    void OnDisable()
+    {
+        isDead = true;
+        rb.linearVelocity = Vector2.zero;
+    }
+
+    void OnEnable()
+    {
+        isDead = false;
     }
 }
