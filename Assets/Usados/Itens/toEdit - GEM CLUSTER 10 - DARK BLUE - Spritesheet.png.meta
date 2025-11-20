@@ -1,0 +1,1991 @@
+fileFormatVersion: 2
+guid: 95219ae6d879b61458cecbe11b9cb7e7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1020410463623673784
+    second: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_0
+  - first:
+      213: -1413359726308794559
+    second: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_1
+  - first:
+      213: -5063121038381945095
+    second: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_2
+  - first:
+      213: 4816572401215164347
+    second: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_3
+  - first:
+      213: -4609981198552637742
+    second: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_4
+  - first:
+      213: 2257508144609831220
+    second: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_5
+  - first:
+      213: 498856423930279391
+    second: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_6
+  - first:
+      213: 931255794965701978
+    second: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_7
+  - first:
+      213: 2245081118291414090
+    second: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_8
+  - first:
+      213: -8115240199017045829
+    second: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_9
+  - first:
+      213: 6579858455675270822
+    second: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_10
+  - first:
+      213: 7500682579958546378
+    second: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_11
+  - first:
+      213: 3613916466740759255
+    second: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_12
+  - first:
+      213: -1861227445522834349
+    second: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_13
+  - first:
+      213: 4993290925831326907
+    second: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_14
+  - first:
+      213: 2305852519713860147
+    second: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_15
+  - first:
+      213: -2922410711485267948
+    second: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_16
+  - first:
+      213: 7461814167915188746
+    second: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_17
+  - first:
+      213: -4906544679364667104
+    second: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_18
+  - first:
+      213: -2211510302366491814
+    second: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_19
+  - first:
+      213: -5540300254763708900
+    second: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_20
+  - first:
+      213: -5568715002715466259
+    second: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_21
+  - first:
+      213: 1362323679592713536
+    second: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_22
+  - first:
+      213: 1338900675977529201
+    second: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_23
+  - first:
+      213: -4289561894612572473
+    second: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_24
+  - first:
+      213: 2215930147629024391
+    second: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_25
+  - first:
+      213: -4829174750902876507
+    second: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_26
+  - first:
+      213: -5911470408070898127
+    second: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_27
+  - first:
+      213: 3702765886212826909
+    second: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_28
+  - first:
+      213: -6556877779206144482
+    second: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_29
+  - first:
+      213: -6544915955956247599
+    second: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_30
+  - first:
+      213: 8899376793503143899
+    second: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_31
+  - first:
+      213: -4535725446943067683
+    second: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_32
+  - first:
+      213: 7664186082252722756
+    second: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_33
+  - first:
+      213: 787868707301145928
+    second: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_34
+  - first:
+      213: -8375188471718602262
+    second: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_35
+  - first:
+      213: 629331629331762416
+    second: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_36
+  - first:
+      213: -5133808130788272484
+    second: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_37
+  - first:
+      213: 703003897535935689
+    second: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_38
+  - first:
+      213: 5697846566887628094
+    second: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_39
+  - first:
+      213: 2949645459357306448
+    second: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_40
+  - first:
+      213: -2817130713146995072
+    second: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_41
+  - first:
+      213: 8568561981094253989
+    second: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_42
+  - first:
+      213: -7402205381139327154
+    second: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_43
+  - first:
+      213: -1284163941628760396
+    second: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_44
+  - first:
+      213: -3695915083510305482
+    second: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_45
+  - first:
+      213: -5270348435514930158
+    second: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_46
+  - first:
+      213: 6838075753661188309
+    second: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_47
+  - first:
+      213: -2622628805635372985
+    second: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_48
+  - first:
+      213: 6927588056582728320
+    second: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_49
+  - first:
+      213: -8356512075753595405
+    second: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_50
+  - first:
+      213: -8278315410791204212
+    second: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_51
+  - first:
+      213: -86793678492609024
+    second: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_52
+  - first:
+      213: -5265772767021552815
+    second: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_53
+  - first:
+      213: -2038583690582975095
+    second: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_54
+  - first:
+      213: 3800971970283140724
+    second: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_55
+  - first:
+      213: 4261981033688241262
+    second: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_56
+  - first:
+      213: -4573833220163873841
+    second: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_57
+  - first:
+      213: -7063912654597386591
+    second: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_58
+  - first:
+      213: -4961834740730631018
+    second: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_59
+  - first:
+      213: 581555167815660042
+    second: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_60
+  - first:
+      213: -6789068955735123343
+    second: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_61
+  - first:
+      213: 6219681929164069645
+    second: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_62
+  - first:
+      213: -7789571048407702708
+    second: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_63
+  - first:
+      213: -547197785527815040
+    second: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_64
+  - first:
+      213: 2998221342952102623
+    second: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_65
+  - first:
+      213: -7619911277471194276
+    second: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_66
+  - first:
+      213: 463836578791975986
+    second: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_67
+  - first:
+      213: -2820382527956051202
+    second: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_68
+  - first:
+      213: 71033851510637135
+    second: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_69
+  - first:
+      213: -9196436434113331988
+    second: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_70
+  - first:
+      213: -1695101348945710625
+    second: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_71
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 132
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8488e96f616c6d1f0800000000000000
+      internalID: -1020410463623673784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 132
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14f558531dcb26ce0800000000000000
+      internalID: -1413359726308794559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 132
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9feef6cbd3e2cb9b0800000000000000
+      internalID: -5063121038381945095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 132
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbf41616417e7d240800000000000000
+      internalID: 4816572401215164347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 132
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2de5a0f468e0600c0800000000000000
+      internalID: -4609981198552637742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 132
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 439250d52b7445f10800000000000000
+      internalID: 2257508144609831220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 132
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd53946464b4ce600800000000000000
+      internalID: 498856423930279391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 132
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5564f5263c7cec00800000000000000
+      internalID: 931255794965701978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 132
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4c42b3d161282f10800000000000000
+      internalID: 2245081118291414090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 132
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb06e9e0900e06f80800000000000000
+      internalID: -8115240199017045829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 132
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a6ffd2676a505b50800000000000000
+      internalID: 6579858455675270822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 132
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acfb36fe017c71860800000000000000
+      internalID: 7500682579958546378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 132
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7da840011e5372230800000000000000
+      internalID: 3613916466740759255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 132
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35c576fdf779b26e0800000000000000
+      internalID: -1861227445522834349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 132
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbc8b5634abbb4540800000000000000
+      internalID: 4993290925831326907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 132
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33aebf556a8000020800000000000000
+      internalID: 2305852519713860147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 132
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 410cf1601f28177d0800000000000000
+      internalID: -2922410711485267948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 132
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a02df8a8370bd8760800000000000000
+      internalID: 7461814167915188746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 88
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 029d2ef2c9378ebb0800000000000000
+      internalID: -4906544679364667104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 88
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5b145ad8132f41e0800000000000000
+      internalID: -2211510302366491814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 88
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1e8dc5a546ec13b0800000000000000
+      internalID: -5540300254763708900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 88
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de591c79533f7b2b0800000000000000
+      internalID: -5568715002715466259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 88
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04d0a3f2b22f7e210800000000000000
+      internalID: 1362323679592713536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 88
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 177cb2d221bb49210800000000000000
+      internalID: 1338900675977529201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 88
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c6e0951f2a6874c0800000000000000
+      internalID: -4289561894612572473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 88
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 784c1809ab090ce10800000000000000
+      internalID: 2215930147629024391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 88
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a6062e66235bfcb0800000000000000
+      internalID: -4829174750902876507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 88
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13e53b2fbfc36fda0800000000000000
+      internalID: -5911470408070898127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 88
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d17662694fdd26330800000000000000
+      internalID: 3702765886212826909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 88
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1ef3ce466a4105a0800000000000000
+      internalID: -6556877779206144482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_30
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 88
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d311705d99cb25a0800000000000000
+      internalID: -6544915955956247599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_31
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 88
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd71c13fa00f08b70800000000000000
+      internalID: 8899376793503143899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_32
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 88
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd13240ccbddd01c0800000000000000
+      internalID: -4535725446943067683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_33
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 88
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4429a2d92a8ac5a60800000000000000
+      internalID: 7664186082252722756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_34
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 88
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84db45c3a621fea00800000000000000
+      internalID: 787868707301145928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_35
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 88
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae91448657a55cb80800000000000000
+      internalID: -8375188471718602262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 44
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fccc3458c5dbb800800000000000000
+      internalID: 629331629331762416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_37
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 44
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c965a5384bc01c8b0800000000000000
+      internalID: -5133808130788272484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_38
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 44
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c43854f15291c900800000000000000
+      internalID: 703003897535935689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_39
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 44
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3d140c9341d21f40800000000000000
+      internalID: 5697846566887628094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_40
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 44
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05e065adaee3fe820800000000000000
+      internalID: 2949645459357306448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_41
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 44
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08ec70dca8a87e8d0800000000000000
+      internalID: -2817130713146995072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_42
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 44
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a55a0f39b5a9e670800000000000000
+      internalID: 8568561981094253989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_43
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 44
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4794b6ac65164990800000000000000
+      internalID: -7402205381139327154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_44
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 44
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4be2ad9e2bbbd2ee0800000000000000
+      internalID: -1284163941628760396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_45
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 44
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63d2c5730d875bcc0800000000000000
+      internalID: -3695915083510305482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_46
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 44
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21cc89a7506fbd6b0800000000000000
+      internalID: -5270348435514930158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_47
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 44
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d8cf241ba9b5ee50800000000000000
+      internalID: 6838075753661188309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_48
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 44
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 748856e1ffc8a9bd0800000000000000
+      internalID: -2622628805635372985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_49
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 44
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08a2ade22acb32060800000000000000
+      internalID: 6927588056582728320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_50
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 44
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fdd173ba84b70c80800000000000000
+      internalID: -8356512075753595405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_51
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 44
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8af5298ef38d1d80800000000000000
+      internalID: -8278315410791204212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_52
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 44
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 006d2b8fb95abcef0800000000000000
+      internalID: -86793678492609024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_53
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 44
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15b21c151973ce6b0800000000000000
+      internalID: -5265772767021552815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98d95ed2fee75b3e0800000000000000
+      internalID: -2038583690582975095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_55
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 0
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47671f95ed3cfb430800000000000000
+      internalID: 3800971970283140724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_56
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 0
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6490705b29952b30800000000000000
+      internalID: 4261981033688241262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_57
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 0
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc350426bea7680c0800000000000000
+      internalID: -4573833220163873841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_58
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 0
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ae065aedd0f7fd90800000000000000
+      internalID: -7063912654597386591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_59
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 0
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69cee8c9795042bb0800000000000000
+      internalID: -4961834740730631018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_60
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 0
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a02f1fa0859121800800000000000000
+      internalID: 581555167815660042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_61
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 0
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17a96c931c168c1a0800000000000000
+      internalID: -6789068955735123343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_62
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 0
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0b9db3e2cfb05650800000000000000
+      internalID: 6219681929164069645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_63
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 0
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c43edf20762e5e390800000000000000
+      internalID: -7789571048407702708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_64
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 0
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 084fbb36386f768f0800000000000000
+      internalID: -547197785527815040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_65
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 0
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fda97a81d62db9920800000000000000
+      internalID: 2998221342952102623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_66
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 0
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c53265ea013a04690800000000000000
+      internalID: -7619911277471194276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_67
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 0
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23c6ab039e0ef6600800000000000000
+      internalID: 463836578791975986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_68
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 0
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efa167aa80dfbd8d0800000000000000
+      internalID: -2820382527956051202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_69
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 0
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f42c15e59ec5cf000800000000000000
+      internalID: 71033851510637135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_70
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 0
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cecf639b9c1bf5080800000000000000
+      internalID: -9196436434113331988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_71
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 0
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd13ecddd4ac978e0800000000000000
+      internalID: -1695101348945710625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 2917889c72db14e43ad5097f3c23fb7b
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":18.0,"y":4.0},"gridSpriteSize":{"x":44.0,"y":44.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_0: -1020410463623673784
+      toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_1: -1413359726308794559
+      toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_10: 6579858455675270822
+      toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_11: 7500682579958546378
+      toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_12: 3613916466740759255
+      toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_13: -1861227445522834349
+      toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_14: 4993290925831326907
+      toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_15: 2305852519713860147
+      toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_16: -2922410711485267948
+      toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_17: 7461814167915188746
+      toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_18: -4906544679364667104
+      toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_19: -2211510302366491814
+      toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_2: -5063121038381945095
+      toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_20: -5540300254763708900
+      toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_21: -5568715002715466259
+      toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_22: 1362323679592713536
+      toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_23: 1338900675977529201
+      toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_24: -4289561894612572473
+      toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_25: 2215930147629024391
+      toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_26: -4829174750902876507
+      toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_27: -5911470408070898127
+      toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_28: 3702765886212826909
+      toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_29: -6556877779206144482
+      toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_3: 4816572401215164347
+      toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_30: -6544915955956247599
+      toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_31: 8899376793503143899
+      toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_32: -4535725446943067683
+      toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_33: 7664186082252722756
+      toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_34: 787868707301145928
+      toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_35: -8375188471718602262
+      toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_36: 629331629331762416
+      toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_37: -5133808130788272484
+      toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_38: 703003897535935689
+      toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_39: 5697846566887628094
+      toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_4: -4609981198552637742
+      toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_40: 2949645459357306448
+      toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_41: -2817130713146995072
+      toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_42: 8568561981094253989
+      toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_43: -7402205381139327154
+      toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_44: -1284163941628760396
+      toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_45: -3695915083510305482
+      toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_46: -5270348435514930158
+      toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_47: 6838075753661188309
+      toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_48: -2622628805635372985
+      toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_49: 6927588056582728320
+      toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_5: 2257508144609831220
+      toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_50: -8356512075753595405
+      toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_51: -8278315410791204212
+      toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_52: -86793678492609024
+      toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_53: -5265772767021552815
+      toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_54: -2038583690582975095
+      toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_55: 3800971970283140724
+      toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_56: 4261981033688241262
+      toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_57: -4573833220163873841
+      toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_58: -7063912654597386591
+      toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_59: -4961834740730631018
+      toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_6: 498856423930279391
+      toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_60: 581555167815660042
+      toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_61: -6789068955735123343
+      toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_62: 6219681929164069645
+      toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_63: -7789571048407702708
+      toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_64: -547197785527815040
+      toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_65: 2998221342952102623
+      toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_66: -7619911277471194276
+      toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_67: 463836578791975986
+      toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_68: -2820382527956051202
+      toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_69: 71033851510637135
+      toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_7: 931255794965701978
+      toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_70: -9196436434113331988
+      toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_71: -1695101348945710625
+      toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_8: 2245081118291414090
+      toEdit - GEM CLUSTER 10 - DARK BLUE - Spritesheet_9: -8115240199017045829
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
