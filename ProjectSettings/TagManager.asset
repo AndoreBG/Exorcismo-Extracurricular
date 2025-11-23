@@ -17,11 +17,11 @@ TagManager:
   - Avatar
   - Water
   - UI
+  - Enemy
   - Ground
+  - Wall
   - Obstacle
-  - Iteragible
-  - 
-  - 
+  - Projectile
   - 
   - 
   - 
