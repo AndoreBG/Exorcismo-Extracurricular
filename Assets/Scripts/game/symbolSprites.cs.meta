@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: f4cd1fb7d0af07b4e9a8ae5041fa111d
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - corte: {fileID: -8395592168031367116, guid: 3f9943ddf528e6a46961b2bc0788692a, type: 3}
+  - corte90: {fileID: 3069842876192492063, guid: 4696fad42f7951e48974aacd68b5c99f, type: 3}
+  - quina: {fileID: -111750501615996839, guid: 22ea1fa865ca93545b81c835dabdec20, type: 3}
+  - quina90: {fileID: -5787421276882602353, guid: 97b97fe611bd9b445bc99605f5f19278, type: 3}
+  - quina180: {fileID: -119705092245170349, guid: 2c3f900ea6789e044aa395abc608c4f2, type: 3}
+  - quina270: {fileID: 506184458784170461, guid: 76336973b0d4c764cb0266fa8f1dcce6, type: 3}
+  - lua: {fileID: -8466779966103268678, guid: 429b3075813eb884288bd6693d7e3f1c, type: 3}
+  - lua90: {fileID: -6736132721095627835, guid: 97703bf607bdf614192845120ec63f57, type: 3}
+  - lua180: {fileID: -7805153864723837423, guid: 4d360356362952c4cb129b99888f3787, type: 3}
+  - lua270: {fileID: -6321299320284680466, guid: dc3a0983da5e72044b9de929077104e9, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
