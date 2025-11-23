@@ -9,7 +9,11 @@ public class projectile : MonoBehaviour
     [SerializeField] private float lifetime = 5f;
     [SerializeField] private bool showDebug = false;
 
-    private SpriteRenderer spriteRenderer;
+    [Header("=== Referências dos Sprites ===")]
+    [SerializeField] private SpriteRenderer symbolSprite; // Sprite do símbolo (gira)
+    [SerializeField] private GameObject magicEffectObject; // GameObject do efeito (não gira)
+    [SerializeField] private Animator magicEffectAnimator; // Animator do efeito
+
     private Collider2D projectileCollider;
     private Rigidbody2D rb;
     private float speed;
@@ -19,9 +23,39 @@ public class projectile : MonoBehaviour
     private MagicType magicType;
     private int rotation;
 
+    // NOVO: Guardar escalas originais
+    private Vector3 originalEffectScale;
+    private bool scaleInitialized = false;
+
     void Awake()
     {
-        spriteRenderer = GetComponent<SpriteRenderer>();
+        // Se não foi configurado no Inspector, tentar encontrar
+        if (symbolSprite == null)
+        {
+            symbolSprite = GetComponent<SpriteRenderer>();
+        }
+
+        // Procurar o efeito mágico se não foi configurado
+        if (magicEffectObject == null)
+        {
+            Transform effectTransform = transform.Find("MagicEffect");
+            if (effectTransform != null)
+            {
+                magicEffectObject = effectTransform.gameObject;
+                magicEffectAnimator = magicEffectObject.GetComponent<Animator>();
+            }
+        }
+
+        // NOVO: Guardar escala original do efeito
+        if (magicEffectObject != null && !scaleInitialized)
+        {
+            originalEffectScale = magicEffectObject.transform.localScale;
+            scaleInitialized = true;
+
+            if (showDebug)
+                Debug.Log($"Escala original do efeito salva: {originalEffectScale}");
+        }
+
         projectileCollider = GetComponent<Collider2D>();
         rb = GetComponent<Rigidbody2D>();
 
@@ -48,11 +82,45 @@ public class projectile : MonoBehaviour
         magicType = type;
         rotation = rot;
 
-        if (spriteRenderer != null && sprite != null)
+        // Configurar sprite do SÍMBOLO (que gira)
+        if (symbolSprite != null && sprite != null)
         {
-            spriteRenderer.sprite = sprite;
-            spriteRenderer.transform.localRotation = Quaternion.Euler(0, 0, rotation);
-            spriteRenderer.flipX = dir < 0;
+            symbolSprite.sprite = sprite;
+            symbolSprite.transform.localRotation = Quaternion.Euler(0, 0, rotation);
+            symbolSprite.flipX = dir < 0;
+        }
+
+        // Configurar efeito mágico (que NÃO gira)
+        if (magicEffectObject != null)
+        {
+            // Garantir que o efeito sempre fique com rotação zero (sem girar)
+            magicEffectObject.transform.localRotation = Quaternion.identity;
+
+            // MODIFICADO: Usar a escala original e apenas inverter X se necessário
+            Vector3 effectScale = originalEffectScale;
+            if (dir < 0)
+            {
+                effectScale.x = Mathf.Abs(originalEffectScale.x) * -1;
+            }
+            else
+            {
+                effectScale.x = Mathf.Abs(originalEffectScale.x);
+            }
+            magicEffectObject.transform.localScale = effectScale;
+
+            // Ativar animação específica se tiver
+            if (magicEffectAnimator != null)
+            {
+                // Você pode ter diferentes animações para cada tipo
+                string animationTrigger = GetAnimationTriggerForType(type);
+                if (!string.IsNullOrEmpty(animationTrigger))
+                {
+                    magicEffectAnimator.SetTrigger(animationTrigger);
+                }
+            }
+
+            if (showDebug)
+                Debug.Log($"Efeito configurado - Escala: {effectScale}, Dir: {dir}");
         }
 
         if (projectileCollider != null)
@@ -71,11 +139,37 @@ public class projectile : MonoBehaviour
             Debug.Log($"✓ Projétil inicializado: {type} {rotation}°");
     }
 
+    string GetAnimationTriggerForType(MagicType type)
+    {
+        // Retorna o nome do trigger da animação baseado no tipo
+        // Você pode customizar isso conforme suas animações
+        switch (type)
+        {
+            case MagicType.Corte:
+                return "PlayCorte";
+            case MagicType.Quina:
+                return "PlayQuina";
+            case MagicType.Lua:
+                return "PlayLua";
+            default:
+                return "";
+        }
+    }
+
     void FixedUpdate()
     {
         if (rb != null)
         {
             rb.MovePosition(rb.position + direction * speed * Time.fixedDeltaTime);
+        }
+    }
+
+    void LateUpdate()
+    {
+        // Garantir que o efeito mágico NUNCA rotacione
+        if (magicEffectObject != null)
+        {
+            magicEffectObject.transform.rotation = Quaternion.identity;
         }
     }
 
@@ -160,10 +254,36 @@ public class projectile : MonoBehaviour
             gameObject.SetActive(false);
         }
 
-        if (spriteRenderer != null)
+        // Resetar rotações e escalas
+        if (symbolSprite != null)
         {
-            spriteRenderer.flipX = false;
-            spriteRenderer.transform.localRotation = Quaternion.identity;
+            symbolSprite.flipX = false;
+            symbolSprite.transform.localRotation = Quaternion.identity;
+        }
+
+        // MODIFICADO: Restaurar para escala ORIGINAL ao invés de Vector3.one
+        if (magicEffectObject != null)
+        {
+            magicEffectObject.transform.localRotation = Quaternion.identity;
+            magicEffectObject.transform.localScale = originalEffectScale; // <-- CORREÇÃO AQUI
+
+            // Parar animação se tiver
+            if (magicEffectAnimator != null)
+            {
+                magicEffectAnimator.Rebind();
+            }
+        }
+    }
+
+    // NOVO: Método para resetar a escala original (útil se você mudar no editor)
+    [ContextMenu("Reset Original Effect Scale")]
+    void ResetOriginalEffectScale()
+    {
+        if (magicEffectObject != null)
+        {
+            originalEffectScale = magicEffectObject.transform.localScale;
+            scaleInitialized = true;
+            Debug.Log($"Nova escala original salva: {originalEffectScale}");
         }
     }
 
@@ -175,6 +295,17 @@ public class projectile : MonoBehaviour
             Gizmos.DrawWireSphere(transform.position, 0.2f);
             Gizmos.color = Color.yellow;
             Gizmos.DrawLine(transform.position, transform.position + (Vector3)(direction * 0.5f));
+        }
+    }
+
+    // NOVO: Validar configuração no editor
+    void OnValidate()
+    {
+        // Se mudou o magicEffectObject no inspector, atualizar escala original
+        if (magicEffectObject != null && !Application.isPlaying)
+        {
+            originalEffectScale = magicEffectObject.transform.localScale;
+            scaleInitialized = true;
         }
     }
 }

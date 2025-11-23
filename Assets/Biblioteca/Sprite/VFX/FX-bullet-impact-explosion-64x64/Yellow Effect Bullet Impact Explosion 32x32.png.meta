@@ -1111,7 +1111,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -1149,7 +1149,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -1177,12 +1177,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_0
       rect:
         serializedVersion: 2
-        x: 2
-        y: 482
-        width: 28
-        height: 28
+        x: 0
+        y: 480
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1199,12 +1199,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_1
       rect:
         serializedVersion: 2
-        x: 63
-        y: 479
-        width: 19
-        height: 20
+        x: 64
+        y: 480
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1221,12 +1221,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_2
       rect:
         serializedVersion: 2
-        x: 95
-        y: 479
-        width: 28
-        height: 20
+        x: 96
+        y: 480
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1243,12 +1243,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_3
       rect:
         serializedVersion: 2
-        x: 127
-        y: 479
+        x: 128
+        y: 480
         width: 32
-        height: 28
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1265,12 +1265,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_4
       rect:
         serializedVersion: 2
-        x: 148
-        y: 498
-        width: 11
-        height: 14
+        x: 192
+        y: 480
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1287,12 +1287,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_5
       rect:
         serializedVersion: 2
-        x: 191
-        y: 458
-        width: 130
-        height: 54
+        x: 224
+        y: 480
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1309,12 +1309,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_6
       rect:
         serializedVersion: 2
-        x: 351
-        y: 488
-        width: 28
-        height: 21
+        x: 256
+        y: 480
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1331,12 +1331,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_7
       rect:
         serializedVersion: 2
-        x: 375
-        y: 495
-        width: 10
-        height: 7
+        x: 288
+        y: 480
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1353,12 +1353,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_8
       rect:
         serializedVersion: 2
-        x: 383
-        y: 487
-        width: 26
-        height: 22
+        x: 352
+        y: 480
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1375,12 +1375,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_9
       rect:
         serializedVersion: 2
-        x: 408
-        y: 488
-        width: 36
-        height: 19
+        x: 384
+        y: 480
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1397,12 +1397,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_10
       rect:
         serializedVersion: 2
-        x: 438
-        y: 501
-        width: 9
-        height: 7
+        x: 416
+        y: 480
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1419,12 +1419,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_11
       rect:
         serializedVersion: 2
-        x: 443
-        y: 486
-        width: 37
-        height: 22
+        x: 448
+        y: 480
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1441,12 +1441,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_12
       rect:
         serializedVersion: 2
-        x: 517
-        y: 479
-        width: 51
-        height: 33
+        x: 512
+        y: 480
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1463,12 +1463,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_13
       rect:
         serializedVersion: 2
-        x: 575
-        y: 490
-        width: 41
-        height: 20
+        x: 544
+        y: 480
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1485,12 +1485,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_14
       rect:
         serializedVersion: 2
-        x: 575
-        y: 482
-        width: 20
-        height: 8
+        x: 576
+        y: 480
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1507,12 +1507,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_15
       rect:
         serializedVersion: 2
-        x: 0
-        y: 448
+        x: 608
+        y: 480
         width: 32
-        height: 33
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1529,12 +1529,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_16
       rect:
         serializedVersion: 2
-        x: 66
-        y: 450
-        width: 28
-        height: 28
+        x: 0
+        y: 448
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1551,12 +1551,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_17
       rect:
         serializedVersion: 2
-        x: 99
-        y: 451
-        width: 26
-        height: 26
+        x: 64
+        y: 448
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1573,12 +1573,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_18
       rect:
         serializedVersion: 2
-        x: 131
-        y: 451
-        width: 26
-        height: 26
+        x: 96
+        y: 448
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1595,12 +1595,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_19
       rect:
         serializedVersion: 2
-        x: 196
-        y: 467
-        width: 9
-        height: 9
+        x: 128
+        y: 448
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1617,12 +1617,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_20
       rect:
         serializedVersion: 2
-        x: 204
-        y: 468
-        width: 8
-        height: 11
+        x: 192
+        y: 448
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1639,12 +1639,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_21
       rect:
         serializedVersion: 2
-        x: 211
-        y: 467
-        width: 9
-        height: 9
+        x: 224
+        y: 448
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1661,12 +1661,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_22
       rect:
         serializedVersion: 2
-        x: 227
-        y: 469
-        width: 8
-        height: 8
+        x: 256
+        y: 448
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1683,12 +1683,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_23
       rect:
         serializedVersion: 2
-        x: 236
-        y: 470
-        width: 8
-        height: 10
+        x: 288
+        y: 448
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1705,12 +1705,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_24
       rect:
         serializedVersion: 2
-        x: 245
-        y: 469
-        width: 8
-        height: 8
+        x: 352
+        y: 448
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1727,12 +1727,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_25
       rect:
         serializedVersion: 2
-        x: 258
-        y: 471
-        width: 7
-        height: 7
+        x: 384
+        y: 448
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1749,12 +1749,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_26
       rect:
         serializedVersion: 2
-        x: 268
-        y: 473
-        width: 8
-        height: 8
+        x: 416
+        y: 448
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1771,12 +1771,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_27
       rect:
         serializedVersion: 2
-        x: 279
-        y: 471
-        width: 7
-        height: 7
+        x: 448
+        y: 448
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1793,12 +1793,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_28
       rect:
         serializedVersion: 2
-        x: 289
-        y: 473
-        width: 6
-        height: 6
+        x: 512
+        y: 448
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1815,12 +1815,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_29
       rect:
         serializedVersion: 2
-        x: 313
-        y: 473
-        width: 6
-        height: 6
+        x: 544
+        y: 448
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1837,12 +1837,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_30
       rect:
         serializedVersion: 2
-        x: 356
-        y: 452
-        width: 24
-        height: 24
+        x: 576
+        y: 448
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1859,12 +1859,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_31
       rect:
         serializedVersion: 2
-        x: 388
-        y: 452
-        width: 24
-        height: 24
+        x: 608
+        y: 448
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1881,12 +1881,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_32
       rect:
         serializedVersion: 2
-        x: 420
-        y: 452
-        width: 24
-        height: 24
+        x: 0
+        y: 416
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1903,12 +1903,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_33
       rect:
         serializedVersion: 2
-        x: 452
-        y: 452
-        width: 24
-        height: 24
+        x: 64
+        y: 416
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1925,12 +1925,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_34
       rect:
         serializedVersion: 2
-        x: 513
-        y: 450
-        width: 29
-        height: 28
+        x: 96
+        y: 416
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1947,12 +1947,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_35
       rect:
         serializedVersion: 2
-        x: 545
-        y: 449
-        width: 29
-        height: 30
+        x: 128
+        y: 416
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1969,12 +1969,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_36
       rect:
         serializedVersion: 2
-        x: 577
-        y: 449
-        width: 29
-        height: 30
+        x: 192
+        y: 416
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1991,12 +1991,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_37
       rect:
         serializedVersion: 2
-        x: 608
-        y: 449
-        width: 30
-        height: 37
+        x: 224
+        y: 416
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2013,12 +2013,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_38
       rect:
         serializedVersion: 2
-        x: 193
-        y: 460
-        width: 11
-        height: 8
+        x: 256
+        y: 416
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2035,12 +2035,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_39
       rect:
         serializedVersion: 2
-        x: 196
-        y: 452
-        width: 9
-        height: 9
+        x: 288
+        y: 416
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2057,12 +2057,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_40
       rect:
         serializedVersion: 2
-        x: 204
-        y: 460
-        width: 8
-        height: 8
+        x: 352
+        y: 416
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2079,12 +2079,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_41
       rect:
         serializedVersion: 2
-        x: 204
-        y: 449
-        width: 8
-        height: 11
+        x: 384
+        y: 416
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2101,12 +2101,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_42
       rect:
         serializedVersion: 2
-        x: 211
-        y: 452
-        width: 9
-        height: 9
+        x: 416
+        y: 416
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2123,12 +2123,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_43
       rect:
         serializedVersion: 2
-        x: 212
-        y: 460
-        width: 11
-        height: 8
+        x: 448
+        y: 416
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2145,12 +2145,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_44
       rect:
         serializedVersion: 2
-        x: 224
-        y: 460
-        width: 10
-        height: 8
+        x: 512
+        y: 416
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2167,12 +2167,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_45
       rect:
         serializedVersion: 2
-        x: 235
-        y: 459
-        width: 10
-        height: 10
+        x: 544
+        y: 416
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2189,12 +2189,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_46
       rect:
         serializedVersion: 2
-        x: 246
-        y: 460
-        width: 10
-        height: 8
+        x: 576
+        y: 416
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2211,12 +2211,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_47
       rect:
         serializedVersion: 2
-        x: 255
-        y: 460
-        width: 8
-        height: 8
+        x: 608
+        y: 416
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2233,12 +2233,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_48
       rect:
         serializedVersion: 2
-        x: 266
-        y: 458
-        width: 12
-        height: 12
+        x: 0
+        y: 384
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2255,12 +2255,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_49
       rect:
         serializedVersion: 2
-        x: 281
-        y: 460
-        width: 11
-        height: 8
+        x: 64
+        y: 384
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2277,12 +2277,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_50
       rect:
         serializedVersion: 2
-        x: 227
-        y: 451
-        width: 8
-        height: 8
+        x: 96
+        y: 384
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2299,12 +2299,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_51
       rect:
         serializedVersion: 2
-        x: 236
-        y: 448
-        width: 8
-        height: 10
+        x: 128
+        y: 384
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2321,12 +2321,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_52
       rect:
         serializedVersion: 2
-        x: 245
-        y: 451
-        width: 8
-        height: 8
+        x: 192
+        y: 384
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2343,12 +2343,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_53
       rect:
         serializedVersion: 2
-        x: 258
-        y: 450
-        width: 7
-        height: 7
+        x: 224
+        y: 384
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2365,12 +2365,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_54
       rect:
         serializedVersion: 2
-        x: 268
-        y: 447
-        width: 8
-        height: 8
+        x: 256
+        y: 384
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2387,12 +2387,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_55
       rect:
         serializedVersion: 2
-        x: 279
-        y: 450
-        width: 7
-        height: 7
+        x: 288
+        y: 384
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2409,12 +2409,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_56
       rect:
         serializedVersion: 2
-        x: 289
-        y: 449
-        width: 6
-        height: 6
+        x: 352
+        y: 384
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2431,12 +2431,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_57
       rect:
         serializedVersion: 2
-        x: 289
-        y: 439
-        width: 18
-        height: 13
+        x: 384
+        y: 384
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2453,12 +2453,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_58
       rect:
         serializedVersion: 2
-        x: 313
-        y: 449
-        width: 6
-        height: 6
+        x: 416
+        y: 384
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2475,12 +2475,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_59
       rect:
         serializedVersion: 2
-        x: 8
-        y: 421
-        width: 20
-        height: 21
+        x: 448
+        y: 384
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2497,12 +2497,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_60
       rect:
         serializedVersion: 2
-        x: 68
-        y: 403
-        width: 29
-        height: 46
+        x: 512
+        y: 384
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2519,12 +2519,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_61
       rect:
         serializedVersion: 2
-        x: 101
-        y: 403
-        width: 27
-        height: 40
+        x: 544
+        y: 384
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2541,12 +2541,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_62
       rect:
         serializedVersion: 2
-        x: 232
-        y: 424
-        width: 16
-        height: 16
+        x: 576
+        y: 384
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2563,12 +2563,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_63
       rect:
         serializedVersion: 2
-        x: 260
-        y: 433
-        width: 11
-        height: 11
+        x: 608
+        y: 384
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2585,12 +2585,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_64
       rect:
         serializedVersion: 2
-        x: 273
-        y: 433
-        width: 11
-        height: 11
+        x: 0
+        y: 352
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2607,12 +2607,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_65
       rect:
         serializedVersion: 2
-        x: 311
-        y: 439
-        width: 8
-        height: 8
+        x: 64
+        y: 352
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2629,12 +2629,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_66
       rect:
         serializedVersion: 2
-        x: 354
-        y: 416
-        width: 29
-        height: 31
+        x: 96
+        y: 352
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2651,12 +2651,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_67
       rect:
         serializedVersion: 2
-        x: 385
-        y: 417
-        width: 31
-        height: 29
+        x: 128
+        y: 352
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2673,12 +2673,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_68
       rect:
         serializedVersion: 2
-        x: 417
-        y: 416
-        width: 29
-        height: 31
+        x: 192
+        y: 352
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2695,12 +2695,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_69
       rect:
         serializedVersion: 2
-        x: 449
-        y: 418
-        width: 31
-        height: 29
+        x: 224
+        y: 352
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2717,12 +2717,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_70
       rect:
         serializedVersion: 2
-        x: 513
-        y: 420
-        width: 28
-        height: 24
+        x: 256
+        y: 352
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2739,12 +2739,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_71
       rect:
         serializedVersion: 2
-        x: 549
-        y: 439
-        width: 22
-        height: 8
+        x: 288
+        y: 352
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2761,12 +2761,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_72
       rect:
         serializedVersion: 2
-        x: 580
-        y: 439
-        width: 24
-        height: 8
+        x: 352
+        y: 352
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2783,12 +2783,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_73
       rect:
         serializedVersion: 2
-        x: 609
-        y: 430
-        width: 27
-        height: 17
+        x: 384
+        y: 352
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2805,12 +2805,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_74
       rect:
         serializedVersion: 2
-        x: 136
-        y: 403
-        width: 23
-        height: 23
+        x: 416
+        y: 352
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2827,12 +2827,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_75
       rect:
         serializedVersion: 2
-        x: 202
-        y: 426
-        width: 12
-        height: 12
+        x: 448
+        y: 352
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2849,12 +2849,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_76
       rect:
         serializedVersion: 2
-        x: 260
-        y: 420
-        width: 11
-        height: 11
+        x: 512
+        y: 352
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2871,12 +2871,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_77
       rect:
         serializedVersion: 2
-        x: 273
-        y: 420
-        width: 11
-        height: 11
+        x: 544
+        y: 352
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2893,12 +2893,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_78
       rect:
         serializedVersion: 2
-        x: 545
-        y: 417
-        width: 27
-        height: 17
+        x: 576
+        y: 352
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2915,12 +2915,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_79
       rect:
         serializedVersion: 2
-        x: 133
-        y: 407
-        width: 14
-        height: 18
+        x: 608
+        y: 352
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2937,12 +2937,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_80
       rect:
         serializedVersion: 2
-        x: 290
-        y: 417
-        width: 8
-        height: 8
+        x: 0
+        y: 320
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2959,12 +2959,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_81
       rect:
         serializedVersion: 2
-        x: 312
-        y: 417
-        width: 8
-        height: 8
+        x: 64
+        y: 320
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2981,12 +2981,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_82
       rect:
         serializedVersion: 2
-        x: 580
-        y: 417
-        width: 24
-        height: 8
+        x: 96
+        y: 320
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3003,12 +3003,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_83
       rect:
         serializedVersion: 2
-        x: 613
-        y: 417
-        width: 22
-        height: 8
+        x: 192
+        y: 320
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3025,12 +3025,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_84
       rect:
         serializedVersion: 2
-        x: 3
-        y: 388
-        width: 26
-        height: 24
+        x: 224
+        y: 320
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3047,12 +3047,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_85
       rect:
         serializedVersion: 2
-        x: 64
-        y: 367
+        x: 256
+        y: 320
         width: 32
-        height: 34
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3069,12 +3069,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_86
       rect:
         serializedVersion: 2
-        x: 106
-        y: 367
-        width: 22
-        height: 34
+        x: 288
+        y: 320
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3091,12 +3091,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_87
       rect:
         serializedVersion: 2
-        x: 128
-        y: 367
+        x: 352
+        y: 320
         width: 32
-        height: 34
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3113,12 +3113,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_88
       rect:
         serializedVersion: 2
-        x: 195
-        y: 391
-        width: 16
-        height: 17
+        x: 384
+        y: 320
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3135,12 +3135,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_89
       rect:
         serializedVersion: 2
-        x: 230
-        y: 392
-        width: 17
-        height: 16
+        x: 416
+        y: 320
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3157,12 +3157,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_90
       rect:
         serializedVersion: 2
-        x: 264
-        y: 387
-        width: 25
-        height: 26
+        x: 448
+        y: 320
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3179,12 +3179,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_91
       rect:
         serializedVersion: 2
-        x: 301
-        y: 389
-        width: 20
-        height: 22
+        x: 512
+        y: 320
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3201,12 +3201,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_92
       rect:
         serializedVersion: 2
-        x: 356
-        y: 390
-        width: 24
-        height: 20
+        x: 544
+        y: 320
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3223,12 +3223,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_93
       rect:
         serializedVersion: 2
-        x: 387
-        y: 390
-        width: 25
-        height: 20
+        x: 576
+        y: 320
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3245,12 +3245,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_94
       rect:
         serializedVersion: 2
-        x: 419
-        y: 389
-        width: 25
-        height: 21
+        x: 608
+        y: 320
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3267,12 +3267,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_95
       rect:
         serializedVersion: 2
-        x: 451
-        y: 390
-        width: 25
-        height: 20
+        x: 0
+        y: 288
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3289,12 +3289,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_96
       rect:
         serializedVersion: 2
-        x: 513
-        y: 384
-        width: 30
+        x: 96
+        y: 288
+        width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3311,12 +3311,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_97
       rect:
         serializedVersion: 2
-        x: 544
-        y: 385
+        x: 128
+        y: 288
         width: 32
-        height: 30
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3333,12 +3333,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_98
       rect:
         serializedVersion: 2
-        x: 577
-        y: 384
-        width: 30
+        x: 192
+        y: 288
+        width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3355,12 +3355,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_99
       rect:
         serializedVersion: 2
-        x: 608
-        y: 385
+        x: 224
+        y: 288
         width: 32
-        height: 30
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3377,12 +3377,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_100
       rect:
         serializedVersion: 2
-        x: 0
-        y: 351
-        width: 33
-        height: 33
+        x: 256
+        y: 288
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3399,12 +3399,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_101
       rect:
         serializedVersion: 2
-        x: 224
-        y: 357
+        x: 288
+        y: 288
         width: 32
-        height: 22
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3421,12 +3421,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_102
       rect:
         serializedVersion: 2
-        x: 256
-        y: 354
+        x: 352
+        y: 288
         width: 32
-        height: 28
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3443,12 +3443,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_103
       rect:
         serializedVersion: 2
-        x: 288
-        y: 357
+        x: 384
+        y: 288
         width: 32
-        height: 22
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3465,12 +3465,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_104
       rect:
         serializedVersion: 2
-        x: 352
-        y: 377
-        width: 6
-        height: 7
+        x: 416
+        y: 288
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3487,12 +3487,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_105
       rect:
         serializedVersion: 2
-        x: 357
-        y: 357
-        width: 22
-        height: 22
+        x: 448
+        y: 288
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3509,12 +3509,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_106
       rect:
         serializedVersion: 2
-        x: 378
-        y: 377
-        width: 10
-        height: 8
+        x: 512
+        y: 288
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3531,12 +3531,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_107
       rect:
         serializedVersion: 2
-        x: 387
-        y: 357
-        width: 26
-        height: 22
+        x: 544
+        y: 288
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3553,12 +3553,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_108
       rect:
         serializedVersion: 2
-        x: 412
-        y: 351
-        width: 34
-        height: 34
+        x: 576
+        y: 288
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3575,12 +3575,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_109
       rect:
         serializedVersion: 2
-        x: 451
-        y: 355
-        width: 26
-        height: 26
+        x: 608
+        y: 288
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3597,12 +3597,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_110
       rect:
         serializedVersion: 2
-        x: 514
-        y: 358
-        width: 28
-        height: 20
+        x: 0
+        y: 256
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3619,12 +3619,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_111
       rect:
         serializedVersion: 2
-        x: 546
-        y: 358
-        width: 28
-        height: 20
+        x: 64
+        y: 256
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3641,12 +3641,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_112
       rect:
         serializedVersion: 2
-        x: 578
-        y: 358
-        width: 28
-        height: 20
+        x: 96
+        y: 256
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3663,12 +3663,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_113
       rect:
         serializedVersion: 2
-        x: 610
-        y: 358
-        width: 28
-        height: 20
+        x: 128
+        y: 256
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3685,12 +3685,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_114
       rect:
         serializedVersion: 2
-        x: 66
-        y: 342
-        width: 28
-        height: 23
+        x: 192
+        y: 256
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3707,12 +3707,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_115
       rect:
         serializedVersion: 2
-        x: 103
-        y: 294
-        width: 26
-        height: 69
+        x: 224
+        y: 256
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3729,12 +3729,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_116
       rect:
         serializedVersion: 2
-        x: 193
-        y: 361
-        width: 30
-        height: 14
+        x: 256
+        y: 256
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3751,12 +3751,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_117
       rect:
         serializedVersion: 2
-        x: 0
-        y: 319
+        x: 288
+        y: 256
         width: 32
-        height: 33
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3773,12 +3773,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_118
       rect:
         serializedVersion: 2
-        x: 225
-        y: 320
-        width: 30
+        x: 352
+        y: 256
+        width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3795,12 +3795,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_119
       rect:
         serializedVersion: 2
-        x: 258
-        y: 343
-        width: 19
-        height: 10
+        x: 384
+        y: 256
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3817,12 +3817,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_120
       rect:
         serializedVersion: 2
-        x: 274
-        y: 338
-        width: 14
-        height: 15
+        x: 416
+        y: 256
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3839,12 +3839,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_121
       rect:
         serializedVersion: 2
-        x: 289
-        y: 344
-        width: 10
-        height: 8
+        x: 448
+        y: 256
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3861,12 +3861,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_122
       rect:
         serializedVersion: 2
-        x: 298
-        y: 343
-        width: 12
-        height: 10
+        x: 512
+        y: 256
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3883,12 +3883,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_123
       rect:
         serializedVersion: 2
-        x: 308
-        y: 346
-        width: 6
-        height: 6
+        x: 544
+        y: 256
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3905,12 +3905,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_124
       rect:
         serializedVersion: 2
-        x: 352
-        y: 352
-        width: 6
-        height: 7
+        x: 576
+        y: 256
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3927,12 +3927,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_125
       rect:
         serializedVersion: 2
-        x: 378
-        y: 351
-        width: 10
-        height: 8
+        x: 608
+        y: 256
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3949,12 +3949,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_126
       rect:
         serializedVersion: 2
-        x: 446
-        y: 320
-        width: 35
+        x: 0
+        y: 224
+        width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3971,12 +3971,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_127
       rect:
         serializedVersion: 2
-        x: 195
-        y: 323
-        width: 26
-        height: 25
+        x: 64
+        y: 224
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3993,12 +3993,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_128
       rect:
         serializedVersion: 2
-        x: 255
-        y: 333
-        width: 6
-        height: 11
+        x: 96
+        y: 224
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4015,12 +4015,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_129
       rect:
         serializedVersion: 2
-        x: 260
-        y: 337
-        width: 6
-        height: 9
+        x: 128
+        y: 224
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4037,12 +4037,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_130
       rect:
         serializedVersion: 2
-        x: 260
-        y: 326
-        width: 10
-        height: 15
+        x: 192
+        y: 224
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4059,12 +4059,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_131
       rect:
         serializedVersion: 2
-        x: 266
-        y: 337
-        width: 6
-        height: 7
+        x: 224
+        y: 224
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4081,12 +4081,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_132
       rect:
         serializedVersion: 2
-        x: 271
-        y: 331
-        width: 13
-        height: 15
+        x: 256
+        y: 224
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4103,12 +4103,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_133
       rect:
         serializedVersion: 2
-        x: 272
-        y: 334
-        width: 7
-        height: 8
+        x: 288
+        y: 224
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4125,12 +4125,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_134
       rect:
         serializedVersion: 2
-        x: 283
-        y: 328
-        width: 9
-        height: 16
+        x: 352
+        y: 224
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4147,12 +4147,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_135
       rect:
         serializedVersion: 2
-        x: 288
-        y: 331
-        width: 9
-        height: 10
+        x: 384
+        y: 224
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4169,12 +4169,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_136
       rect:
         serializedVersion: 2
-        x: 291
-        y: 340
-        width: 8
-        height: 7
+        x: 416
+        y: 224
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4191,12 +4191,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_137
       rect:
         serializedVersion: 2
-        x: 309
-        y: 339
-        width: 11
-        height: 11
+        x: 448
+        y: 224
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4213,12 +4213,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_138
       rect:
         serializedVersion: 2
-        x: 311
-        y: 328
-        width: 10
-        height: 13
+        x: 512
+        y: 224
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4235,12 +4235,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_139
       rect:
         serializedVersion: 2
-        x: 352
-        y: 323
-        width: 94
-        height: 25
+        x: 544
+        y: 224
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4257,12 +4257,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_140
       rect:
         serializedVersion: 2
-        x: 519
-        y: 328
-        width: 18
-        height: 15
+        x: 576
+        y: 224
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4279,12 +4279,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_141
       rect:
         serializedVersion: 2
-        x: 547
-        y: 327
-        width: 25
-        height: 19
+        x: 608
+        y: 224
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4301,12 +4301,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_142
       rect:
         serializedVersion: 2
-        x: 577
-        y: 324
-        width: 30
-        height: 24
+        x: 0
+        y: 192
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4323,12 +4323,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_143
       rect:
         serializedVersion: 2
-        x: 608
-        y: 330
-        width: 6
-        height: 11
+        x: 64
+        y: 192
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4345,12 +4345,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_144
       rect:
         serializedVersion: 2
-        x: 611
-        y: 340
-        width: 7
-        height: 6
+        x: 96
+        y: 192
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4367,12 +4367,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_145
       rect:
         serializedVersion: 2
-        x: 617
-        y: 323
-        width: 23
-        height: 25
+        x: 128
+        y: 192
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4389,12 +4389,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_146
       rect:
         serializedVersion: 2
-        x: 256
-        y: 322
-        width: 13
-        height: 12
+        x: 192
+        y: 192
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4411,12 +4411,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_147
       rect:
         serializedVersion: 2
-        x: 261
-        y: 319
-        width: 25
-        height: 12
+        x: 224
+        y: 192
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4433,12 +4433,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_148
       rect:
         serializedVersion: 2
-        x: 265
-        y: 330
-        width: 9
-        height: 8
+        x: 256
+        y: 192
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4455,12 +4455,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_149
       rect:
         serializedVersion: 2
-        x: 272
-        y: 328
-        width: 6
-        height: 7
+        x: 288
+        y: 192
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4477,12 +4477,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_150
       rect:
         serializedVersion: 2
-        x: 278
-        y: 326
-        width: 6
-        height: 9
+        x: 352
+        y: 192
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4499,12 +4499,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_151
       rect:
         serializedVersion: 2
-        x: 288
-        y: 322
-        width: 11
-        height: 11
+        x: 384
+        y: 192
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4521,12 +4521,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_152
       rect:
         serializedVersion: 2
-        x: 309
-        y: 325
-        width: 8
-        height: 7
+        x: 416
+        y: 192
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4543,12 +4543,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_153
       rect:
         serializedVersion: 2
-        x: 611
-        y: 325
-        width: 7
-        height: 6
+        x: 448
+        y: 192
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4565,12 +4565,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_154
       rect:
         serializedVersion: 2
-        x: 294
-        y: 320
-        width: 6
-        height: 6
+        x: 512
+        y: 192
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4587,12 +4587,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_155
       rect:
         serializedVersion: 2
-        x: 298
-        y: 319
-        width: 12
-        height: 10
+        x: 544
+        y: 192
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4609,12 +4609,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_156
       rect:
         serializedVersion: 2
-        x: 309
-        y: 320
-        width: 10
-        height: 8
+        x: 576
+        y: 192
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4631,12 +4631,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_157
       rect:
         serializedVersion: 2
-        x: 357
-        y: 287
-        width: 23
-        height: 34
+        x: 608
+        y: 192
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4653,12 +4653,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_158
       rect:
         serializedVersion: 2
-        x: 388
-        y: 287
-        width: 24
-        height: 34
+        x: 0
+        y: 160
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4675,12 +4675,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_159
       rect:
         serializedVersion: 2
-        x: 421
-        y: 287
-        width: 23
-        height: 33
+        x: 64
+        y: 160
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4697,12 +4697,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_160
       rect:
         serializedVersion: 2
-        x: 453
-        y: 287
-        width: 22
-        height: 34
+        x: 96
+        y: 160
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4719,12 +4719,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_161
       rect:
         serializedVersion: 2
-        x: 1
-        y: 289
-        width: 29
-        height: 29
+        x: 128
+        y: 160
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4741,12 +4741,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_162
       rect:
         serializedVersion: 2
-        x: 129
-        y: 287
-        width: 30
-        height: 26
+        x: 192
+        y: 160
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4763,12 +4763,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_163
       rect:
         serializedVersion: 2
-        x: 197
-        y: 287
-        width: 23
+        x: 224
+        y: 160
+        width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4785,12 +4785,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_164
       rect:
         serializedVersion: 2
-        x: 227
-        y: 287
-        width: 27
-        height: 28
+        x: 256
+        y: 160
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4807,12 +4807,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_165
       rect:
         serializedVersion: 2
-        x: 264
-        y: 295
-        width: 24
-        height: 22
+        x: 288
+        y: 160
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4829,12 +4829,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_166
       rect:
         serializedVersion: 2
-        x: 299
-        y: 311
-        width: 6
-        height: 6
+        x: 352
+        y: 160
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4851,12 +4851,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_167
       rect:
         serializedVersion: 2
-        x: 306
-        y: 298
-        width: 15
-        height: 20
+        x: 384
+        y: 160
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4873,12 +4873,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_168
       rect:
         serializedVersion: 2
-        x: 516
-        y: 297
-        width: 17
-        height: 18
+        x: 416
+        y: 160
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4895,12 +4895,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_169
       rect:
         serializedVersion: 2
-        x: 523
-        y: 293
-        width: 17
-        height: 18
+        x: 448
+        y: 160
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4917,12 +4917,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_170
       rect:
         serializedVersion: 2
-        x: 545
-        y: 259
-        width: 29
-        height: 54
+        x: 512
+        y: 160
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4939,12 +4939,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_171
       rect:
         serializedVersion: 2
-        x: 560
-        y: 295
-        width: 11
-        height: 20
+        x: 544
+        y: 160
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4961,12 +4961,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_172
       rect:
         serializedVersion: 2
-        x: 588
-        y: 300
-        width: 15
-        height: 15
+        x: 576
+        y: 160
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4983,12 +4983,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_173
       rect:
         serializedVersion: 2
-        x: 613
-        y: 303
-        width: 19
-        height: 12
+        x: 608
+        y: 160
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5005,12 +5005,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_174
       rect:
         serializedVersion: 2
-        x: 256
-        y: 288
-        width: 14
-        height: 21
+        x: 0
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5027,12 +5027,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_175
       rect:
         serializedVersion: 2
-        x: 265
-        y: 287
-        width: 12
-        height: 16
+        x: 64
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5049,12 +5049,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_176
       rect:
         serializedVersion: 2
-        x: 277
-        y: 287
-        width: 10
-        height: 11
+        x: 96
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5071,12 +5071,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_177
       rect:
         serializedVersion: 2
-        x: 285
-        y: 288
-        width: 11
-        height: 19
+        x: 128
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5093,12 +5093,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_178
       rect:
         serializedVersion: 2
-        x: 294
-        y: 296
-        width: 12
-        height: 14
+        x: 192
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5115,12 +5115,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_179
       rect:
         serializedVersion: 2
-        x: 296
-        y: 284
-        width: 13
-        height: 16
+        x: 224
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5137,12 +5137,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_180
       rect:
         serializedVersion: 2
-        x: 309
-        y: 284
-        width: 11
-        height: 16
+        x: 256
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5159,12 +5159,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_181
       rect:
         serializedVersion: 2
-        x: 581
-        y: 293
-        width: 15
-        height: 15
+        x: 288
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5181,12 +5181,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_182
       rect:
         serializedVersion: 2
-        x: 615
-        y: 293
-        width: 19
-        height: 12
+        x: 352
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5203,12 +5203,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_183
       rect:
         serializedVersion: 2
-        x: 0
-        y: 255
-        width: 33
-        height: 34
+        x: 384
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5225,12 +5225,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_184
       rect:
         serializedVersion: 2
-        x: 63
-        y: 255
-        width: 23
-        height: 34
+        x: 416
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5247,12 +5247,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_185
       rect:
         serializedVersion: 2
-        x: 99
-        y: 255
-        width: 19
-        height: 29
+        x: 448
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5269,12 +5269,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_186
       rect:
         serializedVersion: 2
-        x: 136
-        y: 255
-        width: 14
-        height: 25
+        x: 512
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5291,12 +5291,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_187
       rect:
         serializedVersion: 2
-        x: 197
-        y: 261
-        width: 22
-        height: 22
+        x: 544
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5313,12 +5313,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_188
       rect:
         serializedVersion: 2
-        x: 230
-        y: 262
-        width: 20
-        height: 20
+        x: 576
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5335,12 +5335,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_189
       rect:
         serializedVersion: 2
-        x: 257
-        y: 257
-        width: 30
-        height: 30
+        x: 608
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5357,12 +5357,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_190
       rect:
         serializedVersion: 2
-        x: 287
-        y: 270
-        width: 15
-        height: 6
+        x: 64
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5379,12 +5379,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_191
       rect:
         serializedVersion: 2
-        x: 289
-        y: 276
-        width: 12
-        height: 9
+        x: 96
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5401,12 +5401,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_192
       rect:
         serializedVersion: 2
-        x: 289
-        y: 257
-        width: 11
-        height: 12
+        x: 128
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5423,12 +5423,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_193
       rect:
         serializedVersion: 2
-        x: 300
-        y: 255
-        width: 7
-        height: 15
+        x: 192
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5445,12 +5445,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_194
       rect:
         serializedVersion: 2
-        x: 302
-        y: 274
-        width: 6
-        height: 16
+        x: 224
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5467,12 +5467,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_195
       rect:
         serializedVersion: 2
-        x: 306
-        y: 264
-        width: 15
-        height: 11
+        x: 256
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5489,12 +5489,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_196
       rect:
         serializedVersion: 2
-        x: 307
-        y: 257
-        width: 9
-        height: 11
+        x: 288
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5511,12 +5511,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_197
       rect:
         serializedVersion: 2
-        x: 308
-        y: 275
-        width: 11
-        height: 9
+        x: 352
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5533,12 +5533,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_198
       rect:
         serializedVersion: 2
-        x: 351
-        y: 191
-        width: 130
-        height: 98
+        x: 384
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5555,12 +5555,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_199
       rect:
         serializedVersion: 2
-        x: 515
-        y: 260
-        width: 25
-        height: 25
+        x: 416
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5577,12 +5577,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_200
       rect:
         serializedVersion: 2
-        x: 575
-        y: 268
-        width: 7
-        height: 9
+        x: 448
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5599,12 +5599,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_201
       rect:
         serializedVersion: 2
-        x: 578
-        y: 259
-        width: 27
-        height: 29
+        x: 512
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5621,12 +5621,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_202
       rect:
         serializedVersion: 2
-        x: 587
-        y: 257
-        width: 9
-        height: 7
+        x: 544
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5643,12 +5643,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_203
       rect:
         serializedVersion: 2
-        x: 601
-        y: 268
-        width: 7
-        height: 9
+        x: 576
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5665,12 +5665,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_204
       rect:
         serializedVersion: 2
-        x: 607
-        y: 262
-        width: 11
-        height: 26
+        x: 608
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5687,12 +5687,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_205
       rect:
         serializedVersion: 2
-        x: 608
-        y: 256
-        width: 17
-        height: 7
+        x: 64
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5709,12 +5709,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_206
       rect:
         serializedVersion: 2
-        x: 616
-        y: 262
-        width: 24
-        height: 27
+        x: 96
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5731,12 +5731,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_207
       rect:
         serializedVersion: 2
-        x: 624
-        y: 257
-        width: 15
-        height: 6
+        x: 128
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5753,12 +5753,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_208
       rect:
         serializedVersion: 2
-        x: 0
-        y: 241
-        width: 9
-        height: 12
+        x: 192
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5775,12 +5775,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_209
       rect:
         serializedVersion: 2
-        x: 8
-        y: 241
-        width: 10
-        height: 12
+        x: 224
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5797,12 +5797,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_210
       rect:
         serializedVersion: 2
-        x: 16
-        y: 242
-        width: 9
-        height: 12
+        x: 256
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5819,12 +5819,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_211
       rect:
         serializedVersion: 2
-        x: 17
-        y: 227
-        width: 8
-        height: 15
+        x: 288
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5841,12 +5841,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_212
       rect:
         serializedVersion: 2
-        x: 24
-        y: 231
-        width: 8
-        height: 16
+        x: 352
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5863,12 +5863,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_213
       rect:
         serializedVersion: 2
-        x: 67
-        y: 192
-        width: 24
-        height: 65
+        x: 384
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5885,12 +5885,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_214
       rect:
         serializedVersion: 2
-        x: 103
-        y: 197
-        width: 20
-        height: 55
+        x: 416
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5907,12 +5907,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_215
       rect:
         serializedVersion: 2
-        x: 140
-        y: 201
-        width: 15
-        height: 47
+        x: 448
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5929,12 +5929,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_216
       rect:
         serializedVersion: 2
-        x: 197
-        y: 229
-        width: 22
-        height: 22
+        x: 512
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5951,12 +5951,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_217
       rect:
         serializedVersion: 2
-        x: 229
-        y: 229
-        width: 22
-        height: 22
+        x: 544
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5973,12 +5973,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_218
       rect:
         serializedVersion: 2
-        x: 261
-        y: 229
-        width: 22
-        height: 22
+        x: 576
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5995,12 +5995,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_219
       rect:
         serializedVersion: 2
-        x: 293
-        y: 229
-        width: 22
-        height: 22
+        x: 608
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -6017,12 +6017,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_220
       rect:
         serializedVersion: 2
-        x: 512
-        y: 224
+        x: 192
+        y: 32
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -6039,12 +6039,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_221
       rect:
         serializedVersion: 2
-        x: 544
-        y: 224
+        x: 224
+        y: 32
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -6061,12 +6061,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_222
       rect:
         serializedVersion: 2
-        x: 576
-        y: 224
+        x: 256
+        y: 32
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -6083,12 +6083,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_223
       rect:
         serializedVersion: 2
-        x: 608
-        y: 224
+        x: 288
+        y: 32
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -6105,12 +6105,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_224
       rect:
         serializedVersion: 2
-        x: 4
-        y: 227
-        width: 7
-        height: 11
+        x: 352
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -6127,12 +6127,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_225
       rect:
         serializedVersion: 2
-        x: 8
-        y: 231
-        width: 6
-        height: 8
+        x: 384
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -6149,12 +6149,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_226
       rect:
         serializedVersion: 2
-        x: 0
-        y: 145
-        width: 33
-        height: 77
+        x: 416
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -6171,12 +6171,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_227
       rect:
         serializedVersion: 2
-        x: 69
-        y: 165
-        width: 23
-        height: 23
+        x: 448
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -6193,12 +6193,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_228
       rect:
         serializedVersion: 2
-        x: 99
-        y: 163
-        width: 26
-        height: 26
+        x: 512
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -6215,12 +6215,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_229
       rect:
         serializedVersion: 2
-        x: 130
-        y: 177
-        width: 7
-        height: 8
+        x: 544
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -6237,12 +6237,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_230
       rect:
         serializedVersion: 2
-        x: 130
-        y: 167
-        width: 7
-        height: 8
+        x: 576
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -6259,12 +6259,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_231
       rect:
         serializedVersion: 2
-        x: 135
-        y: 183
-        width: 8
-        height: 7
+        x: 608
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -6281,12 +6281,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_232
       rect:
         serializedVersion: 2
-        x: 135
-        y: 162
-        width: 8
-        height: 7
+        x: 192
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -6303,12 +6303,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_233
       rect:
         serializedVersion: 2
-        x: 145
-        y: 183
-        width: 8
-        height: 7
+        x: 224
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -6325,12 +6325,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_234
       rect:
         serializedVersion: 2
-        x: 145
-        y: 162
-        width: 8
-        height: 7
+        x: 256
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -6347,12 +6347,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_235
       rect:
         serializedVersion: 2
-        x: 151
-        y: 177
-        width: 7
-        height: 8
+        x: 288
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -6369,12 +6369,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_236
       rect:
         serializedVersion: 2
-        x: 151
-        y: 167
-        width: 7
-        height: 8
+        x: 352
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -6391,12 +6391,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_237
       rect:
         serializedVersion: 2
-        x: 192
-        y: 192
-        width: 31
+        x: 384
+        y: 0
+        width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -6413,12 +6413,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_238
       rect:
         serializedVersion: 2
-        x: 200
-        y: 168
-        width: 16
-        height: 16
+        x: 416
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -6435,12 +6435,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_239
       rect:
         serializedVersion: 2
-        x: 225
-        y: 192
-        width: 30
+        x: 448
+        y: 0
+        width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -6457,12 +6457,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_240
       rect:
         serializedVersion: 2
-        x: 229
-        y: 176
-        width: 6
-        height: 6
+        x: 512
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -6479,12 +6479,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_241
       rect:
         serializedVersion: 2
-        x: 229
-        y: 170
-        width: 6
-        height: 6
+        x: 544
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -6501,12 +6501,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_242
       rect:
         serializedVersion: 2
-        x: 234
-        y: 181
-        width: 6
-        height: 6
+        x: 576
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -6523,12 +6523,12 @@ TextureImporter:
       name: Yellow Effect Bullet Impact Explosion 32x32_243
       rect:
         serializedVersion: 2
-        x: 234
-        y: 165
-        width: 6
-        height: 6
+        x: 608
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -6541,2541 +6541,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: Yellow Effect Bullet Impact Explosion 32x32_244
-      rect:
-        serializedVersion: 2
-        x: 240
-        y: 181
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a99d7ab17663f58c0800000000000000
-      internalID: -4008425326862935654
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Yellow Effect Bullet Impact Explosion 32x32_245
-      rect:
-        serializedVersion: 2
-        x: 240
-        y: 165
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1e338d4b8b04bbbd0800000000000000
-      internalID: -2613423996706212895
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Yellow Effect Bullet Impact Explosion 32x32_246
-      rect:
-        serializedVersion: 2
-        x: 245
-        y: 176
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f41bebbc82f0a3d60800000000000000
-      internalID: 7870619966674743631
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Yellow Effect Bullet Impact Explosion 32x32_247
-      rect:
-        serializedVersion: 2
-        x: 245
-        y: 170
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9a20c723e39fe1110800000000000000
-      internalID: 1233697393476371113
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Yellow Effect Bullet Impact Explosion 32x32_248
-      rect:
-        serializedVersion: 2
-        x: 258
-        y: 162
-        width: 42
-        height: 61
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1c77ef2bd178e3930800000000000000
-      internalID: 4124882870344775617
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Yellow Effect Bullet Impact Explosion 32x32_249
-      rect:
-        serializedVersion: 2
-        x: 289
-        y: 179
-        width: 30
-        height: 45
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: cebad1ad05806e4a0800000000000000
-      internalID: -6564550263496135700
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Yellow Effect Bullet Impact Explosion 32x32_250
-      rect:
-        serializedVersion: 2
-        x: 304
-        y: 152
-        width: 14
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6470a4e208e2c03d0800000000000000
-      internalID: -3239162903918934202
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Yellow Effect Bullet Impact Explosion 32x32_251
-      rect:
-        serializedVersion: 2
-        x: 356
-        y: 161
-        width: 25
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 641a60ce065168e30800000000000000
-      internalID: 4505311983251661126
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Yellow Effect Bullet Impact Explosion 32x32_252
-      rect:
-        serializedVersion: 2
-        x: 383
-        y: 160
-        width: 30
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 05a7f42ef2804be90800000000000000
-      internalID: -7010969718155675056
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Yellow Effect Bullet Impact Explosion 32x32_253
-      rect:
-        serializedVersion: 2
-        x: 416
-        y: 163
-        width: 33
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 020521595ac1eccb0800000000000000
-      internalID: -4841901051880517600
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Yellow Effect Bullet Impact Explosion 32x32_254
-      rect:
-        serializedVersion: 2
-        x: 449
-        y: 163
-        width: 31
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 83e5bd7a3aad019f0800000000000000
-      internalID: -499659162207429064
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Yellow Effect Bullet Impact Explosion 32x32_255
-      rect:
-        serializedVersion: 2
-        x: 516
-        y: 163
-        width: 25
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 39d8a5fdb1018e500800000000000000
-      internalID: 425607876683926931
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Yellow Effect Bullet Impact Explosion 32x32_256
-      rect:
-        serializedVersion: 2
-        x: 517
-        y: 191
-        width: 21
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5d3c1f98e679c7b00800000000000000
-      internalID: 827702932545848277
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Yellow Effect Bullet Impact Explosion 32x32_257
-      rect:
-        serializedVersion: 2
-        x: 548
-        y: 191
-        width: 22
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e4e7ade09a0c26160800000000000000
-      internalID: 7017383001727860302
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Yellow Effect Bullet Impact Explosion 32x32_258
-      rect:
-        serializedVersion: 2
-        x: 549
-        y: 163
-        width: 24
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 39eee6b98a60e1910800000000000000
-      internalID: 1809891421481528979
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Yellow Effect Bullet Impact Explosion 32x32_259
-      rect:
-        serializedVersion: 2
-        x: 580
-        y: 191
-        width: 22
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e225f392f6558c240800000000000000
-      internalID: 4812190137767121454
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Yellow Effect Bullet Impact Explosion 32x32_260
-      rect:
-        serializedVersion: 2
-        x: 581
-        y: 163
-        width: 24
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3a4b7ea6e2f933fe0800000000000000
-      internalID: -1210448853121649501
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Yellow Effect Bullet Impact Explosion 32x32_261
-      rect:
-        serializedVersion: 2
-        x: 612
-        y: 191
-        width: 22
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 810bba0ad0e36c2d0800000000000000
-      internalID: -3258849052104871912
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Yellow Effect Bullet Impact Explosion 32x32_262
-      rect:
-        serializedVersion: 2
-        x: 614
-        y: 161
-        width: 24
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f7c59e940acce3c00800000000000000
-      internalID: 882367565818059903
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Yellow Effect Bullet Impact Explosion 32x32_263
-      rect:
-        serializedVersion: 2
-        x: 65
-        y: 111
-        width: 29
-        height: 47
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 485f3d8dfae029990800000000000000
-      internalID: -7380820690886986364
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Yellow Effect Bullet Impact Explosion 32x32_264
-      rect:
-        serializedVersion: 2
-        x: 97
-        y: 113
-        width: 30
-        height: 46
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 50132088dc67770d0800000000000000
-      internalID: -3425138366469754619
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Yellow Effect Bullet Impact Explosion 32x32_265
-      rect:
-        serializedVersion: 2
-        x: 131
-        y: 113
-        width: 27
-        height: 46
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4afaf317fca3a52c0800000000000000
-      internalID: -4442173419814932572
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Yellow Effect Bullet Impact Explosion 32x32_266
-      rect:
-        serializedVersion: 2
-        x: 193
-        y: 128
-        width: 30
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 84cbc04f1b2c51ea0800000000000000
-      internalID: -5902597667039691704
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Yellow Effect Bullet Impact Explosion 32x32_267
-      rect:
-        serializedVersion: 2
-        x: 228
-        y: 129
-        width: 24
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 70c402c4abdab3460800000000000000
-      internalID: 7222557443071429639
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Yellow Effect Bullet Impact Explosion 32x32_268
-      rect:
-        serializedVersion: 2
-        x: 259
-        y: 131
-        width: 26
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: bc61b713de5926440800000000000000
-      internalID: 4927665788266682059
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Yellow Effect Bullet Impact Explosion 32x32_269
-      rect:
-        serializedVersion: 2
-        x: 289
-        y: 128
-        width: 30
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6ef3ad5c35788e560800000000000000
-      internalID: 7343267986299043814
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Yellow Effect Bullet Impact Explosion 32x32_270
-      rect:
-        serializedVersion: 2
-        x: 296
-        y: 152
-        width: 10
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3f4b491ed08e30270800000000000000
-      internalID: 8215665291570754803
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Yellow Effect Bullet Impact Explosion 32x32_271
-      rect:
-        serializedVersion: 2
-        x: 353
-        y: 133
-        width: 30
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 32217c741c2684fb0800000000000000
-      internalID: -4663368831869709789
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Yellow Effect Bullet Impact Explosion 32x32_272
-      rect:
-        serializedVersion: 2
-        x: 385
-        y: 133
-        width: 30
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3a191a73a97408fb0800000000000000
-      internalID: -4647636087762480733
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Yellow Effect Bullet Impact Explosion 32x32_273
-      rect:
-        serializedVersion: 2
-        x: 416
-        y: 134
-        width: 31
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: abea717b9a9022760800000000000000
-      internalID: 7431512959640645306
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Yellow Effect Bullet Impact Explosion 32x32_274
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 134
-        width: 31
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fd260a7522c493dc0800000000000000
-      internalID: -3658809511879089441
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Yellow Effect Bullet Impact Explosion 32x32_275
-      rect:
-        serializedVersion: 2
-        x: 511
-        y: 128
-        width: 33
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 435b73eb353ded2d0800000000000000
-      internalID: -3251929524287851212
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Yellow Effect Bullet Impact Explosion 32x32_276
-      rect:
-        serializedVersion: 2
-        x: 548
-        y: 130
-        width: 24
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f5835130acd41e1a0800000000000000
-      internalID: -6782054033812801441
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Yellow Effect Bullet Impact Explosion 32x32_277
-      rect:
-        serializedVersion: 2
-        x: 577
-        y: 132
-        width: 29
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1d14c74f16e715eb0800000000000000
-      internalID: -4732862774210969135
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Yellow Effect Bullet Impact Explosion 32x32_278
-      rect:
-        serializedVersion: 2
-        x: 608
-        y: 146
-        width: 30
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2c4950ace49a92340800000000000000
-      internalID: 4839585430448215234
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Yellow Effect Bullet Impact Explosion 32x32_279
-      rect:
-        serializedVersion: 2
-        x: 296
-        y: 127
-        width: 10
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 505a96b9a1addb910800000000000000
-      internalID: 1854878429357909253
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Yellow Effect Bullet Impact Explosion 32x32_280
-      rect:
-        serializedVersion: 2
-        x: 304
-        y: 127
-        width: 8
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f68d0ffb941a125e0800000000000000
-      internalID: -1936089026667685777
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Yellow Effect Bullet Impact Explosion 32x32_281
-      rect:
-        serializedVersion: 2
-        x: 544
-        y: 95
-        width: 68
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b9867c6017eb61c10800000000000000
-      internalID: 2024014475203930267
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Yellow Effect Bullet Impact Explosion 32x32_282
-      rect:
-        serializedVersion: 2
-        x: 605
-        y: 129
-        width: 18
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 74526f244f49adca0800000000000000
-      internalID: -5991312577446664889
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Yellow Effect Bullet Impact Explosion 32x32_283
-      rect:
-        serializedVersion: 2
-        x: 612
-        y: 115
-        width: 28
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f54bc5b40da370160800000000000000
-      internalID: 6991621612807959647
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Yellow Effect Bullet Impact Explosion 32x32_284
-      rect:
-        serializedVersion: 2
-        x: 69
-        y: 84
-        width: 23
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9f2237fd936c89cc0800000000000000
-      internalID: -3703992741647932679
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Yellow Effect Bullet Impact Explosion 32x32_285
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 80
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e6ecbe19996c0a960800000000000000
-      internalID: 7611301733136584302
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Yellow Effect Bullet Impact Explosion 32x32_286
-      rect:
-        serializedVersion: 2
-        x: 127
-        y: 79
-        width: 34
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9e0fceaeabaa586a0800000000000000
-      internalID: -6447559571728961303
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Yellow Effect Bullet Impact Explosion 32x32_287
-      rect:
-        serializedVersion: 2
-        x: 197
-        y: 95
-        width: 20
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 08bf034ae98d10af0800000000000000
-      internalID: -431825913379751040
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Yellow Effect Bullet Impact Explosion 32x32_288
-      rect:
-        serializedVersion: 2
-        x: 230
-        y: 95
-        width: 20
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0fc84aba549435090800000000000000
-      internalID: -8047007545599685392
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Yellow Effect Bullet Impact Explosion 32x32_289
-      rect:
-        serializedVersion: 2
-        x: 261
-        y: 95
-        width: 21
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: edec27b9b12390e40800000000000000
-      internalID: 5623080703902273246
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Yellow Effect Bullet Impact Explosion 32x32_290
-      rect:
-        serializedVersion: 2
-        x: 294
-        y: 95
-        width: 20
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e2d50fca657017d80800000000000000
-      internalID: -8254808573143392978
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Yellow Effect Bullet Impact Explosion 32x32_291
-      rect:
-        serializedVersion: 2
-        x: 351
-        y: 68
-        width: 130
-        height: 55
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5551076294e0cde50800000000000000
-      internalID: 6835354041781851477
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Yellow Effect Bullet Impact Explosion 32x32_292
-      rect:
-        serializedVersion: 2
-        x: 518
-        y: 105
-        width: 18
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3e12dfd9b804c2090800000000000000
-      internalID: -8057994664877415965
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Yellow Effect Bullet Impact Explosion 32x32_293
-      rect:
-        serializedVersion: 2
-        x: 629
-        y: 96
-        width: 11
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ac8898359483e0fa0800000000000000
-      internalID: -5832662579812923190
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Yellow Effect Bullet Impact Explosion 32x32_294
-      rect:
-        serializedVersion: 2
-        x: 609
-        y: 95
-        width: 19
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d113527a2c4317700800000000000000
-      internalID: 536267841266331933
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Yellow Effect Bullet Impact Explosion 32x32_295
-      rect:
-        serializedVersion: 2
-        x: 195
-        y: 68
-        width: 26
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 61f3aff75169fb540800000000000000
-      internalID: 5025900728254349078
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Yellow Effect Bullet Impact Explosion 32x32_296
-      rect:
-        serializedVersion: 2
-        x: 228
-        y: 67
-        width: 24
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 39bc8ddf3b75d6ed0800000000000000
-      internalID: -2419180994258482285
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Yellow Effect Bullet Impact Explosion 32x32_297
-      rect:
-        serializedVersion: 2
-        x: 259
-        y: 68
-        width: 26
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f03c2c87af601ba50800000000000000
-      internalID: 6535012207128920847
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Yellow Effect Bullet Impact Explosion 32x32_298
-      rect:
-        serializedVersion: 2
-        x: 292
-        y: 67
-        width: 24
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8d2009edba035a110800000000000000
-      internalID: 1271475984533553880
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Yellow Effect Bullet Impact Explosion 32x32_299
-      rect:
-        serializedVersion: 2
-        x: 523
-        y: 75
-        width: 10
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 952c1fe04033e62b0800000000000000
-      internalID: -5589473994996596135
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Yellow Effect Bullet Impact Explosion 32x32_300
-      rect:
-        serializedVersion: 2
-        x: 550
-        y: 72
-        width: 17
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e4eefb128933edd50800000000000000
-      internalID: 6763900418851335758
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Yellow Effect Bullet Impact Explosion 32x32_301
-      rect:
-        serializedVersion: 2
-        x: 578
-        y: 74
-        width: 22
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 17b882f90a6a052b0800000000000000
-      internalID: -5597791128026313871
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Yellow Effect Bullet Impact Explosion 32x32_302
-      rect:
-        serializedVersion: 2
-        x: 580
-        y: 69
-        width: 14
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 918211fa3c6c93370800000000000000
-      internalID: 8302885931792279577
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Yellow Effect Bullet Impact Explosion 32x32_303
-      rect:
-        serializedVersion: 2
-        x: 608
-        y: 69
-        width: 25
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1b3f5eaa62955dc80800000000000000
-      internalID: -8298628715749444687
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Yellow Effect Bullet Impact Explosion 32x32_304
-      rect:
-        serializedVersion: 2
-        x: 191
-        y: 39
-        width: 66
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3bbf417e682302640800000000000000
-      internalID: 5053094336893615027
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Yellow Effect Bullet Impact Explosion 32x32_305
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 40
-        width: 32
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 41c53127ab7b36cf0800000000000000
-      internalID: -260162342051685356
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Yellow Effect Bullet Impact Explosion 32x32_306
-      rect:
-        serializedVersion: 2
-        x: 288
-        y: 40
-        width: 32
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: eb94853446d8dc040800000000000000
-      internalID: 4669543850419177918
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Yellow Effect Bullet Impact Explosion 32x32_307
-      rect:
-        serializedVersion: 2
-        x: 359
-        y: 39
-        width: 18
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ce2123caf6c23e7e0800000000000000
-      internalID: -1737496173092924692
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Yellow Effect Bullet Impact Explosion 32x32_308
-      rect:
-        serializedVersion: 2
-        x: 391
-        y: 39
-        width: 20
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5f71a44e1fd862750800000000000000
-      internalID: 6279862800471431157
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Yellow Effect Bullet Impact Explosion 32x32_309
-      rect:
-        serializedVersion: 2
-        x: 421
-        y: 49
-        width: 7
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8c20c08feadc223f0800000000000000
-      internalID: -926952421915360568
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Yellow Effect Bullet Impact Explosion 32x32_310
-      rect:
-        serializedVersion: 2
-        x: 423
-        y: 53
-        width: 7
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6ec24240a8f6e1a70800000000000000
-      internalID: 8799593360494177510
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Yellow Effect Bullet Impact Explosion 32x32_311
-      rect:
-        serializedVersion: 2
-        x: 430
-        y: 54
-        width: 12
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c9ec35304d3d39250800000000000000
-      internalID: 5950332440228908700
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Yellow Effect Bullet Impact Explosion 32x32_312
-      rect:
-        serializedVersion: 2
-        x: 452
-        y: 51
-        width: 9
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 96fdeaf6049a5e8c0800000000000000
-      internalID: -3970581402240491671
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Yellow Effect Bullet Impact Explosion 32x32_313
-      rect:
-        serializedVersion: 2
-        x: 462
-        y: 55
-        width: 12
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 149a64de87df520a0800000000000000
-      internalID: -6906835757684053695
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Yellow Effect Bullet Impact Explosion 32x32_314
-      rect:
-        serializedVersion: 2
-        x: 522
-        y: 42
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 858619b00be0fafc0800000000000000
-      internalID: -3481547837662992296
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Yellow Effect Bullet Impact Explosion 32x32_315
-      rect:
-        serializedVersion: 2
-        x: 552
-        y: 50
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8bd5ab2ecfcb7fde0800000000000000
-      internalID: -1299362173151453768
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Yellow Effect Bullet Impact Explosion 32x32_316
-      rect:
-        serializedVersion: 2
-        x: 557
-        y: 52
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f3bbefb6da49832e0800000000000000
-      internalID: -2145801749879932097
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Yellow Effect Bullet Impact Explosion 32x32_317
-      rect:
-        serializedVersion: 2
-        x: 562
-        y: 50
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 012cd0fe68cf63680800000000000000
-      internalID: -8775549167418359280
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Yellow Effect Bullet Impact Explosion 32x32_318
-      rect:
-        serializedVersion: 2
-        x: 582
-        y: 46
-        width: 8
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 354732d5e94895ac0800000000000000
-      internalID: -3865912989418556333
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Yellow Effect Bullet Impact Explosion 32x32_319
-      rect:
-        serializedVersion: 2
-        x: 589
-        y: 51
-        width: 6
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 481ab07bc2dd05230800000000000000
-      internalID: 3625640884152541572
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Yellow Effect Bullet Impact Explosion 32x32_320
-      rect:
-        serializedVersion: 2
-        x: 594
-        y: 46
-        width: 8
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c59b7dde217266c10800000000000000
-      internalID: 2046366042939701596
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Yellow Effect Bullet Impact Explosion 32x32_321
-      rect:
-        serializedVersion: 2
-        x: 613
-        y: 50
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6d3ccad5898a4d0d0800000000000000
-      internalID: -3398906446397783082
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Yellow Effect Bullet Impact Explosion 32x32_322
-      rect:
-        serializedVersion: 2
-        x: 621
-        y: 53
-        width: 6
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2c219a07b516ec0d0800000000000000
-      internalID: -3400673623258099006
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Yellow Effect Bullet Impact Explosion 32x32_323
-      rect:
-        serializedVersion: 2
-        x: 627
-        y: 50
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 21198c4ec2ad6adc0800000000000000
-      internalID: -3627972563448590062
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Yellow Effect Bullet Impact Explosion 32x32_324
-      rect:
-        serializedVersion: 2
-        x: 420
-        y: 43
-        width: 8
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2faceee210dde0540800000000000000
-      internalID: 4976157635443084018
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Yellow Effect Bullet Impact Explosion 32x32_325
-      rect:
-        serializedVersion: 2
-        x: 436
-        y: 40
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9dc4835ba11f479d0800000000000000
-      internalID: -2777329973168943911
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Yellow Effect Bullet Impact Explosion 32x32_326
-      rect:
-        serializedVersion: 2
-        x: 438
-        y: 46
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 84d00d8e68fff93d0800000000000000
-      internalID: -3197556255513113272
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Yellow Effect Bullet Impact Explosion 32x32_327
-      rect:
-        serializedVersion: 2
-        x: 451
-        y: 43
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f4691c08194d7a5f0800000000000000
-      internalID: -745393491911010737
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Yellow Effect Bullet Impact Explosion 32x32_328
-      rect:
-        serializedVersion: 2
-        x: 470
-        y: 38
-        width: 6
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e44306db9b7187180800000000000000
-      internalID: -9117511359097981874
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Yellow Effect Bullet Impact Explosion 32x32_329
-      rect:
-        serializedVersion: 2
-        x: 550
-        y: 45
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ec4fd2db9d3551960800000000000000
-      internalID: 7572050543140271310
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Yellow Effect Bullet Impact Explosion 32x32_330
-      rect:
-        serializedVersion: 2
-        x: 552
-        y: 40
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 78f49bbbd92e9a510800000000000000
-      internalID: 1561027912947814279
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Yellow Effect Bullet Impact Explosion 32x32_331
-      rect:
-        serializedVersion: 2
-        x: 562
-        y: 40
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: cea126b51cc0727d0800000000000000
-      internalID: -2943369806861952276
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Yellow Effect Bullet Impact Explosion 32x32_332
-      rect:
-        serializedVersion: 2
-        x: 564
-        y: 45
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d88346946d24bc3a0800000000000000
-      internalID: -6644143337133295475
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Yellow Effect Bullet Impact Explosion 32x32_333
-      rect:
-        serializedVersion: 2
-        x: 579
-        y: 45
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 248f56488ce210eb0800000000000000
-      internalID: -4755468292776921022
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Yellow Effect Bullet Impact Explosion 32x32_334
-      rect:
-        serializedVersion: 2
-        x: 582
-        y: 38
-        width: 12
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2ed75ec9a2ffa3800800000000000000
-      internalID: 593066859438636514
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Yellow Effect Bullet Impact Explosion 32x32_335
-      rect:
-        serializedVersion: 2
-        x: 594
-        y: 39
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fc8a296ecc5c74240800000000000000
-      internalID: 4776003413682071759
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Yellow Effect Bullet Impact Explosion 32x32_336
-      rect:
-        serializedVersion: 2
-        x: 599
-        y: 45
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 74d81f3f9599fe510800000000000000
-      internalID: 1580650605854166343
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Yellow Effect Bullet Impact Explosion 32x32_337
-      rect:
-        serializedVersion: 2
-        x: 609
-        y: 45
-        width: 9
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e6901579c8086adb0800000000000000
-      internalID: -4780992613084755602
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Yellow Effect Bullet Impact Explosion 32x32_338
-      rect:
-        serializedVersion: 2
-        x: 613
-        y: 37
-        width: 8
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1559bf0916ad358e0800000000000000
-      internalID: -1705779721264196271
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Yellow Effect Bullet Impact Explosion 32x32_339
-      rect:
-        serializedVersion: 2
-        x: 627
-        y: 38
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2bba6f582c2bb1db0800000000000000
-      internalID: -4820062427629048910
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Yellow Effect Bullet Impact Explosion 32x32_340
-      rect:
-        serializedVersion: 2
-        x: 630
-        y: 45
-        width: 9
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 98fb6cd2cd521d9f0800000000000000
-      internalID: -445533260541935735
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Yellow Effect Bullet Impact Explosion 32x32_341
-      rect:
-        serializedVersion: 2
-        x: 423
-        y: 38
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: be64c3262038d3270800000000000000
-      internalID: 8231879740164425451
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Yellow Effect Bullet Impact Explosion 32x32_342
-      rect:
-        serializedVersion: 2
-        x: 428
-        y: 38
-        width: 7
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 784601cc219776db0800000000000000
-      internalID: -4798733756299975545
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Yellow Effect Bullet Impact Explosion 32x32_343
-      rect:
-        serializedVersion: 2
-        x: 454
-        y: 36
-        width: 13
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ce33844de8dbe8730800000000000000
-      internalID: 4003345539923457004
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Yellow Effect Bullet Impact Explosion 32x32_344
-      rect:
-        serializedVersion: 2
-        x: 557
-        y: 38
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6fe4de00cc5077110800000000000000
-      internalID: 1258480994620362486
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Yellow Effect Bullet Impact Explosion 32x32_345
-      rect:
-        serializedVersion: 2
-        x: 589
-        y: 35
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2d2207f79bd9d5450800000000000000
-      internalID: 6079188492052603602
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Yellow Effect Bullet Impact Explosion 32x32_346
-      rect:
-        serializedVersion: 2
-        x: 621
-        y: 33
-        width: 6
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 74a7212a4d67e6310800000000000000
-      internalID: 1400187189783067207
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Yellow Effect Bullet Impact Explosion 32x32_347
-      rect:
-        serializedVersion: 2
-        x: 199
-        y: 7
-        width: 18
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c404314bb60817f30800000000000000
-      internalID: 4571576296828780620
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Yellow Effect Bullet Impact Explosion 32x32_348
-      rect:
-        serializedVersion: 2
-        x: 232
-        y: 8
-        width: 17
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 29b4eb21473c8da30800000000000000
-      internalID: 4240353952467405714
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Yellow Effect Bullet Impact Explosion 32x32_349
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 0
-        width: 33
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0e9de985fee25ebe0800000000000000
-      internalID: -1448700099610879520
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Yellow Effect Bullet Impact Explosion 32x32_350
-      rect:
-        serializedVersion: 2
-        x: 292
-        y: 2
-        width: 26
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 09a3060bdf47ccaf0800000000000000
-      internalID: -374796036043949424
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Yellow Effect Bullet Impact Explosion 32x32_351
-      rect:
-        serializedVersion: 2
-        x: 351
-        y: 4
-        width: 33
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: dbfc5b8b82cf85820800000000000000
-      internalID: 2907350811295469501
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Yellow Effect Bullet Impact Explosion 32x32_352
-      rect:
-        serializedVersion: 2
-        x: 387
-        y: 0
-        width: 28
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6910ac854f05b64b0800000000000000
-      internalID: -5446170313982606954
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Yellow Effect Bullet Impact Explosion 32x32_353
-      rect:
-        serializedVersion: 2
-        x: 415
-        y: 4
-        width: 33
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2efa2f9121f7460a0800000000000000
-      internalID: -6889241814248542238
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Yellow Effect Bullet Impact Explosion 32x32_354
-      rect:
-        serializedVersion: 2
-        x: 447
-        y: 3
-        width: 34
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 912e214da68cae300800000000000000
-      internalID: 282258287814173209
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Yellow Effect Bullet Impact Explosion 32x32_355
-      rect:
-        serializedVersion: 2
-        x: 513
-        y: 1
-        width: 30
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0a773e99d31457d30800000000000000
-      internalID: 4428517541419382688
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Yellow Effect Bullet Impact Explosion 32x32_356
-      rect:
-        serializedVersion: 2
-        x: 546
-        y: 2
-        width: 28
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6b593419a3a27d4c0800000000000000
-      internalID: -4262892091249289802
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Yellow Effect Bullet Impact Explosion 32x32_357
-      rect:
-        serializedVersion: 2
-        x: 577
-        y: 1
-        width: 30
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fbe4f5c0806704f30800000000000000
-      internalID: 4557772599838330559
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Yellow Effect Bullet Impact Explosion 32x32_358
-      rect:
-        serializedVersion: 2
-        x: 610
-        y: 2
-        width: 28
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a03645e37b02bc8a0800000000000000
-      internalID: -6283892883668573430
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: db06b4e4853c6bd4ca6a4c2cc4e87797
     internalID: 0
     vertices: []
     indices: 
@@ -9083,7 +6553,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":32.0,"y":32.0},"gridSpriteSize":{"x":32.0,"y":32.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       Yellow Effect Bullet Impact Explosion 32x32_0: -7601128640899648248
       Yellow Effect Bullet Impact Explosion 32x32_1: -4269063540917145890
@@ -9247,133 +6719,18 @@ TextureImporter:
       Yellow Effect Bullet Impact Explosion 32x32_241: 1563607908891960791
       Yellow Effect Bullet Impact Explosion 32x32_242: 6292807774033352426
       Yellow Effect Bullet Impact Explosion 32x32_243: 7338183860571505959
-      Yellow Effect Bullet Impact Explosion 32x32_244: -4008425326862935654
-      Yellow Effect Bullet Impact Explosion 32x32_245: -2613423996706212895
-      Yellow Effect Bullet Impact Explosion 32x32_246: 7870619966674743631
-      Yellow Effect Bullet Impact Explosion 32x32_247: 1233697393476371113
-      Yellow Effect Bullet Impact Explosion 32x32_248: 4124882870344775617
-      Yellow Effect Bullet Impact Explosion 32x32_249: -6564550263496135700
       Yellow Effect Bullet Impact Explosion 32x32_25: 3292079767883833094
-      Yellow Effect Bullet Impact Explosion 32x32_250: -3239162903918934202
-      Yellow Effect Bullet Impact Explosion 32x32_251: 4505311983251661126
-      Yellow Effect Bullet Impact Explosion 32x32_252: -7010969718155675056
-      Yellow Effect Bullet Impact Explosion 32x32_253: -4841901051880517600
-      Yellow Effect Bullet Impact Explosion 32x32_254: -499659162207429064
-      Yellow Effect Bullet Impact Explosion 32x32_255: 425607876683926931
-      Yellow Effect Bullet Impact Explosion 32x32_256: 827702932545848277
-      Yellow Effect Bullet Impact Explosion 32x32_257: 7017383001727860302
-      Yellow Effect Bullet Impact Explosion 32x32_258: 1809891421481528979
-      Yellow Effect Bullet Impact Explosion 32x32_259: 4812190137767121454
       Yellow Effect Bullet Impact Explosion 32x32_26: 1354067976340896299
-      Yellow Effect Bullet Impact Explosion 32x32_260: -1210448853121649501
-      Yellow Effect Bullet Impact Explosion 32x32_261: -3258849052104871912
-      Yellow Effect Bullet Impact Explosion 32x32_262: 882367565818059903
-      Yellow Effect Bullet Impact Explosion 32x32_263: -7380820690886986364
-      Yellow Effect Bullet Impact Explosion 32x32_264: -3425138366469754619
-      Yellow Effect Bullet Impact Explosion 32x32_265: -4442173419814932572
-      Yellow Effect Bullet Impact Explosion 32x32_266: -5902597667039691704
-      Yellow Effect Bullet Impact Explosion 32x32_267: 7222557443071429639
-      Yellow Effect Bullet Impact Explosion 32x32_268: 4927665788266682059
-      Yellow Effect Bullet Impact Explosion 32x32_269: 7343267986299043814
       Yellow Effect Bullet Impact Explosion 32x32_27: 4212151185455473195
-      Yellow Effect Bullet Impact Explosion 32x32_270: 8215665291570754803
-      Yellow Effect Bullet Impact Explosion 32x32_271: -4663368831869709789
-      Yellow Effect Bullet Impact Explosion 32x32_272: -4647636087762480733
-      Yellow Effect Bullet Impact Explosion 32x32_273: 7431512959640645306
-      Yellow Effect Bullet Impact Explosion 32x32_274: -3658809511879089441
-      Yellow Effect Bullet Impact Explosion 32x32_275: -3251929524287851212
-      Yellow Effect Bullet Impact Explosion 32x32_276: -6782054033812801441
-      Yellow Effect Bullet Impact Explosion 32x32_277: -4732862774210969135
-      Yellow Effect Bullet Impact Explosion 32x32_278: 4839585430448215234
-      Yellow Effect Bullet Impact Explosion 32x32_279: 1854878429357909253
       Yellow Effect Bullet Impact Explosion 32x32_28: 7337599031575446734
-      Yellow Effect Bullet Impact Explosion 32x32_280: -1936089026667685777
-      Yellow Effect Bullet Impact Explosion 32x32_281: 2024014475203930267
-      Yellow Effect Bullet Impact Explosion 32x32_282: -5991312577446664889
-      Yellow Effect Bullet Impact Explosion 32x32_283: 6991621612807959647
-      Yellow Effect Bullet Impact Explosion 32x32_284: -3703992741647932679
-      Yellow Effect Bullet Impact Explosion 32x32_285: 7611301733136584302
-      Yellow Effect Bullet Impact Explosion 32x32_286: -6447559571728961303
-      Yellow Effect Bullet Impact Explosion 32x32_287: -431825913379751040
-      Yellow Effect Bullet Impact Explosion 32x32_288: -8047007545599685392
-      Yellow Effect Bullet Impact Explosion 32x32_289: 5623080703902273246
       Yellow Effect Bullet Impact Explosion 32x32_29: 7659749501580971713
-      Yellow Effect Bullet Impact Explosion 32x32_290: -8254808573143392978
-      Yellow Effect Bullet Impact Explosion 32x32_291: 6835354041781851477
-      Yellow Effect Bullet Impact Explosion 32x32_292: -8057994664877415965
-      Yellow Effect Bullet Impact Explosion 32x32_293: -5832662579812923190
-      Yellow Effect Bullet Impact Explosion 32x32_294: 536267841266331933
-      Yellow Effect Bullet Impact Explosion 32x32_295: 5025900728254349078
-      Yellow Effect Bullet Impact Explosion 32x32_296: -2419180994258482285
-      Yellow Effect Bullet Impact Explosion 32x32_297: 6535012207128920847
-      Yellow Effect Bullet Impact Explosion 32x32_298: 1271475984533553880
-      Yellow Effect Bullet Impact Explosion 32x32_299: -5589473994996596135
       Yellow Effect Bullet Impact Explosion 32x32_3: 1697253548203891747
       Yellow Effect Bullet Impact Explosion 32x32_30: -4527372562280791739
-      Yellow Effect Bullet Impact Explosion 32x32_300: 6763900418851335758
-      Yellow Effect Bullet Impact Explosion 32x32_301: -5597791128026313871
-      Yellow Effect Bullet Impact Explosion 32x32_302: 8302885931792279577
-      Yellow Effect Bullet Impact Explosion 32x32_303: -8298628715749444687
-      Yellow Effect Bullet Impact Explosion 32x32_304: 5053094336893615027
-      Yellow Effect Bullet Impact Explosion 32x32_305: -260162342051685356
-      Yellow Effect Bullet Impact Explosion 32x32_306: 4669543850419177918
-      Yellow Effect Bullet Impact Explosion 32x32_307: -1737496173092924692
-      Yellow Effect Bullet Impact Explosion 32x32_308: 6279862800471431157
-      Yellow Effect Bullet Impact Explosion 32x32_309: -926952421915360568
       Yellow Effect Bullet Impact Explosion 32x32_31: -4536504592426521850
-      Yellow Effect Bullet Impact Explosion 32x32_310: 8799593360494177510
-      Yellow Effect Bullet Impact Explosion 32x32_311: 5950332440228908700
-      Yellow Effect Bullet Impact Explosion 32x32_312: -3970581402240491671
-      Yellow Effect Bullet Impact Explosion 32x32_313: -6906835757684053695
-      Yellow Effect Bullet Impact Explosion 32x32_314: -3481547837662992296
-      Yellow Effect Bullet Impact Explosion 32x32_315: -1299362173151453768
-      Yellow Effect Bullet Impact Explosion 32x32_316: -2145801749879932097
-      Yellow Effect Bullet Impact Explosion 32x32_317: -8775549167418359280
-      Yellow Effect Bullet Impact Explosion 32x32_318: -3865912989418556333
-      Yellow Effect Bullet Impact Explosion 32x32_319: 3625640884152541572
       Yellow Effect Bullet Impact Explosion 32x32_32: 6941726116865374865
-      Yellow Effect Bullet Impact Explosion 32x32_320: 2046366042939701596
-      Yellow Effect Bullet Impact Explosion 32x32_321: -3398906446397783082
-      Yellow Effect Bullet Impact Explosion 32x32_322: -3400673623258099006
-      Yellow Effect Bullet Impact Explosion 32x32_323: -3627972563448590062
-      Yellow Effect Bullet Impact Explosion 32x32_324: 4976157635443084018
-      Yellow Effect Bullet Impact Explosion 32x32_325: -2777329973168943911
-      Yellow Effect Bullet Impact Explosion 32x32_326: -3197556255513113272
-      Yellow Effect Bullet Impact Explosion 32x32_327: -745393491911010737
-      Yellow Effect Bullet Impact Explosion 32x32_328: -9117511359097981874
-      Yellow Effect Bullet Impact Explosion 32x32_329: 7572050543140271310
       Yellow Effect Bullet Impact Explosion 32x32_33: 6546188339998509056
-      Yellow Effect Bullet Impact Explosion 32x32_330: 1561027912947814279
-      Yellow Effect Bullet Impact Explosion 32x32_331: -2943369806861952276
-      Yellow Effect Bullet Impact Explosion 32x32_332: -6644143337133295475
-      Yellow Effect Bullet Impact Explosion 32x32_333: -4755468292776921022
-      Yellow Effect Bullet Impact Explosion 32x32_334: 593066859438636514
-      Yellow Effect Bullet Impact Explosion 32x32_335: 4776003413682071759
-      Yellow Effect Bullet Impact Explosion 32x32_336: 1580650605854166343
-      Yellow Effect Bullet Impact Explosion 32x32_337: -4780992613084755602
-      Yellow Effect Bullet Impact Explosion 32x32_338: -1705779721264196271
-      Yellow Effect Bullet Impact Explosion 32x32_339: -4820062427629048910
       Yellow Effect Bullet Impact Explosion 32x32_34: 3501743488983342916
-      Yellow Effect Bullet Impact Explosion 32x32_340: -445533260541935735
-      Yellow Effect Bullet Impact Explosion 32x32_341: 8231879740164425451
-      Yellow Effect Bullet Impact Explosion 32x32_342: -4798733756299975545
-      Yellow Effect Bullet Impact Explosion 32x32_343: 4003345539923457004
-      Yellow Effect Bullet Impact Explosion 32x32_344: 1258480994620362486
-      Yellow Effect Bullet Impact Explosion 32x32_345: 6079188492052603602
-      Yellow Effect Bullet Impact Explosion 32x32_346: 1400187189783067207
-      Yellow Effect Bullet Impact Explosion 32x32_347: 4571576296828780620
-      Yellow Effect Bullet Impact Explosion 32x32_348: 4240353952467405714
-      Yellow Effect Bullet Impact Explosion 32x32_349: -1448700099610879520
       Yellow Effect Bullet Impact Explosion 32x32_35: -2611078560901548493
-      Yellow Effect Bullet Impact Explosion 32x32_350: -374796036043949424
-      Yellow Effect Bullet Impact Explosion 32x32_351: 2907350811295469501
-      Yellow Effect Bullet Impact Explosion 32x32_352: -5446170313982606954
-      Yellow Effect Bullet Impact Explosion 32x32_353: -6889241814248542238
-      Yellow Effect Bullet Impact Explosion 32x32_354: 282258287814173209
-      Yellow Effect Bullet Impact Explosion 32x32_355: 4428517541419382688
-      Yellow Effect Bullet Impact Explosion 32x32_356: -4262892091249289802
-      Yellow Effect Bullet Impact Explosion 32x32_357: 4557772599838330559
-      Yellow Effect Bullet Impact Explosion 32x32_358: -6283892883668573430
       Yellow Effect Bullet Impact Explosion 32x32_36: 2365826660169122243
       Yellow Effect Bullet Impact Explosion 32x32_37: 8396629977404701405
       Yellow Effect Bullet Impact Explosion 32x32_38: 985306711269420569

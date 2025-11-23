@@ -1111,7 +1111,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -1149,7 +1149,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -1177,12 +1177,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_0
       rect:
         serializedVersion: 2
-        x: 2
-        y: 482
-        width: 28
-        height: 28
+        x: 0
+        y: 480
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1199,12 +1199,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_1
       rect:
         serializedVersion: 2
-        x: 63
-        y: 479
-        width: 19
-        height: 20
+        x: 64
+        y: 480
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1221,12 +1221,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_2
       rect:
         serializedVersion: 2
-        x: 95
-        y: 479
-        width: 28
-        height: 20
+        x: 96
+        y: 480
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1243,12 +1243,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_3
       rect:
         serializedVersion: 2
-        x: 127
-        y: 479
+        x: 128
+        y: 480
         width: 32
-        height: 28
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1265,12 +1265,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_4
       rect:
         serializedVersion: 2
-        x: 148
-        y: 498
-        width: 11
-        height: 14
+        x: 192
+        y: 480
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1287,12 +1287,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_5
       rect:
         serializedVersion: 2
-        x: 191
-        y: 458
-        width: 130
-        height: 54
+        x: 224
+        y: 480
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1309,12 +1309,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_6
       rect:
         serializedVersion: 2
-        x: 351
-        y: 488
-        width: 28
-        height: 21
+        x: 256
+        y: 480
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1331,12 +1331,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_7
       rect:
         serializedVersion: 2
-        x: 375
-        y: 495
-        width: 10
-        height: 7
+        x: 288
+        y: 480
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1353,12 +1353,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_8
       rect:
         serializedVersion: 2
-        x: 383
-        y: 487
-        width: 26
-        height: 22
+        x: 352
+        y: 480
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1375,12 +1375,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_9
       rect:
         serializedVersion: 2
-        x: 408
-        y: 488
-        width: 36
-        height: 19
+        x: 384
+        y: 480
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1397,12 +1397,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_10
       rect:
         serializedVersion: 2
-        x: 438
-        y: 501
-        width: 9
-        height: 7
+        x: 416
+        y: 480
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1419,12 +1419,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_11
       rect:
         serializedVersion: 2
-        x: 443
-        y: 486
-        width: 37
-        height: 22
+        x: 448
+        y: 480
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1441,12 +1441,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_12
       rect:
         serializedVersion: 2
-        x: 517
-        y: 479
-        width: 51
-        height: 33
+        x: 512
+        y: 480
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1463,12 +1463,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_13
       rect:
         serializedVersion: 2
-        x: 575
-        y: 490
-        width: 41
-        height: 20
+        x: 544
+        y: 480
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1485,12 +1485,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_14
       rect:
         serializedVersion: 2
-        x: 575
-        y: 482
-        width: 20
-        height: 8
+        x: 576
+        y: 480
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1507,12 +1507,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_15
       rect:
         serializedVersion: 2
-        x: 0
-        y: 448
+        x: 608
+        y: 480
         width: 32
-        height: 33
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1529,12 +1529,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_16
       rect:
         serializedVersion: 2
-        x: 66
-        y: 450
-        width: 28
-        height: 28
+        x: 0
+        y: 448
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1551,12 +1551,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_17
       rect:
         serializedVersion: 2
-        x: 99
-        y: 451
-        width: 26
-        height: 26
+        x: 64
+        y: 448
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1573,12 +1573,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_18
       rect:
         serializedVersion: 2
-        x: 131
-        y: 451
-        width: 26
-        height: 26
+        x: 96
+        y: 448
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1595,12 +1595,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_19
       rect:
         serializedVersion: 2
-        x: 196
-        y: 467
-        width: 9
-        height: 9
+        x: 128
+        y: 448
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1617,12 +1617,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_20
       rect:
         serializedVersion: 2
-        x: 204
-        y: 468
-        width: 8
-        height: 11
+        x: 192
+        y: 448
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1639,12 +1639,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_21
       rect:
         serializedVersion: 2
-        x: 211
-        y: 467
-        width: 9
-        height: 9
+        x: 224
+        y: 448
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1661,12 +1661,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_22
       rect:
         serializedVersion: 2
-        x: 227
-        y: 469
-        width: 8
-        height: 8
+        x: 256
+        y: 448
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1683,12 +1683,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_23
       rect:
         serializedVersion: 2
-        x: 236
-        y: 470
-        width: 8
-        height: 10
+        x: 288
+        y: 448
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1705,12 +1705,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_24
       rect:
         serializedVersion: 2
-        x: 245
-        y: 469
-        width: 8
-        height: 8
+        x: 352
+        y: 448
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1727,12 +1727,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_25
       rect:
         serializedVersion: 2
-        x: 258
-        y: 471
-        width: 7
-        height: 7
+        x: 384
+        y: 448
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1749,12 +1749,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_26
       rect:
         serializedVersion: 2
-        x: 268
-        y: 473
-        width: 8
-        height: 8
+        x: 416
+        y: 448
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1771,12 +1771,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_27
       rect:
         serializedVersion: 2
-        x: 279
-        y: 471
-        width: 7
-        height: 7
+        x: 448
+        y: 448
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1793,12 +1793,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_28
       rect:
         serializedVersion: 2
-        x: 289
-        y: 473
-        width: 6
-        height: 6
+        x: 512
+        y: 448
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1815,12 +1815,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_29
       rect:
         serializedVersion: 2
-        x: 313
-        y: 473
-        width: 6
-        height: 6
+        x: 544
+        y: 448
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1837,12 +1837,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_30
       rect:
         serializedVersion: 2
-        x: 356
-        y: 452
-        width: 24
-        height: 24
+        x: 576
+        y: 448
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1859,12 +1859,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_31
       rect:
         serializedVersion: 2
-        x: 388
-        y: 452
-        width: 24
-        height: 24
+        x: 608
+        y: 448
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1881,12 +1881,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_32
       rect:
         serializedVersion: 2
-        x: 420
-        y: 452
-        width: 24
-        height: 24
+        x: 0
+        y: 416
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1903,12 +1903,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_33
       rect:
         serializedVersion: 2
-        x: 452
-        y: 452
-        width: 24
-        height: 24
+        x: 64
+        y: 416
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1925,12 +1925,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_34
       rect:
         serializedVersion: 2
-        x: 513
-        y: 450
-        width: 29
-        height: 28
+        x: 96
+        y: 416
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1947,12 +1947,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_35
       rect:
         serializedVersion: 2
-        x: 545
-        y: 449
-        width: 29
-        height: 30
+        x: 128
+        y: 416
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1969,12 +1969,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_36
       rect:
         serializedVersion: 2
-        x: 577
-        y: 449
-        width: 29
-        height: 30
+        x: 192
+        y: 416
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1991,12 +1991,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_37
       rect:
         serializedVersion: 2
-        x: 608
-        y: 449
-        width: 30
-        height: 37
+        x: 224
+        y: 416
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2013,12 +2013,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_38
       rect:
         serializedVersion: 2
-        x: 193
-        y: 460
-        width: 11
-        height: 8
+        x: 256
+        y: 416
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2035,12 +2035,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_39
       rect:
         serializedVersion: 2
-        x: 196
-        y: 452
-        width: 9
-        height: 9
+        x: 288
+        y: 416
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2057,12 +2057,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_40
       rect:
         serializedVersion: 2
-        x: 204
-        y: 460
-        width: 8
-        height: 8
+        x: 352
+        y: 416
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2079,12 +2079,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_41
       rect:
         serializedVersion: 2
-        x: 204
-        y: 449
-        width: 8
-        height: 11
+        x: 384
+        y: 416
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2101,12 +2101,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_42
       rect:
         serializedVersion: 2
-        x: 211
-        y: 452
-        width: 9
-        height: 9
+        x: 416
+        y: 416
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2123,12 +2123,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_43
       rect:
         serializedVersion: 2
-        x: 212
-        y: 460
-        width: 11
-        height: 8
+        x: 448
+        y: 416
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2145,12 +2145,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_44
       rect:
         serializedVersion: 2
-        x: 224
-        y: 460
-        width: 10
-        height: 8
+        x: 512
+        y: 416
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2167,12 +2167,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_45
       rect:
         serializedVersion: 2
-        x: 235
-        y: 459
-        width: 10
-        height: 10
+        x: 544
+        y: 416
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2189,12 +2189,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_46
       rect:
         serializedVersion: 2
-        x: 246
-        y: 460
-        width: 10
-        height: 8
+        x: 576
+        y: 416
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2211,12 +2211,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_47
       rect:
         serializedVersion: 2
-        x: 255
-        y: 460
-        width: 8
-        height: 8
+        x: 608
+        y: 416
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2233,12 +2233,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_48
       rect:
         serializedVersion: 2
-        x: 266
-        y: 458
-        width: 12
-        height: 12
+        x: 0
+        y: 384
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2255,12 +2255,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_49
       rect:
         serializedVersion: 2
-        x: 281
-        y: 460
-        width: 11
-        height: 8
+        x: 64
+        y: 384
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2277,12 +2277,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_50
       rect:
         serializedVersion: 2
-        x: 227
-        y: 451
-        width: 8
-        height: 8
+        x: 96
+        y: 384
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2299,12 +2299,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_51
       rect:
         serializedVersion: 2
-        x: 236
-        y: 448
-        width: 8
-        height: 10
+        x: 128
+        y: 384
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2321,12 +2321,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_52
       rect:
         serializedVersion: 2
-        x: 245
-        y: 451
-        width: 8
-        height: 8
+        x: 192
+        y: 384
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2343,12 +2343,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_53
       rect:
         serializedVersion: 2
-        x: 258
-        y: 450
-        width: 7
-        height: 7
+        x: 224
+        y: 384
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2365,12 +2365,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_54
       rect:
         serializedVersion: 2
-        x: 268
-        y: 447
-        width: 8
-        height: 8
+        x: 256
+        y: 384
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2387,12 +2387,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_55
       rect:
         serializedVersion: 2
-        x: 279
-        y: 450
-        width: 7
-        height: 7
+        x: 288
+        y: 384
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2409,12 +2409,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_56
       rect:
         serializedVersion: 2
-        x: 289
-        y: 449
-        width: 6
-        height: 6
+        x: 352
+        y: 384
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2431,12 +2431,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_57
       rect:
         serializedVersion: 2
-        x: 289
-        y: 439
-        width: 18
-        height: 13
+        x: 384
+        y: 384
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2453,12 +2453,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_58
       rect:
         serializedVersion: 2
-        x: 313
-        y: 449
-        width: 6
-        height: 6
+        x: 416
+        y: 384
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2475,12 +2475,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_59
       rect:
         serializedVersion: 2
-        x: 8
-        y: 421
-        width: 20
-        height: 21
+        x: 448
+        y: 384
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2497,12 +2497,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_60
       rect:
         serializedVersion: 2
-        x: 68
-        y: 403
-        width: 29
-        height: 46
+        x: 512
+        y: 384
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2519,12 +2519,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_61
       rect:
         serializedVersion: 2
-        x: 101
-        y: 403
-        width: 27
-        height: 40
+        x: 544
+        y: 384
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2541,12 +2541,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_62
       rect:
         serializedVersion: 2
-        x: 232
-        y: 424
-        width: 16
-        height: 16
+        x: 576
+        y: 384
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2563,12 +2563,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_63
       rect:
         serializedVersion: 2
-        x: 260
-        y: 433
-        width: 11
-        height: 11
+        x: 608
+        y: 384
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2585,12 +2585,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_64
       rect:
         serializedVersion: 2
-        x: 273
-        y: 433
-        width: 11
-        height: 11
+        x: 0
+        y: 352
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2607,12 +2607,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_65
       rect:
         serializedVersion: 2
-        x: 311
-        y: 439
-        width: 8
-        height: 8
+        x: 64
+        y: 352
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2629,12 +2629,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_66
       rect:
         serializedVersion: 2
-        x: 354
-        y: 416
-        width: 29
-        height: 31
+        x: 96
+        y: 352
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2651,12 +2651,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_67
       rect:
         serializedVersion: 2
-        x: 385
-        y: 417
-        width: 31
-        height: 29
+        x: 128
+        y: 352
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2673,12 +2673,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_68
       rect:
         serializedVersion: 2
-        x: 417
-        y: 416
-        width: 29
-        height: 31
+        x: 192
+        y: 352
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2695,12 +2695,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_69
       rect:
         serializedVersion: 2
-        x: 449
-        y: 418
-        width: 31
-        height: 29
+        x: 224
+        y: 352
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2717,12 +2717,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_70
       rect:
         serializedVersion: 2
-        x: 513
-        y: 420
-        width: 28
-        height: 24
+        x: 256
+        y: 352
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2739,12 +2739,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_71
       rect:
         serializedVersion: 2
-        x: 549
-        y: 439
-        width: 22
-        height: 8
+        x: 288
+        y: 352
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2761,12 +2761,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_72
       rect:
         serializedVersion: 2
-        x: 580
-        y: 439
-        width: 24
-        height: 8
+        x: 352
+        y: 352
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2783,12 +2783,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_73
       rect:
         serializedVersion: 2
-        x: 609
-        y: 430
-        width: 27
-        height: 17
+        x: 384
+        y: 352
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2805,12 +2805,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_74
       rect:
         serializedVersion: 2
-        x: 136
-        y: 403
-        width: 23
-        height: 23
+        x: 416
+        y: 352
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2827,12 +2827,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_75
       rect:
         serializedVersion: 2
-        x: 202
-        y: 426
-        width: 12
-        height: 12
+        x: 448
+        y: 352
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2849,12 +2849,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_76
       rect:
         serializedVersion: 2
-        x: 260
-        y: 420
-        width: 11
-        height: 11
+        x: 512
+        y: 352
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2871,12 +2871,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_77
       rect:
         serializedVersion: 2
-        x: 273
-        y: 420
-        width: 11
-        height: 11
+        x: 544
+        y: 352
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2893,12 +2893,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_78
       rect:
         serializedVersion: 2
-        x: 545
-        y: 417
-        width: 27
-        height: 17
+        x: 576
+        y: 352
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2915,12 +2915,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_79
       rect:
         serializedVersion: 2
-        x: 133
-        y: 407
-        width: 14
-        height: 18
+        x: 608
+        y: 352
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2937,12 +2937,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_80
       rect:
         serializedVersion: 2
-        x: 290
-        y: 417
-        width: 8
-        height: 8
+        x: 0
+        y: 320
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2959,12 +2959,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_81
       rect:
         serializedVersion: 2
-        x: 312
-        y: 417
-        width: 8
-        height: 8
+        x: 64
+        y: 320
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2981,12 +2981,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_82
       rect:
         serializedVersion: 2
-        x: 580
-        y: 417
-        width: 24
-        height: 8
+        x: 96
+        y: 320
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3003,12 +3003,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_83
       rect:
         serializedVersion: 2
-        x: 613
-        y: 417
-        width: 22
-        height: 8
+        x: 192
+        y: 320
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3025,12 +3025,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_84
       rect:
         serializedVersion: 2
-        x: 3
-        y: 388
-        width: 26
-        height: 24
+        x: 224
+        y: 320
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3047,12 +3047,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_85
       rect:
         serializedVersion: 2
-        x: 64
-        y: 367
+        x: 256
+        y: 320
         width: 32
-        height: 34
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3069,12 +3069,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_86
       rect:
         serializedVersion: 2
-        x: 106
-        y: 367
-        width: 22
-        height: 34
+        x: 288
+        y: 320
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3091,12 +3091,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_87
       rect:
         serializedVersion: 2
-        x: 128
-        y: 367
+        x: 352
+        y: 320
         width: 32
-        height: 34
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3113,12 +3113,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_88
       rect:
         serializedVersion: 2
-        x: 195
-        y: 391
-        width: 16
-        height: 17
+        x: 384
+        y: 320
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3135,12 +3135,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_89
       rect:
         serializedVersion: 2
-        x: 230
-        y: 392
-        width: 17
-        height: 16
+        x: 416
+        y: 320
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3157,12 +3157,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_90
       rect:
         serializedVersion: 2
-        x: 264
-        y: 387
-        width: 25
-        height: 26
+        x: 448
+        y: 320
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3179,12 +3179,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_91
       rect:
         serializedVersion: 2
-        x: 301
-        y: 389
-        width: 20
-        height: 22
+        x: 512
+        y: 320
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3201,12 +3201,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_92
       rect:
         serializedVersion: 2
-        x: 356
-        y: 390
-        width: 24
-        height: 20
+        x: 544
+        y: 320
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3223,12 +3223,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_93
       rect:
         serializedVersion: 2
-        x: 387
-        y: 390
-        width: 25
-        height: 20
+        x: 576
+        y: 320
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3245,12 +3245,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_94
       rect:
         serializedVersion: 2
-        x: 419
-        y: 389
-        width: 25
-        height: 21
+        x: 608
+        y: 320
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3267,12 +3267,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_95
       rect:
         serializedVersion: 2
-        x: 451
-        y: 390
-        width: 25
-        height: 20
+        x: 0
+        y: 288
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3289,12 +3289,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_96
       rect:
         serializedVersion: 2
-        x: 513
-        y: 384
-        width: 30
+        x: 96
+        y: 288
+        width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3311,12 +3311,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_97
       rect:
         serializedVersion: 2
-        x: 544
-        y: 385
+        x: 128
+        y: 288
         width: 32
-        height: 30
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3333,12 +3333,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_98
       rect:
         serializedVersion: 2
-        x: 577
-        y: 384
-        width: 30
+        x: 192
+        y: 288
+        width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3355,12 +3355,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_99
       rect:
         serializedVersion: 2
-        x: 608
-        y: 385
+        x: 224
+        y: 288
         width: 32
-        height: 30
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3377,12 +3377,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_100
       rect:
         serializedVersion: 2
-        x: 0
-        y: 351
-        width: 33
-        height: 33
+        x: 256
+        y: 288
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3399,12 +3399,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_101
       rect:
         serializedVersion: 2
-        x: 224
-        y: 357
+        x: 288
+        y: 288
         width: 32
-        height: 22
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3421,12 +3421,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_102
       rect:
         serializedVersion: 2
-        x: 256
-        y: 354
+        x: 352
+        y: 288
         width: 32
-        height: 28
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3443,12 +3443,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_103
       rect:
         serializedVersion: 2
-        x: 288
-        y: 357
+        x: 384
+        y: 288
         width: 32
-        height: 22
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3465,12 +3465,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_104
       rect:
         serializedVersion: 2
-        x: 352
-        y: 377
-        width: 6
-        height: 7
+        x: 416
+        y: 288
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3487,12 +3487,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_105
       rect:
         serializedVersion: 2
-        x: 357
-        y: 357
-        width: 22
-        height: 22
+        x: 448
+        y: 288
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3509,12 +3509,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_106
       rect:
         serializedVersion: 2
-        x: 378
-        y: 377
-        width: 10
-        height: 8
+        x: 512
+        y: 288
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3531,12 +3531,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_107
       rect:
         serializedVersion: 2
-        x: 387
-        y: 357
-        width: 26
-        height: 22
+        x: 544
+        y: 288
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3553,12 +3553,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_108
       rect:
         serializedVersion: 2
-        x: 412
-        y: 351
-        width: 34
-        height: 34
+        x: 576
+        y: 288
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3575,12 +3575,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_109
       rect:
         serializedVersion: 2
-        x: 451
-        y: 355
-        width: 26
-        height: 26
+        x: 608
+        y: 288
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3597,12 +3597,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_110
       rect:
         serializedVersion: 2
-        x: 514
-        y: 358
-        width: 28
-        height: 20
+        x: 0
+        y: 256
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3619,12 +3619,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_111
       rect:
         serializedVersion: 2
-        x: 546
-        y: 358
-        width: 28
-        height: 20
+        x: 64
+        y: 256
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3641,12 +3641,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_112
       rect:
         serializedVersion: 2
-        x: 578
-        y: 358
-        width: 28
-        height: 20
+        x: 96
+        y: 256
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3663,12 +3663,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_113
       rect:
         serializedVersion: 2
-        x: 610
-        y: 358
-        width: 28
-        height: 20
+        x: 128
+        y: 256
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3685,12 +3685,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_114
       rect:
         serializedVersion: 2
-        x: 66
-        y: 342
-        width: 28
-        height: 23
+        x: 192
+        y: 256
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3707,12 +3707,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_115
       rect:
         serializedVersion: 2
-        x: 103
-        y: 294
-        width: 26
-        height: 69
+        x: 224
+        y: 256
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3729,12 +3729,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_116
       rect:
         serializedVersion: 2
-        x: 193
-        y: 361
-        width: 30
-        height: 14
+        x: 256
+        y: 256
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3751,12 +3751,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_117
       rect:
         serializedVersion: 2
-        x: 0
-        y: 319
+        x: 288
+        y: 256
         width: 32
-        height: 33
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3773,12 +3773,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_118
       rect:
         serializedVersion: 2
-        x: 225
-        y: 320
-        width: 30
+        x: 352
+        y: 256
+        width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3795,12 +3795,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_119
       rect:
         serializedVersion: 2
-        x: 258
-        y: 343
-        width: 19
-        height: 10
+        x: 384
+        y: 256
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3817,12 +3817,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_120
       rect:
         serializedVersion: 2
-        x: 274
-        y: 338
-        width: 14
-        height: 15
+        x: 416
+        y: 256
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3839,12 +3839,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_121
       rect:
         serializedVersion: 2
-        x: 289
-        y: 344
-        width: 10
-        height: 8
+        x: 448
+        y: 256
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3861,12 +3861,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_122
       rect:
         serializedVersion: 2
-        x: 298
-        y: 343
-        width: 12
-        height: 10
+        x: 512
+        y: 256
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3883,12 +3883,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_123
       rect:
         serializedVersion: 2
-        x: 308
-        y: 346
-        width: 6
-        height: 6
+        x: 544
+        y: 256
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3905,12 +3905,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_124
       rect:
         serializedVersion: 2
-        x: 352
-        y: 352
-        width: 6
-        height: 7
+        x: 576
+        y: 256
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3927,12 +3927,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_125
       rect:
         serializedVersion: 2
-        x: 378
-        y: 351
-        width: 10
-        height: 8
+        x: 608
+        y: 256
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3949,12 +3949,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_126
       rect:
         serializedVersion: 2
-        x: 446
-        y: 320
-        width: 35
+        x: 0
+        y: 224
+        width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3971,12 +3971,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_127
       rect:
         serializedVersion: 2
-        x: 195
-        y: 323
-        width: 26
-        height: 25
+        x: 64
+        y: 224
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3993,12 +3993,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_128
       rect:
         serializedVersion: 2
-        x: 255
-        y: 333
-        width: 6
-        height: 11
+        x: 96
+        y: 224
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4015,12 +4015,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_129
       rect:
         serializedVersion: 2
-        x: 260
-        y: 337
-        width: 6
-        height: 9
+        x: 128
+        y: 224
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4037,12 +4037,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_130
       rect:
         serializedVersion: 2
-        x: 260
-        y: 326
-        width: 10
-        height: 15
+        x: 192
+        y: 224
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4059,12 +4059,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_131
       rect:
         serializedVersion: 2
-        x: 266
-        y: 337
-        width: 6
-        height: 7
+        x: 224
+        y: 224
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4081,12 +4081,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_132
       rect:
         serializedVersion: 2
-        x: 271
-        y: 331
-        width: 13
-        height: 15
+        x: 256
+        y: 224
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4103,12 +4103,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_133
       rect:
         serializedVersion: 2
-        x: 272
-        y: 334
-        width: 7
-        height: 8
+        x: 288
+        y: 224
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4125,12 +4125,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_134
       rect:
         serializedVersion: 2
-        x: 283
-        y: 328
-        width: 9
-        height: 16
+        x: 352
+        y: 224
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4147,12 +4147,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_135
       rect:
         serializedVersion: 2
-        x: 288
-        y: 331
-        width: 9
-        height: 10
+        x: 384
+        y: 224
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4169,12 +4169,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_136
       rect:
         serializedVersion: 2
-        x: 291
-        y: 340
-        width: 8
-        height: 7
+        x: 416
+        y: 224
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4191,12 +4191,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_137
       rect:
         serializedVersion: 2
-        x: 309
-        y: 339
-        width: 11
-        height: 11
+        x: 448
+        y: 224
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4213,12 +4213,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_138
       rect:
         serializedVersion: 2
-        x: 311
-        y: 328
-        width: 10
-        height: 13
+        x: 512
+        y: 224
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4235,12 +4235,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_139
       rect:
         serializedVersion: 2
-        x: 352
-        y: 323
-        width: 94
-        height: 25
+        x: 544
+        y: 224
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4257,12 +4257,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_140
       rect:
         serializedVersion: 2
-        x: 519
-        y: 328
-        width: 18
-        height: 15
+        x: 576
+        y: 224
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4279,12 +4279,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_141
       rect:
         serializedVersion: 2
-        x: 547
-        y: 327
-        width: 25
-        height: 19
+        x: 608
+        y: 224
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4301,12 +4301,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_142
       rect:
         serializedVersion: 2
-        x: 577
-        y: 324
-        width: 30
-        height: 24
+        x: 0
+        y: 192
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4323,12 +4323,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_143
       rect:
         serializedVersion: 2
-        x: 608
-        y: 330
-        width: 6
-        height: 11
+        x: 64
+        y: 192
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4345,12 +4345,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_144
       rect:
         serializedVersion: 2
-        x: 611
-        y: 340
-        width: 7
-        height: 6
+        x: 96
+        y: 192
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4367,12 +4367,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_145
       rect:
         serializedVersion: 2
-        x: 617
-        y: 323
-        width: 23
-        height: 25
+        x: 128
+        y: 192
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4389,12 +4389,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_146
       rect:
         serializedVersion: 2
-        x: 256
-        y: 322
-        width: 13
-        height: 12
+        x: 192
+        y: 192
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4411,12 +4411,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_147
       rect:
         serializedVersion: 2
-        x: 261
-        y: 319
-        width: 25
-        height: 12
+        x: 224
+        y: 192
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4433,12 +4433,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_148
       rect:
         serializedVersion: 2
-        x: 265
-        y: 330
-        width: 9
-        height: 8
+        x: 256
+        y: 192
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4455,12 +4455,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_149
       rect:
         serializedVersion: 2
-        x: 272
-        y: 328
-        width: 6
-        height: 7
+        x: 288
+        y: 192
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4477,12 +4477,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_150
       rect:
         serializedVersion: 2
-        x: 278
-        y: 326
-        width: 6
-        height: 9
+        x: 352
+        y: 192
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4499,12 +4499,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_151
       rect:
         serializedVersion: 2
-        x: 288
-        y: 322
-        width: 11
-        height: 11
+        x: 384
+        y: 192
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4521,12 +4521,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_152
       rect:
         serializedVersion: 2
-        x: 309
-        y: 325
-        width: 8
-        height: 7
+        x: 416
+        y: 192
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4543,12 +4543,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_153
       rect:
         serializedVersion: 2
-        x: 611
-        y: 325
-        width: 7
-        height: 6
+        x: 448
+        y: 192
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4565,12 +4565,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_154
       rect:
         serializedVersion: 2
-        x: 294
-        y: 320
-        width: 6
-        height: 6
+        x: 512
+        y: 192
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4587,12 +4587,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_155
       rect:
         serializedVersion: 2
-        x: 298
-        y: 319
-        width: 12
-        height: 10
+        x: 544
+        y: 192
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4609,12 +4609,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_156
       rect:
         serializedVersion: 2
-        x: 309
-        y: 320
-        width: 10
-        height: 8
+        x: 576
+        y: 192
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4631,12 +4631,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_157
       rect:
         serializedVersion: 2
-        x: 357
-        y: 287
-        width: 23
-        height: 34
+        x: 608
+        y: 192
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4653,12 +4653,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_158
       rect:
         serializedVersion: 2
-        x: 388
-        y: 287
-        width: 24
-        height: 34
+        x: 0
+        y: 160
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4675,12 +4675,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_159
       rect:
         serializedVersion: 2
-        x: 421
-        y: 287
-        width: 23
-        height: 33
+        x: 64
+        y: 160
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4697,12 +4697,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_160
       rect:
         serializedVersion: 2
-        x: 453
-        y: 287
-        width: 22
-        height: 34
+        x: 96
+        y: 160
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4719,12 +4719,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_161
       rect:
         serializedVersion: 2
-        x: 1
-        y: 289
-        width: 29
-        height: 29
+        x: 128
+        y: 160
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4741,12 +4741,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_162
       rect:
         serializedVersion: 2
-        x: 129
-        y: 287
-        width: 30
-        height: 26
+        x: 192
+        y: 160
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4763,12 +4763,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_163
       rect:
         serializedVersion: 2
-        x: 197
-        y: 287
-        width: 23
+        x: 224
+        y: 160
+        width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4785,12 +4785,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_164
       rect:
         serializedVersion: 2
-        x: 227
-        y: 287
-        width: 27
-        height: 28
+        x: 256
+        y: 160
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4807,12 +4807,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_165
       rect:
         serializedVersion: 2
-        x: 264
-        y: 295
-        width: 24
-        height: 22
+        x: 288
+        y: 160
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4829,12 +4829,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_166
       rect:
         serializedVersion: 2
-        x: 299
-        y: 311
-        width: 6
-        height: 6
+        x: 352
+        y: 160
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4851,12 +4851,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_167
       rect:
         serializedVersion: 2
-        x: 306
-        y: 298
-        width: 15
-        height: 20
+        x: 384
+        y: 160
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4873,12 +4873,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_168
       rect:
         serializedVersion: 2
-        x: 516
-        y: 297
-        width: 17
-        height: 18
+        x: 416
+        y: 160
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4895,12 +4895,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_169
       rect:
         serializedVersion: 2
-        x: 523
-        y: 293
-        width: 17
-        height: 18
+        x: 448
+        y: 160
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4917,12 +4917,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_170
       rect:
         serializedVersion: 2
-        x: 545
-        y: 259
-        width: 29
-        height: 54
+        x: 512
+        y: 160
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4939,12 +4939,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_171
       rect:
         serializedVersion: 2
-        x: 560
-        y: 295
-        width: 11
-        height: 20
+        x: 544
+        y: 160
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4961,12 +4961,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_172
       rect:
         serializedVersion: 2
-        x: 588
-        y: 300
-        width: 15
-        height: 15
+        x: 576
+        y: 160
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4983,12 +4983,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_173
       rect:
         serializedVersion: 2
-        x: 613
-        y: 303
-        width: 19
-        height: 12
+        x: 608
+        y: 160
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5005,12 +5005,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_174
       rect:
         serializedVersion: 2
-        x: 256
-        y: 288
-        width: 14
-        height: 21
+        x: 0
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5027,12 +5027,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_175
       rect:
         serializedVersion: 2
-        x: 265
-        y: 287
-        width: 12
-        height: 16
+        x: 64
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5049,12 +5049,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_176
       rect:
         serializedVersion: 2
-        x: 277
-        y: 287
-        width: 10
-        height: 11
+        x: 96
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5071,12 +5071,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_177
       rect:
         serializedVersion: 2
-        x: 285
-        y: 288
-        width: 11
-        height: 19
+        x: 128
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5093,12 +5093,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_178
       rect:
         serializedVersion: 2
-        x: 294
-        y: 296
-        width: 12
-        height: 14
+        x: 192
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5115,12 +5115,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_179
       rect:
         serializedVersion: 2
-        x: 296
-        y: 284
-        width: 13
-        height: 16
+        x: 224
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5137,12 +5137,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_180
       rect:
         serializedVersion: 2
-        x: 309
-        y: 284
-        width: 11
-        height: 16
+        x: 256
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5159,12 +5159,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_181
       rect:
         serializedVersion: 2
-        x: 581
-        y: 293
-        width: 15
-        height: 15
+        x: 288
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5181,12 +5181,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_182
       rect:
         serializedVersion: 2
-        x: 615
-        y: 293
-        width: 19
-        height: 12
+        x: 352
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5203,12 +5203,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_183
       rect:
         serializedVersion: 2
-        x: 0
-        y: 255
-        width: 33
-        height: 34
+        x: 384
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5225,12 +5225,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_184
       rect:
         serializedVersion: 2
-        x: 63
-        y: 255
-        width: 23
-        height: 34
+        x: 416
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5247,12 +5247,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_185
       rect:
         serializedVersion: 2
-        x: 99
-        y: 255
-        width: 19
-        height: 29
+        x: 448
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5269,12 +5269,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_186
       rect:
         serializedVersion: 2
-        x: 136
-        y: 255
-        width: 14
-        height: 25
+        x: 512
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5291,12 +5291,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_187
       rect:
         serializedVersion: 2
-        x: 197
-        y: 261
-        width: 22
-        height: 22
+        x: 544
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5313,12 +5313,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_188
       rect:
         serializedVersion: 2
-        x: 230
-        y: 262
-        width: 20
-        height: 20
+        x: 576
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5335,12 +5335,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_189
       rect:
         serializedVersion: 2
-        x: 257
-        y: 257
-        width: 30
-        height: 30
+        x: 608
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5357,12 +5357,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_190
       rect:
         serializedVersion: 2
-        x: 287
-        y: 270
-        width: 15
-        height: 6
+        x: 64
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5379,12 +5379,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_191
       rect:
         serializedVersion: 2
-        x: 289
-        y: 276
-        width: 12
-        height: 9
+        x: 96
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5401,12 +5401,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_192
       rect:
         serializedVersion: 2
-        x: 289
-        y: 257
-        width: 11
-        height: 12
+        x: 128
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5423,12 +5423,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_193
       rect:
         serializedVersion: 2
-        x: 300
-        y: 255
-        width: 7
-        height: 15
+        x: 192
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5445,12 +5445,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_194
       rect:
         serializedVersion: 2
-        x: 302
-        y: 274
-        width: 6
-        height: 16
+        x: 224
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5467,12 +5467,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_195
       rect:
         serializedVersion: 2
-        x: 306
-        y: 264
-        width: 15
-        height: 11
+        x: 256
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5489,12 +5489,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_196
       rect:
         serializedVersion: 2
-        x: 307
-        y: 257
-        width: 9
-        height: 11
+        x: 288
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5511,12 +5511,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_197
       rect:
         serializedVersion: 2
-        x: 308
-        y: 275
-        width: 11
-        height: 9
+        x: 352
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5533,12 +5533,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_198
       rect:
         serializedVersion: 2
-        x: 351
-        y: 191
-        width: 130
-        height: 98
+        x: 384
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5555,12 +5555,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_199
       rect:
         serializedVersion: 2
-        x: 515
-        y: 260
-        width: 25
-        height: 25
+        x: 416
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5577,12 +5577,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_200
       rect:
         serializedVersion: 2
-        x: 575
-        y: 268
-        width: 7
-        height: 9
+        x: 448
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5599,12 +5599,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_201
       rect:
         serializedVersion: 2
-        x: 578
-        y: 259
-        width: 27
-        height: 29
+        x: 512
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5621,12 +5621,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_202
       rect:
         serializedVersion: 2
-        x: 587
-        y: 257
-        width: 9
-        height: 7
+        x: 544
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5643,12 +5643,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_203
       rect:
         serializedVersion: 2
-        x: 601
-        y: 268
-        width: 7
-        height: 9
+        x: 576
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5665,12 +5665,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_204
       rect:
         serializedVersion: 2
-        x: 607
-        y: 262
-        width: 11
-        height: 26
+        x: 608
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5687,12 +5687,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_205
       rect:
         serializedVersion: 2
-        x: 608
-        y: 256
-        width: 17
-        height: 7
+        x: 64
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5709,12 +5709,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_206
       rect:
         serializedVersion: 2
-        x: 616
-        y: 262
-        width: 24
-        height: 27
+        x: 96
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5731,12 +5731,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_207
       rect:
         serializedVersion: 2
-        x: 624
-        y: 257
-        width: 15
-        height: 6
+        x: 128
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5753,12 +5753,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_208
       rect:
         serializedVersion: 2
-        x: 0
-        y: 241
-        width: 9
-        height: 12
+        x: 192
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5775,12 +5775,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_209
       rect:
         serializedVersion: 2
-        x: 8
-        y: 241
-        width: 10
-        height: 12
+        x: 224
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5797,12 +5797,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_210
       rect:
         serializedVersion: 2
-        x: 16
-        y: 242
-        width: 9
-        height: 12
+        x: 256
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5819,12 +5819,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_211
       rect:
         serializedVersion: 2
-        x: 17
-        y: 227
-        width: 8
-        height: 15
+        x: 288
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5841,12 +5841,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_212
       rect:
         serializedVersion: 2
-        x: 24
-        y: 231
-        width: 8
-        height: 16
+        x: 352
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5863,12 +5863,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_213
       rect:
         serializedVersion: 2
-        x: 67
-        y: 192
-        width: 24
-        height: 65
+        x: 384
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5885,12 +5885,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_214
       rect:
         serializedVersion: 2
-        x: 103
-        y: 197
-        width: 20
-        height: 55
+        x: 416
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5907,12 +5907,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_215
       rect:
         serializedVersion: 2
-        x: 140
-        y: 201
-        width: 15
-        height: 47
+        x: 448
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5929,12 +5929,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_216
       rect:
         serializedVersion: 2
-        x: 197
-        y: 229
-        width: 22
-        height: 22
+        x: 512
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5951,12 +5951,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_217
       rect:
         serializedVersion: 2
-        x: 229
-        y: 229
-        width: 22
-        height: 22
+        x: 544
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5973,12 +5973,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_218
       rect:
         serializedVersion: 2
-        x: 261
-        y: 229
-        width: 22
-        height: 22
+        x: 576
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5995,12 +5995,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_219
       rect:
         serializedVersion: 2
-        x: 293
-        y: 229
-        width: 22
-        height: 22
+        x: 608
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -6017,12 +6017,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_220
       rect:
         serializedVersion: 2
-        x: 512
-        y: 224
+        x: 192
+        y: 32
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -6039,12 +6039,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_221
       rect:
         serializedVersion: 2
-        x: 544
-        y: 224
+        x: 224
+        y: 32
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -6061,12 +6061,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_222
       rect:
         serializedVersion: 2
-        x: 576
-        y: 224
+        x: 256
+        y: 32
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -6083,12 +6083,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_223
       rect:
         serializedVersion: 2
-        x: 608
-        y: 224
+        x: 288
+        y: 32
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -6105,12 +6105,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_224
       rect:
         serializedVersion: 2
-        x: 4
-        y: 227
-        width: 7
-        height: 11
+        x: 352
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -6127,12 +6127,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_225
       rect:
         serializedVersion: 2
-        x: 8
-        y: 231
-        width: 6
-        height: 8
+        x: 384
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -6149,12 +6149,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_226
       rect:
         serializedVersion: 2
-        x: 0
-        y: 145
-        width: 33
-        height: 77
+        x: 416
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -6171,12 +6171,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_227
       rect:
         serializedVersion: 2
-        x: 69
-        y: 165
-        width: 23
-        height: 23
+        x: 448
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -6193,12 +6193,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_228
       rect:
         serializedVersion: 2
-        x: 99
-        y: 163
-        width: 26
-        height: 26
+        x: 512
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -6215,12 +6215,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_229
       rect:
         serializedVersion: 2
-        x: 130
-        y: 177
-        width: 7
-        height: 8
+        x: 544
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -6237,12 +6237,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_230
       rect:
         serializedVersion: 2
-        x: 130
-        y: 167
-        width: 7
-        height: 8
+        x: 576
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -6259,12 +6259,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_231
       rect:
         serializedVersion: 2
-        x: 135
-        y: 183
-        width: 8
-        height: 7
+        x: 608
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -6281,12 +6281,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_232
       rect:
         serializedVersion: 2
-        x: 135
-        y: 162
-        width: 8
-        height: 7
+        x: 192
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -6303,12 +6303,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_233
       rect:
         serializedVersion: 2
-        x: 145
-        y: 183
-        width: 8
-        height: 7
+        x: 224
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -6325,12 +6325,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_234
       rect:
         serializedVersion: 2
-        x: 145
-        y: 162
-        width: 8
-        height: 7
+        x: 256
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -6347,12 +6347,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_235
       rect:
         serializedVersion: 2
-        x: 151
-        y: 177
-        width: 7
-        height: 8
+        x: 288
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -6369,12 +6369,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_236
       rect:
         serializedVersion: 2
-        x: 151
-        y: 167
-        width: 7
-        height: 8
+        x: 352
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -6391,12 +6391,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_237
       rect:
         serializedVersion: 2
-        x: 192
-        y: 192
-        width: 31
+        x: 384
+        y: 0
+        width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -6413,12 +6413,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_238
       rect:
         serializedVersion: 2
-        x: 200
-        y: 168
-        width: 16
-        height: 16
+        x: 416
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -6435,12 +6435,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_239
       rect:
         serializedVersion: 2
-        x: 225
-        y: 192
-        width: 30
+        x: 448
+        y: 0
+        width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -6457,12 +6457,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_240
       rect:
         serializedVersion: 2
-        x: 229
-        y: 176
-        width: 6
-        height: 6
+        x: 512
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -6479,12 +6479,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_241
       rect:
         serializedVersion: 2
-        x: 229
-        y: 170
-        width: 6
-        height: 6
+        x: 544
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -6501,12 +6501,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_242
       rect:
         serializedVersion: 2
-        x: 234
-        y: 181
-        width: 6
-        height: 6
+        x: 576
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -6523,12 +6523,12 @@ TextureImporter:
       name: Red Effect Bullet Impact Explosion 32x32_243
       rect:
         serializedVersion: 2
-        x: 234
-        y: 165
-        width: 6
-        height: 6
+        x: 608
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -6541,2541 +6541,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: Red Effect Bullet Impact Explosion 32x32_244
-      rect:
-        serializedVersion: 2
-        x: 240
-        y: 181
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 21319933587ffa460800000000000000
-      internalID: 7255289676185539346
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Red Effect Bullet Impact Explosion 32x32_245
-      rect:
-        serializedVersion: 2
-        x: 240
-        y: 165
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0956d8a6ddaee48f0800000000000000
-      internalID: -554247467423668848
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Red Effect Bullet Impact Explosion 32x32_246
-      rect:
-        serializedVersion: 2
-        x: 245
-        y: 176
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 59a18aa7f4f327e90800000000000000
-      internalID: -7029486457779119467
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Red Effect Bullet Impact Explosion 32x32_247
-      rect:
-        serializedVersion: 2
-        x: 245
-        y: 170
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f61c55a5d01cd3380800000000000000
-      internalID: -8989817018067336849
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Red Effect Bullet Impact Explosion 32x32_248
-      rect:
-        serializedVersion: 2
-        x: 258
-        y: 162
-        width: 42
-        height: 61
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8d291de66e1621ba0800000000000000
-      internalID: -6119721301313482024
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Red Effect Bullet Impact Explosion 32x32_249
-      rect:
-        serializedVersion: 2
-        x: 289
-        y: 179
-        width: 30
-        height: 45
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a1f4b13665f87bda0800000000000000
-      internalID: -5929112783217275110
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Red Effect Bullet Impact Explosion 32x32_250
-      rect:
-        serializedVersion: 2
-        x: 304
-        y: 152
-        width: 14
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a8e1cba2fa08a31b0800000000000000
-      internalID: -5676082890522485110
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Red Effect Bullet Impact Explosion 32x32_251
-      rect:
-        serializedVersion: 2
-        x: 356
-        y: 161
-        width: 25
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c7a82fd5d89b8b0d0800000000000000
-      internalID: -3406769101288076676
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Red Effect Bullet Impact Explosion 32x32_252
-      rect:
-        serializedVersion: 2
-        x: 383
-        y: 160
-        width: 30
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 714bac1f5398f9050800000000000000
-      internalID: 5809512909114094615
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Red Effect Bullet Impact Explosion 32x32_253
-      rect:
-        serializedVersion: 2
-        x: 416
-        y: 163
-        width: 33
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 15289e46893c4a810800000000000000
-      internalID: 1775759212386288209
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Red Effect Bullet Impact Explosion 32x32_254
-      rect:
-        serializedVersion: 2
-        x: 449
-        y: 163
-        width: 31
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a1204aa58bc84c6e0800000000000000
-      internalID: -1818173626128268774
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Red Effect Bullet Impact Explosion 32x32_255
-      rect:
-        serializedVersion: 2
-        x: 516
-        y: 163
-        width: 25
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7371ff016492b6190800000000000000
-      internalID: -7968229734792358089
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Red Effect Bullet Impact Explosion 32x32_256
-      rect:
-        serializedVersion: 2
-        x: 517
-        y: 191
-        width: 21
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 11ecd9608371e4210800000000000000
-      internalID: 1319017270262746641
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Red Effect Bullet Impact Explosion 32x32_257
-      rect:
-        serializedVersion: 2
-        x: 548
-        y: 191
-        width: 22
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8528c6ed210f02e90800000000000000
-      internalID: -7052373052630465960
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Red Effect Bullet Impact Explosion 32x32_258
-      rect:
-        serializedVersion: 2
-        x: 549
-        y: 163
-        width: 24
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: cb6328a01bcc72e10800000000000000
-      internalID: 2172930405987137212
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Red Effect Bullet Impact Explosion 32x32_259
-      rect:
-        serializedVersion: 2
-        x: 580
-        y: 191
-        width: 22
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f1e6db98476dd4940800000000000000
-      internalID: 5282113733990903327
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Red Effect Bullet Impact Explosion 32x32_260
-      rect:
-        serializedVersion: 2
-        x: 581
-        y: 163
-        width: 24
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3e66b37a426caa1d0800000000000000
-      internalID: -3338638313014991133
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Red Effect Bullet Impact Explosion 32x32_261
-      rect:
-        serializedVersion: 2
-        x: 612
-        y: 191
-        width: 22
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d42eebdb72e8560c0800000000000000
-      internalID: -4583100744441339315
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Red Effect Bullet Impact Explosion 32x32_262
-      rect:
-        serializedVersion: 2
-        x: 614
-        y: 161
-        width: 24
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e1e371cc1e6257820800000000000000
-      internalID: 2915279085025836574
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Red Effect Bullet Impact Explosion 32x32_263
-      rect:
-        serializedVersion: 2
-        x: 65
-        y: 111
-        width: 29
-        height: 47
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 56f17aa8086928080800000000000000
-      internalID: -9186614811056201883
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Red Effect Bullet Impact Explosion 32x32_264
-      rect:
-        serializedVersion: 2
-        x: 97
-        y: 113
-        width: 30
-        height: 46
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1de619d9cc47ca810800000000000000
-      internalID: 1777924375070207697
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Red Effect Bullet Impact Explosion 32x32_265
-      rect:
-        serializedVersion: 2
-        x: 131
-        y: 113
-        width: 27
-        height: 46
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4b5d57e541dd1ae60800000000000000
-      internalID: 7971895894976353716
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Red Effect Bullet Impact Explosion 32x32_266
-      rect:
-        serializedVersion: 2
-        x: 193
-        y: 128
-        width: 30
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 836cee6c30bc0ebf0800000000000000
-      internalID: -297014358323575240
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Red Effect Bullet Impact Explosion 32x32_267
-      rect:
-        serializedVersion: 2
-        x: 228
-        y: 129
-        width: 24
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f9172da40d26dd410800000000000000
-      internalID: 1503466497359638943
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Red Effect Bullet Impact Explosion 32x32_268
-      rect:
-        serializedVersion: 2
-        x: 259
-        y: 131
-        width: 26
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9c13b78e1cfa9dd50800000000000000
-      internalID: 6762629562837447113
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Red Effect Bullet Impact Explosion 32x32_269
-      rect:
-        serializedVersion: 2
-        x: 289
-        y: 128
-        width: 30
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ce89c885b2cab06d0800000000000000
-      internalID: -3023133422679975700
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Red Effect Bullet Impact Explosion 32x32_270
-      rect:
-        serializedVersion: 2
-        x: 296
-        y: 152
-        width: 10
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 399189fb063c79060800000000000000
-      internalID: 6960246569423083923
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Red Effect Bullet Impact Explosion 32x32_271
-      rect:
-        serializedVersion: 2
-        x: 353
-        y: 133
-        width: 30
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 31c841fb502005f40800000000000000
-      internalID: 5715070150837046291
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Red Effect Bullet Impact Explosion 32x32_272
-      rect:
-        serializedVersion: 2
-        x: 385
-        y: 133
-        width: 30
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: decf004d32fa1e5b0800000000000000
-      internalID: -5340795114669146899
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Red Effect Bullet Impact Explosion 32x32_273
-      rect:
-        serializedVersion: 2
-        x: 416
-        y: 134
-        width: 31
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 46aa8f9ed26e5e0e0800000000000000
-      internalID: -2241132154673649052
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Red Effect Bullet Impact Explosion 32x32_274
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 134
-        width: 31
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9e4b28671fc59e190800000000000000
-      internalID: -7932707076491266839
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Red Effect Bullet Impact Explosion 32x32_275
-      rect:
-        serializedVersion: 2
-        x: 511
-        y: 128
-        width: 33
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8c5e309dfadb6c540800000000000000
-      internalID: 5027914596963575240
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Red Effect Bullet Impact Explosion 32x32_276
-      rect:
-        serializedVersion: 2
-        x: 548
-        y: 130
-        width: 24
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6db71aa9dce4cae80800000000000000
-      internalID: -8166065379360015402
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Red Effect Bullet Impact Explosion 32x32_277
-      rect:
-        serializedVersion: 2
-        x: 577
-        y: 132
-        width: 29
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: cf835954532320790800000000000000
-      internalID: -7565429219646949124
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Red Effect Bullet Impact Explosion 32x32_278
-      rect:
-        serializedVersion: 2
-        x: 608
-        y: 146
-        width: 30
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1ec94313e62756560800000000000000
-      internalID: 7306371788075998433
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Red Effect Bullet Impact Explosion 32x32_279
-      rect:
-        serializedVersion: 2
-        x: 296
-        y: 127
-        width: 10
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 245e1e89d6e7d8be0800000000000000
-      internalID: -1473382493898807998
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Red Effect Bullet Impact Explosion 32x32_280
-      rect:
-        serializedVersion: 2
-        x: 304
-        y: 127
-        width: 8
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6d7f526f95c42e4a0800000000000000
-      internalID: -6565601357487278122
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Red Effect Bullet Impact Explosion 32x32_281
-      rect:
-        serializedVersion: 2
-        x: 544
-        y: 95
-        width: 68
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 26380332c04bb54a0800000000000000
-      internalID: -6603486464385711262
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Red Effect Bullet Impact Explosion 32x32_282
-      rect:
-        serializedVersion: 2
-        x: 605
-        y: 129
-        width: 18
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a431fecadb6e6cad0800000000000000
-      internalID: -2682202825727995062
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Red Effect Bullet Impact Explosion 32x32_283
-      rect:
-        serializedVersion: 2
-        x: 612
-        y: 115
-        width: 28
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1c6c31771a1c02e40800000000000000
-      internalID: 5629712433444800193
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Red Effect Bullet Impact Explosion 32x32_284
-      rect:
-        serializedVersion: 2
-        x: 69
-        y: 84
-        width: 23
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f3c026a8040aa3470800000000000000
-      internalID: 8375182656108891199
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Red Effect Bullet Impact Explosion 32x32_285
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 80
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f3db0ee64ecfa48c0800000000000000
-      internalID: -4014118059804410561
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Red Effect Bullet Impact Explosion 32x32_286
-      rect:
-        serializedVersion: 2
-        x: 127
-        y: 79
-        width: 34
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3e5b164ad433afc20800000000000000
-      internalID: 3240959290409858531
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Red Effect Bullet Impact Explosion 32x32_287
-      rect:
-        serializedVersion: 2
-        x: 197
-        y: 95
-        width: 20
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7283ee7a5cec30af0800000000000000
-      internalID: -431273790976149465
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Red Effect Bullet Impact Explosion 32x32_288
-      rect:
-        serializedVersion: 2
-        x: 230
-        y: 95
-        width: 20
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 11ccfdef1e10eccf0800000000000000
-      internalID: -230244460793967599
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Red Effect Bullet Impact Explosion 32x32_289
-      rect:
-        serializedVersion: 2
-        x: 261
-        y: 95
-        width: 21
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fb1d7928fcb484950800000000000000
-      internalID: 6433475422320054719
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Red Effect Bullet Impact Explosion 32x32_290
-      rect:
-        serializedVersion: 2
-        x: 294
-        y: 95
-        width: 20
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 031840bf5f995ca90800000000000000
-      internalID: -7294254739699236560
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Red Effect Bullet Impact Explosion 32x32_291
-      rect:
-        serializedVersion: 2
-        x: 351
-        y: 68
-        width: 130
-        height: 55
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 90b7c32c84b1d6100800000000000000
-      internalID: 102768365809728265
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Red Effect Bullet Impact Explosion 32x32_292
-      rect:
-        serializedVersion: 2
-        x: 518
-        y: 105
-        width: 18
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1d70a53f538a6a7a0800000000000000
-      internalID: -6366216073572120623
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Red Effect Bullet Impact Explosion 32x32_293
-      rect:
-        serializedVersion: 2
-        x: 629
-        y: 96
-        width: 11
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6ead87fb736b841b0800000000000000
-      internalID: -5672083380121314586
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Red Effect Bullet Impact Explosion 32x32_294
-      rect:
-        serializedVersion: 2
-        x: 609
-        y: 95
-        width: 19
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2c536fa7b3a38be90800000000000000
-      internalID: -7009788792861739582
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Red Effect Bullet Impact Explosion 32x32_295
-      rect:
-        serializedVersion: 2
-        x: 195
-        y: 68
-        width: 26
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6420eebce839c8020800000000000000
-      internalID: 2345411747469197894
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Red Effect Bullet Impact Explosion 32x32_296
-      rect:
-        serializedVersion: 2
-        x: 228
-        y: 67
-        width: 24
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 190cdcce58bd19d50800000000000000
-      internalID: 6742411485400383633
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Red Effect Bullet Impact Explosion 32x32_297
-      rect:
-        serializedVersion: 2
-        x: 259
-        y: 68
-        width: 26
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5dc9b12bc505483f0800000000000000
-      internalID: -899505666511889195
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Red Effect Bullet Impact Explosion 32x32_298
-      rect:
-        serializedVersion: 2
-        x: 292
-        y: 67
-        width: 24
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 08840bc1a00f02e00800000000000000
-      internalID: 1018077442007386240
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Red Effect Bullet Impact Explosion 32x32_299
-      rect:
-        serializedVersion: 2
-        x: 523
-        y: 75
-        width: 10
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8728330549ac714d0800000000000000
-      internalID: -3163837474854960520
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Red Effect Bullet Impact Explosion 32x32_300
-      rect:
-        serializedVersion: 2
-        x: 550
-        y: 72
-        width: 17
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 55f460d155e2bd980800000000000000
-      internalID: -8513159727519740075
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Red Effect Bullet Impact Explosion 32x32_301
-      rect:
-        serializedVersion: 2
-        x: 578
-        y: 74
-        width: 22
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1f2ad57b0462a0e00800000000000000
-      internalID: 1011663125694227185
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Red Effect Bullet Impact Explosion 32x32_302
-      rect:
-        serializedVersion: 2
-        x: 580
-        y: 69
-        width: 14
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 37f0c26926786f8d0800000000000000
-      internalID: -2812912059750281357
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Red Effect Bullet Impact Explosion 32x32_303
-      rect:
-        serializedVersion: 2
-        x: 608
-        y: 69
-        width: 25
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b981bba0f7e80c1b0800000000000000
-      internalID: -5638350057175836517
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Red Effect Bullet Impact Explosion 32x32_304
-      rect:
-        serializedVersion: 2
-        x: 191
-        y: 39
-        width: 66
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ed4a2bd72d75a6240800000000000000
-      internalID: 4785734115598181598
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Red Effect Bullet Impact Explosion 32x32_305
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 40
-        width: 32
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0c7526caeb41184e0800000000000000
-      internalID: -1981279551897839680
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Red Effect Bullet Impact Explosion 32x32_306
-      rect:
-        serializedVersion: 2
-        x: 288
-        y: 40
-        width: 32
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1db444a14be3441c0800000000000000
-      internalID: -4520419182717416495
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Red Effect Bullet Impact Explosion 32x32_307
-      rect:
-        serializedVersion: 2
-        x: 359
-        y: 39
-        width: 18
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 89c5efa03729e7b30800000000000000
-      internalID: 4287024918106627224
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Red Effect Bullet Impact Explosion 32x32_308
-      rect:
-        serializedVersion: 2
-        x: 391
-        y: 39
-        width: 20
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f35e9cdf70fc04130800000000000000
-      internalID: 3549064139597538623
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Red Effect Bullet Impact Explosion 32x32_309
-      rect:
-        serializedVersion: 2
-        x: 421
-        y: 49
-        width: 7
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ac2e8f1a12b468af0800000000000000
-      internalID: -394545309524892982
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Red Effect Bullet Impact Explosion 32x32_310
-      rect:
-        serializedVersion: 2
-        x: 423
-        y: 53
-        width: 7
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2e10811ccbd17c840800000000000000
-      internalID: 5244192987626865122
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Red Effect Bullet Impact Explosion 32x32_311
-      rect:
-        serializedVersion: 2
-        x: 430
-        y: 54
-        width: 12
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 05f483c76dc8d4dd0800000000000000
-      internalID: -2500187365285802160
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Red Effect Bullet Impact Explosion 32x32_312
-      rect:
-        serializedVersion: 2
-        x: 452
-        y: 51
-        width: 9
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d8b6f098e5ab7c6c0800000000000000
-      internalID: -4123122018645218419
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Red Effect Bullet Impact Explosion 32x32_313
-      rect:
-        serializedVersion: 2
-        x: 462
-        y: 55
-        width: 12
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 912ae0e22d97ec5f0800000000000000
-      internalID: -734515745592008167
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Red Effect Bullet Impact Explosion 32x32_314
-      rect:
-        serializedVersion: 2
-        x: 522
-        y: 42
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 579758c1777582ac0800000000000000
-      internalID: -3879754909888448139
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Red Effect Bullet Impact Explosion 32x32_315
-      rect:
-        serializedVersion: 2
-        x: 552
-        y: 50
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: db1f0287e563428e0800000000000000
-      internalID: -1719189378378436163
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Red Effect Bullet Impact Explosion 32x32_316
-      rect:
-        serializedVersion: 2
-        x: 557
-        y: 52
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 810982b7edd6732f0800000000000000
-      internalID: -993204390495481832
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Red Effect Bullet Impact Explosion 32x32_317
-      rect:
-        serializedVersion: 2
-        x: 562
-        y: 50
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6ec95968d805c2c50800000000000000
-      internalID: 6641772119243201766
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Red Effect Bullet Impact Explosion 32x32_318
-      rect:
-        serializedVersion: 2
-        x: 582
-        y: 46
-        width: 8
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7708dc01af2241c50800000000000000
-      internalID: 6634966608442654839
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Red Effect Bullet Impact Explosion 32x32_319
-      rect:
-        serializedVersion: 2
-        x: 589
-        y: 51
-        width: 6
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2b2352aeca3621e90800000000000000
-      internalID: -7056468071822314830
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Red Effect Bullet Impact Explosion 32x32_320
-      rect:
-        serializedVersion: 2
-        x: 594
-        y: 46
-        width: 8
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 69455877ecc2371d0800000000000000
-      internalID: -3354288032180775786
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Red Effect Bullet Impact Explosion 32x32_321
-      rect:
-        serializedVersion: 2
-        x: 613
-        y: 50
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 70b98bc81d7be6e60800000000000000
-      internalID: 7957499702247201543
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Red Effect Bullet Impact Explosion 32x32_322
-      rect:
-        serializedVersion: 2
-        x: 621
-        y: 53
-        width: 6
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: abdbcee9c2677da10800000000000000
-      internalID: 1934144498995871162
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Red Effect Bullet Impact Explosion 32x32_323
-      rect:
-        serializedVersion: 2
-        x: 627
-        y: 50
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 090cd38c867066440800000000000000
-      internalID: 4928634988821069968
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Red Effect Bullet Impact Explosion 32x32_324
-      rect:
-        serializedVersion: 2
-        x: 420
-        y: 43
-        width: 8
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9566f0e9922627010800000000000000
-      internalID: 1185117582836852313
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Red Effect Bullet Impact Explosion 32x32_325
-      rect:
-        serializedVersion: 2
-        x: 436
-        y: 40
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f7d06c4d5a60c5a10800000000000000
-      internalID: 1899400452152626559
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Red Effect Bullet Impact Explosion 32x32_326
-      rect:
-        serializedVersion: 2
-        x: 438
-        y: 46
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b39029ad5b8b29e90800000000000000
-      internalID: -7020345777921586885
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Red Effect Bullet Impact Explosion 32x32_327
-      rect:
-        serializedVersion: 2
-        x: 451
-        y: 43
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ed0ffe6173622a270800000000000000
-      internalID: 8260206684600791262
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Red Effect Bullet Impact Explosion 32x32_328
-      rect:
-        serializedVersion: 2
-        x: 470
-        y: 38
-        width: 6
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9fcb8fa35b5524030800000000000000
-      internalID: 3477436099150265593
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Red Effect Bullet Impact Explosion 32x32_329
-      rect:
-        serializedVersion: 2
-        x: 550
-        y: 45
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9799b42ab586a5dd0800000000000000
-      internalID: -2496568300649342599
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Red Effect Bullet Impact Explosion 32x32_330
-      rect:
-        serializedVersion: 2
-        x: 552
-        y: 40
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 07a56af0e74118210800000000000000
-      internalID: 1333369496339372656
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Red Effect Bullet Impact Explosion 32x32_331
-      rect:
-        serializedVersion: 2
-        x: 562
-        y: 40
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 76282606c38276f20800000000000000
-      internalID: 3415743082164028007
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Red Effect Bullet Impact Explosion 32x32_332
-      rect:
-        serializedVersion: 2
-        x: 564
-        y: 45
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3b2678b67a0845480800000000000000
-      internalID: -8911356306107440461
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Red Effect Bullet Impact Explosion 32x32_333
-      rect:
-        serializedVersion: 2
-        x: 579
-        y: 45
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 72e3bae7e09702700800000000000000
-      internalID: 513543460681891367
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Red Effect Bullet Impact Explosion 32x32_334
-      rect:
-        serializedVersion: 2
-        x: 582
-        y: 38
-        width: 12
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1388bfe6f95c3ae10800000000000000
-      internalID: 2207825530894125105
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Red Effect Bullet Impact Explosion 32x32_335
-      rect:
-        serializedVersion: 2
-        x: 594
-        y: 39
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e07810700278c9d40800000000000000
-      internalID: 5592493408913557262
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Red Effect Bullet Impact Explosion 32x32_336
-      rect:
-        serializedVersion: 2
-        x: 599
-        y: 45
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c2a1265df27383740800000000000000
-      internalID: 5131912453971647020
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Red Effect Bullet Impact Explosion 32x32_337
-      rect:
-        serializedVersion: 2
-        x: 609
-        y: 45
-        width: 9
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 00576921676c80f30800000000000000
-      internalID: 4542098434623436032
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Red Effect Bullet Impact Explosion 32x32_338
-      rect:
-        serializedVersion: 2
-        x: 613
-        y: 37
-        width: 8
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e5210a49e2bcc0070800000000000000
-      internalID: 8074051632890909278
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Red Effect Bullet Impact Explosion 32x32_339
-      rect:
-        serializedVersion: 2
-        x: 627
-        y: 38
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 46dd2096008a66510800000000000000
-      internalID: 1542104642136235364
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Red Effect Bullet Impact Explosion 32x32_340
-      rect:
-        serializedVersion: 2
-        x: 630
-        y: 45
-        width: 9
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 54ff8fb59ee9c5800800000000000000
-      internalID: 602531175268417349
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Red Effect Bullet Impact Explosion 32x32_341
-      rect:
-        serializedVersion: 2
-        x: 423
-        y: 38
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 56e23bf976f14f0b0800000000000000
-      internalID: -5695893098795422107
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Red Effect Bullet Impact Explosion 32x32_342
-      rect:
-        serializedVersion: 2
-        x: 428
-        y: 38
-        width: 7
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 054716614d7d6bb10800000000000000
-      internalID: 1997020790693917776
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Red Effect Bullet Impact Explosion 32x32_343
-      rect:
-        serializedVersion: 2
-        x: 454
-        y: 36
-        width: 13
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 58586fe5bd47f9810800000000000000
-      internalID: 1774265263747138949
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Red Effect Bullet Impact Explosion 32x32_344
-      rect:
-        serializedVersion: 2
-        x: 557
-        y: 38
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2ca196421da293710800000000000000
-      internalID: 1673415814292249282
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Red Effect Bullet Impact Explosion 32x32_345
-      rect:
-        serializedVersion: 2
-        x: 589
-        y: 35
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e127a8b51478b3b60800000000000000
-      internalID: 7726918300462641694
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Red Effect Bullet Impact Explosion 32x32_346
-      rect:
-        serializedVersion: 2
-        x: 621
-        y: 33
-        width: 6
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 11c7b362d3604e190800000000000000
-      internalID: -7934209783815767023
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Red Effect Bullet Impact Explosion 32x32_347
-      rect:
-        serializedVersion: 2
-        x: 199
-        y: 7
-        width: 18
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e68608a61ced99ea0800000000000000
-      internalID: -5865412117376505746
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Red Effect Bullet Impact Explosion 32x32_348
-      rect:
-        serializedVersion: 2
-        x: 232
-        y: 8
-        width: 17
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9c3527c8e03f70150800000000000000
-      internalID: 5838902685720531913
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Red Effect Bullet Impact Explosion 32x32_349
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 0
-        width: 33
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5c92b72c70eb63fe0800000000000000
-      internalID: -1209570509365499451
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Red Effect Bullet Impact Explosion 32x32_350
-      rect:
-        serializedVersion: 2
-        x: 292
-        y: 2
-        width: 26
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 348e12dc554646040800000000000000
-      internalID: 4639943835775002691
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Red Effect Bullet Impact Explosion 32x32_351
-      rect:
-        serializedVersion: 2
-        x: 351
-        y: 4
-        width: 33
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: efd89426f54101240800000000000000
-      internalID: 4760327206034050558
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Red Effect Bullet Impact Explosion 32x32_352
-      rect:
-        serializedVersion: 2
-        x: 387
-        y: 0
-        width: 28
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: dabdabb3c47304640800000000000000
-      internalID: 5062106781723581357
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Red Effect Bullet Impact Explosion 32x32_353
-      rect:
-        serializedVersion: 2
-        x: 415
-        y: 4
-        width: 33
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2a88761a3893be600800000000000000
-      internalID: 498555421265987746
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Red Effect Bullet Impact Explosion 32x32_354
-      rect:
-        serializedVersion: 2
-        x: 447
-        y: 3
-        width: 34
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2083328dba991e630800000000000000
-      internalID: 3954610911152650242
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Red Effect Bullet Impact Explosion 32x32_355
-      rect:
-        serializedVersion: 2
-        x: 513
-        y: 1
-        width: 30
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 81dbfb2555cb3ae20800000000000000
-      internalID: 3360736821595061528
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Red Effect Bullet Impact Explosion 32x32_356
-      rect:
-        serializedVersion: 2
-        x: 546
-        y: 2
-        width: 28
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6f921ad4fef9be530800000000000000
-      internalID: 3885374953685592566
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Red Effect Bullet Impact Explosion 32x32_357
-      rect:
-        serializedVersion: 2
-        x: 577
-        y: 1
-        width: 30
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 60fe017a079a087b0800000000000000
-      internalID: -5223989266445439226
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Red Effect Bullet Impact Explosion 32x32_358
-      rect:
-        serializedVersion: 2
-        x: 610
-        y: 2
-        width: 28
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5c307ac69f2854140800000000000000
-      internalID: 4703309393639703493
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: f12225bed13957548ab0bce82ab9b812
     internalID: 0
     vertices: []
     indices: 
@@ -9083,7 +6553,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":32.0,"y":32.0},"gridSpriteSize":{"x":32.0,"y":32.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       Red Effect Bullet Impact Explosion 32x32_0: 5301737717503451341
       Red Effect Bullet Impact Explosion 32x32_1: 1287062276128514653
@@ -9247,133 +6719,18 @@ TextureImporter:
       Red Effect Bullet Impact Explosion 32x32_241: -8304630814651956990
       Red Effect Bullet Impact Explosion 32x32_242: 5651564480006493311
       Red Effect Bullet Impact Explosion 32x32_243: 4243896090698970749
-      Red Effect Bullet Impact Explosion 32x32_244: 7255289676185539346
-      Red Effect Bullet Impact Explosion 32x32_245: -554247467423668848
-      Red Effect Bullet Impact Explosion 32x32_246: -7029486457779119467
-      Red Effect Bullet Impact Explosion 32x32_247: -8989817018067336849
-      Red Effect Bullet Impact Explosion 32x32_248: -6119721301313482024
-      Red Effect Bullet Impact Explosion 32x32_249: -5929112783217275110
       Red Effect Bullet Impact Explosion 32x32_25: -8873160203697286402
-      Red Effect Bullet Impact Explosion 32x32_250: -5676082890522485110
-      Red Effect Bullet Impact Explosion 32x32_251: -3406769101288076676
-      Red Effect Bullet Impact Explosion 32x32_252: 5809512909114094615
-      Red Effect Bullet Impact Explosion 32x32_253: 1775759212386288209
-      Red Effect Bullet Impact Explosion 32x32_254: -1818173626128268774
-      Red Effect Bullet Impact Explosion 32x32_255: -7968229734792358089
-      Red Effect Bullet Impact Explosion 32x32_256: 1319017270262746641
-      Red Effect Bullet Impact Explosion 32x32_257: -7052373052630465960
-      Red Effect Bullet Impact Explosion 32x32_258: 2172930405987137212
-      Red Effect Bullet Impact Explosion 32x32_259: 5282113733990903327
       Red Effect Bullet Impact Explosion 32x32_26: -2158438794101179359
-      Red Effect Bullet Impact Explosion 32x32_260: -3338638313014991133
-      Red Effect Bullet Impact Explosion 32x32_261: -4583100744441339315
-      Red Effect Bullet Impact Explosion 32x32_262: 2915279085025836574
-      Red Effect Bullet Impact Explosion 32x32_263: -9186614811056201883
-      Red Effect Bullet Impact Explosion 32x32_264: 1777924375070207697
-      Red Effect Bullet Impact Explosion 32x32_265: 7971895894976353716
-      Red Effect Bullet Impact Explosion 32x32_266: -297014358323575240
-      Red Effect Bullet Impact Explosion 32x32_267: 1503466497359638943
-      Red Effect Bullet Impact Explosion 32x32_268: 6762629562837447113
-      Red Effect Bullet Impact Explosion 32x32_269: -3023133422679975700
       Red Effect Bullet Impact Explosion 32x32_27: 5404925014601100223
-      Red Effect Bullet Impact Explosion 32x32_270: 6960246569423083923
-      Red Effect Bullet Impact Explosion 32x32_271: 5715070150837046291
-      Red Effect Bullet Impact Explosion 32x32_272: -5340795114669146899
-      Red Effect Bullet Impact Explosion 32x32_273: -2241132154673649052
-      Red Effect Bullet Impact Explosion 32x32_274: -7932707076491266839
-      Red Effect Bullet Impact Explosion 32x32_275: 5027914596963575240
-      Red Effect Bullet Impact Explosion 32x32_276: -8166065379360015402
-      Red Effect Bullet Impact Explosion 32x32_277: -7565429219646949124
-      Red Effect Bullet Impact Explosion 32x32_278: 7306371788075998433
-      Red Effect Bullet Impact Explosion 32x32_279: -1473382493898807998
       Red Effect Bullet Impact Explosion 32x32_28: -6684486654779235579
-      Red Effect Bullet Impact Explosion 32x32_280: -6565601357487278122
-      Red Effect Bullet Impact Explosion 32x32_281: -6603486464385711262
-      Red Effect Bullet Impact Explosion 32x32_282: -2682202825727995062
-      Red Effect Bullet Impact Explosion 32x32_283: 5629712433444800193
-      Red Effect Bullet Impact Explosion 32x32_284: 8375182656108891199
-      Red Effect Bullet Impact Explosion 32x32_285: -4014118059804410561
-      Red Effect Bullet Impact Explosion 32x32_286: 3240959290409858531
-      Red Effect Bullet Impact Explosion 32x32_287: -431273790976149465
-      Red Effect Bullet Impact Explosion 32x32_288: -230244460793967599
-      Red Effect Bullet Impact Explosion 32x32_289: 6433475422320054719
       Red Effect Bullet Impact Explosion 32x32_29: -6066820194151397914
-      Red Effect Bullet Impact Explosion 32x32_290: -7294254739699236560
-      Red Effect Bullet Impact Explosion 32x32_291: 102768365809728265
-      Red Effect Bullet Impact Explosion 32x32_292: -6366216073572120623
-      Red Effect Bullet Impact Explosion 32x32_293: -5672083380121314586
-      Red Effect Bullet Impact Explosion 32x32_294: -7009788792861739582
-      Red Effect Bullet Impact Explosion 32x32_295: 2345411747469197894
-      Red Effect Bullet Impact Explosion 32x32_296: 6742411485400383633
-      Red Effect Bullet Impact Explosion 32x32_297: -899505666511889195
-      Red Effect Bullet Impact Explosion 32x32_298: 1018077442007386240
-      Red Effect Bullet Impact Explosion 32x32_299: -3163837474854960520
       Red Effect Bullet Impact Explosion 32x32_3: -1701776041685355865
       Red Effect Bullet Impact Explosion 32x32_30: 6919027417002522907
-      Red Effect Bullet Impact Explosion 32x32_300: -8513159727519740075
-      Red Effect Bullet Impact Explosion 32x32_301: 1011663125694227185
-      Red Effect Bullet Impact Explosion 32x32_302: -2812912059750281357
-      Red Effect Bullet Impact Explosion 32x32_303: -5638350057175836517
-      Red Effect Bullet Impact Explosion 32x32_304: 4785734115598181598
-      Red Effect Bullet Impact Explosion 32x32_305: -1981279551897839680
-      Red Effect Bullet Impact Explosion 32x32_306: -4520419182717416495
-      Red Effect Bullet Impact Explosion 32x32_307: 4287024918106627224
-      Red Effect Bullet Impact Explosion 32x32_308: 3549064139597538623
-      Red Effect Bullet Impact Explosion 32x32_309: -394545309524892982
       Red Effect Bullet Impact Explosion 32x32_31: 3441681150593350087
-      Red Effect Bullet Impact Explosion 32x32_310: 5244192987626865122
-      Red Effect Bullet Impact Explosion 32x32_311: -2500187365285802160
-      Red Effect Bullet Impact Explosion 32x32_312: -4123122018645218419
-      Red Effect Bullet Impact Explosion 32x32_313: -734515745592008167
-      Red Effect Bullet Impact Explosion 32x32_314: -3879754909888448139
-      Red Effect Bullet Impact Explosion 32x32_315: -1719189378378436163
-      Red Effect Bullet Impact Explosion 32x32_316: -993204390495481832
-      Red Effect Bullet Impact Explosion 32x32_317: 6641772119243201766
-      Red Effect Bullet Impact Explosion 32x32_318: 6634966608442654839
-      Red Effect Bullet Impact Explosion 32x32_319: -7056468071822314830
       Red Effect Bullet Impact Explosion 32x32_32: -1932541697134572037
-      Red Effect Bullet Impact Explosion 32x32_320: -3354288032180775786
-      Red Effect Bullet Impact Explosion 32x32_321: 7957499702247201543
-      Red Effect Bullet Impact Explosion 32x32_322: 1934144498995871162
-      Red Effect Bullet Impact Explosion 32x32_323: 4928634988821069968
-      Red Effect Bullet Impact Explosion 32x32_324: 1185117582836852313
-      Red Effect Bullet Impact Explosion 32x32_325: 1899400452152626559
-      Red Effect Bullet Impact Explosion 32x32_326: -7020345777921586885
-      Red Effect Bullet Impact Explosion 32x32_327: 8260206684600791262
-      Red Effect Bullet Impact Explosion 32x32_328: 3477436099150265593
-      Red Effect Bullet Impact Explosion 32x32_329: -2496568300649342599
       Red Effect Bullet Impact Explosion 32x32_33: 6733667449418832073
-      Red Effect Bullet Impact Explosion 32x32_330: 1333369496339372656
-      Red Effect Bullet Impact Explosion 32x32_331: 3415743082164028007
-      Red Effect Bullet Impact Explosion 32x32_332: -8911356306107440461
-      Red Effect Bullet Impact Explosion 32x32_333: 513543460681891367
-      Red Effect Bullet Impact Explosion 32x32_334: 2207825530894125105
-      Red Effect Bullet Impact Explosion 32x32_335: 5592493408913557262
-      Red Effect Bullet Impact Explosion 32x32_336: 5131912453971647020
-      Red Effect Bullet Impact Explosion 32x32_337: 4542098434623436032
-      Red Effect Bullet Impact Explosion 32x32_338: 8074051632890909278
-      Red Effect Bullet Impact Explosion 32x32_339: 1542104642136235364
       Red Effect Bullet Impact Explosion 32x32_34: 4316651159617995868
-      Red Effect Bullet Impact Explosion 32x32_340: 602531175268417349
-      Red Effect Bullet Impact Explosion 32x32_341: -5695893098795422107
-      Red Effect Bullet Impact Explosion 32x32_342: 1997020790693917776
-      Red Effect Bullet Impact Explosion 32x32_343: 1774265263747138949
-      Red Effect Bullet Impact Explosion 32x32_344: 1673415814292249282
-      Red Effect Bullet Impact Explosion 32x32_345: 7726918300462641694
-      Red Effect Bullet Impact Explosion 32x32_346: -7934209783815767023
-      Red Effect Bullet Impact Explosion 32x32_347: -5865412117376505746
-      Red Effect Bullet Impact Explosion 32x32_348: 5838902685720531913
-      Red Effect Bullet Impact Explosion 32x32_349: -1209570509365499451
       Red Effect Bullet Impact Explosion 32x32_35: -2956812271582512895
-      Red Effect Bullet Impact Explosion 32x32_350: 4639943835775002691
-      Red Effect Bullet Impact Explosion 32x32_351: 4760327206034050558
-      Red Effect Bullet Impact Explosion 32x32_352: 5062106781723581357
-      Red Effect Bullet Impact Explosion 32x32_353: 498555421265987746
-      Red Effect Bullet Impact Explosion 32x32_354: 3954610911152650242
-      Red Effect Bullet Impact Explosion 32x32_355: 3360736821595061528
-      Red Effect Bullet Impact Explosion 32x32_356: 3885374953685592566
-      Red Effect Bullet Impact Explosion 32x32_357: -5223989266445439226
-      Red Effect Bullet Impact Explosion 32x32_358: 4703309393639703493
       Red Effect Bullet Impact Explosion 32x32_36: -5894491375557467773
       Red Effect Bullet Impact Explosion 32x32_37: 7360398869009765815
       Red Effect Bullet Impact Explosion 32x32_38: -2933614694228985042

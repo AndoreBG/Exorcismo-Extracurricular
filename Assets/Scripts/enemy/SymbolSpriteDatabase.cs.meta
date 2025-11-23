@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 1e53d1ed5b4525745837c24777373208
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - corte0: {instanceID: 0}
+  - corte90: {instanceID: 0}
+  - quina0: {instanceID: 0}
+  - quina90: {instanceID: 0}
+  - quina180: {instanceID: 0}
+  - quina270: {instanceID: 0}
+  - lua0: {instanceID: 0}
+  - lua90: {instanceID: 0}
+  - lua180: {instanceID: 0}
+  - lua270: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
