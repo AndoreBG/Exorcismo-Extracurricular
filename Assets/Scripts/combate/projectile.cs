@@ -1,4 +1,6 @@
 ﻿using UnityEngine;
+using UnityEngine.Events;
+using System.Collections;
 
 [RequireComponent(typeof(SpriteRenderer))]
 [RequireComponent(typeof(Collider2D))]
@@ -12,7 +14,19 @@ public class projectile : MonoBehaviour
     [Header("=== Referências dos Sprites ===")]
     [SerializeField] private SpriteRenderer symbolSprite; // Sprite do símbolo (gira)
     [SerializeField] private GameObject magicEffectObject; // GameObject do efeito (não gira)
+    [SerializeField] private Transform magicEffectTransform; // GameObject do efeito (não gira)
     [SerializeField] private Animator magicEffectAnimator; // Animator do efeito
+
+    [Header("=== Configurações de Desativação ===")]
+    [SerializeField] private float hitEffectSize = 5f; // Delay antes de desativar (para o som terminar)
+    [SerializeField] private float deactivateDelay = 0f; // Delay antes de desativar (para o som terminar)
+    [SerializeField] private bool hideOnDeactivate = true; // Se deve esconder visualmente antes de desativar
+
+    [Header("=== Eventos ===")]
+    public UnityEvent<MagicType, Vector3> OnCast; // Tipo e posição do lançamento
+    public UnityEvent<MagicType, Vector3, bool> OnHit; // Tipo, posição e se acertou
+    public UnityEvent<MagicType, Vector3> OnHitWall; // Tipo e posição da colisão com parede
+    public UnityEvent<MagicType, Vector3> OnTimeout; // Tipo e posição quando expira o tempo
 
     private Collider2D projectileCollider;
     private Rigidbody2D rb;
@@ -23,9 +37,12 @@ public class projectile : MonoBehaviour
     private MagicType magicType;
     private int rotation;
 
-    // NOVO: Guardar escalas originais
+    // Guardar escalas originais
     private Vector3 originalEffectScale;
     private bool scaleInitialized = false;
+
+    // Estado de desativação
+    private bool isDeactivating = false;
 
     void Awake()
     {
@@ -46,7 +63,7 @@ public class projectile : MonoBehaviour
             }
         }
 
-        // NOVO: Guardar escala original do efeito
+        // Guardar escala original do efeito
         if (magicEffectObject != null && !scaleInitialized)
         {
             originalEffectScale = magicEffectObject.transform.localScale;
@@ -81,6 +98,7 @@ public class projectile : MonoBehaviour
 
         magicType = type;
         rotation = rot;
+        isDeactivating = false;
 
         // Configurar sprite do SÍMBOLO (que gira)
         if (symbolSprite != null && sprite != null)
@@ -88,15 +106,18 @@ public class projectile : MonoBehaviour
             symbolSprite.sprite = sprite;
             symbolSprite.transform.localRotation = Quaternion.Euler(0, 0, rotation);
             symbolSprite.flipX = dir < 0;
+            symbolSprite.enabled = true; // Garantir que está visível
         }
 
         // Configurar efeito mágico (que NÃO gira)
         if (magicEffectObject != null)
         {
+            magicEffectObject.SetActive(true); // Garantir que está ativo
+
             // Garantir que o efeito sempre fique com rotação zero (sem girar)
             magicEffectObject.transform.localRotation = Quaternion.identity;
 
-            // MODIFICADO: Usar a escala original e apenas inverter X se necessário
+            // Usar a escala original e apenas inverter X se necessário
             Vector3 effectScale = originalEffectScale;
             if (dir < 0)
             {
@@ -111,7 +132,6 @@ public class projectile : MonoBehaviour
             // Ativar animação específica se tiver
             if (magicEffectAnimator != null)
             {
-                // Você pode ter diferentes animações para cada tipo
                 string animationTrigger = GetAnimationTriggerForType(type);
                 if (!string.IsNullOrEmpty(animationTrigger))
                 {
@@ -135,14 +155,15 @@ public class projectile : MonoBehaviour
 
         spawnTime = Time.time;
 
+        // EVENTO: Disparar OnCast
+        OnCast?.Invoke(magicType, transform.position);
+
         if (showDebug)
-            Debug.Log($"✓ Projétil inicializado: {type} {rotation}°");
+            Debug.Log($"✓ Projétil inicializado: {type} {rotation}° | Evento OnCast disparado");
     }
 
     string GetAnimationTriggerForType(MagicType type)
     {
-        // Retorna o nome do trigger da animação baseado no tipo
-        // Você pode customizar isso conforme suas animações
         switch (type)
         {
             case MagicType.Corte:
@@ -158,7 +179,7 @@ public class projectile : MonoBehaviour
 
     void FixedUpdate()
     {
-        if (rb != null)
+        if (rb != null && !isDeactivating)
         {
             rb.MovePosition(rb.position + direction * speed * Time.fixedDeltaTime);
         }
@@ -175,14 +196,24 @@ public class projectile : MonoBehaviour
 
     void Update()
     {
-        if (Time.time - spawnTime >= lifetime)
+        if (!isDeactivating && Time.time - spawnTime >= lifetime)
         {
+            magicEffectTransform.transform.localScale = Vector3.one * hitEffectSize;
+            magicEffectAnimator.SetTrigger("Hit");
+            // EVENTO: Timeout
+            OnTimeout?.Invoke(magicType, transform.position);
+
+            if (showDebug)
+                Debug.Log($"⏰ Projétil expirou | Evento OnTimeout disparado");
+
             Deactivate();
         }
     }
 
     void OnTriggerEnter2D(Collider2D other)
     {
+        if (isDeactivating) return; // Já está desativando, ignorar novas colisões
+
         if (showDebug)
             Debug.Log($"💥 Projétil colidiu com: {other.gameObject.name} (Tag: {other.tag})");
 
@@ -206,6 +237,11 @@ public class projectile : MonoBehaviour
 
                 if (showDebug)
                     Debug.Log(hit ? $"✓ Acertou! {magicType} {rotation}°" : $"✗ Errou! {magicType} {rotation}°");
+
+                magicEffectTransform.transform.localScale = Vector3.one * hitEffectSize;
+                magicEffectAnimator.SetTrigger("Hit");
+                // EVENTO: Hit (com resultado)
+                OnHit?.Invoke(magicType, transform.position, hit);
             }
 
             Deactivate();
@@ -217,6 +253,12 @@ public class projectile : MonoBehaviour
         {
             if (showDebug)
                 Debug.Log($"→ Destruído por: {other.tag}");
+
+            magicEffectTransform.transform.localScale = Vector3.one * hitEffectSize;
+            magicEffectAnimator.SetTrigger("Hit");
+            // EVENTO: Hit Wall
+            OnHitWall?.Invoke(magicType, transform.position);
+
             Deactivate();
             return;
         }
@@ -228,12 +270,22 @@ public class projectile : MonoBehaviour
         {
             if (showDebug)
                 Debug.Log($"→ Destruído por layer: {layerName}");
+
+            magicEffectTransform.transform.localScale = Vector3.one * hitEffectSize;
+            magicEffectAnimator.SetTrigger("Hit");
+            // EVENTO: Hit Wall
+            OnHitWall?.Invoke(magicType, transform.position);
+
             Deactivate();
         }
     }
 
     void Deactivate()
     {
+        if (isDeactivating) return; // Evitar múltiplas desativações
+        isDeactivating = true;
+
+        // Parar movimento imediatamente
         if (rb != null)
         {
             rb.linearVelocity = Vector2.zero;
@@ -244,6 +296,35 @@ public class projectile : MonoBehaviour
             projectileCollider.enabled = false;
         }
 
+        // Se tem delay, usar coroutine
+        if (deactivateDelay > 0)
+        {
+            StartCoroutine(DelayedDeactivate());
+        }
+        else
+        {
+            CompleteDeactivation();
+        }
+    }
+
+    IEnumerator DelayedDeactivate()
+    {
+        // Esconder visualmente se configurado
+        if (hideOnDeactivate)
+        {
+            if (symbolSprite != null)
+                symbolSprite.enabled = false;
+        }
+
+        // Aguardar o delay
+        yield return new WaitForSeconds(deactivateDelay);
+
+        // Completar desativação
+        CompleteDeactivation();
+    }
+
+    void CompleteDeactivation()
+    {
         projectilePool pool = FindFirstObjectByType<projectilePool>();
         if (pool != null)
         {
@@ -259,13 +340,15 @@ public class projectile : MonoBehaviour
         {
             symbolSprite.flipX = false;
             symbolSprite.transform.localRotation = Quaternion.identity;
+            symbolSprite.enabled = true; // Reativar para próximo uso
         }
 
-        // MODIFICADO: Restaurar para escala ORIGINAL ao invés de Vector3.one
+        // Restaurar para escala ORIGINAL
         if (magicEffectObject != null)
         {
             magicEffectObject.transform.localRotation = Quaternion.identity;
-            magicEffectObject.transform.localScale = originalEffectScale; // <-- CORREÇÃO AQUI
+            magicEffectObject.transform.localScale = originalEffectScale;
+            magicEffectObject.SetActive(true); // Reativar para próximo uso
 
             // Parar animação se tiver
             if (magicEffectAnimator != null)
@@ -273,9 +356,10 @@ public class projectile : MonoBehaviour
                 magicEffectAnimator.Rebind();
             }
         }
+
+        isDeactivating = false; // Resetar flag
     }
 
-    // NOVO: Método para resetar a escala original (útil se você mudar no editor)
     [ContextMenu("Reset Original Effect Scale")]
     void ResetOriginalEffectScale()
     {
@@ -285,6 +369,28 @@ public class projectile : MonoBehaviour
             scaleInitialized = true;
             Debug.Log($"Nova escala original salva: {originalEffectScale}");
         }
+    }
+
+    // Métodos para testar eventos no Editor
+    [ContextMenu("Test OnCast Event")]
+    void TestOnCastEvent()
+    {
+        OnCast?.Invoke(magicType, transform.position);
+        Debug.Log("OnCast event triggered!");
+    }
+
+    [ContextMenu("Test OnHit Event (Success)")]
+    void TestOnHitEventSuccess()
+    {
+        OnHit?.Invoke(magicType, transform.position, true);
+        Debug.Log("OnHit event triggered (Success)!");
+    }
+
+    [ContextMenu("Test OnHit Event (Fail)")]
+    void TestOnHitEventFail()
+    {
+        OnHit?.Invoke(magicType, transform.position, false);
+        Debug.Log("OnHit event triggered (Fail)!");
     }
 
     void OnDrawGizmos()
@@ -298,7 +404,6 @@ public class projectile : MonoBehaviour
         }
     }
 
-    // NOVO: Validar configuração no editor
     void OnValidate()
     {
         // Se mudou o magicEffectObject no inspector, atualizar escala original
@@ -307,5 +412,8 @@ public class projectile : MonoBehaviour
             originalEffectScale = magicEffectObject.transform.localScale;
             scaleInitialized = true;
         }
+
+        // Garantir que o delay não seja negativo
+        deactivateDelay = Mathf.Max(0, deactivateDelay);
     }
 }

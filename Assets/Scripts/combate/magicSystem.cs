@@ -4,6 +4,11 @@ using UnityEngine.Events;
 
 public class magicSystem : MonoBehaviour
 {
+    [Header("=== Animação ===")]
+    [SerializeField] private Animator animator;
+    [SerializeField] private string attackTrigger = "Attack"; // Nome do trigger no Animator
+    [SerializeField] private string attackBlendParameter = "AttackBlend"; // Nome do parâmetro float do blend tree
+
     [Header("=== Energia ===")]
     [SerializeField] private float maxEnergy = 100f;
     [SerializeField] private float currentEnergy;
@@ -34,6 +39,9 @@ public class magicSystem : MonoBehaviour
     [Header("=== Object Pool ===")]
     [SerializeField] private int poolSizePerType = 10;
 
+    [Header("=== Debug ===")]
+    [SerializeField] private bool showDebug = false;
+
     // Estado
     private int currentRotation = 0; // 0, 1, 2, 3
     private float lastAttackTime;
@@ -43,11 +51,22 @@ public class magicSystem : MonoBehaviour
     public UnityEvent<float, float> OnEnergyChanged;
     public UnityEvent<int> OnRotationChanged;
     public UnityEvent OnEnergyDepleted;
+    public UnityEvent<MagicType, int, Vector3> OnMagicCast;
+    public UnityEvent OnAnyMagicCast;
 
     // Propriedades
     public float CurrentEnergy => currentEnergy;
     public float MaxEnergy => maxEnergy;
     public int CurrentRotation => currentRotation;
+
+    void Awake()
+    {
+        // Tentar encontrar o Animator se não foi atribuído
+        if (animator == null)
+        {
+            animator = GetComponent<Animator>();
+        }
+    }
 
     void Start()
     {
@@ -60,7 +79,6 @@ public class magicSystem : MonoBehaviour
     void InitializePool()
     {
         GameObject poolObj = new GameObject("ProjectilePool");
-        // NÃO parentar ao player para evitar afetar projéteis ativos
         pool = poolObj.AddComponent<projectilePool>();
 
         pool.AddProjectileType(cortePrefab, poolSizePerType);
@@ -112,7 +130,9 @@ public class magicSystem : MonoBehaviour
         OnRotationChanged?.Invoke(currentRotation);
 
         int angle = GetRotationAngle(currentRotation);
-        Debug.Log($"Rotação: {angle}° (sentido horário)");
+
+        if (showDebug)
+            Debug.Log($"Rotação: {angle}° (sentido horário)");
     }
 
     bool HasEnergy()
@@ -127,6 +147,9 @@ public class magicSystem : MonoBehaviour
 
     void ShootProjectile(MagicType type)
     {
+        // NOVO: Tocar animação de ataque aleatória
+        PlayRandomAttackAnimation();
+
         // Consumir energia
         currentEnergy -= energyCostPerAttack;
         currentEnergy = Mathf.Clamp(currentEnergy, 0, maxEnergy);
@@ -157,7 +180,30 @@ public class magicSystem : MonoBehaviour
 
         lastAttackTime = Time.time;
 
-        Debug.Log($"Disparou {type} com rotação {rotation}°");
+        // Disparar eventos de uso de magia
+        OnMagicCast?.Invoke(type, rotation, firePoint.position);
+        OnAnyMagicCast?.Invoke();
+
+        if (showDebug)
+            Debug.Log($"Disparou {type} com rotação {rotation}°");
+    }
+
+    // NOVO: Método para tocar animação de ataque aleatória
+    void PlayRandomAttackAnimation()
+    {
+        if (animator == null) return;
+
+        // Gerar valor aleatório: 0 ou 1
+        int randomAnimation = GetRandomBinary();
+
+        // Configurar o valor do blend tree (0 = primeira animação, 1 = segunda animação)
+        animator.SetFloat(attackBlendParameter, randomAnimation);
+
+        // Disparar o trigger de ataque
+        animator.SetTrigger(attackTrigger);
+
+        if (showDebug)
+            Debug.Log($"Tocando animação de ataque: {randomAnimation} (0=Anim1, 1=Anim2)");
     }
 
     GameObject GetPrefab(MagicType type)
@@ -182,23 +228,19 @@ public class magicSystem : MonoBehaviour
         }
     }
 
-    // ← MUDANÇA: Retorna rotação NEGATIVA (sentido horário)
     int GetRotationForType(MagicType type)
     {
-        // Corte só tem 2 variações (0° e -90°)
         if (type == MagicType.Corte)
         {
             int index = currentRotation % 2;
             return index == 0 ? 0 : -90;
         }
-        // Quina e Lua tem 4 variações (0°, -90°, -180°, -270°)
         else
         {
             return GetRotationAngle(currentRotation);
         }
     }
 
-    // ← NOVO: Método helper para converter índice em ângulo horário
     int GetRotationAngle(int rotationIndex)
     {
         switch (rotationIndex)
@@ -206,7 +248,7 @@ public class magicSystem : MonoBehaviour
             case 0: return 0;
             case 1: return -90;
             case 2: return -180;
-            case 3: return -270; // ou +90, é a mesma coisa
+            case 3: return -270;
             default: return 0;
         }
     }
@@ -216,6 +258,79 @@ public class magicSystem : MonoBehaviour
         currentEnergy += amount;
         currentEnergy = Mathf.Clamp(currentEnergy, 0, maxEnergy);
         OnEnergyChanged?.Invoke(currentEnergy, maxEnergy);
+    }
+
+    public int GetRandomBinary()
+    {
+        return Random.Range(0, 2);
+    }
+
+    public int GetRandomBinary(float chanceOfOne)
+    {
+        return Random.value < chanceOfOne ? 1 : 0;
+    }
+
+    public void ForceCastMagic(MagicType type)
+    {
+        if (!HasEnergy()) return;
+        ShootProjectile(type);
+    }
+
+    public bool CanCastMagic()
+    {
+        return Time.time >= lastAttackTime + attackCooldown && currentEnergy >= energyCostPerAttack;
+    }
+
+    // ========== MÉTODOS DE TESTE ==========
+
+    [ContextMenu("Test Attack Animation 0")]
+    void TestAttackAnimation0()
+    {
+        if (animator != null)
+        {
+            animator.SetFloat(attackBlendParameter, 0);
+            animator.SetTrigger(attackTrigger);
+            Debug.Log("Testando animação 0");
+        }
+    }
+
+    [ContextMenu("Test Attack Animation 1")]
+    void TestAttackAnimation1()
+    {
+        if (animator != null)
+        {
+            animator.SetFloat(attackBlendParameter, 1);
+            animator.SetTrigger(attackTrigger);
+            Debug.Log("Testando animação 1");
+        }
+    }
+
+    [ContextMenu("Test Random Attack Animation")]
+    void TestRandomAttackAnimation()
+    {
+        PlayRandomAttackAnimation();
+    }
+
+    [ContextMenu("Test Random Binary")]
+    void TestRandomBinary()
+    {
+        int result = GetRandomBinary();
+        Debug.Log($"Random Binary: {result}");
+
+        string results = "10 valores aleatórios: ";
+        for (int i = 0; i < 10; i++)
+        {
+            results += GetRandomBinary() + " ";
+        }
+        Debug.Log(results);
+    }
+
+    [ContextMenu("Test Magic Cast Event")]
+    void TestMagicCastEvent()
+    {
+        OnMagicCast?.Invoke(MagicType.Corte, 0, transform.position);
+        OnAnyMagicCast?.Invoke();
+        Debug.Log("Magic Cast events triggered!");
     }
 }
 

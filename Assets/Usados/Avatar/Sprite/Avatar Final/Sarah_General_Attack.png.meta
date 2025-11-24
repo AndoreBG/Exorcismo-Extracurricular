@@ -118,12 +118,12 @@ TextureImporter:
       name: Sarah_General_Attack_0
       rect:
         serializedVersion: 2
-        x: 28
+        x: 29
         y: 0
-        width: 48
-        height: 69
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 46
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -140,12 +140,12 @@ TextureImporter:
       name: Sarah_General_Attack_1
       rect:
         serializedVersion: 2
-        x: 156
+        x: 157
         y: 0
-        width: 48
-        height: 69
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 46
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -162,12 +162,12 @@ TextureImporter:
       name: Sarah_General_Attack_2
       rect:
         serializedVersion: 2
-        x: 284
+        x: 285
         y: 0
-        width: 48
-        height: 69
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 46
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -184,12 +184,12 @@ TextureImporter:
       name: Sarah_General_Attack_3
       rect:
         serializedVersion: 2
-        x: 417
+        x: 418
         y: 0
-        width: 51
-        height: 69
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 49
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -206,12 +206,12 @@ TextureImporter:
       name: Sarah_General_Attack_4
       rect:
         serializedVersion: 2
-        x: 545
+        x: 546
         y: 0
-        width: 48
-        height: 69
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 46
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -228,12 +228,12 @@ TextureImporter:
       name: Sarah_General_Attack_5
       rect:
         serializedVersion: 2
-        x: 673
+        x: 674
         y: 0
-        width: 48
-        height: 69
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 46
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -250,7 +250,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: c32a7f2512ee798448f17e2b29e2307b
     internalID: 0
     vertices: []
     indices: 
@@ -258,7 +258,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":6.0,"y":1.0},"gridSpriteSize":{"x":128.0,"y":128.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.0},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":7,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       Sarah_General_Attack_0: -734399800368251104
       Sarah_General_Attack_1: -2343634488048389312

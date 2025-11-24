@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using System.Collections;
 
 public class enemyAttack : MonoBehaviour
 {
@@ -6,187 +7,158 @@ public class enemyAttack : MonoBehaviour
     [SerializeField] private float attackRange = 1.5f;
     [SerializeField] private float attackCooldown = 2f;
     [SerializeField] private int attackDamage = 1;
-    [SerializeField] private int numberOfAttackVariations = 1;
 
     [Header("=== Detecção de Player ===")]
     [SerializeField] private LayerMask playerLayer;
+    [SerializeField] private enemyAnimator enemyAnimator;
+    [SerializeField] private enemy enemy;
     [SerializeField] private Transform attackPoint;
-
-    [Header("=== Attack Collider ===")]
-    [SerializeField] private GameObject attackColliderObject;
-    [SerializeField] private Collider2D attackCollider;
+    [SerializeField] private attackHitbox hitbox;
 
     [Header("=== Debug ===")]
     [SerializeField] private bool showDebug = true;
     [SerializeField] private bool showGizmos = true;
 
     // Componentes
-    private enemyAnimator enemyAnimator;
     private enemyMovement enemyMovement;
-    private enemy enemy;
-
     // Estado
-    private float lastAttackTime = -999f;
-    private bool isActive = true;
+    private float nextAttackTime = 0f;
     private bool isAttacking = false;
 
     void Awake()
     {
-        enemyAnimator = GetComponent<enemyAnimator>();
         enemyMovement = GetComponent<enemyMovement>();
-        enemy = GetComponent<enemy>();
 
-        // Configurar attack point
+        // Encontrar AttackPoint
         if (attackPoint == null)
         {
-            Transform found = transform.Find("AttackPoint");
-            if (found != null)
+            attackPoint = transform.Find("AttackPoint");
+
+            if (attackPoint == null && showDebug)
             {
-                attackPoint = found;
-                attackCollider = attackPoint.GetComponent<Collider2D>();
+                Debug.LogError($"[{gameObject.name}] AttackPoint não encontrado!");
             }
         }
 
-        if (attackColliderObject == null && attackPoint != null)
+        // Encontrar hitbox
+        if (attackPoint != null)
         {
-            attackColliderObject = attackPoint.gameObject;
+            if (hitbox == null && showDebug)
+            {
+                Debug.LogWarning($"[{gameObject.name}] attackHitbox não encontrado no AttackPoint!");
+            }
         }
 
-        if (attackCollider == null && attackColliderObject != null)
+        if (showDebug)
         {
-            attackCollider = attackColliderObject.GetComponent<Collider2D>();
-        }
-
-        // Garantir que o collider de ataque começa desativado
-        if (attackCollider != null)
-        {
-            attackCollider.enabled = false;
-
-            if (showDebug)
-                Debug.Log($"[{gameObject.name}] EnemyAttack inicializado - AttackPoint: {attackPoint != null}");
-        }
-
-        // Configurar número de variações no animator
-        if (enemyAnimator != null)
-        {
-            enemyAnimator.SetMaxAttackVariations(numberOfAttackVariations);
+            Debug.Log($"[{gameObject.name}] EnemyAttack inicializado:");
+            Debug.Log($"  - AttackPoint: {attackPoint != null}");
+            Debug.Log($"  - Hitbox: {hitbox != null}");
+            Debug.Log($"  - EnemyMovement: {enemyMovement != null}");
+            Debug.Log($"  - Layer do Player: {LayerMask.LayerToName(Mathf.RoundToInt(Mathf.Log(playerLayer.value, 2)))}");
         }
     }
 
     void Update()
     {
-        if (!isActive || enemy.IsDead || isAttacking) return;
+        if (enemy != null && enemy.IsDead) return;
+        if (isAttacking) return;
 
-        // Verificar se há player no alcance
-        if (IsPlayerInRange())
+        // Verificar se pode atacar
+        if (Time.time >= nextAttackTime)
         {
-            if (showDebug)
-                Debug.Log($"[{gameObject.name}] Player no alcance!");
-
-            if (CanAttack())
+            GameObject player = DetectPlayer();
+            if (player != null)
             {
-                Attack();
+                if (showDebug)
+                    Debug.Log($"[{gameObject.name}] Player detectado! Iniciando ataque...");
+
+                StartCoroutine(AttackSequence());
+            }
+        }
+    }
+
+    GameObject DetectPlayer()
+    {
+        if (attackPoint == null) return null;
+
+        // Determinar direção baseado no enemyMovement ou localScale
+        Vector2 direction;
+        if (enemyMovement != null)
+        {
+            direction = enemyMovement.IsFacingRight() ? Vector2.right : Vector2.left;
+        }
+        else
+        {
+            // Fallback para localScale
+            direction = transform.localScale.x > 0 ? Vector2.right : Vector2.left;
+        }
+
+        // Fazer raycast
+        RaycastHit2D hit = Physics2D.Raycast(attackPoint.position, direction, attackRange, playerLayer);
+
+        // Debug do raycast
+        if (showDebug)
+        {
+            Debug.DrawRay(attackPoint.position, direction * attackRange, hit.collider != null ? Color.green : Color.red, 0.1f);
+        }
+
+        // Verificar se acertou algo
+        if (hit.collider != null)
+        {
+            if (hit.collider.CompareTag("Player"))
+            {
+                return hit.collider.gameObject;
             }
             else if (showDebug)
             {
-                float timeUntilAttack = (lastAttackTime + attackCooldown) - Time.time;
-                Debug.Log($"[{gameObject.name}] Aguardando cooldown: {timeUntilAttack:F1}s");
+                Debug.Log($"[{gameObject.name}] Raycast acertou {hit.collider.name} mas não é Player (tag: {hit.collider.tag})");
             }
         }
+
+        return null;
     }
 
-    bool IsPlayerInRange()
+    IEnumerator AttackSequence()
     {
-        if (attackPoint == null)
-        {
-            if (showDebug)
-                Debug.LogWarning($"[{gameObject.name}] AttackPoint não configurado!");
-            return false;
-        }
-
-        Vector2 direction = enemyMovement != null && enemyMovement.IsFacingRight() ?
-                           Vector2.right : Vector2.left;
-
-        Vector2 origin = attackPoint.position;
-        RaycastHit2D hit = Physics2D.Raycast(origin, direction, attackRange, playerLayer);
-
-        if (showDebug && hit.collider != null)
-        {
-            Debug.DrawLine(origin, hit.point, Color.green, 0.1f);
-            Debug.Log($"[{gameObject.name}] Raycast hit: {hit.collider.name} (Tag: {hit.collider.tag})");
-        }
-
-        if (hit.collider != null && hit.collider.CompareTag("Player"))
-        {
-            return true;
-        }
-
-        return false;
-    }
-
-    bool CanAttack()
-    {
-        return Time.time >= lastAttackTime + attackCooldown;
-    }
-
-    void Attack()
-    {
-        lastAttackTime = Time.time;
         isAttacking = true;
+        nextAttackTime = Time.time + attackCooldown;
 
-        // Parar movimento durante ataque
+        if (showDebug)
+            Debug.Log($"[{gameObject.name}] Iniciando sequência de ataque");
+
+        // Parar movimento
         if (enemyMovement != null)
         {
             enemyMovement.SetActive(false);
         }
 
-        // Trigger animação de ataque
+        // Tocar animação
         if (enemyAnimator != null)
         {
             enemyAnimator.TriggerAttack();
-
-            if (showDebug)
-                Debug.Log($"[{gameObject.name}] ⚔️ ATACANDO! Animação trigada");
         }
-        else
+
+        // Aguardar um momento para ativar a hitbox (simular o swing da arma)
+        yield return new WaitForSeconds(0.3f);
+
+        // Ativar hitbox
+        ActivateAttackCollider();
+
+        // Manter hitbox ativa por um breve momento
+        yield return new WaitForSeconds(0.2f);
+
+        // Desativar hitbox
+        DeactivateAttackCollider();
+
+        // Aguardar fim da animação
+        yield return new WaitForSeconds(0.3f);
+
+        // Aguardar pausa pós-ataque se configurada
+        if (enemyAnimator != null && enemyAnimator.GetPostAttackPauseDuration() > 0)
         {
-            if (showDebug)
-                Debug.LogWarning($"[{gameObject.name}] EnemyAnimator não encontrado!");
+            yield return new WaitForSeconds(enemyAnimator.GetPostAttackPauseDuration());
         }
-    }
-
-    // ========== CHAMADOS PELA ANIMAÇÃO ==========
-
-    public void ActivateAttackCollider()
-    {
-        if (attackCollider != null)
-        {
-            attackCollider.enabled = true;
-
-            if (showDebug)
-                Debug.Log($"[{gameObject.name}] 🗡️ Attack collider ATIVADO (via Animation Event)");
-        }
-        else
-        {
-            if (showDebug)
-                Debug.LogError($"[{gameObject.name}] Attack collider não configurado!");
-        }
-    }
-
-    public void DeactivateAttackCollider()
-    {
-        if (attackCollider != null)
-        {
-            attackCollider.enabled = false;
-
-            if (showDebug)
-                Debug.Log($"[{gameObject.name}] Attack collider desativado");
-        }
-    }
-
-    public void OnAttackComplete()
-    {
-        isAttacking = false;
 
         // Retomar movimento
         if (enemyMovement != null && !enemy.IsDead)
@@ -194,28 +166,52 @@ public class enemyAttack : MonoBehaviour
             enemyMovement.SetActive(true);
         }
 
+        isAttacking = false;
+
         if (showDebug)
-            Debug.Log($"[{gameObject.name}] Ataque completo - retomando movimento");
+            Debug.Log($"[{gameObject.name}] Ataque completo - Próximo ataque disponível em: {Time.time + attackCooldown}");
     }
 
-    // ========== DANO ==========
+    public void ActivateAttackCollider()
+    {
+        if (hitbox != null)
+        {
+            hitbox.Activate();
+            if (showDebug)
+                Debug.Log($"[{gameObject.name}] Hitbox ATIVADA");
+        }
+        else if (showDebug)
+        {
+            Debug.LogError($"[{gameObject.name}] Tentou ativar hitbox mas ela é null!");
+        }
+    }
+
+    public void DeactivateAttackCollider()
+    {
+        if (hitbox != null)
+        {
+            hitbox.Deactivate();
+            if (showDebug)
+                Debug.Log($"[{gameObject.name}] Hitbox DESATIVADA");
+        }
+    }
+
+    public void OnAttackComplete()
+    {
+        // Mantido para compatibilidade com animation events
+    }
 
     public int GetAttackDamage() => attackDamage;
 
-    // ========== CONTROLE ==========
-
     public void SetActive(bool active)
     {
-        isActive = active;
-
         if (!active)
         {
+            StopAllCoroutines();
             DeactivateAttackCollider();
             isAttacking = false;
         }
     }
-
-    // ========== GIZMOS ==========
 
     void OnDrawGizmos()
     {
@@ -223,26 +219,68 @@ public class enemyAttack : MonoBehaviour
 
         if (attackPoint != null)
         {
-            bool facingRight = enemyMovement != null ? enemyMovement.IsFacingRight() : true;
-            Vector2 direction = facingRight ? Vector2.right : Vector2.left;
+            // Determinar direção
+            Vector2 direction;
+            if (Application.isPlaying && enemyMovement != null)
+            {
+                direction = enemyMovement.IsFacingRight() ? Vector2.right : Vector2.left;
+            }
+            else
+            {
+                direction = transform.localScale.x > 0 ? Vector2.right : Vector2.left;
+            }
 
-            Gizmos.color = Color.red;
+            // Desenhar linha de detecção
+            Gizmos.color = isAttacking ? Color.yellow : Color.red;
             Gizmos.DrawLine(attackPoint.position,
-                           (Vector2)attackPoint.position + direction * attackRange);
+                          (Vector2)attackPoint.position + direction * attackRange);
 
+            // Desenhar esfera no fim do range
             Gizmos.DrawWireSphere((Vector2)attackPoint.position + direction * attackRange, 0.2f);
+        }
+        else
+        {
+            // Se não tem attack point, desenhar do centro do objeto
+            Gizmos.color = Color.magenta;
+            Gizmos.DrawWireSphere(transform.position, 0.3f);
         }
     }
 
-    void OnDrawGizmosSelected()
+    // Método de teste
+    [ContextMenu("Test Player Detection")]
+    void TestPlayerDetection()
     {
-        if (!showGizmos || attackPoint == null) return;
+        GameObject player = DetectPlayer();
+        if (player != null)
+        {
+            Debug.Log($"✓ Player detectado: {player.name}");
+        }
+        else
+        {
+            Debug.Log($"✗ Player NÃO detectado");
+            Debug.Log($"  - AttackPoint existe? {attackPoint != null}");
+            Debug.Log($"  - PlayerLayer configurada? {playerLayer.value != 0}");
 
-        bool facingRight = enemyMovement != null ? enemyMovement.IsFacingRight() : true;
-        Vector2 direction = facingRight ? Vector2.right : Vector2.left;
+            // Tentar encontrar player manualmente
+            GameObject manualPlayer = GameObject.FindGameObjectWithTag("Player");
+            if (manualPlayer != null)
+            {
+                Debug.Log($"  - Player existe na cena: {manualPlayer.name} na posição {manualPlayer.transform.position}");
+                Debug.Log($"  - Layer do Player: {manualPlayer.layer} ({LayerMask.LayerToName(manualPlayer.layer)})");
+            }
+            else
+            {
+                Debug.Log($"  - Nenhum GameObject com tag 'Player' encontrado na cena!");
+            }
+        }
+    }
 
-        Gizmos.color = new Color(1f, 0f, 0f, 0.3f);
-        Vector3 center = (Vector2)attackPoint.position + direction * (attackRange / 2f);
-        Gizmos.DrawCube(center, new Vector3(attackRange, 1f, 0.1f));
+    [ContextMenu("Force Attack")]
+    void ForceAttack()
+    {
+        if (!isAttacking)
+        {
+            StartCoroutine(AttackSequence());
+        }
     }
 }

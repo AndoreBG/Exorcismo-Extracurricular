@@ -1,6 +1,7 @@
+using System;
 using UnityEditor.Animations;
 using UnityEngine;
-using System;
+using UnityEngine.Events;
 
 public class avatarMovement : MonoBehaviour
 {
@@ -22,7 +23,13 @@ public class avatarMovement : MonoBehaviour
     private bool isDead = false;
     private bool isJumping = false;
     private float moveInput;
+    private int hasJumped = 0;  
 
+    [Space]
+    [Header("== Eventos ==")]
+    public UnityEvent OnFlip;
+    public UnityEvent OnJump;
+    public UnityEvent OnLanding;
     void Start()
     {
         
@@ -67,6 +74,7 @@ public class avatarMovement : MonoBehaviour
             Vector3 scaler = transform.localScale;
             scaler.x *= -1;
             transform.localScale = scaler;
+            OnFlip?.Invoke();
         }
     }
 
@@ -78,6 +86,7 @@ public class avatarMovement : MonoBehaviour
         }
         else
         {
+            hasJumped = 1;
             isJumping = true;
         }
     }
@@ -87,10 +96,16 @@ public class avatarMovement : MonoBehaviour
         if (!isJumping && Input.GetKeyDown(KeyCode.Space))
         {
             rb.linearVelocity = new Vector2(rb.linearVelocityX, jumpForce * 1.5f);
+            OnJump?.Invoke();
             animator.SetBool("isJumping", true);
         }
         if (!isJumping && rb.linearVelocityY <= 0)
         {
+            if(hasJumped == 1)
+            {
+                OnLanding?.Invoke();
+                hasJumped = 0;
+            }
             animator.SetBool("isJumping", false);
         }
     }

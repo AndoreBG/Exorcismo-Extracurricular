@@ -4,11 +4,11 @@
 public class attackHitbox : MonoBehaviour
 {
     [Header("=== Debug ===")]
-    [SerializeField] private bool showDebug = true; // ← Ativado por padrão
+    [SerializeField] private bool showDebug = true;
 
     private enemyAttack enemyAttack;
     private Collider2D hitboxCollider;
-    private bool hasHit = false;
+    private bool canHit = false;
 
     void Awake()
     {
@@ -18,69 +18,72 @@ public class attackHitbox : MonoBehaviour
         if (hitboxCollider != null)
         {
             hitboxCollider.isTrigger = true;
-            hitboxCollider.enabled = false; // Começa desativado
+            hitboxCollider.enabled = false;
         }
-
-        if (showDebug)
-            Debug.Log($"[{gameObject.name}] AttackHitbox inicializado (desativado)");
     }
 
-    void OnEnable()
+    public void Activate()
     {
-        hasHit = false;
+        if (hitboxCollider != null)
+        {
+            hitboxCollider.enabled = true;
+            canHit = true; // Permitir hit
 
-        if (showDebug)
-            Debug.Log($"[{gameObject.name}] AttackHitbox ATIVADO");
+            if (showDebug)
+                Debug.Log($"[{gameObject.name}] Hitbox ativada e pronta para causar dano");
+        }
     }
 
-    void OnDisable()
+    public void Deactivate()
     {
-        if (showDebug && Application.isPlaying)
-            Debug.Log($"[{gameObject.name}] AttackHitbox DESATIVADO");
+        if (hitboxCollider != null)
+        {
+            hitboxCollider.enabled = false;
+            canHit = false;
+
+            if (showDebug)
+                Debug.Log($"[{gameObject.name}] Hitbox desativada");
+        }
+    }
+
+    void OnTriggerStay2D(Collider2D other)
+    {
+        // Usar OnTriggerStay para garantir detecção mesmo se o player já estava na área
+        ProcessCollision(other);
     }
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (showDebug)
-            Debug.Log($"[{gameObject.name}] OnTriggerEnter2D com: {other.gameObject.name} (Tag: {other.tag})");
+        ProcessCollision(other);
+    }
 
-        if (hasHit)
-        {
-            if (showDebug)
-                Debug.Log($"[{gameObject.name}] Já acertou neste ataque");
-            return;
-        }
+    void ProcessCollision(Collider2D other)
+    {
+        // Verificações básicas
+        if (!canHit || !hitboxCollider.enabled) return;
+        if (!other.CompareTag("Player")) return;
 
-        if (!other.CompareTag("Player"))
-        {
-            if (showDebug)
-                Debug.Log($"[{gameObject.name}] Não é Player, ignorando");
-            return;
-        }
-
-        // ========== CAUSAR DANO ==========
+        // Pegar o componente avatarHealth
         avatarHealth playerHealth = other.GetComponent<avatarHealth>();
+
         if (playerHealth != null && enemyAttack != null)
         {
+            // Causar dano usando o método correto
             int damage = enemyAttack.GetAttackDamage();
-            Vector2 damagePosition = transform.position;
+            playerHealth.TakeDamage(damage, transform.position);
 
-            playerHealth.TakeDamage(damage, damagePosition);
-
-            hasHit = true;
+            // Prevenir múltiplos hits no mesmo ataque
+            canHit = false;
 
             if (showDebug)
-                Debug.Log($"[{gameObject.name}] ✓ Acertou ataque! Dano: {damage}");
+                Debug.Log($"[{gameObject.name}] DANO CAUSADO: {damage} ao player!");
         }
-        else
+        else if (showDebug)
         {
-            if (showDebug)
-            {
-                if (playerHealth == null)
-                    Debug.LogWarning($"[{gameObject.name}] Player não tem avatarHealth!");
-                if (enemyAttack == null)
-                    Debug.LogWarning($"[{gameObject.name}] Não encontrou EnemyAttack!");
-            }
+            if (playerHealth == null)
+                Debug.LogError($"[{gameObject.name}] Player não tem avatarHealth!");
+            if (enemyAttack == null)
+                Debug.LogError($"[{gameObject.name}] enemyAttack não encontrado no pai!");
         }
     }
 
@@ -88,16 +91,10 @@ public class attackHitbox : MonoBehaviour
     {
         if (hitboxCollider == null) return;
 
-        // Cor diferente se estiver ativo ou inativo
-        Gizmos.color = hitboxCollider.enabled ?
-            new Color(1f, 0f, 0f, 0.8f) :
-            new Color(1f, 0.5f, 0f, 0.3f);
+        Gizmos.color = (hitboxCollider != null && hitboxCollider.enabled) ?
+            Color.red : new Color(1f, 0.5f, 0f, 0.3f);
 
-        if (hitboxCollider is CircleCollider2D circle)
-        {
-            Gizmos.DrawWireSphere(transform.position + (Vector3)circle.offset, circle.radius);
-        }
-        else if (hitboxCollider is BoxCollider2D box)
+        if (hitboxCollider is BoxCollider2D box)
         {
             Gizmos.matrix = transform.localToWorldMatrix;
             Gizmos.DrawWireCube(box.offset, box.size);
