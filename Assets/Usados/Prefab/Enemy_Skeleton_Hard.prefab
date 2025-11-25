@@ -5398,7 +5398,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 128
   wallCheckDistance: 2
-  showDebug: 1
+  showDebug: 0
   showGizmos: 1
   edgeCheckDistance: 1
   edgeCheckOffset: {x: 0.6, y: -0.5}
@@ -5424,7 +5424,7 @@ MonoBehaviour:
   enemy: {fileID: 4602999243367307390}
   attackPoint: {fileID: 6075152413058439977}
   hitbox: {fileID: 7213621682348645578}
-  showDebug: 1
+  showDebug: 0
   showGizmos: 1
 --- !u!50 &5871073774083808867
 Rigidbody2D:
