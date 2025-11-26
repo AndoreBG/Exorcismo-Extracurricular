@@ -321,7 +321,7 @@ MonoBehaviour:
   magicEffectTransform: {fileID: 7926816233053282599}
   magicEffectAnimator: {fileID: 6659400051950803555}
   hitEffectSize: 4.5
-  deactivateDelay: 0.5
+  deactivateDelay: 0.7
   hideOnDeactivate: 1
   OnCast:
     m_PersistentCalls:
@@ -419,7 +419,7 @@ AudioSource:
   m_GameObject: {fileID: 6560629804422056592}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: -2630584680979959281, guid: 92fcd05e049dd2047a83038dbe536b1f, type: 2}
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 6418180475301049370, guid: ac308f1d1fa833948b01cfbcba6c8097, type: 2}
   m_PlayOnAwake: 0
@@ -516,7 +516,7 @@ AudioSource:
   m_GameObject: {fileID: 6560629804422056592}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: -2630584680979959281, guid: 92fcd05e049dd2047a83038dbe536b1f, type: 2}
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 6418180475301049370, guid: bf1325ea987d3db4dadc8a487b4c6566, type: 2}
   m_PlayOnAwake: 0

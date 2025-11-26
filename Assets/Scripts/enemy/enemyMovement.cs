@@ -13,9 +13,13 @@ public abstract class enemyMovement : MonoBehaviour
     [SerializeField] protected Transform rightLimit;
 
     [Header("=== Detecção ===")]
+    [SerializeField] protected LayerMask enemyLayer;
     [SerializeField] protected LayerMask wallLayer;
     [SerializeField] protected LayerMask groundLayer;
+    [SerializeField] protected Collider2D ownCollider;
+    [SerializeField] protected float wallOffsetY = -0.5f;
     [SerializeField] protected float wallCheckDistance = 0.5f;
+    [SerializeField] protected float enemyCheckDistance = 0.5f; // Distância para detectar outros inimigos
 
     [Header("=== Debug ===")]
     [SerializeField] protected bool showDebug = false;
@@ -134,18 +138,16 @@ public abstract class enemyMovement : MonoBehaviour
     {
         Vector2 direction = isFacingRight ? Vector2.right : Vector2.left;
         Vector2 origin = (Vector2)transform.position;
-
-        // ← CORRIGIDO: Adicionar offset vertical para não pegar o chão
-        origin.y += 0.5f;
+        origin.y += wallOffsetY; // Pequeno offset vertical
 
         RaycastHit2D hit = Physics2D.Raycast(origin, direction, wallCheckDistance, wallLayer);
 
         if (hit.collider != null)
         {
-            if (showDebug) 
+            if (showDebug)
             {
                 Debug.Log($"[{gameObject.name}] Parede detectada: {hit.collider.name}");
-                Debug.DrawLine(origin, hit.point, Color.red, 0.5f);
+                Debug.DrawLine(origin, hit.point, Color.blue, 0.5f);
             }
 
             // Verificar por tag
@@ -153,8 +155,43 @@ public abstract class enemyMovement : MonoBehaviour
             {
                 return true;
             }
+        }
 
-            // ← IMPORTANTE: NÃO verificar "Ground" aqui, só Wall e Obstacle
+        return false;
+    }
+
+    protected bool IsEnemyAhead()
+    {
+        // CORREÇÃO: A direção e origem devem considerar para onde o inimigo está olhando
+        Vector2 direction = isFacingRight ? Vector2.right : Vector2.left;
+        Vector2 origin = (Vector2)transform.position;
+
+        // Adicionar um pequeno offset na direção que está olhando
+        origin += direction * 1.5f; // Começar o raycast um pouco à frente
+
+        // Fazer o raycast
+        RaycastHit2D[] hits = Physics2D.RaycastAll(origin, direction, enemyCheckDistance, enemyLayer);
+
+        foreach (RaycastHit2D hit in hits)
+        {
+            // IMPORTANTE: Ignorar o próprio collider
+            if (hit.collider == ownCollider)
+                continue;
+
+            // Verificar se é outro inimigo
+            if (hit.collider != null && hit.collider.CompareTag("Enemy"))
+            {
+                // Verificar se não é o próprio GameObject
+                if (hit.collider.gameObject != gameObject)
+                {
+                    if (showDebug)
+                    {
+                        Debug.Log($"[{gameObject.name}] Inimigo detectado: {hit.collider.name}");
+                        Debug.DrawLine(origin, hit.point, Color.red, 0.5f);
+                    }
+                    return true;
+                }
+            }
         }
 
         return false;
@@ -179,9 +216,7 @@ public abstract class enemyMovement : MonoBehaviour
         useMoveLimits = (left != null && right != null);
     }
 
-    // ← ADICIONADO: Getter para direção que está olhando
     public bool IsFacingRight() => isFacingRight;
-
     public bool IsMoving() => isMoving;
 
     // ========== GIZMOS ==========
@@ -190,10 +225,22 @@ public abstract class enemyMovement : MonoBehaviour
     {
         if (!showGizmos) return;
 
-        Vector2 direction = (isFacingRight || !Application.isPlaying) ? Vector2.right : Vector2.left;
-        Gizmos.color = Color.red;
-        Gizmos.DrawLine(transform.position, (Vector2)transform.position + direction * wallCheckDistance);
+        // Direção atual
+        bool facingRight = (Application.isPlaying) ? isFacingRight : startMovingRight;
+        Vector2 direction = facingRight ? Vector2.right : Vector2.left;
 
+        // Raycast de parede
+        Gizmos.color = Color.blue;
+        Vector2 wallOrigin = (Vector2)transform.position + Vector2.up * 0.5f;
+        Gizmos.DrawLine(wallOrigin, wallOrigin + direction * wallCheckDistance);
+
+        // Raycast de inimigo
+        Gizmos.color = Color.red;
+        Vector2 enemyOrigin = (Vector2)transform.position + direction * 0.2f + Vector2.up * 0.1f;
+        Gizmos.DrawLine(enemyOrigin, enemyOrigin + direction * enemyCheckDistance);
+        Gizmos.DrawWireSphere(enemyOrigin, 0.05f);
+
+        // Limites de movimento
         if (useMoveLimits && leftLimit != null && rightLimit != null)
         {
             Gizmos.color = Color.yellow;

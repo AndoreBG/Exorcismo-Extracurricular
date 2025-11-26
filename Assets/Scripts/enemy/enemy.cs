@@ -263,7 +263,7 @@ public class enemy : MonoBehaviour
 
                 FlashHit(hitCorrectColor);
 
-                if (enemyAnimator != null)
+                if (enemyAnimator != null && symbolsHit < requiredSymbols.Count)
                 {
                     enemyAnimator.TriggerHurt();
                 }
@@ -333,7 +333,7 @@ public class enemy : MonoBehaviour
         Collider2D[] colliders = GetComponentsInChildren<Collider2D>();
         foreach (var col in colliders)
         {
-            col.enabled = false;
+            col.excludeLayers = 3; // Desativar colisão com o player
         }
     }
 

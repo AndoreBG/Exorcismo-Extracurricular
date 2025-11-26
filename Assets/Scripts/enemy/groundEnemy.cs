@@ -20,6 +20,11 @@ public class groundEnemy : enemyMovement
             shouldFlip = true;
             flipReason = "Limite de movimento";
         }
+        else if (IsEnemyAhead())
+        {
+            shouldFlip = true;
+            flipReason = "Inimigo detectado";
+        }
         // 2. Verificar parede
         else if (IsWallAhead())
         {

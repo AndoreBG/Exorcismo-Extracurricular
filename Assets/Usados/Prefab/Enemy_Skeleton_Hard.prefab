@@ -5391,13 +5391,18 @@ MonoBehaviour:
   useMoveLimits: 0
   leftLimit: {fileID: 123979815922463969}
   rightLimit: {fileID: 6717143869225625848}
+  enemyLayer:
+    serializedVersion: 2
+    m_Bits: 64
   wallLayer:
     serializedVersion: 2
     m_Bits: 256
   groundLayer:
     serializedVersion: 2
     m_Bits: 128
-  wallCheckDistance: 2
+  ownCollider: {fileID: 4904985975283507714}
+  wallCheckDistance: 1
+  enemyCheckDistance: 0.2
   showDebug: 0
   showGizmos: 1
   edgeCheckDistance: 1
@@ -5499,7 +5504,7 @@ AudioSource:
   m_GameObject: {fileID: 6721280085478509828}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: -2630584680979959281, guid: 92fcd05e049dd2047a83038dbe536b1f, type: 2}
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 6418180475301049370, guid: af0b043c3a979834d84706fcfc798652, type: 2}
   m_PlayOnAwake: 0
@@ -5596,7 +5601,7 @@ AudioSource:
   m_GameObject: {fileID: 6721280085478509828}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: -2630584680979959281, guid: 92fcd05e049dd2047a83038dbe536b1f, type: 2}
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 6418180475301049370, guid: 83060ea5f05a45945a88dedf93b83554, type: 2}
   m_PlayOnAwake: 0

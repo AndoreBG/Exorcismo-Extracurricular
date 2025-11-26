@@ -10,12 +10,12 @@ GameObject:
   m_Component:
   - component: {fileID: 264061012208357273}
   - component: {fileID: 5080464076010740161}
+  - component: {fileID: 692115718427032544}
+  - component: {fileID: 5483011084340828263}
+  - component: {fileID: 237895021484953236}
   - component: {fileID: 3614390851802922447}
   - component: {fileID: 4366139700944010350}
   - component: {fileID: 3425022908440177675}
-  - component: {fileID: 5483011084340828263}
-  - component: {fileID: 237895021484953236}
-  - component: {fileID: 692115718427032544}
   m_Layer: 0
   m_Name: LargeGem
   m_TagString: Untagged
@@ -96,6 +96,80 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &692115718427032544
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7735012314116282720}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d8df27d6cbec84640aedcb2edf22b5aa, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &5483011084340828263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7735012314116282720}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8835500eb812152458057826c8425710, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CollectablePickup
+  collectableType: 2
+  value: 0
+  itemID: 
+  pickupSound: {fileID: 0}
+  OnCollected:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 3425022908440177675}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &237895021484953236
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7735012314116282720}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00105b7d24678cb49ad41f22fe84e5bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::gemAnimation
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  initialJumpForce: 5
+  randomHorizontalForce: 2
+  bounciness: 1
+  minBounceVelocity: 0.5
+  initialRotationSpeed: 360
+  rotationDamping: 0.1
 --- !u!58 &3614390851802922447
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -168,9 +242,9 @@ AudioSource:
   m_GameObject: {fileID: 7735012314116282720}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: -2630584680979959281, guid: 92fcd05e049dd2047a83038dbe536b1f, type: 2}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 0}
+  m_Resource: {fileID: 6418180475301049370, guid: 5626dc63ba00d5549bec39c38b0442ce, type: 2}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -256,65 +330,3 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &5483011084340828263
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7735012314116282720}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8835500eb812152458057826c8425710, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::CollectablePickup
-  collectableType: 2
-  value: 0
-  itemID: 
-  pickupSound: {fileID: 8300000, guid: da4893755577efc4fb224e57ad11c74a, type: 3}
-  OnCollected:
-    m_PersistentCalls:
-      m_Calls: []
---- !u!114 &237895021484953236
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7735012314116282720}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00105b7d24678cb49ad41f22fe84e5bd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::gemAnimation
-  groundLayer:
-    serializedVersion: 2
-    m_Bits: 0
-  initialJumpForce: 5
-  randomHorizontalForce: 2
-  bounciness: 1
-  minBounceVelocity: 0.5
-  initialRotationSpeed: 360
-  rotationDamping: 0.1
---- !u!95 &692115718427032544
-Animator:
-  serializedVersion: 7
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7735012314116282720}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: d8df27d6cbec84640aedcb2edf22b5aa, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
