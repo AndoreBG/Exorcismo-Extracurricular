@@ -51,13 +51,11 @@ public class MenuManager : MonoBehaviour
 
     void Awake()
     {
-        if (Instance != null && Instance != this)
+        if (Instance != null)
         {
-            Destroy(this);
-            return;
+            DontDestroyOnLoad(gameObject);
+            Instance = this;
         }
-
-        Instance = this;
 
         audioSource = GetComponent<AudioSource>();
         if (audioSource == null)
