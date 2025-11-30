@@ -51,12 +51,6 @@ public class MenuManager : MonoBehaviour
 
     void Awake()
     {
-        if (Instance != null)
-        {
-            DontDestroyOnLoad(gameObject);
-            Instance = this;
-        }
-
         audioSource = GetComponent<AudioSource>();
         if (audioSource == null)
             audioSource = gameObject.AddComponent<AudioSource>();

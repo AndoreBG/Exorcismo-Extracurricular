@@ -16,6 +16,14 @@ PrefabInstance:
       propertyPath: symbolCount
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 2867316690237792164, guid: b75ad2cf7a04beb47a4a00d9f10d253c, type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2867316690237792164, guid: b75ad2cf7a04beb47a4a00d9f10d253c, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5090842817565771883, guid: b75ad2cf7a04beb47a4a00d9f10d253c, type: 3}
       propertyPath: m_Name
       value: Slime_Hard

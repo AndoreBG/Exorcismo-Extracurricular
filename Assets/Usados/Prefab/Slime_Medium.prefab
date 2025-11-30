@@ -22,11 +22,11 @@ PrefabInstance:
       objectReference: {fileID: 6418180475301049370, guid: 1cc02157f023efa45aa0e2bb78d5cfe8, type: 2}
     - target: {fileID: 4312136013556333168, guid: 11f6fe14a43dbcd4080fc59f8a8c412f, type: 3}
       propertyPath: m_Size.x
-      value: 1.4
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4312136013556333168, guid: 11f6fe14a43dbcd4080fc59f8a8c412f, type: 3}
       propertyPath: m_Offset.y
-      value: -0.4
+      value: -0.5
       objectReference: {fileID: 0}
     - target: {fileID: 4312136013556333168, guid: 11f6fe14a43dbcd4080fc59f8a8c412f, type: 3}
       propertyPath: m_EdgeRadius

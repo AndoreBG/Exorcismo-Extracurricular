@@ -39,7 +39,6 @@ public class gemManager : MonoBehaviour
         }
 
         instance = this;
-        DontDestroyOnLoad(gameObject);
     }
 
     void Start()
