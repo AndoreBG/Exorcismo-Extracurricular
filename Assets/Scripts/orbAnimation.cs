@@ -1,6 +1,13 @@
 using UnityEngine;
 using UnityEngine.Rendering.Universal;
 
+// ANDRÉ BOLANDIM GORZONI    
+// CLARA MIRANDA ROBERTO
+// JHONATAN FELIPE TORQUATO SANTOS
+// MATHEUS RODRIGUES CARVALHO
+// MIGUEL ARCANJO PELLIZZARI BALDO   
+// LEONARDO TREVISAN
+
 public class orbAnimation : MonoBehaviour
 {
     [Space]

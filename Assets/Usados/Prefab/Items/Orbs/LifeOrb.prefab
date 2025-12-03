@@ -307,10 +307,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09a1a77a361afd84787cbaa66ada752f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::orbAnimation
-  attractionDistance: 3
+  attractionDistance: 5
   gravitationalConstant: 5
   orbMass: 0.1
-  playerMass: 1
+  playerMass: 5
   enableOrbitalMotion: 0
   orbitRadius: 0.05
   orbitSpeed: 3
