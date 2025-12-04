@@ -1,0 +1,3237 @@
+fileFormatVersion: 2
+guid: ac1c94aee1da8a443ab0e7bdd24c5727
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3593219572305695371
+    second: GandalfHardcore coat of arms_0
+  - first:
+      213: -6896307290218340591
+    second: GandalfHardcore coat of arms_1
+  - first:
+      213: 2242436836885871385
+    second: GandalfHardcore coat of arms_2
+  - first:
+      213: -4178742096996211810
+    second: GandalfHardcore coat of arms_3
+  - first:
+      213: -6968035509347549888
+    second: GandalfHardcore coat of arms_4
+  - first:
+      213: -6449605034641258414
+    second: GandalfHardcore coat of arms_5
+  - first:
+      213: -7850351064781344007
+    second: GandalfHardcore coat of arms_6
+  - first:
+      213: -1285001922596065737
+    second: GandalfHardcore coat of arms_7
+  - first:
+      213: 8044088531281395919
+    second: GandalfHardcore coat of arms_8
+  - first:
+      213: 1641115199774381054
+    second: GandalfHardcore coat of arms_9
+  - first:
+      213: 5064646325580083673
+    second: GandalfHardcore coat of arms_10
+  - first:
+      213: -7037890588424033030
+    second: GandalfHardcore coat of arms_11
+  - first:
+      213: -1896040202992934126
+    second: GandalfHardcore coat of arms_12
+  - first:
+      213: -4438980189931993383
+    second: GandalfHardcore coat of arms_13
+  - first:
+      213: 293432099579762885
+    second: GandalfHardcore coat of arms_14
+  - first:
+      213: -2400022077071887309
+    second: GandalfHardcore coat of arms_15
+  - first:
+      213: -7990405778758679006
+    second: GandalfHardcore coat of arms_16
+  - first:
+      213: -4049939153797614564
+    second: GandalfHardcore coat of arms_17
+  - first:
+      213: -8063778033663179553
+    second: GandalfHardcore coat of arms_18
+  - first:
+      213: -2466780758849083149
+    second: GandalfHardcore coat of arms_19
+  - first:
+      213: 8711631777398363656
+    second: GandalfHardcore coat of arms_20
+  - first:
+      213: 9155951282678457911
+    second: GandalfHardcore coat of arms_21
+  - first:
+      213: -7582273363968243239
+    second: GandalfHardcore coat of arms_22
+  - first:
+      213: 2551682677235108170
+    second: GandalfHardcore coat of arms_23
+  - first:
+      213: -6859696969576512202
+    second: GandalfHardcore coat of arms_24
+  - first:
+      213: -5741151599913498242
+    second: GandalfHardcore coat of arms_25
+  - first:
+      213: 8949402499984194790
+    second: GandalfHardcore coat of arms_26
+  - first:
+      213: 1503129218132408193
+    second: GandalfHardcore coat of arms_27
+  - first:
+      213: 1009946503205960455
+    second: GandalfHardcore coat of arms_28
+  - first:
+      213: 1063527685550284065
+    second: GandalfHardcore coat of arms_29
+  - first:
+      213: -1896613861231408863
+    second: GandalfHardcore coat of arms_30
+  - first:
+      213: 645438430630081250
+    second: GandalfHardcore coat of arms_31
+  - first:
+      213: -3372795031685716553
+    second: GandalfHardcore coat of arms_32
+  - first:
+      213: -1542579466876343290
+    second: GandalfHardcore coat of arms_33
+  - first:
+      213: -3884797041099142734
+    second: GandalfHardcore coat of arms_34
+  - first:
+      213: -4167326922015317761
+    second: GandalfHardcore coat of arms_35
+  - first:
+      213: 7896152428206240756
+    second: GandalfHardcore coat of arms_36
+  - first:
+      213: 1171987532340643321
+    second: GandalfHardcore coat of arms_37
+  - first:
+      213: -3244172777020870111
+    second: GandalfHardcore coat of arms_38
+  - first:
+      213: 5070341575312305978
+    second: GandalfHardcore coat of arms_39
+  - first:
+      213: 2216479899839804786
+    second: GandalfHardcore coat of arms_40
+  - first:
+      213: 6274424977743133327
+    second: GandalfHardcore coat of arms_41
+  - first:
+      213: 6175483607146327102
+    second: GandalfHardcore coat of arms_42
+  - first:
+      213: -7088480898872002558
+    second: GandalfHardcore coat of arms_43
+  - first:
+      213: 7698662393678224260
+    second: GandalfHardcore coat of arms_44
+  - first:
+      213: -6841768632353104793
+    second: GandalfHardcore coat of arms_45
+  - first:
+      213: -1522677467041642399
+    second: GandalfHardcore coat of arms_46
+  - first:
+      213: -7197351242013463008
+    second: GandalfHardcore coat of arms_47
+  - first:
+      213: -4864190645466462956
+    second: GandalfHardcore coat of arms_48
+  - first:
+      213: 4957960158810516560
+    second: GandalfHardcore coat of arms_49
+  - first:
+      213: -7821385279844525239
+    second: GandalfHardcore coat of arms_50
+  - first:
+      213: -7613162375224951412
+    second: GandalfHardcore coat of arms_51
+  - first:
+      213: -1575815211072500807
+    second: GandalfHardcore coat of arms_52
+  - first:
+      213: -3978841235938982652
+    second: GandalfHardcore coat of arms_53
+  - first:
+      213: -8910676116480480752
+    second: GandalfHardcore coat of arms_54
+  - first:
+      213: 3302540662337301463
+    second: GandalfHardcore coat of arms_55
+  - first:
+      213: 385566531005166448
+    second: GandalfHardcore coat of arms_56
+  - first:
+      213: 1454129295996361864
+    second: GandalfHardcore coat of arms_57
+  - first:
+      213: 5361991719927577253
+    second: GandalfHardcore coat of arms_58
+  - first:
+      213: 1446994360544614043
+    second: GandalfHardcore coat of arms_59
+  - first:
+      213: -9169155202177925065
+    second: GandalfHardcore coat of arms_60
+  - first:
+      213: 2613841368186473220
+    second: GandalfHardcore coat of arms_61
+  - first:
+      213: -7287107200869594041
+    second: GandalfHardcore coat of arms_62
+  - first:
+      213: -6000039620075041354
+    second: GandalfHardcore coat of arms_63
+  - first:
+      213: -428169822073506196
+    second: GandalfHardcore coat of arms_64
+  - first:
+      213: 4497779244630399067
+    second: GandalfHardcore coat of arms_65
+  - first:
+      213: 3720125101186080711
+    second: GandalfHardcore coat of arms_66
+  - first:
+      213: -4795376693997861367
+    second: GandalfHardcore coat of arms_67
+  - first:
+      213: 8390328848454534909
+    second: GandalfHardcore coat of arms_68
+  - first:
+      213: 8549304613999609810
+    second: GandalfHardcore coat of arms_69
+  - first:
+      213: 3081590520673369564
+    second: GandalfHardcore coat of arms_70
+  - first:
+      213: 8262341964913740142
+    second: GandalfHardcore coat of arms_71
+  - first:
+      213: -8209796237222230968
+    second: GandalfHardcore coat of arms_72
+  - first:
+      213: 7677750075506574997
+    second: GandalfHardcore coat of arms_73
+  - first:
+      213: -1190969397279220792
+    second: GandalfHardcore coat of arms_74
+  - first:
+      213: 7365152162086244562
+    second: GandalfHardcore coat of arms_75
+  - first:
+      213: -8408346926646979437
+    second: GandalfHardcore coat of arms_76
+  - first:
+      213: -4264546714940882676
+    second: GandalfHardcore coat of arms_77
+  - first:
+      213: -5049939604938941083
+    second: GandalfHardcore coat of arms_78
+  - first:
+      213: 1464546661824387782
+    second: GandalfHardcore coat of arms_79
+  - first:
+      213: -2257280606841387895
+    second: GandalfHardcore coat of arms_80
+  - first:
+      213: -6157544184043062614
+    second: GandalfHardcore coat of arms_81
+  - first:
+      213: 7808772621526269527
+    second: GandalfHardcore coat of arms_82
+  - first:
+      213: 4187645103527228715
+    second: GandalfHardcore coat of arms_83
+  - first:
+      213: 6891698146070009855
+    second: GandalfHardcore coat of arms_84
+  - first:
+      213: 5102854563335613305
+    second: GandalfHardcore coat of arms_85
+  - first:
+      213: 4823864223551546367
+    second: GandalfHardcore coat of arms_86
+  - first:
+      213: 8483107575841813764
+    second: GandalfHardcore coat of arms_87
+  - first:
+      213: -4901115426297000485
+    second: GandalfHardcore coat of arms_88
+  - first:
+      213: 4610201566448315640
+    second: GandalfHardcore coat of arms_89
+  - first:
+      213: 27432412069256892
+    second: GandalfHardcore coat of arms_90
+  - first:
+      213: 6089905775644578244
+    second: GandalfHardcore coat of arms_91
+  - first:
+      213: 3491721396506310481
+    second: GandalfHardcore coat of arms_92
+  - first:
+      213: -2346899755896136416
+    second: GandalfHardcore coat of arms_93
+  - first:
+      213: 3147758644694922392
+    second: GandalfHardcore coat of arms_94
+  - first:
+      213: 6232839887381946147
+    second: GandalfHardcore coat of arms_95
+  - first:
+      213: -8897630434210773761
+    second: GandalfHardcore coat of arms_96
+  - first:
+      213: -1356344090099645648
+    second: GandalfHardcore coat of arms_97
+  - first:
+      213: 6653664837457532944
+    second: GandalfHardcore coat of arms_98
+  - first:
+      213: -4980058373997418402
+    second: GandalfHardcore coat of arms_99
+  - first:
+      213: -1626932363304970643
+    second: GandalfHardcore coat of arms_100
+  - first:
+      213: 7984220217677532856
+    second: GandalfHardcore coat of arms_101
+  - first:
+      213: -6788383252373475475
+    second: GandalfHardcore coat of arms_102
+  - first:
+      213: -6323649363801177050
+    second: GandalfHardcore coat of arms_103
+  - first:
+      213: 2255251496785067701
+    second: GandalfHardcore coat of arms_104
+  - first:
+      213: -8092645168851104811
+    second: GandalfHardcore coat of arms_105
+  - first:
+      213: -8416355775677409111
+    second: GandalfHardcore coat of arms_106
+  - first:
+      213: -3827350654222499506
+    second: GandalfHardcore coat of arms_107
+  - first:
+      213: -8120398679240260779
+    second: GandalfHardcore coat of arms_108
+  - first:
+      213: -6148867600764075962
+    second: GandalfHardcore coat of arms_109
+  - first:
+      213: -994947537017855625
+    second: GandalfHardcore coat of arms_110
+  - first:
+      213: 5016346053725177923
+    second: GandalfHardcore coat of arms_111
+  - first:
+      213: 4659023465977552825
+    second: GandalfHardcore coat of arms_112
+  - first:
+      213: 5600272977797876793
+    second: GandalfHardcore coat of arms_113
+  - first:
+      213: 2159842687291103681
+    second: GandalfHardcore coat of arms_114
+  - first:
+      213: -3548786612854859634
+    second: GandalfHardcore coat of arms_115
+  - first:
+      213: 2099886001476651523
+    second: GandalfHardcore coat of arms_116
+  - first:
+      213: -4287871152018132531
+    second: GandalfHardcore coat of arms_117
+  - first:
+      213: 319071319489996567
+    second: GandalfHardcore coat of arms_118
+  - first:
+      213: -3040200011178355733
+    second: GandalfHardcore coat of arms_119
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GandalfHardcore coat of arms_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 257
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57decb036d1522ec0800000000000000
+      internalID: -3593219572305695371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore coat of arms_1
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 226
+        width: 12
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11f5998ce056b40a0800000000000000
+      internalID: -6896307290218340591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore coat of arms_2
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 194
+        width: 12
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91b35d51c6cbe1f10800000000000000
+      internalID: 2242436836885871385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore coat of arms_3
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 162
+        width: 12
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e93e194e3302206c0800000000000000
+      internalID: -4178742096996211810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore coat of arms_4
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 130
+        width: 12
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04df70b5f909c4f90800000000000000
+      internalID: -6968035509347549888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore coat of arms_5
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 98
+        width: 12
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25803a874666e76a0800000000000000
+      internalID: -6449605034641258414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore coat of arms_6
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 66
+        width: 12
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f2399dac43fd0390800000000000000
+      internalID: -7850351064781344007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore coat of arms_7
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 34
+        width: 12
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73ea7f34f81ca2ee0800000000000000
+      internalID: -1285001922596065737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore coat of arms_8
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 2
+        width: 12
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc042d856e752af60800000000000000
+      internalID: 8044088531281395919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore coat of arms_9
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 257
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef3db06449966c610800000000000000
+      internalID: 1641115199774381054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore coat of arms_10
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 226
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d1303ddffc394640800000000000000
+      internalID: 5064646325580083673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore coat of arms_11
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 194
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afcabe45cc3645e90800000000000000
+      internalID: -7037890588424033030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore coat of arms_12
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 162
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2132fb42b79efa5e0800000000000000
+      internalID: -1896040202992934126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore coat of arms_13
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 130
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d68b1639039562c0800000000000000
+      internalID: -4438980189931993383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore coat of arms_14
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 98
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c8162d90fa721400800000000000000
+      internalID: 293432099579762885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore coat of arms_15
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 66
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 334f80303a861bed0800000000000000
+      internalID: -2400022077071887309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore coat of arms_16
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 34
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2264cd977406c1190800000000000000
+      internalID: -7990405778758679006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore coat of arms_17
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 2
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1472ff0cc9bbc7c0800000000000000
+      internalID: -4049939153797614564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore coat of arms_18
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 257
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd488e32a94b71090800000000000000
+      internalID: -8063778033663179553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore coat of arms_19
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 234
+        width: 24
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f8280a28fb34cdd0800000000000000
+      internalID: -2466780758849083149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore coat of arms_20
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 202
+        width: 24
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80695d102fee5e870800000000000000
+      internalID: 8711631777398363656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore coat of arms_21
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 170
+        width: 24
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 736e4d86e29701f70800000000000000
+      internalID: 9155951282678457911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore coat of arms_22
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 138
+        width: 24
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d944ce4c8a56c690800000000000000
+      internalID: -7582273363968243239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore coat of arms_23
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 106
+        width: 24
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a49cd1420e5696320800000000000000
+      internalID: 2551682677235108170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore coat of arms_24
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 74
+        width: 24
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 635819d43f57dc0a0800000000000000
+      internalID: -6859696969576512202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore coat of arms_25
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 42
+        width: 24
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e798d7da9055350b0800000000000000
+      internalID: -5741151599913498242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore coat of arms_26
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 10
+        width: 24
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ecfc83682aa23c70800000000000000
+      internalID: 8949402499984194790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore coat of arms_27
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 257
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 187fa4a5f003cd410800000000000000
+      internalID: 1503129218132408193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore coat of arms_28
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 225
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70b3db56efc040e00800000000000000
+      internalID: 1009946503205960455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore coat of arms_29
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 193
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12d94029bc862ce00800000000000000
+      internalID: 1063527685550284065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore coat of arms_30
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 161
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 129483dedbfdda5e0800000000000000
+      internalID: -1896613861231408863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore coat of arms_31
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 129
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e2771e35de05f800800000000000000
+      internalID: 645438430630081250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore coat of arms_32
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 97
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b5ab2cd9cc6131d0800000000000000
+      internalID: -3372795031685716553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore coat of arms_33
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 65
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60c2607d528a79ae0800000000000000
+      internalID: -1542579466876343290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore coat of arms_34
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 33
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b90cc47cad661ac0800000000000000
+      internalID: -3884797041099142734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore coat of arms_35
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 1
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff0ea5e6e3eaa26c0800000000000000
+      internalID: -4167326922015317761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore coat of arms_36
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 257
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f3329f3cc4c49d60800000000000000
+      internalID: 7896152428206240756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore coat of arms_37
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 246
+        width: 24
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f5c952837cb34010800000000000000
+      internalID: 1171987532340643321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore coat of arms_38
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 214
+        width: 24
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 122bda33c026af2d0800000000000000
+      internalID: -3244172777020870111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore coat of arms_39
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 182
+        width: 24
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3f62668cc87d5640800000000000000
+      internalID: 5070341575312305978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore coat of arms_40
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 150
+        width: 24
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 275beb9b9b482ce10800000000000000
+      internalID: 2216479899839804786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore coat of arms_41
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 118
+        width: 24
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8ab730264c331750800000000000000
+      internalID: 6274424977743133327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore coat of arms_42
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 86
+        width: 24
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3c64302f99b3b550800000000000000
+      internalID: 6175483607146327102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore coat of arms_43
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 54
+        width: 24
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 208b799cd28a0ad90800000000000000
+      internalID: -7088480898872002558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore coat of arms_44
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 22
+        width: 24
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48b59d468a427da60800000000000000
+      internalID: 7698662393678224260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore coat of arms_45
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 257
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76cde299da72d01a0800000000000000
+      internalID: -6841768632353104793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore coat of arms_46
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 225
+        width: 10
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 168cd7549ec5edae0800000000000000
+      internalID: -1522677467041642399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore coat of arms_47
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 193
+        width: 10
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02e2218bd2fdd1c90800000000000000
+      internalID: -7197351242013463008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore coat of arms_48
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 161
+        width: 10
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4158139216cee7cb0800000000000000
+      internalID: -4864190645466462956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore coat of arms_49
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 129
+        width: 10
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05ca07cfe763ec440800000000000000
+      internalID: 4957960158810516560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore coat of arms_50
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 97
+        width: 10
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94bd567078bd47390800000000000000
+      internalID: -7821385279844525239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore coat of arms_51
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 65
+        width: 10
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8df85fe72d985690800000000000000
+      internalID: -7613162375224951412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore coat of arms_52
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 33
+        width: 10
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bbcd502a64912ae0800000000000000
+      internalID: -1575815211072500807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore coat of arms_53
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 1
+        width: 10
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4054e2a0af058c8c0800000000000000
+      internalID: -3978841235938982652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore coat of arms_54
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 1
+        width: 24
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01aaf98684be65480800000000000000
+      internalID: -8910676116480480752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore coat of arms_55
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 1
+        width: 24
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dbe5ea1c3bf4dd20800000000000000
+      internalID: 3302540662337301463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore coat of arms_56
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 231
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 073b7d597bec95500800000000000000
+      internalID: 385566531005166448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore coat of arms_57
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 199
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88c1a51f3ea1e2410800000000000000
+      internalID: 1454129295996361864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore coat of arms_58
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 167
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5aa7eda6f0f996a40800000000000000
+      internalID: 5361991719927577253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore coat of arms_59
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 135
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b96514454b1c41410800000000000000
+      internalID: 1446994360544614043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore coat of arms_60
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 103
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73082c38ced90c080800000000000000
+      internalID: -9169155202177925065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore coat of arms_61
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 71
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40bc9f920ea364420800000000000000
+      internalID: 2613841368186473220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore coat of arms_62
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 39
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74c0afb0c9efeda90800000000000000
+      internalID: -7287107200869594041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore coat of arms_63
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 7
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bd482f41c39bbca0800000000000000
+      internalID: -6000039620075041354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore coat of arms_64
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 231
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6634cbb0d5de0af0800000000000000
+      internalID: -428169822073506196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore coat of arms_65
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 199
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b58d15a84625b6e30800000000000000
+      internalID: 4497779244630399067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore coat of arms_66
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 167
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cfd538c11a80a330800000000000000
+      internalID: 3720125101186080711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore coat of arms_67
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 135
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9060216cd46637db0800000000000000
+      internalID: -4795376693997861367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore coat of arms_68
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 103
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df648d042af607470800000000000000
+      internalID: 8390328848454534909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore coat of arms_69
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 71
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d70e02104b35a670800000000000000
+      internalID: 8549304613999609810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore coat of arms_70
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 39
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdd72f7604204ca20800000000000000
+      internalID: 3081590520673369564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore coat of arms_71
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 7
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e698c77cd3cb9a270800000000000000
+      internalID: 8262341964913740142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore coat of arms_72
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 240
+        width: 24
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 844c702d1d1f01e80800000000000000
+      internalID: -8209796237222230968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore coat of arms_73
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 208
+        width: 24
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5964cc4e309dc8a60800000000000000
+      internalID: 7677750075506574997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore coat of arms_74
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 176
+        width: 24
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cb9fc8a4a3d87fe0800000000000000
+      internalID: -1190969397279220792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore coat of arms_75
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 144
+        width: 24
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d0d9d18ed6463660800000000000000
+      internalID: 7365152162086244562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore coat of arms_76
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 112
+        width: 24
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39495f0050d8f4b80800000000000000
+      internalID: -8408346926646979437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore coat of arms_77
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 80
+        width: 24
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c01c3e77b5941d4c0800000000000000
+      internalID: -4264546714940882676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore coat of arms_78
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 48
+        width: 24
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56d107e5fa20be9b0800000000000000
+      internalID: -5049939604938941083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore coat of arms_79
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 16
+        width: 24
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cad60fed6d135410800000000000000
+      internalID: 1464546661824387782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore coat of arms_80
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 225
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98447d66f378ca0e0800000000000000
+      internalID: -2257280606841387895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore coat of arms_81
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 193
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaa375d40320c8aa0800000000000000
+      internalID: -6157544184043062614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore coat of arms_82
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 161
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75e7edd93555e5c60800000000000000
+      internalID: 7808772621526269527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore coat of arms_83
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 129
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b25f429d8018d1a30800000000000000
+      internalID: 4187645103527228715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore coat of arms_84
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 97
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff798b733fa34af50800000000000000
+      internalID: 6891698146070009855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore coat of arms_85
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 65
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97ba914703bf0d640800000000000000
+      internalID: 5102854563335613305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore coat of arms_86
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 33
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff3618114fec1f240800000000000000
+      internalID: 4823864223551546367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore coat of arms_87
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 1
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 405f971156d0ab570800000000000000
+      internalID: 8483107575841813764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore coat of arms_88
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 228
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdd416cac7dbbfbb0800000000000000
+      internalID: -4901115426297000485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore coat of arms_89
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 196
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fce91716e9baff30800000000000000
+      internalID: 4610201566448315640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore coat of arms_90
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 164
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbe58b822a5716000800000000000000
+      internalID: 27432412069256892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore coat of arms_91
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 132
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c115e88901b38450800000000000000
+      internalID: 6089905775644578244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore coat of arms_92
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 100
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 157b3653c16157030800000000000000
+      internalID: 3491721396506310481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore coat of arms_93
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 68
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02d1c5e3b132e6fd0800000000000000
+      internalID: -2346899755896136416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore coat of arms_94
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 36
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 894b4bf4fc51fab20800000000000000
+      internalID: 3147758644694922392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore coat of arms_95
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 4
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32f5945cade7f7650800000000000000
+      internalID: 6232839887381946147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore coat of arms_96
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 232
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff489220344458480800000000000000
+      internalID: -8897630434210773761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore coat of arms_97
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 200
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 033096c7c3c4d2de0800000000000000
+      internalID: -1356344090099645648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore coat of arms_98
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 168
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 018d923cae0965c50800000000000000
+      internalID: 6653664837457532944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore coat of arms_99
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 136
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e58ac295b4743eab0800000000000000
+      internalID: -4980058373997418402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore coat of arms_100
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 104
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d66de9ba2a9fb69e0800000000000000
+      internalID: -1626932363304970643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore coat of arms_101
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 72
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8be492b5cf5adce60800000000000000
+      internalID: 7984220217677532856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore coat of arms_102
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 40
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6f611bf561dac1a0800000000000000
+      internalID: -6788383252373475475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore coat of arms_103
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 8
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62481826862ed38a0800000000000000
+      internalID: -6323649363801177050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore coat of arms_104
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 229
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5beba0999434c4f10800000000000000
+      internalID: 2255251496785067701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore coat of arms_105
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 197
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5db4959781621bf80800000000000000
+      internalID: -8092645168851104811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore coat of arms_106
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 165
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a8d0778309133b80800000000000000
+      internalID: -8416355775677409111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore coat of arms_107
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 133
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e418530bbd482eac0800000000000000
+      internalID: -3827350654222499506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore coat of arms_108
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 101
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5534559cc6c8e4f80800000000000000
+      internalID: -8120398679240260779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore coat of arms_109
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 69
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6408c85ce75daaaa0800000000000000
+      internalID: -6148867600764075962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore coat of arms_110
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 37
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 771a6ed8c7c3132f0800000000000000
+      internalID: -994947537017855625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore coat of arms_111
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 5
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 348c8ba7824ad9540800000000000000
+      internalID: 5016346053725177923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore coat of arms_112
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 225
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bf1dc1682d28a040800000000000000
+      internalID: 4659023465977552825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore coat of arms_113
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 193
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93c8cde0a9a28bd40800000000000000
+      internalID: 5600272977797876793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore coat of arms_114
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 161
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c916b21b7d49fd10800000000000000
+      internalID: 2159842687291103681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore coat of arms_115
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 129
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e88df1db06d20cec0800000000000000
+      internalID: -3548786612854859634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore coat of arms_116
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 97
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30ac4d2513b442d10800000000000000
+      internalID: 2099886001476651523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore coat of arms_117
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 65
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc17055c7eb6e74c0800000000000000
+      internalID: -4287871152018132531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore coat of arms_118
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 33
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7176730bca19d6400800000000000000
+      internalID: 319071319489996567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore coat of arms_119
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 1
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be3539f823a0fc5d0800000000000000
+      internalID: -3040200011178355733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      GandalfHardcore coat of arms_0: -3593219572305695371
+      GandalfHardcore coat of arms_1: -6896307290218340591
+      GandalfHardcore coat of arms_10: 5064646325580083673
+      GandalfHardcore coat of arms_100: -1626932363304970643
+      GandalfHardcore coat of arms_101: 7984220217677532856
+      GandalfHardcore coat of arms_102: -6788383252373475475
+      GandalfHardcore coat of arms_103: -6323649363801177050
+      GandalfHardcore coat of arms_104: 2255251496785067701
+      GandalfHardcore coat of arms_105: -8092645168851104811
+      GandalfHardcore coat of arms_106: -8416355775677409111
+      GandalfHardcore coat of arms_107: -3827350654222499506
+      GandalfHardcore coat of arms_108: -8120398679240260779
+      GandalfHardcore coat of arms_109: -6148867600764075962
+      GandalfHardcore coat of arms_11: -7037890588424033030
+      GandalfHardcore coat of arms_110: -994947537017855625
+      GandalfHardcore coat of arms_111: 5016346053725177923
+      GandalfHardcore coat of arms_112: 4659023465977552825
+      GandalfHardcore coat of arms_113: 5600272977797876793
+      GandalfHardcore coat of arms_114: 2159842687291103681
+      GandalfHardcore coat of arms_115: -3548786612854859634
+      GandalfHardcore coat of arms_116: 2099886001476651523
+      GandalfHardcore coat of arms_117: -4287871152018132531
+      GandalfHardcore coat of arms_118: 319071319489996567
+      GandalfHardcore coat of arms_119: -3040200011178355733
+      GandalfHardcore coat of arms_12: -1896040202992934126
+      GandalfHardcore coat of arms_13: -4438980189931993383
+      GandalfHardcore coat of arms_14: 293432099579762885
+      GandalfHardcore coat of arms_15: -2400022077071887309
+      GandalfHardcore coat of arms_16: -7990405778758679006
+      GandalfHardcore coat of arms_17: -4049939153797614564
+      GandalfHardcore coat of arms_18: -8063778033663179553
+      GandalfHardcore coat of arms_19: -2466780758849083149
+      GandalfHardcore coat of arms_2: 2242436836885871385
+      GandalfHardcore coat of arms_20: 8711631777398363656
+      GandalfHardcore coat of arms_21: 9155951282678457911
+      GandalfHardcore coat of arms_22: -7582273363968243239
+      GandalfHardcore coat of arms_23: 2551682677235108170
+      GandalfHardcore coat of arms_24: -6859696969576512202
+      GandalfHardcore coat of arms_25: -5741151599913498242
+      GandalfHardcore coat of arms_26: 8949402499984194790
+      GandalfHardcore coat of arms_27: 1503129218132408193
+      GandalfHardcore coat of arms_28: 1009946503205960455
+      GandalfHardcore coat of arms_29: 1063527685550284065
+      GandalfHardcore coat of arms_3: -4178742096996211810
+      GandalfHardcore coat of arms_30: -1896613861231408863
+      GandalfHardcore coat of arms_31: 645438430630081250
+      GandalfHardcore coat of arms_32: -3372795031685716553
+      GandalfHardcore coat of arms_33: -1542579466876343290
+      GandalfHardcore coat of arms_34: -3884797041099142734
+      GandalfHardcore coat of arms_35: -4167326922015317761
+      GandalfHardcore coat of arms_36: 7896152428206240756
+      GandalfHardcore coat of arms_37: 1171987532340643321
+      GandalfHardcore coat of arms_38: -3244172777020870111
+      GandalfHardcore coat of arms_39: 5070341575312305978
+      GandalfHardcore coat of arms_4: -6968035509347549888
+      GandalfHardcore coat of arms_40: 2216479899839804786
+      GandalfHardcore coat of arms_41: 6274424977743133327
+      GandalfHardcore coat of arms_42: 6175483607146327102
+      GandalfHardcore coat of arms_43: -7088480898872002558
+      GandalfHardcore coat of arms_44: 7698662393678224260
+      GandalfHardcore coat of arms_45: -6841768632353104793
+      GandalfHardcore coat of arms_46: -1522677467041642399
+      GandalfHardcore coat of arms_47: -7197351242013463008
+      GandalfHardcore coat of arms_48: -4864190645466462956
+      GandalfHardcore coat of arms_49: 4957960158810516560
+      GandalfHardcore coat of arms_5: -6449605034641258414
+      GandalfHardcore coat of arms_50: -7821385279844525239
+      GandalfHardcore coat of arms_51: -7613162375224951412
+      GandalfHardcore coat of arms_52: -1575815211072500807
+      GandalfHardcore coat of arms_53: -3978841235938982652
+      GandalfHardcore coat of arms_54: -8910676116480480752
+      GandalfHardcore coat of arms_55: 3302540662337301463
+      GandalfHardcore coat of arms_56: 385566531005166448
+      GandalfHardcore coat of arms_57: 1454129295996361864
+      GandalfHardcore coat of arms_58: 5361991719927577253
+      GandalfHardcore coat of arms_59: 1446994360544614043
+      GandalfHardcore coat of arms_6: -7850351064781344007
+      GandalfHardcore coat of arms_60: -9169155202177925065
+      GandalfHardcore coat of arms_61: 2613841368186473220
+      GandalfHardcore coat of arms_62: -7287107200869594041
+      GandalfHardcore coat of arms_63: -6000039620075041354
+      GandalfHardcore coat of arms_64: -428169822073506196
+      GandalfHardcore coat of arms_65: 4497779244630399067
+      GandalfHardcore coat of arms_66: 3720125101186080711
+      GandalfHardcore coat of arms_67: -4795376693997861367
+      GandalfHardcore coat of arms_68: 8390328848454534909
+      GandalfHardcore coat of arms_69: 8549304613999609810
+      GandalfHardcore coat of arms_7: -1285001922596065737
+      GandalfHardcore coat of arms_70: 3081590520673369564
+      GandalfHardcore coat of arms_71: 8262341964913740142
+      GandalfHardcore coat of arms_72: -8209796237222230968
+      GandalfHardcore coat of arms_73: 7677750075506574997
+      GandalfHardcore coat of arms_74: -1190969397279220792
+      GandalfHardcore coat of arms_75: 7365152162086244562
+      GandalfHardcore coat of arms_76: -8408346926646979437
+      GandalfHardcore coat of arms_77: -4264546714940882676
+      GandalfHardcore coat of arms_78: -5049939604938941083
+      GandalfHardcore coat of arms_79: 1464546661824387782
+      GandalfHardcore coat of arms_8: 8044088531281395919
+      GandalfHardcore coat of arms_80: -2257280606841387895
+      GandalfHardcore coat of arms_81: -6157544184043062614
+      GandalfHardcore coat of arms_82: 7808772621526269527
+      GandalfHardcore coat of arms_83: 4187645103527228715
+      GandalfHardcore coat of arms_84: 6891698146070009855
+      GandalfHardcore coat of arms_85: 5102854563335613305
+      GandalfHardcore coat of arms_86: 4823864223551546367
+      GandalfHardcore coat of arms_87: 8483107575841813764
+      GandalfHardcore coat of arms_88: -4901115426297000485
+      GandalfHardcore coat of arms_89: 4610201566448315640
+      GandalfHardcore coat of arms_9: 1641115199774381054
+      GandalfHardcore coat of arms_90: 27432412069256892
+      GandalfHardcore coat of arms_91: 6089905775644578244
+      GandalfHardcore coat of arms_92: 3491721396506310481
+      GandalfHardcore coat of arms_93: -2346899755896136416
+      GandalfHardcore coat of arms_94: 3147758644694922392
+      GandalfHardcore coat of arms_95: 6232839887381946147
+      GandalfHardcore coat of arms_96: -8897630434210773761
+      GandalfHardcore coat of arms_97: -1356344090099645648
+      GandalfHardcore coat of arms_98: 6653664837457532944
+      GandalfHardcore coat of arms_99: -4980058373997418402
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

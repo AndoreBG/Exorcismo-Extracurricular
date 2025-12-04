@@ -8,20 +8,24 @@ public class avatarMovement : MonoBehaviour
     [Space]
     [Header("== Componentes ==")]
     [SerializeField] private Rigidbody2D rb;
-    [SerializeField] private BoxCollider2D boxCollider;
+    [SerializeField] private BoxCollider2D groundCollider;
+    [SerializeField] private CapsuleCollider2D playerCollider;
     [SerializeField] private Animator animator;
 
     [Space]
     [Header("== Movimentação ==")]
-    [SerializeField] private float moveSpeed = 5f;
-    [SerializeField] private float jumpForce = 5f;
+    [SerializeField] private float moveSpeed  = 5f;
+    [SerializeField] private float jumpForce  = 5f;
+    [SerializeField] private float stairSpeed = 5f;
     [SerializeField] private LayerMask wallLayer;
     [SerializeField] private LayerMask groundLayer;
     [SerializeField] private LayerMask obstacleLayer;
+    [SerializeField] private LayerMask stairlayer;
     [SerializeField] private bool isFacingRight = true;
 
     private bool isDead = false;
     private bool isJumping = false;
+    private bool onStair = false;
     private float moveInput;
     private int hasJumped = 0;  
 
@@ -38,6 +42,7 @@ public class avatarMovement : MonoBehaviour
     void Update()
     {
         IsGrounded();
+        IsOnStair();
 
         if (!isDead)
         {
@@ -45,11 +50,6 @@ public class avatarMovement : MonoBehaviour
             Flip();
             VerticalMovement();
         }
-    }
-
-    void FixedUpate()
-    {
-
     }
 
     void HorizontalMovement()
@@ -80,7 +80,7 @@ public class avatarMovement : MonoBehaviour
 
     void IsGrounded()
     {
-        if (boxCollider.IsTouchingLayers(wallLayer) || boxCollider.IsTouchingLayers(groundLayer) || boxCollider.IsTouchingLayers(obstacleLayer))
+        if (groundCollider.IsTouchingLayers(wallLayer) || groundCollider.IsTouchingLayers(groundLayer) || groundCollider.IsTouchingLayers(obstacleLayer))
         {
             isJumping = false;
         }
@@ -88,6 +88,18 @@ public class avatarMovement : MonoBehaviour
         {
             hasJumped = 1;
             isJumping = true;
+        }
+    }
+
+    void IsOnStair()
+    {
+        if (playerCollider.IsTouchingLayers(stairlayer))
+        {
+            onStair = true;
+        }
+        else
+        {
+            onStair = false;
         }
     }
 
@@ -106,6 +118,12 @@ public class avatarMovement : MonoBehaviour
                 OnLanding?.Invoke();
                 hasJumped = 0;
             }
+            animator.SetBool("isJumping", false);
+        }
+
+        if(onStair && Input.GetKey(KeyCode.W))
+        {
+            rb.linearVelocity = new Vector2(rb.linearVelocityX, stairSpeed);
             animator.SetBool("isJumping", false);
         }
     }

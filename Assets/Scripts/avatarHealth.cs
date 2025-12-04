@@ -40,6 +40,11 @@ public class avatarHealth : MonoBehaviour
     public bool IsDead => isDead;
     public bool IsInvulnerable => isInvulnerable;
 
+
+    void Awake()
+    {
+        DontDestroyOnLoad(this.gameObject);
+    }
     void Start()
     {
         currentHealth = maxHealth; // Inicializar vida
