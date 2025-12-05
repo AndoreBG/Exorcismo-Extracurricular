@@ -3,7 +3,9 @@ using Unity.VisualScripting;
 using UnityEditor.PackageManager;
 using UnityEditor.Search;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.SceneManagement;
+using UnityEngine.UIElements;
 
 public class LevelManager : MonoBehaviour
 {
@@ -33,11 +35,22 @@ public class LevelManager : MonoBehaviour
         StartCoroutine(LoadLevelWithTransition(levelName));
     }
 
+    public void TransitionEvent()
+    {
+        StartCoroutine(EventWithTransition());
+    }
+
     IEnumerator LoadLevelWithTransition(string levelName)
     {
         animator.SetTrigger("Start");
         yield return new WaitForSeconds(1f);
         SceneManager.LoadScene(levelName);
+        animator.SetTrigger("End");
+    }
+    IEnumerator EventWithTransition()
+    {
+        animator.SetTrigger("Start");
+        yield return new WaitForSeconds(2f);
         animator.SetTrigger("End");
     }
 }

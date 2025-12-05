@@ -14,6 +14,9 @@ public class projectilePool : MonoBehaviour
         GameObject container = new GameObject("ActiveProjectiles");
         activeProjectilesContainer = container.transform;
         // NÃO definir parent - fica na raiz da cena
+
+        DontDestroyOnLoad(this.gameObject);
+        DontDestroyOnLoad(container.gameObject);
     }
 
     public void AddProjectileType(GameObject prefab, int poolSize)

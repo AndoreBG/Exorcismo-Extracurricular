@@ -1,14 +1,21 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class TransitionPoint : MonoBehaviour
 {
-    [SerializeField] private string levelToLoad;
+    [Header("Configuração")]
+    [SerializeField] private string targetScene;
+    [SerializeField] private string spawnPointName;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
         {
-            LevelManager.Instance.LoadLevel(levelToLoad);
+            // Salvar onde o player deve aparecer
+            PlayerPrefs.SetString("SpawnPoint", spawnPointName);
+
+            // Carregar a cena
+            SceneManager.LoadScene(targetScene);
         }
     }
 }

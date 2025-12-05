@@ -9,11 +9,17 @@ EditorBuildSettings:
     path: Assets/Scenes/MenuPrincipal.unity
     guid: 6fda59ebbb17a0249981c7199de4440a
   - enabled: 1
-    path: Assets/Scenes/Basement.unity
-    guid: 92301286d2fc3b844afc641f1246ef09
+    path: Assets/Scenes/Cutscene.unity
+    guid: 86d31ffa39a197345b973f4cc528fd67
   - enabled: 1
     path: Assets/Scenes/Hall.unity
     guid: 20eb7ce48799de34d912e975875af006
+  - enabled: 1
+    path: Assets/Scenes/Basement.unity
+    guid: 92301286d2fc3b844afc641f1246ef09
+  - enabled: 1
+    path: Assets/Scenes/HallCursed.unity
+    guid: 48d2862f3b3ca4c45a31044325d7fd27
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

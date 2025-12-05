@@ -1,5 +1,6 @@
 using System;
 using UnityEditor.Animations;
+using UnityEditor.ShaderGraph.Internal;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -126,6 +127,11 @@ public class avatarMovement : MonoBehaviour
             rb.linearVelocity = new Vector2(rb.linearVelocityX, stairSpeed);
             animator.SetBool("isJumping", false);
         }
+    }
+
+    public void PlayerTeletransport(float x, float y)
+    {
+        transform.position = new Vector2(x, y);
     }
 
     void OnDisable()
