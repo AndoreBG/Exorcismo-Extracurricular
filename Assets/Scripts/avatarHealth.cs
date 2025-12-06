@@ -5,6 +5,10 @@ using UnityEngine.Events;
 public class avatarHealth : MonoBehaviour
 {
     [Space]
+    [Header("== Referencia ==")]
+    [SerializeField] public Animator avatarAnimator;
+
+    [Space]
     [Header("== Status ==")]
     [SerializeField] private int maxHealth = 3;
     [SerializeField] private int currentHealth;

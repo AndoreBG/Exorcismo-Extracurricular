@@ -15,6 +15,7 @@ public abstract class enemyMovement : MonoBehaviour
     [Header("=== Detecção ===")]
     [SerializeField] protected LayerMask enemyLayer;
     [SerializeField] protected LayerMask wallLayer;
+    [SerializeField] protected LayerMask enemyWallLayer;
     [SerializeField] protected LayerMask groundLayer;
     [SerializeField] protected Collider2D ownCollider;
     [SerializeField] protected float wallOffsetY = -0.5f;
@@ -137,27 +138,24 @@ public abstract class enemyMovement : MonoBehaviour
     protected bool IsWallAhead()
     {
         Vector2 direction = isFacingRight ? Vector2.right : Vector2.left;
-        Vector2 origin = (Vector2)transform.position;
-        origin.y += wallOffsetY; // Pequeno offset vertical
+        Vector2 origin = (Vector2)transform.position + Vector2.up * wallOffsetY;
 
-        RaycastHit2D hit = Physics2D.Raycast(origin, direction, wallCheckDistance, wallLayer);
+        RaycastHit2D hitWall = Physics2D.Raycast(origin, direction, wallCheckDistance, wallLayer);
+        RaycastHit2D hitEnemyWall = Physics2D.Raycast(origin, direction, wallCheckDistance * 1.5f, enemyWallLayer);
 
-        if (hit.collider != null)
+        // Usar operador null-conditional (?.) para segurança
+        bool wallDetected = hitWall.collider != null &&
+            (hitWall.collider.CompareTag("Wall") || hitWall.collider.CompareTag("Obstacle"));
+
+        bool enemyWallDetected = hitEnemyWall.collider != null &&
+            (hitEnemyWall.collider.CompareTag("EnemyWall") || hitEnemyWall.collider.CompareTag("Obstacle"));
+
+        if (showDebug && (wallDetected || enemyWallDetected))
         {
-            if (showDebug)
-            {
-                Debug.Log($"[{gameObject.name}] Parede detectada: {hit.collider.name}");
-                Debug.DrawLine(origin, hit.point, Color.blue, 0.5f);
-            }
-
-            // Verificar por tag
-            if (hit.collider.CompareTag("Wall") || hit.collider.CompareTag("Obstacle"))
-            {
-                return true;
-            }
+            Debug.Log($"[{gameObject.name}] Parede detectada!");
         }
 
-        return false;
+        return wallDetected || enemyWallDetected;
     }
 
     protected bool IsEnemyAhead()

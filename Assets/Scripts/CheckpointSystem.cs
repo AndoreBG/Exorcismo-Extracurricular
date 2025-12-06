@@ -82,6 +82,12 @@ public class CheckpointSystem : MonoBehaviour
         if (audioSource == null)
             audioSource = gameObject.AddComponent<AudioSource>();
 
+        player = GameObject.FindGameObjectWithTag("Player");
+        playerHealth = player?.GetComponent<avatarHealth>();
+        playerMagic = player?.GetComponent<magicSystem>();
+        playerMovement = player?.GetComponent<avatarMovement>();
+        playerAnimator = player?.GetComponent<Animator>();
+
         ValidateReferences();
     }
 
@@ -107,6 +113,19 @@ public class CheckpointSystem : MonoBehaviour
         if (debugMode && Input.GetKeyDown(KeyCode.F5))
         {
             DebugInfo();
+        }
+    }
+        
+    private void FixedUpdate()
+    {
+        if (playerAnimator == null)
+        {
+            Debug.LogWarning("[Checkpoint System] Avatar Animator NULO");
+            playerAnimator = playerHealth?.avatarAnimator;
+        }
+        else
+        {
+            Debug.LogWarning("[Checkpoint System] ACHOU!!");
         }
     }
 
