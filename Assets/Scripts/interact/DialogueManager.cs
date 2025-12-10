@@ -3,6 +3,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using System.Collections;
+using UnityEditor;
 
 public class DialogueManager : MonoBehaviour
 {
@@ -31,9 +32,11 @@ public class DialogueManager : MonoBehaviour
     private int currentIndex = 0;
     private bool isActive = false;
     private bool isTyping = false;
+    private bool canInteract = true;
     private Coroutine typingCoroutine;
 
     public bool IsActive => isActive;
+    public bool CanStartDialogue => canInteract && !isActive;
 
     private void Awake()
     {
@@ -65,6 +68,8 @@ public class DialogueManager : MonoBehaviour
 
     public void StartDialogue(DialogueEntry[] entries)
     {
+        if (!canInteract || isActive) return;
+
         currentDialogue = entries;
         currentIndex = 0;
         isActive = true;
@@ -76,14 +81,11 @@ public class DialogueManager : MonoBehaviour
     {
         DialogueEntry entry = currentDialogue[currentIndex];
 
-        // Personagem
         characterImage.sprite = entry.characterSprite;
 
-        // Caixa de diálogo
         boxImage.sprite = entry.dialogueBoxSprite;
         boxImage.color = entry.boxColor;
 
-        // Nome do personagem
         if (!string.IsNullOrEmpty(entry.characterName))
         {
             namePanel.SetActive(true);
@@ -96,10 +98,10 @@ public class DialogueManager : MonoBehaviour
             namePanel.SetActive(false);
         }
 
-        // Configura o áudio
         audioSource.resource = entry.typingSound;
 
-        // Inicia efeito de digitação
+        entry.OnStartDialogue?.Invoke();
+
         if (typingCoroutine != null)
             StopCoroutine(typingCoroutine);
 
@@ -123,7 +125,6 @@ public class DialogueManager : MonoBehaviour
             yield return new WaitForSeconds(typingSpeed);
         }
 
-        // Para o áudio quando termina de digitar
         StopAudio();
         isTyping = false;
     }
@@ -157,11 +158,24 @@ public class DialogueManager : MonoBehaviour
         }
     }
 
-    private void EndDialogue()
+    public void EndDialogue()
     {
+        if (typingCoroutine != null)
+            StopCoroutine(typingCoroutine);
+
         isActive = false;
+        isTyping = false;
+        canInteract = false;
         dialoguePanel.SetActive(false);
         namePanel.SetActive(false);
         StopAudio();
+
+        StartCoroutine(InteractCooldown());
+    }
+
+    private IEnumerator InteractCooldown()
+    {
+        yield return new WaitForSeconds(0.2f);
+        canInteract = true;
     }
 }

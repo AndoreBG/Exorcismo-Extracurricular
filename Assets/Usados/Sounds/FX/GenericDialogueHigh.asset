@@ -26,10 +26,10 @@ AudioRandomContainer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: SarahDialogue
+  m_Name: GenericDialogueHigh
   m_Volume: -10
-  m_Pitch: 400
-  m_AutomaticTriggerTime: 0
+  m_Pitch: 700
+  m_AutomaticTriggerTime: 0.06
   m_LoopCount: 1
   m_VolumeRandomizationRange: {x: 0, y: 3}
   m_PitchRandomizationRange: {x: -100, y: 500}

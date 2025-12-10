@@ -1,3 +1,4 @@
+// InteractDetector.cs
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -37,6 +38,12 @@ public class InteractDetector : MonoBehaviour
         {
             interactableRange = null;
             interactionIcon.SetActive(false);
+
+            // Encerra o diálogo ao sair da área
+            if (DialogueManager.Instance.IsActive)
+            {
+                DialogueManager.Instance.EndDialogue();
+            }
         }
     }
 }

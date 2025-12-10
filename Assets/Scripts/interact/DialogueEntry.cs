@@ -1,6 +1,6 @@
-// DialogueEntry.cs
 using UnityEngine;
 using UnityEngine.Audio;
+using UnityEngine.Events;
 
 [System.Serializable]
 public class DialogueEntry
@@ -23,4 +23,7 @@ public class DialogueEntry
 
     [Header("Áudio")]
     public AudioResource typingSound;
+
+    [Header("Evento")]
+    public UnityEvent OnStartDialogue;
 }

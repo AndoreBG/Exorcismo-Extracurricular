@@ -2872,6 +2872,454 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 273382191}
   m_CullTransparentMesh: 1
+--- !u!1 &273923533
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 273923536}
+  - component: {fileID: 273923535}
+  - component: {fileID: 273923534}
+  - component: {fileID: 273923537}
+  m_Layer: 0
+  m_Name: MirrorDialogue
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &273923534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 273923533}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 176d6543a17c464448492bfd48100a2e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueGeneric
+  dialogues:
+  - characterName: Espelho
+    characterSprite: {fileID: 21300000, guid: 01167a7dd9b8ffd43aa7e609ff8de271, type: 2}
+    dialogueBoxSprite: {fileID: 21300000, guid: 62bbb9c97f4851f44b443e87eb215e02, type: 2}
+    boxColor: {r: 1, g: 1, b: 1, a: 1}
+    nameBoxSprite: {fileID: 21300000, guid: 962595de4f5a80c409099f54aaabff42, type: 2}
+    nameBoxColor: {r: 0.78039217, g: 0.49803922, b: 0.12941177, a: 1}
+    text: "Ol\xE1 garotinha!"
+    typingSound: {fileID: 6418180475301049370, guid: 0b7fa80eb37ed764e8578f6c046bc917, type: 2}
+    OnStartDialogue:
+      m_PersistentCalls:
+        m_Calls: []
+  - characterName: Sarah
+    characterSprite: {fileID: -2695125036591950076, guid: 5369e8f8f54ed054aabce97e9320241e, type: 3}
+    dialogueBoxSprite: {fileID: 21300000, guid: 62bbb9c97f4851f44b443e87eb215e02, type: 2}
+    boxColor: {r: 1, g: 1, b: 1, a: 1}
+    nameBoxSprite: {fileID: 21300000, guid: 962595de4f5a80c409099f54aaabff42, type: 2}
+    nameBoxColor: {r: 1, g: 1, b: 1, a: 1}
+    text: Ahh ! ! !
+    typingSound: {fileID: 6418180475301049370, guid: bdf542ff86e288c48908b8461a9d0937, type: 2}
+    OnStartDialogue:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 273923537}
+          m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+          m_MethodName: Play
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - characterName: Espelho
+    characterSprite: {fileID: 21300000, guid: 01167a7dd9b8ffd43aa7e609ff8de271, type: 2}
+    dialogueBoxSprite: {fileID: 21300000, guid: 62bbb9c97f4851f44b443e87eb215e02, type: 2}
+    boxColor: {r: 1, g: 1, b: 1, a: 1}
+    nameBoxSprite: {fileID: 21300000, guid: 962595de4f5a80c409099f54aaabff42, type: 2}
+    nameBoxColor: {r: 0.78039217, g: 0.49803922, b: 0.12941177, a: 1}
+    text: "Calma... n\xE3o quis assusta-la"
+    typingSound: {fileID: 6418180475301049370, guid: 0b7fa80eb37ed764e8578f6c046bc917, type: 2}
+    OnStartDialogue:
+      m_PersistentCalls:
+        m_Calls: []
+  - characterName: Espelho
+    characterSprite: {fileID: 21300000, guid: 01167a7dd9b8ffd43aa7e609ff8de271, type: 2}
+    dialogueBoxSprite: {fileID: 21300000, guid: 62bbb9c97f4851f44b443e87eb215e02, type: 2}
+    boxColor: {r: 1, g: 1, b: 1, a: 1}
+    nameBoxSprite: {fileID: 21300000, guid: 962595de4f5a80c409099f54aaabff42, type: 2}
+    nameBoxColor: {r: 0.78039217, g: 0.49803922, b: 0.12941177, a: 1}
+    text: "Pelo contr\xE1rio, quero ajuda-la!"
+    typingSound: {fileID: 6418180475301049370, guid: 0b7fa80eb37ed764e8578f6c046bc917, type: 2}
+    OnStartDialogue:
+      m_PersistentCalls:
+        m_Calls: []
+  - characterName: Espelho
+    characterSprite: {fileID: 21300000, guid: 01167a7dd9b8ffd43aa7e609ff8de271, type: 2}
+    dialogueBoxSprite: {fileID: 21300000, guid: 62bbb9c97f4851f44b443e87eb215e02, type: 2}
+    boxColor: {r: 1, g: 1, b: 1, a: 1}
+    nameBoxSprite: {fileID: 21300000, guid: 962595de4f5a80c409099f54aaabff42, type: 2}
+    nameBoxColor: {r: 0.78039217, g: 0.49803922, b: 0.12941177, a: 1}
+    text: "Essa mans\xE3o n\xE3o \xE9 segura. Voc\xEA deve sair imediatamente!"
+    typingSound: {fileID: 6418180475301049370, guid: 0b7fa80eb37ed764e8578f6c046bc917, type: 2}
+    OnStartDialogue:
+      m_PersistentCalls:
+        m_Calls: []
+  - characterName: Sarah
+    characterSprite: {fileID: -2695125036591950076, guid: 5369e8f8f54ed054aabce97e9320241e, type: 3}
+    dialogueBoxSprite: {fileID: 21300000, guid: 62bbb9c97f4851f44b443e87eb215e02, type: 2}
+    boxColor: {r: 1, g: 1, b: 1, a: 1}
+    nameBoxSprite: {fileID: 21300000, guid: 962595de4f5a80c409099f54aaabff42, type: 2}
+    nameBoxColor: {r: 1, g: 1, b: 1, a: 1}
+    text: "Sinto muito espelho, mas eu n\xE3o posso sair. Preciso melhorar minhas
+      notas na mat\xE9ria de exorcismo."
+    typingSound: {fileID: 6418180475301049370, guid: bdf542ff86e288c48908b8461a9d0937, type: 2}
+    OnStartDialogue:
+      m_PersistentCalls:
+        m_Calls: []
+  - characterName: Espelho
+    characterSprite: {fileID: 21300000, guid: 01167a7dd9b8ffd43aa7e609ff8de271, type: 2}
+    dialogueBoxSprite: {fileID: 21300000, guid: 62bbb9c97f4851f44b443e87eb215e02, type: 2}
+    boxColor: {r: 1, g: 1, b: 1, a: 1}
+    nameBoxSprite: {fileID: 21300000, guid: 962595de4f5a80c409099f54aaabff42, type: 2}
+    nameBoxColor: {r: 0.78039217, g: 0.49803922, b: 0.12941177, a: 1}
+    text: "Se \xE9 o que voc\xEA quer... N\xE3o posso impedi-la, afinal, como pode
+      ver, sou apenas um espelho."
+    typingSound: {fileID: 6418180475301049370, guid: 0b7fa80eb37ed764e8578f6c046bc917, type: 2}
+    OnStartDialogue:
+      m_PersistentCalls:
+        m_Calls: []
+  - characterName: Espelho
+    characterSprite: {fileID: 21300000, guid: 01167a7dd9b8ffd43aa7e609ff8de271, type: 2}
+    dialogueBoxSprite: {fileID: 21300000, guid: 62bbb9c97f4851f44b443e87eb215e02, type: 2}
+    boxColor: {r: 1, g: 1, b: 1, a: 1}
+    nameBoxSprite: {fileID: 21300000, guid: 962595de4f5a80c409099f54aaabff42, type: 2}
+    nameBoxColor: {r: 0.78039217, g: 0.49803922, b: 0.12941177, a: 1}
+    text: "Mas antes de ir, preciso fazer uma perguta a voc\xEA..."
+    typingSound: {fileID: 6418180475301049370, guid: 0b7fa80eb37ed764e8578f6c046bc917, type: 2}
+    OnStartDialogue:
+      m_PersistentCalls:
+        m_Calls: []
+  - characterName: Espelho
+    characterSprite: {fileID: 21300000, guid: 01167a7dd9b8ffd43aa7e609ff8de271, type: 2}
+    dialogueBoxSprite: {fileID: 21300000, guid: 62bbb9c97f4851f44b443e87eb215e02, type: 2}
+    boxColor: {r: 1, g: 1, b: 1, a: 1}
+    nameBoxSprite: {fileID: 21300000, guid: 962595de4f5a80c409099f54aaabff42, type: 2}
+    nameBoxColor: {r: 0.78039217, g: 0.49803922, b: 0.12941177, a: 1}
+    text: "Voc\xEA sabe alguma magia de exorcismo?"
+    typingSound: {fileID: 6418180475301049370, guid: 0b7fa80eb37ed764e8578f6c046bc917, type: 2}
+    OnStartDialogue:
+      m_PersistentCalls:
+        m_Calls: []
+  - characterName: Sarah
+    characterSprite: {fileID: -2695125036591950076, guid: 5369e8f8f54ed054aabce97e9320241e, type: 3}
+    dialogueBoxSprite: {fileID: 21300000, guid: 62bbb9c97f4851f44b443e87eb215e02, type: 2}
+    boxColor: {r: 1, g: 1, b: 1, a: 1}
+    nameBoxSprite: {fileID: 21300000, guid: 962595de4f5a80c409099f54aaabff42, type: 2}
+    nameBoxColor: {r: 1, g: 1, b: 1, a: 1}
+    text: "N\xE3o..."
+    typingSound: {fileID: 6418180475301049370, guid: bdf542ff86e288c48908b8461a9d0937, type: 2}
+    OnStartDialogue:
+      m_PersistentCalls:
+        m_Calls: []
+  - characterName: Espelho
+    characterSprite: {fileID: 21300000, guid: 01167a7dd9b8ffd43aa7e609ff8de271, type: 2}
+    dialogueBoxSprite: {fileID: 21300000, guid: 62bbb9c97f4851f44b443e87eb215e02, type: 2}
+    boxColor: {r: 1, g: 1, b: 1, a: 1}
+    nameBoxSprite: {fileID: 21300000, guid: 962595de4f5a80c409099f54aaabff42, type: 2}
+    nameBoxColor: {r: 0.78039217, g: 0.49803922, b: 0.12941177, a: 1}
+    text: "Ent\xE3o como pretende exorcisar os mortos-vivos?"
+    typingSound: {fileID: 6418180475301049370, guid: 0b7fa80eb37ed764e8578f6c046bc917, type: 2}
+    OnStartDialogue:
+      m_PersistentCalls:
+        m_Calls: []
+  - characterName: Sarah
+    characterSprite: {fileID: -2695125036591950076, guid: 5369e8f8f54ed054aabce97e9320241e, type: 3}
+    dialogueBoxSprite: {fileID: 21300000, guid: 62bbb9c97f4851f44b443e87eb215e02, type: 2}
+    boxColor: {r: 1, g: 1, b: 1, a: 1}
+    nameBoxSprite: {fileID: 21300000, guid: 962595de4f5a80c409099f54aaabff42, type: 2}
+    nameBoxColor: {r: 1, g: 1, b: 1, a: 1}
+    text: Uhh...
+    typingSound: {fileID: 6418180475301049370, guid: bdf542ff86e288c48908b8461a9d0937, type: 2}
+    OnStartDialogue:
+      m_PersistentCalls:
+        m_Calls: []
+  - characterName: Espelho
+    characterSprite: {fileID: 21300000, guid: 01167a7dd9b8ffd43aa7e609ff8de271, type: 2}
+    dialogueBoxSprite: {fileID: 21300000, guid: 62bbb9c97f4851f44b443e87eb215e02, type: 2}
+    boxColor: {r: 1, g: 1, b: 1, a: 1}
+    nameBoxSprite: {fileID: 21300000, guid: 962595de4f5a80c409099f54aaabff42, type: 2}
+    nameBoxColor: {r: 0.78039217, g: 0.49803922, b: 0.12941177, a: 1}
+    text: "Voc\xEA ao menos sabe alguma magia?"
+    typingSound: {fileID: 6418180475301049370, guid: 0b7fa80eb37ed764e8578f6c046bc917, type: 2}
+    OnStartDialogue:
+      m_PersistentCalls:
+        m_Calls: []
+  - characterName: Sarah
+    characterSprite: {fileID: -2695125036591950076, guid: 5369e8f8f54ed054aabce97e9320241e, type: 3}
+    dialogueBoxSprite: {fileID: 21300000, guid: 62bbb9c97f4851f44b443e87eb215e02, type: 2}
+    boxColor: {r: 1, g: 1, b: 1, a: 1}
+    nameBoxSprite: {fileID: 21300000, guid: 962595de4f5a80c409099f54aaabff42, type: 2}
+    nameBoxColor: {r: 1, g: 1, b: 1, a: 1}
+    text: Ah sim! Sou muito boa em magia elemental!!
+    typingSound: {fileID: 6418180475301049370, guid: bdf542ff86e288c48908b8461a9d0937, type: 2}
+    OnStartDialogue:
+      m_PersistentCalls:
+        m_Calls: []
+  - characterName: Espelho
+    characterSprite: {fileID: 21300000, guid: 01167a7dd9b8ffd43aa7e609ff8de271, type: 2}
+    dialogueBoxSprite: {fileID: 21300000, guid: 62bbb9c97f4851f44b443e87eb215e02, type: 2}
+    boxColor: {r: 1, g: 1, b: 1, a: 1}
+    nameBoxSprite: {fileID: 21300000, guid: 962595de4f5a80c409099f54aaabff42, type: 2}
+    nameBoxColor: {r: 0.78039217, g: 0.49803922, b: 0.12941177, a: 1}
+    text: Bom saber, acho que eu sei de algo que pode te ajudar!
+    typingSound: {fileID: 6418180475301049370, guid: 0b7fa80eb37ed764e8578f6c046bc917, type: 2}
+    OnStartDialogue:
+      m_PersistentCalls:
+        m_Calls: []
+  - characterName: Espelho
+    characterSprite: {fileID: 21300000, guid: 01167a7dd9b8ffd43aa7e609ff8de271, type: 2}
+    dialogueBoxSprite: {fileID: 21300000, guid: 62bbb9c97f4851f44b443e87eb215e02, type: 2}
+    boxColor: {r: 1, g: 1, b: 1, a: 1}
+    nameBoxSprite: {fileID: 21300000, guid: 962595de4f5a80c409099f54aaabff42, type: 2}
+    nameBoxColor: {r: 0.78039217, g: 0.49803922, b: 0.12941177, a: 1}
+    text: "No por\xE3o da mans\xE3o, tem um amuleto que tem o formato de uma cruz."
+    typingSound: {fileID: 6418180475301049370, guid: 0b7fa80eb37ed764e8578f6c046bc917, type: 2}
+    OnStartDialogue:
+      m_PersistentCalls:
+        m_Calls: []
+  - characterName: Espelho
+    characterSprite: {fileID: 21300000, guid: 01167a7dd9b8ffd43aa7e609ff8de271, type: 2}
+    dialogueBoxSprite: {fileID: 21300000, guid: 62bbb9c97f4851f44b443e87eb215e02, type: 2}
+    boxColor: {r: 1, g: 1, b: 1, a: 1}
+    nameBoxSprite: {fileID: 21300000, guid: 962595de4f5a80c409099f54aaabff42, type: 2}
+    nameBoxColor: {r: 0.78039217, g: 0.49803922, b: 0.12941177, a: 1}
+    text: "Esse amuleto tem a capacidade de imbuir magia sagrada em feiti\xE7os elementais."
+    typingSound: {fileID: 6418180475301049370, guid: 0b7fa80eb37ed764e8578f6c046bc917, type: 2}
+    OnStartDialogue:
+      m_PersistentCalls:
+        m_Calls: []
+  - characterName: Espelho
+    characterSprite: {fileID: 21300000, guid: 01167a7dd9b8ffd43aa7e609ff8de271, type: 2}
+    dialogueBoxSprite: {fileID: 21300000, guid: 62bbb9c97f4851f44b443e87eb215e02, type: 2}
+    boxColor: {r: 1, g: 1, b: 1, a: 1}
+    nameBoxSprite: {fileID: 21300000, guid: 962595de4f5a80c409099f54aaabff42, type: 2}
+    nameBoxColor: {r: 0.78039217, g: 0.49803922, b: 0.12941177, a: 1}
+    text: "Por\xE9m, tem um pequeno problema..."
+    typingSound: {fileID: 6418180475301049370, guid: 0b7fa80eb37ed764e8578f6c046bc917, type: 2}
+    OnStartDialogue:
+      m_PersistentCalls:
+        m_Calls: []
+  - characterName: Espelho
+    characterSprite: {fileID: 21300000, guid: 01167a7dd9b8ffd43aa7e609ff8de271, type: 2}
+    dialogueBoxSprite: {fileID: 21300000, guid: 62bbb9c97f4851f44b443e87eb215e02, type: 2}
+    boxColor: {r: 1, g: 1, b: 1, a: 1}
+    nameBoxSprite: {fileID: 21300000, guid: 962595de4f5a80c409099f54aaabff42, type: 2}
+    nameBoxColor: {r: 0.78039217, g: 0.49803922, b: 0.12941177, a: 1}
+    text: "Para que a magia seja efetiva contra inimigos morto-vivos, voc\xEA precisa
+      acertar os 'Pontos de Ess\xEAncia'!"
+    typingSound: {fileID: 6418180475301049370, guid: 0b7fa80eb37ed764e8578f6c046bc917, type: 2}
+    OnStartDialogue:
+      m_PersistentCalls:
+        m_Calls: []
+  - characterName: Espelho
+    characterSprite: {fileID: 21300000, guid: 01167a7dd9b8ffd43aa7e609ff8de271, type: 2}
+    dialogueBoxSprite: {fileID: 21300000, guid: 62bbb9c97f4851f44b443e87eb215e02, type: 2}
+    boxColor: {r: 1, g: 1, b: 1, a: 1}
+    nameBoxSprite: {fileID: 21300000, guid: 962595de4f5a80c409099f54aaabff42, type: 2}
+    nameBoxColor: {r: 0.78039217, g: 0.49803922, b: 0.12941177, a: 1}
+    text: "Esses 'Pontos de Ess\xEAncia' s\xE3o completamente aleat\xF3rios. Ent\xE3o
+      tome cuidado, cada inimigo ser\xE1 um novo desafio!"
+    typingSound: {fileID: 6418180475301049370, guid: 0b7fa80eb37ed764e8578f6c046bc917, type: 2}
+    OnStartDialogue:
+      m_PersistentCalls:
+        m_Calls: []
+  - characterName: Espelho
+    characterSprite: {fileID: 21300000, guid: 01167a7dd9b8ffd43aa7e609ff8de271, type: 2}
+    dialogueBoxSprite: {fileID: 21300000, guid: 62bbb9c97f4851f44b443e87eb215e02, type: 2}
+    boxColor: {r: 1, g: 1, b: 1, a: 1}
+    nameBoxSprite: {fileID: 21300000, guid: 962595de4f5a80c409099f54aaabff42, type: 2}
+    nameBoxColor: {r: 0.78039217, g: 0.49803922, b: 0.12941177, a: 1}
+    text: "Siga em frente para chegar at\xE9 o por\xE3o."
+    typingSound: {fileID: 6418180475301049370, guid: 0b7fa80eb37ed764e8578f6c046bc917, type: 2}
+    OnStartDialogue:
+      m_PersistentCalls:
+        m_Calls: []
+  - characterName: Sarah
+    characterSprite: {fileID: -2695125036591950076, guid: 5369e8f8f54ed054aabce97e9320241e, type: 3}
+    dialogueBoxSprite: {fileID: 21300000, guid: 62bbb9c97f4851f44b443e87eb215e02, type: 2}
+    boxColor: {r: 1, g: 1, b: 1, a: 1}
+    nameBoxSprite: {fileID: 21300000, guid: 962595de4f5a80c409099f54aaabff42, type: 2}
+    nameBoxColor: {r: 1, g: 1, b: 1, a: 1}
+    text: Muito obrigada espelho!
+    typingSound: {fileID: 6418180475301049370, guid: bdf542ff86e288c48908b8461a9d0937, type: 2}
+    OnStartDialogue:
+      m_PersistentCalls:
+        m_Calls: []
+--- !u!61 &273923535
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 273923533}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: -0.059713364, y: 0.026539326}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 0.50902176, y: 2.0084944}
+  m_EdgeRadius: 0
+--- !u!4 &273923536
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 273923533}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -17.69, y: 3.89, z: 0}
+  m_LocalScale: {x: 2.40625, y: 0.85, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &273923537
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 273923533}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: -2630584680979959281, guid: 92fcd05e049dd2047a83038dbe536b1f, type: 2}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 8300000, guid: ba39bf8baf6d13046889b2d64822381a, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 0.708
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &289460603
 GameObject:
   m_ObjectHideFlags: 0
@@ -3682,11 +4130,22 @@ MonoBehaviour:
     boxColor: {r: 1, g: 1, b: 1, a: 1}
     nameBoxSprite: {fileID: 21300000, guid: 962595de4f5a80c409099f54aaabff42, type: 2}
     nameBoxColor: {r: 1, g: 1, b: 1, a: 1}
-    text: "Essa porta est\xE1 trancada..."
+    text: Parece trancada...
     typingSound: {fileID: 6418180475301049370, guid: bdf542ff86e288c48908b8461a9d0937, type: 2}
-  OnInteract:
-    m_PersistentCalls:
-      m_Calls: []
+    OnStartDialogue:
+      m_PersistentCalls:
+        m_Calls: []
+  - characterName: Sarah
+    characterSprite: {fileID: -2695125036591950076, guid: 5369e8f8f54ed054aabce97e9320241e, type: 3}
+    dialogueBoxSprite: {fileID: 21300000, guid: 62bbb9c97f4851f44b443e87eb215e02, type: 2}
+    boxColor: {r: 1, g: 1, b: 1, a: 1}
+    nameBoxSprite: {fileID: 21300000, guid: 962595de4f5a80c409099f54aaabff42, type: 2}
+    nameBoxColor: {r: 1, g: 1, b: 1, a: 1}
+    text: Devo seguir por outro caminho!
+    typingSound: {fileID: 6418180475301049370, guid: bdf542ff86e288c48908b8461a9d0937, type: 2}
+    OnStartDialogue:
+      m_PersistentCalls:
+        m_Calls: []
 --- !u!61 &402661147
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3961,14 +4420,17 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 448668274}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0.8687298, w: 0.49528638}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -83.17, y: 12.97, z: 0}
   m_LocalScale: {x: 1, y: 1.3537, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 480229693}
+  - {fileID: 922649479}
+  - {fileID: 1527704733}
+  - {fileID: 1678487109}
   m_Father: {fileID: 1049133074}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -120.623}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &455433785
 GameObject:
   m_ObjectHideFlags: 0
@@ -4279,13 +4741,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 480229692}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0.03041124, w: 0.99953747}
-  m_LocalPosition: {x: 0.22, y: 2.85, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0.84500366, w: 0.53476053}
+  m_LocalPosition: {x: 2.99, y: -1.42, z: 0}
   m_LocalScale: {x: 1.7827188, y: 4.2336287, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 448668275}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -3.485}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -115.345}
 --- !u!114 &480229694
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4352,9 +4814,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f38e6ec578a2e7249a5349a14793540f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LightningFX
-  lightningLight: {fileID: 480229694}
+  lightningLights:
+  - {fileID: 480229694}
+  - {fileID: 922649480}
+  - {fileID: 1527704734}
+  - {fileID: 1678487110}
   minTimeBetweenStrikes: 20
-  maxTimeBetweenStrikes: 60
+  maxTimeBetweenStrikes: 45
   maxIntensity: 4
   normalIntensity: 0
   minFlashes: 1
@@ -5245,8 +5711,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: NOME TESTANDO
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 9a14a8a1184c5f14fbce3338ea4d7a35, type: 2}
-  m_sharedMaterial: {fileID: 1260715531048141648, guid: 9a14a8a1184c5f14fbce3338ea4d7a35, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: d73c2c0d04c71a749a07b7f90faf6d63, type: 2}
+  m_sharedMaterial: {fileID: 3564955176964248167, guid: d73c2c0d04c71a749a07b7f90faf6d63, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -5270,8 +5736,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 40
-  m_fontSizeBase: 40
+  m_fontSize: 32
+  m_fontSizeBase: 32
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -5280,7 +5746,7 @@ MonoBehaviour:
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
-  m_characterSpacing: 0
+  m_characterSpacing: -3
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -6902,6 +7368,90 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 921025668}
   m_CullTransparentMesh: 1
+--- !u!1 &922649478
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 922649479}
+  - component: {fileID: 922649480}
+  m_Layer: 0
+  m_Name: Freeform Light 2D (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &922649479
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 922649478}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 16.37, y: -1.17, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 448668275}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &922649480
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 922649478}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 073797afb82c5a1438f328866b10b3f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.2D.Runtime::UnityEngine.Rendering.Universal.Light2D
+  m_ComponentVersion: 2
+  m_LightType: 1
+  m_BlendStyleIndex: 0
+  m_FalloffIntensity: 0.5
+  m_Color: {r: 0.24313726, g: 0.2, b: 0.44313726, a: 1}
+  m_Intensity: 1
+  m_LightVolumeIntensity: 1
+  m_LightVolumeEnabled: 0
+  m_ApplyToSortingLayers: 00000000b5a14a998f195d3859d5cc978fa8174a63b7b79cabb72d52373bffa14bc9cab39fc59f8b3b93b1b0
+  m_LightCookieSprite: {fileID: 0}
+  m_DeprecatedPointLightCookieSprite: {fileID: 0}
+  m_LightOrder: 0
+  m_AlphaBlendOnOverlap: 0
+  m_OverlapOperation: 0
+  m_NormalMapDistance: 3
+  m_NormalMapQuality: 2
+  m_UseNormalMap: 0
+  m_ShadowsEnabled: 1
+  m_ShadowIntensity: 0.75
+  m_ShadowSoftness: 0.3
+  m_ShadowSoftnessFalloffIntensity: 0.5
+  m_ShadowVolumeIntensityEnabled: 0
+  m_ShadowVolumeIntensity: 0.75
+  m_LocalBounds:
+    m_Center: {x: 0.15744996, y: -0.27989995, z: 0}
+    m_Extent: {x: 2.46615, y: 1.6185, z: 0}
+  m_PointLightInnerAngle: 360
+  m_PointLightOuterAngle: 360
+  m_PointLightInnerRadius: 0
+  m_PointLightOuterRadius: 1
+  m_ShapeLightParametricSides: 5
+  m_ShapeLightParametricAngleOffset: 0
+  m_ShapeLightParametricRadius: 1
+  m_ShapeLightFalloffSize: 0.5
+  m_ShapeLightFalloffOffset: {x: 0, y: 0}
+  m_ShapePath:
+  - {x: -1.809761, y: -1.3974769, z: 0}
+  - {x: 2.1234245, y: -1.3861743, z: 0}
+  - {x: 0.71190643, y: 0.8378519, z: 0}
+  - {x: -0.5, y: 0.8354376, z: 0}
 --- !u!1 &952070576
 GameObject:
   m_ObjectHideFlags: 0
@@ -7683,6 +8233,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4096
   isFacingRight: 1
+  interactKey: {fileID: 508870950}
   OnFlip:
     m_PersistentCalls:
       m_Calls: []
@@ -13297,6 +13848,90 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1506724333}
   m_CullTransparentMesh: 1
+--- !u!1 &1527704732
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1527704733}
+  - component: {fileID: 1527704734}
+  m_Layer: 0
+  m_Name: Freeform Light 2D (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1527704733
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1527704732}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 22.39, y: -1.17, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 448668275}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1527704734
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1527704732}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 073797afb82c5a1438f328866b10b3f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.2D.Runtime::UnityEngine.Rendering.Universal.Light2D
+  m_ComponentVersion: 2
+  m_LightType: 1
+  m_BlendStyleIndex: 0
+  m_FalloffIntensity: 0.5
+  m_Color: {r: 0.24313726, g: 0.2, b: 0.44313726, a: 1}
+  m_Intensity: 1
+  m_LightVolumeIntensity: 1
+  m_LightVolumeEnabled: 0
+  m_ApplyToSortingLayers: 00000000b5a14a998f195d3859d5cc978fa8174a63b7b79cabb72d52373bffa14bc9cab39fc59f8b3b93b1b0
+  m_LightCookieSprite: {fileID: 0}
+  m_DeprecatedPointLightCookieSprite: {fileID: 0}
+  m_LightOrder: 0
+  m_AlphaBlendOnOverlap: 0
+  m_OverlapOperation: 0
+  m_NormalMapDistance: 3
+  m_NormalMapQuality: 2
+  m_UseNormalMap: 0
+  m_ShadowsEnabled: 1
+  m_ShadowIntensity: 0.75
+  m_ShadowSoftness: 0.3
+  m_ShadowSoftnessFalloffIntensity: 0.5
+  m_ShadowVolumeIntensityEnabled: 0
+  m_ShadowVolumeIntensity: 0.75
+  m_LocalBounds:
+    m_Center: {x: 0.15744996, y: -0.27989995, z: 0}
+    m_Extent: {x: 2.46615, y: 1.6185, z: 0}
+  m_PointLightInnerAngle: 360
+  m_PointLightOuterAngle: 360
+  m_PointLightInnerRadius: 0
+  m_PointLightOuterRadius: 1
+  m_ShapeLightParametricSides: 5
+  m_ShapeLightParametricAngleOffset: 0
+  m_ShapeLightParametricRadius: 1
+  m_ShapeLightFalloffSize: 0.5
+  m_ShapeLightFalloffOffset: {x: 0, y: 0}
+  m_ShapePath:
+  - {x: -1.809761, y: -1.3974769, z: 0}
+  - {x: 2.1234245, y: -1.3861743, z: 0}
+  - {x: 0.71190643, y: 0.8378519, z: 0}
+  - {x: -0.5, y: 0.8354376, z: 0}
 --- !u!1 &1530931199
 GameObject:
   m_ObjectHideFlags: 0
@@ -17093,7 +17728,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: -8.4}
   m_SizeDelta: {x: 650, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1652432805
@@ -17120,8 +17755,8 @@ MonoBehaviour:
     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
     quis.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 9a14a8a1184c5f14fbce3338ea4d7a35, type: 2}
-  m_sharedMaterial: {fileID: 1260715531048141648, guid: 9a14a8a1184c5f14fbce3338ea4d7a35, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: d73c2c0d04c71a749a07b7f90faf6d63, type: 2}
+  m_sharedMaterial: {fileID: 3564955176964248167, guid: d73c2c0d04c71a749a07b7f90faf6d63, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -17145,17 +17780,17 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36.85
+  m_fontSize: 26.9
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
-  m_fontSizeMin: 30
-  m_fontSizeMax: 46
+  m_fontSizeMin: 20
+  m_fontSizeMax: 26
   m_fontStyle: 0
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 256
   m_textAlignment: 65535
-  m_characterSpacing: 0
+  m_characterSpacing: -3
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -17183,7 +17818,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: 0, w: 11.207626}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -17197,6 +17832,90 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1652432803}
   m_CullTransparentMesh: 1
+--- !u!1 &1678487108
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1678487109}
+  - component: {fileID: 1678487110}
+  m_Layer: 0
+  m_Name: Freeform Light 2D (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1678487109
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1678487108}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 28.39, y: -1.17, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 448668275}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1678487110
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1678487108}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 073797afb82c5a1438f328866b10b3f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.2D.Runtime::UnityEngine.Rendering.Universal.Light2D
+  m_ComponentVersion: 2
+  m_LightType: 1
+  m_BlendStyleIndex: 0
+  m_FalloffIntensity: 0.5
+  m_Color: {r: 0.24313726, g: 0.2, b: 0.44313726, a: 1}
+  m_Intensity: 1
+  m_LightVolumeIntensity: 1
+  m_LightVolumeEnabled: 0
+  m_ApplyToSortingLayers: 00000000b5a14a998f195d3859d5cc978fa8174a63b7b79cabb72d52373bffa14bc9cab39fc59f8b3b93b1b0
+  m_LightCookieSprite: {fileID: 0}
+  m_DeprecatedPointLightCookieSprite: {fileID: 0}
+  m_LightOrder: 0
+  m_AlphaBlendOnOverlap: 0
+  m_OverlapOperation: 0
+  m_NormalMapDistance: 3
+  m_NormalMapQuality: 2
+  m_UseNormalMap: 0
+  m_ShadowsEnabled: 1
+  m_ShadowIntensity: 0.75
+  m_ShadowSoftness: 0.3
+  m_ShadowSoftnessFalloffIntensity: 0.5
+  m_ShadowVolumeIntensityEnabled: 0
+  m_ShadowVolumeIntensity: 0.75
+  m_LocalBounds:
+    m_Center: {x: 0.15744996, y: -0.27989995, z: 0}
+    m_Extent: {x: 2.46615, y: 1.6185, z: 0}
+  m_PointLightInnerAngle: 360
+  m_PointLightOuterAngle: 360
+  m_PointLightInnerRadius: 0
+  m_PointLightOuterRadius: 1
+  m_ShapeLightParametricSides: 5
+  m_ShapeLightParametricAngleOffset: 0
+  m_ShapeLightParametricRadius: 1
+  m_ShapeLightFalloffSize: 0.5
+  m_ShapeLightFalloffOffset: {x: 0, y: 0}
+  m_ShapePath:
+  - {x: -1.809761, y: -1.3974769, z: 0}
+  - {x: 2.1234245, y: -1.3861743, z: 0}
+  - {x: 0.71190643, y: 0.8378519, z: 0}
+  - {x: -0.5, y: 0.8354376, z: 0}
 --- !u!1 &1680764517
 GameObject:
   m_ObjectHideFlags: 0
@@ -50304,3 +51023,4 @@ SceneRoots:
   - {fileID: 1297759388}
   - {fileID: 114745879}
   - {fileID: 402661148}
+  - {fileID: 273923536}

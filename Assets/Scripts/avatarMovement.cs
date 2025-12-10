@@ -24,6 +24,10 @@ public class avatarMovement : MonoBehaviour
     [SerializeField] private LayerMask stairlayer;
     [SerializeField] private bool isFacingRight = true;
 
+    [Space]
+    [Header("== Misc ==")]
+    [SerializeField] Transform interactKey;
+
     private bool isDead = false;
     private bool isJumping = false;
     private bool onStair = false;
@@ -72,9 +76,15 @@ public class avatarMovement : MonoBehaviour
         if (isFacingRight && moveInput < 0 || !isFacingRight && moveInput > 0) 
         {
             isFacingRight = !isFacingRight;
-            Vector3 scaler = transform.localScale;
-            scaler.x *= -1;
-            transform.localScale = scaler;
+
+            Vector3 playerScaler = transform.localScale;
+            playerScaler.x *= -1;
+            transform.localScale = playerScaler;
+
+            Vector3 interactKeyScaler = interactKey.localScale;
+            interactKeyScaler.x *= -1;
+            interactKey.localScale = interactKeyScaler;
+
             OnFlip?.Invoke();
         }
     }
