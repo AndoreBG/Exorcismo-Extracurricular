@@ -190,7 +190,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 250, y: -130}
-  m_SizeDelta: {x: 400, y: 70}
+  m_SizeDelta: {x: 500, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &32725251
 MonoBehaviour:
@@ -249,14 +249,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 0.38679248, g: 0.38679248, b: 0.38679248, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: -2955423525414919508, guid: 6cea601bd2110bc4a8d83d6d16e9f339, type: 3}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1317,8 +1317,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4292330428
+  m_fontColor: {r: 0.7372549, g: 0.76470596, b: 0.8431373, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -2288,8 +2288,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278190080
-  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+    rgba: 4292001206
+  m_fontColor: {r: 0.7137255, g: 0.7411765, b: 0.8235295, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -2903,265 +2903,283 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 176d6543a17c464448492bfd48100a2e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DialogueGeneric
-  dialogues:
-  - characterName: Espelho
-    characterSprite: {fileID: 21300000, guid: 01167a7dd9b8ffd43aa7e609ff8de271, type: 2}
-    dialogueBoxSprite: {fileID: 21300000, guid: 62bbb9c97f4851f44b443e87eb215e02, type: 2}
-    boxColor: {r: 1, g: 1, b: 1, a: 1}
-    nameBoxSprite: {fileID: 21300000, guid: 962595de4f5a80c409099f54aaabff42, type: 2}
-    nameBoxColor: {r: 0.78039217, g: 0.49803922, b: 0.12941177, a: 1}
-    text: "Ol\xE1 garotinha!"
-    typingSound: {fileID: 6418180475301049370, guid: 0b7fa80eb37ed764e8578f6c046bc917, type: 2}
-    OnStartDialogue:
-      m_PersistentCalls:
-        m_Calls: []
-  - characterName: Sarah
-    characterSprite: {fileID: -2695125036591950076, guid: 5369e8f8f54ed054aabce97e9320241e, type: 3}
-    dialogueBoxSprite: {fileID: 21300000, guid: 62bbb9c97f4851f44b443e87eb215e02, type: 2}
-    boxColor: {r: 1, g: 1, b: 1, a: 1}
-    nameBoxSprite: {fileID: 21300000, guid: 962595de4f5a80c409099f54aaabff42, type: 2}
-    nameBoxColor: {r: 1, g: 1, b: 1, a: 1}
-    text: Ahh ! ! !
-    typingSound: {fileID: 6418180475301049370, guid: bdf542ff86e288c48908b8461a9d0937, type: 2}
-    OnStartDialogue:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 273923537}
-          m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
-          m_MethodName: Play
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - characterName: Espelho
-    characterSprite: {fileID: 21300000, guid: 01167a7dd9b8ffd43aa7e609ff8de271, type: 2}
-    dialogueBoxSprite: {fileID: 21300000, guid: 62bbb9c97f4851f44b443e87eb215e02, type: 2}
-    boxColor: {r: 1, g: 1, b: 1, a: 1}
-    nameBoxSprite: {fileID: 21300000, guid: 962595de4f5a80c409099f54aaabff42, type: 2}
-    nameBoxColor: {r: 0.78039217, g: 0.49803922, b: 0.12941177, a: 1}
-    text: "Calma... n\xE3o quis assusta-la"
-    typingSound: {fileID: 6418180475301049370, guid: 0b7fa80eb37ed764e8578f6c046bc917, type: 2}
-    OnStartDialogue:
-      m_PersistentCalls:
-        m_Calls: []
-  - characterName: Espelho
-    characterSprite: {fileID: 21300000, guid: 01167a7dd9b8ffd43aa7e609ff8de271, type: 2}
-    dialogueBoxSprite: {fileID: 21300000, guid: 62bbb9c97f4851f44b443e87eb215e02, type: 2}
-    boxColor: {r: 1, g: 1, b: 1, a: 1}
-    nameBoxSprite: {fileID: 21300000, guid: 962595de4f5a80c409099f54aaabff42, type: 2}
-    nameBoxColor: {r: 0.78039217, g: 0.49803922, b: 0.12941177, a: 1}
-    text: "Pelo contr\xE1rio, quero ajuda-la!"
-    typingSound: {fileID: 6418180475301049370, guid: 0b7fa80eb37ed764e8578f6c046bc917, type: 2}
-    OnStartDialogue:
-      m_PersistentCalls:
-        m_Calls: []
-  - characterName: Espelho
-    characterSprite: {fileID: 21300000, guid: 01167a7dd9b8ffd43aa7e609ff8de271, type: 2}
-    dialogueBoxSprite: {fileID: 21300000, guid: 62bbb9c97f4851f44b443e87eb215e02, type: 2}
-    boxColor: {r: 1, g: 1, b: 1, a: 1}
-    nameBoxSprite: {fileID: 21300000, guid: 962595de4f5a80c409099f54aaabff42, type: 2}
-    nameBoxColor: {r: 0.78039217, g: 0.49803922, b: 0.12941177, a: 1}
-    text: "Essa mans\xE3o n\xE3o \xE9 segura. Voc\xEA deve sair imediatamente!"
-    typingSound: {fileID: 6418180475301049370, guid: 0b7fa80eb37ed764e8578f6c046bc917, type: 2}
-    OnStartDialogue:
-      m_PersistentCalls:
-        m_Calls: []
-  - characterName: Sarah
-    characterSprite: {fileID: -2695125036591950076, guid: 5369e8f8f54ed054aabce97e9320241e, type: 3}
-    dialogueBoxSprite: {fileID: 21300000, guid: 62bbb9c97f4851f44b443e87eb215e02, type: 2}
-    boxColor: {r: 1, g: 1, b: 1, a: 1}
-    nameBoxSprite: {fileID: 21300000, guid: 962595de4f5a80c409099f54aaabff42, type: 2}
-    nameBoxColor: {r: 1, g: 1, b: 1, a: 1}
-    text: "Sinto muito espelho, mas eu n\xE3o posso sair. Preciso melhorar minhas
-      notas na mat\xE9ria de exorcismo."
-    typingSound: {fileID: 6418180475301049370, guid: bdf542ff86e288c48908b8461a9d0937, type: 2}
-    OnStartDialogue:
-      m_PersistentCalls:
-        m_Calls: []
-  - characterName: Espelho
-    characterSprite: {fileID: 21300000, guid: 01167a7dd9b8ffd43aa7e609ff8de271, type: 2}
-    dialogueBoxSprite: {fileID: 21300000, guid: 62bbb9c97f4851f44b443e87eb215e02, type: 2}
-    boxColor: {r: 1, g: 1, b: 1, a: 1}
-    nameBoxSprite: {fileID: 21300000, guid: 962595de4f5a80c409099f54aaabff42, type: 2}
-    nameBoxColor: {r: 0.78039217, g: 0.49803922, b: 0.12941177, a: 1}
-    text: "Se \xE9 o que voc\xEA quer... N\xE3o posso impedi-la, afinal, como pode
-      ver, sou apenas um espelho."
-    typingSound: {fileID: 6418180475301049370, guid: 0b7fa80eb37ed764e8578f6c046bc917, type: 2}
-    OnStartDialogue:
-      m_PersistentCalls:
-        m_Calls: []
-  - characterName: Espelho
-    characterSprite: {fileID: 21300000, guid: 01167a7dd9b8ffd43aa7e609ff8de271, type: 2}
-    dialogueBoxSprite: {fileID: 21300000, guid: 62bbb9c97f4851f44b443e87eb215e02, type: 2}
-    boxColor: {r: 1, g: 1, b: 1, a: 1}
-    nameBoxSprite: {fileID: 21300000, guid: 962595de4f5a80c409099f54aaabff42, type: 2}
-    nameBoxColor: {r: 0.78039217, g: 0.49803922, b: 0.12941177, a: 1}
-    text: "Mas antes de ir, preciso fazer uma perguta a voc\xEA..."
-    typingSound: {fileID: 6418180475301049370, guid: 0b7fa80eb37ed764e8578f6c046bc917, type: 2}
-    OnStartDialogue:
-      m_PersistentCalls:
-        m_Calls: []
-  - characterName: Espelho
-    characterSprite: {fileID: 21300000, guid: 01167a7dd9b8ffd43aa7e609ff8de271, type: 2}
-    dialogueBoxSprite: {fileID: 21300000, guid: 62bbb9c97f4851f44b443e87eb215e02, type: 2}
-    boxColor: {r: 1, g: 1, b: 1, a: 1}
-    nameBoxSprite: {fileID: 21300000, guid: 962595de4f5a80c409099f54aaabff42, type: 2}
-    nameBoxColor: {r: 0.78039217, g: 0.49803922, b: 0.12941177, a: 1}
-    text: "Voc\xEA sabe alguma magia de exorcismo?"
-    typingSound: {fileID: 6418180475301049370, guid: 0b7fa80eb37ed764e8578f6c046bc917, type: 2}
-    OnStartDialogue:
-      m_PersistentCalls:
-        m_Calls: []
-  - characterName: Sarah
-    characterSprite: {fileID: -2695125036591950076, guid: 5369e8f8f54ed054aabce97e9320241e, type: 3}
-    dialogueBoxSprite: {fileID: 21300000, guid: 62bbb9c97f4851f44b443e87eb215e02, type: 2}
-    boxColor: {r: 1, g: 1, b: 1, a: 1}
-    nameBoxSprite: {fileID: 21300000, guid: 962595de4f5a80c409099f54aaabff42, type: 2}
-    nameBoxColor: {r: 1, g: 1, b: 1, a: 1}
-    text: "N\xE3o..."
-    typingSound: {fileID: 6418180475301049370, guid: bdf542ff86e288c48908b8461a9d0937, type: 2}
-    OnStartDialogue:
-      m_PersistentCalls:
-        m_Calls: []
-  - characterName: Espelho
-    characterSprite: {fileID: 21300000, guid: 01167a7dd9b8ffd43aa7e609ff8de271, type: 2}
-    dialogueBoxSprite: {fileID: 21300000, guid: 62bbb9c97f4851f44b443e87eb215e02, type: 2}
-    boxColor: {r: 1, g: 1, b: 1, a: 1}
-    nameBoxSprite: {fileID: 21300000, guid: 962595de4f5a80c409099f54aaabff42, type: 2}
-    nameBoxColor: {r: 0.78039217, g: 0.49803922, b: 0.12941177, a: 1}
-    text: "Ent\xE3o como pretende exorcisar os mortos-vivos?"
-    typingSound: {fileID: 6418180475301049370, guid: 0b7fa80eb37ed764e8578f6c046bc917, type: 2}
-    OnStartDialogue:
-      m_PersistentCalls:
-        m_Calls: []
-  - characterName: Sarah
-    characterSprite: {fileID: -2695125036591950076, guid: 5369e8f8f54ed054aabce97e9320241e, type: 3}
-    dialogueBoxSprite: {fileID: 21300000, guid: 62bbb9c97f4851f44b443e87eb215e02, type: 2}
-    boxColor: {r: 1, g: 1, b: 1, a: 1}
-    nameBoxSprite: {fileID: 21300000, guid: 962595de4f5a80c409099f54aaabff42, type: 2}
-    nameBoxColor: {r: 1, g: 1, b: 1, a: 1}
-    text: Uhh...
-    typingSound: {fileID: 6418180475301049370, guid: bdf542ff86e288c48908b8461a9d0937, type: 2}
-    OnStartDialogue:
-      m_PersistentCalls:
-        m_Calls: []
-  - characterName: Espelho
-    characterSprite: {fileID: 21300000, guid: 01167a7dd9b8ffd43aa7e609ff8de271, type: 2}
-    dialogueBoxSprite: {fileID: 21300000, guid: 62bbb9c97f4851f44b443e87eb215e02, type: 2}
-    boxColor: {r: 1, g: 1, b: 1, a: 1}
-    nameBoxSprite: {fileID: 21300000, guid: 962595de4f5a80c409099f54aaabff42, type: 2}
-    nameBoxColor: {r: 0.78039217, g: 0.49803922, b: 0.12941177, a: 1}
-    text: "Voc\xEA ao menos sabe alguma magia?"
-    typingSound: {fileID: 6418180475301049370, guid: 0b7fa80eb37ed764e8578f6c046bc917, type: 2}
-    OnStartDialogue:
-      m_PersistentCalls:
-        m_Calls: []
-  - characterName: Sarah
-    characterSprite: {fileID: -2695125036591950076, guid: 5369e8f8f54ed054aabce97e9320241e, type: 3}
-    dialogueBoxSprite: {fileID: 21300000, guid: 62bbb9c97f4851f44b443e87eb215e02, type: 2}
-    boxColor: {r: 1, g: 1, b: 1, a: 1}
-    nameBoxSprite: {fileID: 21300000, guid: 962595de4f5a80c409099f54aaabff42, type: 2}
-    nameBoxColor: {r: 1, g: 1, b: 1, a: 1}
-    text: Ah sim! Sou muito boa em magia elemental!!
-    typingSound: {fileID: 6418180475301049370, guid: bdf542ff86e288c48908b8461a9d0937, type: 2}
-    OnStartDialogue:
-      m_PersistentCalls:
-        m_Calls: []
-  - characterName: Espelho
-    characterSprite: {fileID: 21300000, guid: 01167a7dd9b8ffd43aa7e609ff8de271, type: 2}
-    dialogueBoxSprite: {fileID: 21300000, guid: 62bbb9c97f4851f44b443e87eb215e02, type: 2}
-    boxColor: {r: 1, g: 1, b: 1, a: 1}
-    nameBoxSprite: {fileID: 21300000, guid: 962595de4f5a80c409099f54aaabff42, type: 2}
-    nameBoxColor: {r: 0.78039217, g: 0.49803922, b: 0.12941177, a: 1}
-    text: Bom saber, acho que eu sei de algo que pode te ajudar!
-    typingSound: {fileID: 6418180475301049370, guid: 0b7fa80eb37ed764e8578f6c046bc917, type: 2}
-    OnStartDialogue:
-      m_PersistentCalls:
-        m_Calls: []
-  - characterName: Espelho
-    characterSprite: {fileID: 21300000, guid: 01167a7dd9b8ffd43aa7e609ff8de271, type: 2}
-    dialogueBoxSprite: {fileID: 21300000, guid: 62bbb9c97f4851f44b443e87eb215e02, type: 2}
-    boxColor: {r: 1, g: 1, b: 1, a: 1}
-    nameBoxSprite: {fileID: 21300000, guid: 962595de4f5a80c409099f54aaabff42, type: 2}
-    nameBoxColor: {r: 0.78039217, g: 0.49803922, b: 0.12941177, a: 1}
-    text: "No por\xE3o da mans\xE3o, tem um amuleto que tem o formato de uma cruz."
-    typingSound: {fileID: 6418180475301049370, guid: 0b7fa80eb37ed764e8578f6c046bc917, type: 2}
-    OnStartDialogue:
-      m_PersistentCalls:
-        m_Calls: []
-  - characterName: Espelho
-    characterSprite: {fileID: 21300000, guid: 01167a7dd9b8ffd43aa7e609ff8de271, type: 2}
-    dialogueBoxSprite: {fileID: 21300000, guid: 62bbb9c97f4851f44b443e87eb215e02, type: 2}
-    boxColor: {r: 1, g: 1, b: 1, a: 1}
-    nameBoxSprite: {fileID: 21300000, guid: 962595de4f5a80c409099f54aaabff42, type: 2}
-    nameBoxColor: {r: 0.78039217, g: 0.49803922, b: 0.12941177, a: 1}
-    text: "Esse amuleto tem a capacidade de imbuir magia sagrada em feiti\xE7os elementais."
-    typingSound: {fileID: 6418180475301049370, guid: 0b7fa80eb37ed764e8578f6c046bc917, type: 2}
-    OnStartDialogue:
-      m_PersistentCalls:
-        m_Calls: []
-  - characterName: Espelho
-    characterSprite: {fileID: 21300000, guid: 01167a7dd9b8ffd43aa7e609ff8de271, type: 2}
-    dialogueBoxSprite: {fileID: 21300000, guid: 62bbb9c97f4851f44b443e87eb215e02, type: 2}
-    boxColor: {r: 1, g: 1, b: 1, a: 1}
-    nameBoxSprite: {fileID: 21300000, guid: 962595de4f5a80c409099f54aaabff42, type: 2}
-    nameBoxColor: {r: 0.78039217, g: 0.49803922, b: 0.12941177, a: 1}
-    text: "Por\xE9m, tem um pequeno problema..."
-    typingSound: {fileID: 6418180475301049370, guid: 0b7fa80eb37ed764e8578f6c046bc917, type: 2}
-    OnStartDialogue:
-      m_PersistentCalls:
-        m_Calls: []
-  - characterName: Espelho
-    characterSprite: {fileID: 21300000, guid: 01167a7dd9b8ffd43aa7e609ff8de271, type: 2}
-    dialogueBoxSprite: {fileID: 21300000, guid: 62bbb9c97f4851f44b443e87eb215e02, type: 2}
-    boxColor: {r: 1, g: 1, b: 1, a: 1}
-    nameBoxSprite: {fileID: 21300000, guid: 962595de4f5a80c409099f54aaabff42, type: 2}
-    nameBoxColor: {r: 0.78039217, g: 0.49803922, b: 0.12941177, a: 1}
-    text: "Para que a magia seja efetiva contra inimigos morto-vivos, voc\xEA precisa
-      acertar os 'Pontos de Ess\xEAncia'!"
-    typingSound: {fileID: 6418180475301049370, guid: 0b7fa80eb37ed764e8578f6c046bc917, type: 2}
-    OnStartDialogue:
-      m_PersistentCalls:
-        m_Calls: []
-  - characterName: Espelho
-    characterSprite: {fileID: 21300000, guid: 01167a7dd9b8ffd43aa7e609ff8de271, type: 2}
-    dialogueBoxSprite: {fileID: 21300000, guid: 62bbb9c97f4851f44b443e87eb215e02, type: 2}
-    boxColor: {r: 1, g: 1, b: 1, a: 1}
-    nameBoxSprite: {fileID: 21300000, guid: 962595de4f5a80c409099f54aaabff42, type: 2}
-    nameBoxColor: {r: 0.78039217, g: 0.49803922, b: 0.12941177, a: 1}
-    text: "Esses 'Pontos de Ess\xEAncia' s\xE3o completamente aleat\xF3rios. Ent\xE3o
-      tome cuidado, cada inimigo ser\xE1 um novo desafio!"
-    typingSound: {fileID: 6418180475301049370, guid: 0b7fa80eb37ed764e8578f6c046bc917, type: 2}
-    OnStartDialogue:
-      m_PersistentCalls:
-        m_Calls: []
-  - characterName: Espelho
-    characterSprite: {fileID: 21300000, guid: 01167a7dd9b8ffd43aa7e609ff8de271, type: 2}
-    dialogueBoxSprite: {fileID: 21300000, guid: 62bbb9c97f4851f44b443e87eb215e02, type: 2}
-    boxColor: {r: 1, g: 1, b: 1, a: 1}
-    nameBoxSprite: {fileID: 21300000, guid: 962595de4f5a80c409099f54aaabff42, type: 2}
-    nameBoxColor: {r: 0.78039217, g: 0.49803922, b: 0.12941177, a: 1}
-    text: "Siga em frente para chegar at\xE9 o por\xE3o."
-    typingSound: {fileID: 6418180475301049370, guid: 0b7fa80eb37ed764e8578f6c046bc917, type: 2}
-    OnStartDialogue:
-      m_PersistentCalls:
-        m_Calls: []
-  - characterName: Sarah
-    characterSprite: {fileID: -2695125036591950076, guid: 5369e8f8f54ed054aabce97e9320241e, type: 3}
-    dialogueBoxSprite: {fileID: 21300000, guid: 62bbb9c97f4851f44b443e87eb215e02, type: 2}
-    boxColor: {r: 1, g: 1, b: 1, a: 1}
-    nameBoxSprite: {fileID: 21300000, guid: 962595de4f5a80c409099f54aaabff42, type: 2}
-    nameBoxColor: {r: 1, g: 1, b: 1, a: 1}
-    text: Muito obrigada espelho!
-    typingSound: {fileID: 6418180475301049370, guid: bdf542ff86e288c48908b8461a9d0937, type: 2}
-    OnStartDialogue:
-      m_PersistentCalls:
-        m_Calls: []
+  dialogueSequences:
+  - sequenceName: Dialogo Inicial
+    dialogues:
+    - characterName: Sarah
+      characterSprite: {fileID: -6202724767377982532, guid: 5369e8f8f54ed054aabce97e9320241e, type: 3}
+      dialogueBoxSprite: {fileID: 21300000, guid: 62bbb9c97f4851f44b443e87eb215e02, type: 2}
+      boxColor: {r: 1, g: 1, b: 1, a: 1}
+      nameBoxSprite: {fileID: 21300000, guid: 962595de4f5a80c409099f54aaabff42, type: 2}
+      nameBoxColor: {r: 1, g: 1, b: 1, a: 1}
+      text: "Um espelho... Mas ele n\xE3o parece ser apenas um espelho..."
+      typingSound: {fileID: 6418180475301049370, guid: bdf542ff86e288c48908b8461a9d0937, type: 2}
+      OnStartDialogue:
+        m_PersistentCalls:
+          m_Calls: []
+    - characterName: Espelho
+      characterSprite: {fileID: 21300000, guid: 01167a7dd9b8ffd43aa7e609ff8de271, type: 2}
+      dialogueBoxSprite: {fileID: 21300000, guid: 62bbb9c97f4851f44b443e87eb215e02, type: 2}
+      boxColor: {r: 1, g: 1, b: 1, a: 1}
+      nameBoxSprite: {fileID: 21300000, guid: 962595de4f5a80c409099f54aaabff42, type: 2}
+      nameBoxColor: {r: 0.9803922, g: 0.5686275, b: 0.06666667, a: 1}
+      text: "Ol\xE1 garotinha!"
+      typingSound: {fileID: 6418180475301049370, guid: 0b7fa80eb37ed764e8578f6c046bc917, type: 2}
+      OnStartDialogue:
+        m_PersistentCalls:
+          m_Calls: []
+    - characterName: Sarah
+      characterSprite: {fileID: 6687155610779088667, guid: 27fa8e39e87ecf840a167f6d094c5866, type: 3}
+      dialogueBoxSprite: {fileID: 21300000, guid: 62bbb9c97f4851f44b443e87eb215e02, type: 2}
+      boxColor: {r: 1, g: 1, b: 1, a: 1}
+      nameBoxSprite: {fileID: 21300000, guid: 962595de4f5a80c409099f54aaabff42, type: 2}
+      nameBoxColor: {r: 1, g: 1, b: 1, a: 1}
+      text: Ahh ! ! !
+      typingSound: {fileID: 6418180475301049370, guid: bdf542ff86e288c48908b8461a9d0937, type: 2}
+      OnStartDialogue:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 273923537}
+            m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+            m_MethodName: Play
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+    - characterName: Espelho
+      characterSprite: {fileID: 21300000, guid: 01167a7dd9b8ffd43aa7e609ff8de271, type: 2}
+      dialogueBoxSprite: {fileID: 21300000, guid: 62bbb9c97f4851f44b443e87eb215e02, type: 2}
+      boxColor: {r: 1, g: 1, b: 1, a: 1}
+      nameBoxSprite: {fileID: 21300000, guid: 962595de4f5a80c409099f54aaabff42, type: 2}
+      nameBoxColor: {r: 0.9803922, g: 0.5686275, b: 0.06666667, a: 1}
+      text: "Calma... n\xE3o quis assusta-la! Calma... n\xE3o quis assusta-la."
+      typingSound: {fileID: 6418180475301049370, guid: 0b7fa80eb37ed764e8578f6c046bc917, type: 2}
+      OnStartDialogue:
+        m_PersistentCalls:
+          m_Calls: []
+    - characterName: Espelho
+      characterSprite: {fileID: 21300000, guid: 01167a7dd9b8ffd43aa7e609ff8de271, type: 2}
+      dialogueBoxSprite: {fileID: 21300000, guid: 62bbb9c97f4851f44b443e87eb215e02, type: 2}
+      boxColor: {r: 1, g: 1, b: 1, a: 1}
+      nameBoxSprite: {fileID: 21300000, guid: 962595de4f5a80c409099f54aaabff42, type: 2}
+      nameBoxColor: {r: 0.9803922, g: 0.5686275, b: 0.06666667, a: 1}
+      text: "Essa mans\xE3o n\xE3o \xE9 segura. Voc\xEA deve sair imediatamente!"
+      typingSound: {fileID: 6418180475301049370, guid: 0b7fa80eb37ed764e8578f6c046bc917, type: 2}
+      OnStartDialogue:
+        m_PersistentCalls:
+          m_Calls: []
+    - characterName: Sarah
+      characterSprite: {fileID: -6202724767377982532, guid: 5369e8f8f54ed054aabce97e9320241e, type: 3}
+      dialogueBoxSprite: {fileID: 21300000, guid: 62bbb9c97f4851f44b443e87eb215e02, type: 2}
+      boxColor: {r: 1, g: 1, b: 1, a: 1}
+      nameBoxSprite: {fileID: 21300000, guid: 962595de4f5a80c409099f54aaabff42, type: 2}
+      nameBoxColor: {r: 1, g: 1, b: 1, a: 1}
+      text: "Sinto muito espelho, mas eu n\xE3o posso sair. Preciso melhorar minhas
+        notas na mat\xE9ria de exorcismo."
+      typingSound: {fileID: 6418180475301049370, guid: bdf542ff86e288c48908b8461a9d0937, type: 2}
+      OnStartDialogue:
+        m_PersistentCalls:
+          m_Calls: []
+    - characterName: Espelho
+      characterSprite: {fileID: 21300000, guid: 01167a7dd9b8ffd43aa7e609ff8de271, type: 2}
+      dialogueBoxSprite: {fileID: 21300000, guid: 62bbb9c97f4851f44b443e87eb215e02, type: 2}
+      boxColor: {r: 1, g: 1, b: 1, a: 1}
+      nameBoxSprite: {fileID: 21300000, guid: 962595de4f5a80c409099f54aaabff42, type: 2}
+      nameBoxColor: {r: 0.9803922, g: 0.5686275, b: 0.06666667, a: 1}
+      text: "Se \xE9 o que voc\xEA quer... N\xE3o posso impedi-la, afinal, como pode
+        ver, sou apenas um espelho..."
+      typingSound: {fileID: 6418180475301049370, guid: 0b7fa80eb37ed764e8578f6c046bc917, type: 2}
+      OnStartDialogue:
+        m_PersistentCalls:
+          m_Calls: []
+    - characterName: Espelho
+      characterSprite: {fileID: 21300000, guid: 01167a7dd9b8ffd43aa7e609ff8de271, type: 2}
+      dialogueBoxSprite: {fileID: 21300000, guid: 62bbb9c97f4851f44b443e87eb215e02, type: 2}
+      boxColor: {r: 1, g: 1, b: 1, a: 1}
+      nameBoxSprite: {fileID: 21300000, guid: 962595de4f5a80c409099f54aaabff42, type: 2}
+      nameBoxColor: {r: 0.9803922, g: 0.5686275, b: 0.06666667, a: 1}
+      text: "Mas antes de ir, preciso fazer uma pergunta a voc\xEA..."
+      typingSound: {fileID: 6418180475301049370, guid: 0b7fa80eb37ed764e8578f6c046bc917, type: 2}
+      OnStartDialogue:
+        m_PersistentCalls:
+          m_Calls: []
+    - characterName: Espelho
+      characterSprite: {fileID: 21300000, guid: 01167a7dd9b8ffd43aa7e609ff8de271, type: 2}
+      dialogueBoxSprite: {fileID: 21300000, guid: 62bbb9c97f4851f44b443e87eb215e02, type: 2}
+      boxColor: {r: 1, g: 1, b: 1, a: 1}
+      nameBoxSprite: {fileID: 21300000, guid: 962595de4f5a80c409099f54aaabff42, type: 2}
+      nameBoxColor: {r: 0.9803922, g: 0.5686275, b: 0.06666667, a: 1}
+      text: "Voc\xEA sabe alguma magia de exorcismo?"
+      typingSound: {fileID: 6418180475301049370, guid: 0b7fa80eb37ed764e8578f6c046bc917, type: 2}
+      OnStartDialogue:
+        m_PersistentCalls:
+          m_Calls: []
+    - characterName: Sarah
+      characterSprite: {fileID: -6202724767377982532, guid: 5369e8f8f54ed054aabce97e9320241e, type: 3}
+      dialogueBoxSprite: {fileID: 21300000, guid: 62bbb9c97f4851f44b443e87eb215e02, type: 2}
+      boxColor: {r: 1, g: 1, b: 1, a: 1}
+      nameBoxSprite: {fileID: 21300000, guid: 962595de4f5a80c409099f54aaabff42, type: 2}
+      nameBoxColor: {r: 1, g: 1, b: 1, a: 1}
+      text: "N\xE3o...\n"
+      typingSound: {fileID: 6418180475301049370, guid: bdf542ff86e288c48908b8461a9d0937, type: 2}
+      OnStartDialogue:
+        m_PersistentCalls:
+          m_Calls: []
+    - characterName: Espelho
+      characterSprite: {fileID: 21300000, guid: 01167a7dd9b8ffd43aa7e609ff8de271, type: 2}
+      dialogueBoxSprite: {fileID: 21300000, guid: 62bbb9c97f4851f44b443e87eb215e02, type: 2}
+      boxColor: {r: 1, g: 1, b: 1, a: 1}
+      nameBoxSprite: {fileID: 21300000, guid: 962595de4f5a80c409099f54aaabff42, type: 2}
+      nameBoxColor: {r: 0.9803922, g: 0.5686275, b: 0.06666667, a: 1}
+      text: "Ent\xE3o como pretende exorcizar os mortos-vivos?"
+      typingSound: {fileID: 6418180475301049370, guid: 0b7fa80eb37ed764e8578f6c046bc917, type: 2}
+      OnStartDialogue:
+        m_PersistentCalls:
+          m_Calls: []
+    - characterName: Sarah
+      characterSprite: {fileID: -6202724767377982532, guid: 5369e8f8f54ed054aabce97e9320241e, type: 3}
+      dialogueBoxSprite: {fileID: 21300000, guid: 62bbb9c97f4851f44b443e87eb215e02, type: 2}
+      boxColor: {r: 1, g: 1, b: 1, a: 1}
+      nameBoxSprite: {fileID: 21300000, guid: 962595de4f5a80c409099f54aaabff42, type: 2}
+      nameBoxColor: {r: 1, g: 1, b: 1, a: 1}
+      text: Uhh...
+      typingSound: {fileID: 6418180475301049370, guid: bdf542ff86e288c48908b8461a9d0937, type: 2}
+      OnStartDialogue:
+        m_PersistentCalls:
+          m_Calls: []
+    - characterName: Espelho
+      characterSprite: {fileID: 21300000, guid: 01167a7dd9b8ffd43aa7e609ff8de271, type: 2}
+      dialogueBoxSprite: {fileID: 21300000, guid: 62bbb9c97f4851f44b443e87eb215e02, type: 2}
+      boxColor: {r: 1, g: 1, b: 1, a: 1}
+      nameBoxSprite: {fileID: 21300000, guid: 962595de4f5a80c409099f54aaabff42, type: 2}
+      nameBoxColor: {r: 0.9803922, g: 0.5686275, b: 0.06666667, a: 1}
+      text: "Voc\xEA ao menos sabe alguma magia?"
+      typingSound: {fileID: 6418180475301049370, guid: 0b7fa80eb37ed764e8578f6c046bc917, type: 2}
+      OnStartDialogue:
+        m_PersistentCalls:
+          m_Calls: []
+    - characterName: Sarah
+      characterSprite: {fileID: -6202724767377982532, guid: 5369e8f8f54ed054aabce97e9320241e, type: 3}
+      dialogueBoxSprite: {fileID: 21300000, guid: 62bbb9c97f4851f44b443e87eb215e02, type: 2}
+      boxColor: {r: 1, g: 1, b: 1, a: 1}
+      nameBoxSprite: {fileID: 21300000, guid: 962595de4f5a80c409099f54aaabff42, type: 2}
+      nameBoxColor: {r: 1, g: 1, b: 1, a: 1}
+      text: Ah sim! Sou muito boa em magia elemental!!
+      typingSound: {fileID: 6418180475301049370, guid: bdf542ff86e288c48908b8461a9d0937, type: 2}
+      OnStartDialogue:
+        m_PersistentCalls:
+          m_Calls: []
+    - characterName: Espelho
+      characterSprite: {fileID: 21300000, guid: 01167a7dd9b8ffd43aa7e609ff8de271, type: 2}
+      dialogueBoxSprite: {fileID: 21300000, guid: 62bbb9c97f4851f44b443e87eb215e02, type: 2}
+      boxColor: {r: 1, g: 1, b: 1, a: 1}
+      nameBoxSprite: {fileID: 21300000, guid: 962595de4f5a80c409099f54aaabff42, type: 2}
+      nameBoxColor: {r: 0.9803922, g: 0.5686275, b: 0.06666667, a: 1}
+      text: Bom saber, acho que eu sei de algo que pode te ajudar!
+      typingSound: {fileID: 6418180475301049370, guid: 0b7fa80eb37ed764e8578f6c046bc917, type: 2}
+      OnStartDialogue:
+        m_PersistentCalls:
+          m_Calls: []
+    - characterName: Espelho
+      characterSprite: {fileID: 21300000, guid: 01167a7dd9b8ffd43aa7e609ff8de271, type: 2}
+      dialogueBoxSprite: {fileID: 21300000, guid: 62bbb9c97f4851f44b443e87eb215e02, type: 2}
+      boxColor: {r: 1, g: 1, b: 1, a: 1}
+      nameBoxSprite: {fileID: 21300000, guid: 962595de4f5a80c409099f54aaabff42, type: 2}
+      nameBoxColor: {r: 0.9803922, g: 0.5686275, b: 0.06666667, a: 1}
+      text: "No por\xE3o da mans\xE3o, tem um amuleto que tem o formato de uma cruz."
+      typingSound: {fileID: 6418180475301049370, guid: 0b7fa80eb37ed764e8578f6c046bc917, type: 2}
+      OnStartDialogue:
+        m_PersistentCalls:
+          m_Calls: []
+    - characterName: Espelho
+      characterSprite: {fileID: 21300000, guid: 01167a7dd9b8ffd43aa7e609ff8de271, type: 2}
+      dialogueBoxSprite: {fileID: 21300000, guid: 62bbb9c97f4851f44b443e87eb215e02, type: 2}
+      boxColor: {r: 1, g: 1, b: 1, a: 1}
+      nameBoxSprite: {fileID: 21300000, guid: 962595de4f5a80c409099f54aaabff42, type: 2}
+      nameBoxColor: {r: 0.9803922, g: 0.5686275, b: 0.06666667, a: 1}
+      text: "Esse amuleto tem a capacidade de imbuir magia sagrada em feiti\xE7os
+        elementais."
+      typingSound: {fileID: 6418180475301049370, guid: 0b7fa80eb37ed764e8578f6c046bc917, type: 2}
+      OnStartDialogue:
+        m_PersistentCalls:
+          m_Calls: []
+    - characterName: Espelho
+      characterSprite: {fileID: 21300000, guid: 01167a7dd9b8ffd43aa7e609ff8de271, type: 2}
+      dialogueBoxSprite: {fileID: 21300000, guid: 62bbb9c97f4851f44b443e87eb215e02, type: 2}
+      boxColor: {r: 1, g: 1, b: 1, a: 1}
+      nameBoxSprite: {fileID: 21300000, guid: 962595de4f5a80c409099f54aaabff42, type: 2}
+      nameBoxColor: {r: 0.9803922, g: 0.5686275, b: 0.06666667, a: 1}
+      text: "Por\xE9m, tem um pequeno problema..."
+      typingSound: {fileID: 6418180475301049370, guid: 0b7fa80eb37ed764e8578f6c046bc917, type: 2}
+      OnStartDialogue:
+        m_PersistentCalls:
+          m_Calls: []
+    - characterName: Espelho
+      characterSprite: {fileID: 21300000, guid: 01167a7dd9b8ffd43aa7e609ff8de271, type: 2}
+      dialogueBoxSprite: {fileID: 21300000, guid: 62bbb9c97f4851f44b443e87eb215e02, type: 2}
+      boxColor: {r: 1, g: 1, b: 1, a: 1}
+      nameBoxSprite: {fileID: 21300000, guid: 962595de4f5a80c409099f54aaabff42, type: 2}
+      nameBoxColor: {r: 0.9803922, g: 0.5686275, b: 0.06666667, a: 1}
+      text: "Para que a magia seja efetiva contra inimigos morto-vivo, voc\xEA precisa
+        acertar os 'Pontos de Ess\xEAncia'!"
+      typingSound: {fileID: 6418180475301049370, guid: 0b7fa80eb37ed764e8578f6c046bc917, type: 2}
+      OnStartDialogue:
+        m_PersistentCalls:
+          m_Calls: []
+    - characterName: Espelho
+      characterSprite: {fileID: 21300000, guid: 01167a7dd9b8ffd43aa7e609ff8de271, type: 2}
+      dialogueBoxSprite: {fileID: 21300000, guid: 62bbb9c97f4851f44b443e87eb215e02, type: 2}
+      boxColor: {r: 1, g: 1, b: 1, a: 1}
+      nameBoxSprite: {fileID: 21300000, guid: 962595de4f5a80c409099f54aaabff42, type: 2}
+      nameBoxColor: {r: 0.9803922, g: 0.5686275, b: 0.06666667, a: 1}
+      text: "Esses 'Pontos de Ess\xEAncia' s\xE3o completamente aleat\xF3rios. Ent\xE3o
+        tome cuidado, cada inimigo ser\xE1 um novo desafio!"
+      typingSound: {fileID: 6418180475301049370, guid: 0b7fa80eb37ed764e8578f6c046bc917, type: 2}
+      OnStartDialogue:
+        m_PersistentCalls:
+          m_Calls: []
+    - characterName: Espelho
+      characterSprite: {fileID: 21300000, guid: 01167a7dd9b8ffd43aa7e609ff8de271, type: 2}
+      dialogueBoxSprite: {fileID: 21300000, guid: 62bbb9c97f4851f44b443e87eb215e02, type: 2}
+      boxColor: {r: 1, g: 1, b: 1, a: 1}
+      nameBoxSprite: {fileID: 21300000, guid: 962595de4f5a80c409099f54aaabff42, type: 2}
+      nameBoxColor: {r: 0.9803922, g: 0.5686275, b: 0.06666667, a: 1}
+      text: "Siga em frente para chegar at\xE9 o por\xE3o."
+      typingSound: {fileID: 6418180475301049370, guid: 0b7fa80eb37ed764e8578f6c046bc917, type: 2}
+      OnStartDialogue:
+        m_PersistentCalls:
+          m_Calls: []
+    - characterName: Sarah
+      characterSprite: {fileID: -6202724767377982532, guid: 5369e8f8f54ed054aabce97e9320241e, type: 3}
+      dialogueBoxSprite: {fileID: 21300000, guid: 62bbb9c97f4851f44b443e87eb215e02, type: 2}
+      boxColor: {r: 1, g: 1, b: 1, a: 1}
+      nameBoxSprite: {fileID: 21300000, guid: 962595de4f5a80c409099f54aaabff42, type: 2}
+      nameBoxColor: {r: 1, g: 1, b: 1, a: 1}
+      text: Muito obrigada espelho!
+      typingSound: {fileID: 6418180475301049370, guid: bdf542ff86e288c48908b8461a9d0937, type: 2}
+      OnStartDialogue:
+        m_PersistentCalls:
+          m_Calls: []
+  - sequenceName: Dialogo Final
+    dialogues:
+    - characterName: Espelho
+      characterSprite: {fileID: 21300000, guid: 01167a7dd9b8ffd43aa7e609ff8de271, type: 2}
+      dialogueBoxSprite: {fileID: 21300000, guid: 62bbb9c97f4851f44b443e87eb215e02, type: 2}
+      boxColor: {r: 1, g: 1, b: 1, a: 1}
+      nameBoxSprite: {fileID: 21300000, guid: 962595de4f5a80c409099f54aaabff42, type: 2}
+      nameBoxColor: {r: 0.98039216, g: 0.5686275, b: 0.06666667, a: 1}
+      text: "J\xE1 encontrou o amuleto?"
+      typingSound: {fileID: 6418180475301049370, guid: 0b7fa80eb37ed764e8578f6c046bc917, type: 2}
+      OnStartDialogue:
+        m_PersistentCalls:
+          m_Calls: []
+  loopDialogues: 0
+  repeatLastDialogue: 1
 --- !u!61 &273923535
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4123,29 +4141,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 176d6543a17c464448492bfd48100a2e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DialogueGeneric
-  dialogues:
-  - characterName: Sarah
-    characterSprite: {fileID: -2695125036591950076, guid: 5369e8f8f54ed054aabce97e9320241e, type: 3}
-    dialogueBoxSprite: {fileID: 21300000, guid: 62bbb9c97f4851f44b443e87eb215e02, type: 2}
-    boxColor: {r: 1, g: 1, b: 1, a: 1}
-    nameBoxSprite: {fileID: 21300000, guid: 962595de4f5a80c409099f54aaabff42, type: 2}
-    nameBoxColor: {r: 1, g: 1, b: 1, a: 1}
-    text: Parece trancada...
-    typingSound: {fileID: 6418180475301049370, guid: bdf542ff86e288c48908b8461a9d0937, type: 2}
-    OnStartDialogue:
-      m_PersistentCalls:
-        m_Calls: []
-  - characterName: Sarah
-    characterSprite: {fileID: -2695125036591950076, guid: 5369e8f8f54ed054aabce97e9320241e, type: 3}
-    dialogueBoxSprite: {fileID: 21300000, guid: 62bbb9c97f4851f44b443e87eb215e02, type: 2}
-    boxColor: {r: 1, g: 1, b: 1, a: 1}
-    nameBoxSprite: {fileID: 21300000, guid: 962595de4f5a80c409099f54aaabff42, type: 2}
-    nameBoxColor: {r: 1, g: 1, b: 1, a: 1}
-    text: Devo seguir por outro caminho!
-    typingSound: {fileID: 6418180475301049370, guid: bdf542ff86e288c48908b8461a9d0937, type: 2}
-    OnStartDialogue:
-      m_PersistentCalls:
-        m_Calls: []
+  dialogueSequences:
+  - sequenceName: 
+    dialogues:
+    - characterName: Sarah
+      characterSprite: {fileID: -6202724767377982532, guid: 5369e8f8f54ed054aabce97e9320241e, type: 3}
+      dialogueBoxSprite: {fileID: 21300000, guid: 62bbb9c97f4851f44b443e87eb215e02, type: 2}
+      boxColor: {r: 1, g: 1, b: 1, a: 1}
+      nameBoxSprite: {fileID: 21300000, guid: 962595de4f5a80c409099f54aaabff42, type: 2}
+      nameBoxColor: {r: 1, g: 1, b: 1, a: 1}
+      text: Parece estar trancada...
+      typingSound: {fileID: 6418180475301049370, guid: bdf542ff86e288c48908b8461a9d0937, type: 2}
+      OnStartDialogue:
+        m_PersistentCalls:
+          m_Calls: []
+    - characterName: Sarah
+      characterSprite: {fileID: -6202724767377982532, guid: 5369e8f8f54ed054aabce97e9320241e, type: 3}
+      dialogueBoxSprite: {fileID: 21300000, guid: 62bbb9c97f4851f44b443e87eb215e02, type: 2}
+      boxColor: {r: 1, g: 1, b: 1, a: 1}
+      nameBoxSprite: {fileID: 21300000, guid: 962595de4f5a80c409099f54aaabff42, type: 2}
+      nameBoxColor: {r: 1, g: 1, b: 1, a: 1}
+      text: Devo encontrar outro caminho!
+      typingSound: {fileID: 6418180475301049370, guid: bdf542ff86e288c48908b8461a9d0937, type: 2}
+      OnStartDialogue:
+        m_PersistentCalls:
+          m_Calls: []
+  loopDialogues: 0
+  repeatLastDialogue: 1
 --- !u!61 &402661147
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4819,8 +4841,8 @@ MonoBehaviour:
   - {fileID: 922649480}
   - {fileID: 1527704734}
   - {fileID: 1678487110}
-  minTimeBetweenStrikes: 20
-  maxTimeBetweenStrikes: 45
+  minTimeBetweenStrikes: 30
+  maxTimeBetweenStrikes: 60
   maxIntensity: 4
   normalIntensity: 0
   minFlashes: 1
@@ -5063,7 +5085,7 @@ GameObject:
   m_Component:
   - component: {fileID: 508870950}
   - component: {fileID: 508870951}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: InteractionKey
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5819,6 +5841,8 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1652432804}
+  - {fileID: 1560286365}
+  - {fileID: 1953969220}
   m_Father: {fileID: 544562709}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
@@ -6858,14 +6882,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.43815202, g: 0.507438, b: 0.572, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: -2937625947827977959, guid: 66c04251985fbd8499712dbde1f08011, type: 3}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -7284,7 +7308,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -250, y: -130}
-  m_SizeDelta: {x: 400, y: 70}
+  m_SizeDelta: {x: 500, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &921025670
 MonoBehaviour:
@@ -7343,14 +7367,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 0.38679248, g: 0.38679248, b: 0.38679248, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: -2955423525414919508, guid: 6cea601bd2110bc4a8d83d6d16e9f339, type: 3}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -7429,7 +7453,7 @@ MonoBehaviour:
   m_NormalMapDistance: 3
   m_NormalMapQuality: 2
   m_UseNormalMap: 0
-  m_ShadowsEnabled: 1
+  m_ShadowsEnabled: 0
   m_ShadowIntensity: 0.75
   m_ShadowSoftness: 0.3
   m_ShadowSoftnessFalloffIntensity: 0.5
@@ -7463,7 +7487,7 @@ GameObject:
   - component: {fileID: 952070577}
   - component: {fileID: 952070578}
   - component: {fileID: 952070579}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: InteractableArea
   m_TagString: GameController
   m_Icon: {fileID: 0}
@@ -11993,14 +12017,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.43815202, g: 0.507438, b: 0.572, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: -2937625947827977959, guid: 66c04251985fbd8499712dbde1f08011, type: 3}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -13486,7 +13510,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 500, y: 450}
+  m_SizeDelta: {x: 600, y: 550}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1456318357
 MonoBehaviour:
@@ -13501,14 +13525,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 0.49056602, g: 0.49056602, b: 0.49056602, a: 1}
+  m_Color: {r: 0.6509434, g: 0.6509434, b: 0.6509434, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: -6638057777352560090, guid: 6cea601bd2110bc4a8d83d6d16e9f339, type: 3}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -13703,8 +13727,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278190080
-  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+    rgba: 4292001206
+  m_fontColor: {r: 0.7137255, g: 0.7411765, b: 0.8235295, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -13800,7 +13824,7 @@ RectTransform:
   m_GameObject: {fileID: 1506724333}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 1.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1173979077}
@@ -13830,7 +13854,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: -8146023664488415175, guid: 66c04251985fbd8499712dbde1f08011, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -13909,7 +13933,7 @@ MonoBehaviour:
   m_NormalMapDistance: 3
   m_NormalMapQuality: 2
   m_UseNormalMap: 0
-  m_ShadowsEnabled: 1
+  m_ShadowsEnabled: 0
   m_ShadowIntensity: 0.75
   m_ShadowSoftness: 0.3
   m_ShadowSoftnessFalloffIntensity: 0.5
@@ -14046,6 +14070,104 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1560286364
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1560286365}
+  - component: {fileID: 1560286368}
+  - component: {fileID: 1560286367}
+  - component: {fileID: 1560286366}
+  m_Layer: 5
+  m_Name: Arrow
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1560286365
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1560286364}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 650967226}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
+  m_AnchoredPosition: {x: 0, y: 25}
+  m_SizeDelta: {x: 60, y: 60}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!95 &1560286366
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1560286364}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f0bbaf33b6ff2d5469f251c7615b92f0, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1560286367
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1560286364}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 2347605291139524717, guid: 66c04251985fbd8499712dbde1f08011, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1560286368
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1560286364}
+  m_CullTransparentMesh: 1
 --- !u!1 &1563789087
 GameObject:
   m_ObjectHideFlags: 0
@@ -17426,8 +17548,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -150}
-  m_SizeDelta: {x: 400, y: 70}
+  m_AnchoredPosition: {x: 0, y: -159.6}
+  m_SizeDelta: {x: 490, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1597597749
 MonoBehaviour:
@@ -17493,7 +17615,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: -2955423525414919508, guid: 6cea601bd2110bc4a8d83d6d16e9f339, type: 3}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -17636,15 +17758,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.7372549, g: 0.7686275, b: 0.8470589, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -7698706949289966336, guid: 7b1445c7c98f3cd4eabc8815e06dc232, type: 3}
-  m_Type: 1
+  m_Sprite: {fileID: -1126643739438248805, guid: 44f65244634c67e4a91966c23ade1da6, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -17780,7 +17902,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 26.9
+  m_fontSize: 26
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -17893,7 +18015,7 @@ MonoBehaviour:
   m_NormalMapDistance: 3
   m_NormalMapQuality: 2
   m_UseNormalMap: 0
-  m_ShadowsEnabled: 1
+  m_ShadowsEnabled: 0
   m_ShadowIntensity: 0.75
   m_ShadowSoftness: 0.3
   m_ShadowSoftnessFalloffIntensity: 0.5
@@ -17982,8 +18104,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278190239
-  m_fontColor: {r: 0.62352943, g: 0, b: 0, a: 1}
+    rgba: 4278190297
+  m_fontColor: {r: 0.8490566, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -24004,8 +24126,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4292330428
+  m_fontColor: {r: 0.7372549, g: 0.76470596, b: 0.8431373, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -24199,14 +24321,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.7372549, g: 0.7686275, b: 0.8470589, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 3407415204932647069, guid: 2a96865bd0ff54645b30fd4cbef5d68d, type: 3}
+  m_Sprite: {fileID: -5999545500268567570, guid: 234fb04b5226ec245be289c371200c54, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -47750,6 +47872,81 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1953969219
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1953969220}
+  - component: {fileID: 1953969222}
+  - component: {fileID: 1953969221}
+  m_Layer: 5
+  m_Name: Key
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1953969220
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1953969219}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 650967226}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
+  m_AnchoredPosition: {x: -40, y: 25}
+  m_SizeDelta: {x: 75, y: 75}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1953969221
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1953969219}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 1502800830569655304, guid: 9f23b7c7ba8e9be43a542f2e69d9c7cf, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1953969222
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1953969219}
+  m_CullTransparentMesh: 1
 --- !u!1 &1972635180
 GameObject:
   m_ObjectHideFlags: 0
@@ -47777,7 +47974,7 @@ RectTransform:
   m_GameObject: {fileID: 1972635180}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 1.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 837084293}
@@ -47807,7 +48004,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: -8146023664488415175, guid: 66c04251985fbd8499712dbde1f08011, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -50233,8 +50430,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -60}
-  m_SizeDelta: {x: 400, y: 70}
+  m_AnchoredPosition: {x: 0, y: -55.2}
+  m_SizeDelta: {x: 490, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2042367238
 MonoBehaviour:
@@ -50300,7 +50497,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: -2955423525414919508, guid: 6cea601bd2110bc4a8d83d6d16e9f339, type: 3}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1

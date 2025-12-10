@@ -1,9 +1,8 @@
-// DialogueManager.cs
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using System.Collections;
-using UnityEditor;
+using System;
 
 public class DialogueManager : MonoBehaviour
 {
@@ -34,6 +33,9 @@ public class DialogueManager : MonoBehaviour
     private bool isTyping = false;
     private bool canInteract = true;
     private Coroutine typingCoroutine;
+
+    // Callback para quando o diálogo terminar
+    private Action onDialogueComplete;
 
     public bool IsActive => isActive;
     public bool CanStartDialogue => canInteract && !isActive;
@@ -66,13 +68,21 @@ public class DialogueManager : MonoBehaviour
         }
     }
 
+    // Método original (para compatibilidade)
     public void StartDialogue(DialogueEntry[] entries)
+    {
+        StartDialogue(entries, null);
+    }
+
+    // Novo método com callback
+    public void StartDialogue(DialogueEntry[] entries, Action onComplete)
     {
         if (!canInteract || isActive) return;
 
         currentDialogue = entries;
         currentIndex = 0;
         isActive = true;
+        onDialogueComplete = onComplete;
         dialoguePanel.SetActive(true);
         ShowCurrentLine();
     }
@@ -169,6 +179,10 @@ public class DialogueManager : MonoBehaviour
         dialoguePanel.SetActive(false);
         namePanel.SetActive(false);
         StopAudio();
+
+        // Invoca o callback antes do cooldown
+        onDialogueComplete?.Invoke();
+        onDialogueComplete = null;
 
         StartCoroutine(InteractCooldown());
     }
