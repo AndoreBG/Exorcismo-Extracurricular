@@ -22,12 +22,12 @@ public class SpawnPoint : MonoBehaviour
         Gizmos.color = Color.cyan;
         Gizmos.DrawWireSphere(transform.position, 0.7f);
 
-#if UNITY_EDITOR
-        // Mostrar o nome do spawn point
-        GUIStyle style = new GUIStyle();
-        style.normal.textColor = Color.white;
-        style.fontSize = 14;
-        UnityEditor.Handles.Label(transform.position + Vector3.up * 0.8f, pointName, style);
-#endif
+//#if UNITY_EDITOR
+//        // Mostrar o nome do spawn point
+//        GUIStyle style = new GUIStyle();
+//        style.normal.textColor = Color.white;
+//        style.fontSize = 14;
+//        UnityEditor.Handles.Label(transform.position + Vector3.up * 0.8f, pointName, style);
+//#endif
     }
 }

@@ -442,11 +442,11 @@ public class CheckpointSystem : MonoBehaviour
 
     void DebugInfo()
     {
-        Debug.Log("=== CHECKPOINT DEBUG ===");
-        Debug.Log($"Checkpoints: {checkpoints.Count}");
-        Debug.Log($"Atual: {currentCheckpointIndex}");
-        Debug.Log($"Ativados: {activatedCheckpoints.Count}");
-        Debug.Log($"Saved Data: {savedData != null}");
+        //Debug.Log("=== CHECKPOINT DEBUG ===");
+        //Debug.Log($"Checkpoints: {checkpoints.Count}");
+        //Debug.Log($"Atual: {currentCheckpointIndex}");
+        //Debug.Log($"Ativados: {activatedCheckpoints.Count}");
+        //Debug.Log($"Saved Data: {savedData != null}");
     }
 
     void OnDrawGizmos()

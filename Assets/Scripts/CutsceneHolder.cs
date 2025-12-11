@@ -8,6 +8,7 @@ public class CutsceneHolder : MonoBehaviour
 {
     [SerializeField] VideoPlayer video;
     [SerializeField] TextMeshProUGUI text;
+    [SerializeField] GameObject key;
 
     private bool canSkip = false;
     private int startLoading = 0;
@@ -34,6 +35,7 @@ public class CutsceneHolder : MonoBehaviour
 
         canSkip = true;
         text.enabled = true;
+        key.SetActive(true);
     }
 
     IEnumerator EndCutscene()

@@ -110,12 +110,4 @@ public class PlayerSceneHandler : MonoBehaviour
     {
         StartCoroutine(TeleportTo(position));
     }
-    void OnGUI()
-    {
-        GUILayout.BeginArea(new Rect(10, 10, 400, 200));
-        GUILayout.Label($"Player Position: {transform.position}");
-        GUILayout.Label($"SpawnPoint Key: {PlayerPrefs.GetString("SpawnPoint", "NONE")}");
-        GUILayout.Label($"Scene: {SceneManager.GetActiveScene().name}");
-        GUILayout.EndArea();
-    }
 }
