@@ -769,7 +769,7 @@ CapsuleCollider2D:
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 512
   m_ExcludeLayers:
     serializedVersion: 2
     m_Bits: 8192
@@ -7834,7 +7834,7 @@ CircleCollider2D:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 512
   m_LayerOverridePriority: 0
   m_ForceSendLayers:
     serializedVersion: 2
@@ -7844,7 +7844,7 @@ CircleCollider2D:
     m_Bits: 4294967295
   m_ContactCaptureLayers:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 15871
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -8613,15 +8613,15 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 334050134}
-  - {fileID: 67154920}
+  - {fileID: 952070577}
   - {fileID: 93342756}
+  - {fileID: 67154920}
+  - {fileID: 334050134}
   - {fileID: 1186248260}
   - {fileID: 868921957}
   - {fileID: 1818365500}
   - {fileID: 740586907}
   - {fileID: 152689841}
-  - {fileID: 952070577}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1041913997
@@ -13334,30 +13334,30 @@ Tilemap:
   m_TileMatrixArray:
   - m_RefCount: 0
     m_Data:
-      e00: 1.8e-44
+      e00: -255266180
       e01: 0
-      e02: -0.000000024531346
-      e03: 1.694068e-19
-      e10: 0
+      e02: 0.0000000015038779
+      e03: -3.1250496
+      e10: 4.5912e-41
       e11: 0
-      e12: 3.15e-43
-      e13: 8.06e-43
-      e20: -3.6280845e-10
+      e12: 4.9e-44
+      e13: 4.44e-43
+      e20: -782053400
       e21: 0
-      e22: -1.6139643e+29
-      e23: -1.3565307e-18
-      e30: 4.5915e-41
+      e22: -2.5665376e-29
+      e23: 8.312061e-19
+      e30: 4.5912e-41
       e31: 0
-      e32: 8.09e-43
-      e33: 8.06e-43
+      e32: 4.48e-43
+      e33: 4.46e-43
   m_TileColorArray:
   - m_RefCount: 0
-    m_Data: {r: 8.9439e-41, g: 8.9439e-41, b: 8.9439e-41, a: 8.9439e-41}
+    m_Data: {r: 8.0202e-41, g: 8.0202e-41, b: 8.0202e-41, a: 8.0202e-41}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Origin: {x: 0, y: -8, z: 0}
-  m_Size: {x: 39, y: 8, z: 1}
+  m_Origin: {x: -44, y: -8, z: 0}
+  m_Size: {x: 83, y: 17, z: 1}
   m_TileAnchor: {x: 0.5, y: 0.5, z: 0}
   m_TileOrientation: 0
   m_TileOrientationMatrix:
@@ -13503,6 +13503,7 @@ MonoBehaviour:
   damageCooldown: 1
   damageType: 1
   continuousDamage: 0
+  targetTag: Player
 --- !u!1 &1315684637
 GameObject:
   m_ObjectHideFlags: 0

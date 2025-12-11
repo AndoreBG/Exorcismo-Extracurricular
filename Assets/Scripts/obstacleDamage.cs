@@ -14,6 +14,10 @@ public class obstacleDamage : MonoBehaviour
     [Space]
     [SerializeField] private bool continuousDamage = false;
 
+    [Space]
+    [Header("== Tag do Alvo ==")]
+    [SerializeField] private string targetTag = "Player"; // Tag configurável
+
     public enum DamageType
     {
         Touch,      // Dano ao tocar
@@ -26,6 +30,9 @@ public class obstacleDamage : MonoBehaviour
     // == DETECÇÃO DE COLISÃO ==============================================================================================
     void OnCollisionEnter2D(Collision2D collision)
     {
+        // ✅ Verifica se tem a tag "Player"
+        if (!collision.gameObject.CompareTag(targetTag)) return;
+
         if (damageType == DamageType.Touch)
         {
             TryApplyDamage(collision.gameObject, collision.contacts[0].point);
@@ -34,6 +41,9 @@ public class obstacleDamage : MonoBehaviour
 
     void OnCollisionStay2D(Collision2D collision)
     {
+        // ✅ Verifica se tem a tag "Player"
+        if (!collision.gameObject.CompareTag(targetTag)) return;
+
         if (continuousDamage || damageType == DamageType.StayOn || damageType == DamageType.Periodic)
         {
             TryApplyDamage(collision.gameObject, collision.contacts[0].point);
@@ -42,6 +52,9 @@ public class obstacleDamage : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
+        // ✅ Verifica se tem a tag "Player"
+        if (!other.CompareTag(targetTag)) return;
+
         if (damageType == DamageType.Touch)
         {
             Vector2 contactPoint = other.ClosestPoint(transform.position);
@@ -51,6 +64,9 @@ public class obstacleDamage : MonoBehaviour
 
     void OnTriggerStay2D(Collider2D other)
     {
+        // ✅ Verifica se tem a tag "Player"
+        if (!other.CompareTag(targetTag)) return;
+
         if (continuousDamage || damageType == DamageType.StayOn || damageType == DamageType.Periodic)
         {
             Vector2 contactPoint = other.ClosestPoint(transform.position);
