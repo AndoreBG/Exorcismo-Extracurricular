@@ -257,9 +257,9 @@ TextureImporter:
       name: House Inside Tiles 32x32 v2_7
       rect:
         serializedVersion: 2
-        x: 224
+        x: 225
         y: 384
-        width: 32
+        width: 31
         height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -281,7 +281,7 @@ TextureImporter:
         serializedVersion: 2
         x: 256
         y: 384
-        width: 32
+        width: 31
         height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -499,9 +499,9 @@ TextureImporter:
       name: House Inside Tiles 32x32 v2_18
       rect:
         serializedVersion: 2
-        x: 224
+        x: 225
         y: 352
-        width: 32
+        width: 31
         height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -523,7 +523,7 @@ TextureImporter:
         serializedVersion: 2
         x: 256
         y: 352
-        width: 32
+        width: 31
         height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -697,9 +697,9 @@ TextureImporter:
       name: House Inside Tiles 32x32 v2_27
       rect:
         serializedVersion: 2
-        x: 224
+        x: 225
         y: 320
-        width: 32
+        width: 31
         height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -721,7 +721,7 @@ TextureImporter:
         serializedVersion: 2
         x: 256
         y: 320
-        width: 32
+        width: 31
         height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -983,9 +983,9 @@ TextureImporter:
       name: House Inside Tiles 32x32 v2_40
       rect:
         serializedVersion: 2
-        x: 224
+        x: 225
         y: 288
-        width: 32
+        width: 31
         height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1007,7 +1007,7 @@ TextureImporter:
         serializedVersion: 2
         x: 256
         y: 288
-        width: 32
+        width: 31
         height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}

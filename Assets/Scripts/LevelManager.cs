@@ -1,7 +1,5 @@
 using System.Collections;
 using Unity.VisualScripting;
-using UnityEditor.PackageManager;
-using UnityEditor.Search;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.SceneManagement;

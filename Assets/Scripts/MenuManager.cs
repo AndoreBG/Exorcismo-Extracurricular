@@ -246,6 +246,7 @@ public class MenuManager : MonoBehaviour
         if (gameOverPanel != null)
         {
             gameOverPanel.SetActive(false);
+            gameOverSound.Stop();
         }
 
         Time.timeScale = 1f;
@@ -283,6 +284,15 @@ public class MenuManager : MonoBehaviour
             Debug.Log($"[MenuManager] Indo para menu principal de: {source}");
 
         Time.timeScale = 1f;
+        if (source == "pause")
+        {
+            ClosePauseMenu();
+        }
+        else if (source == "gameover")
+        {
+            HideGameOver();
+        }
+
         SceneManager.LoadScene(mainMenuSceneName);
     }
 

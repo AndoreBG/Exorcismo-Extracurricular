@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Events;   
 
 public class DialogueGeneric : MonoBehaviour, IInteractable
 {
@@ -18,6 +19,8 @@ public class DialogueGeneric : MonoBehaviour, IInteractable
 
     [Tooltip("Se true, repete o último diálogo infinitamente")]
     [SerializeField] private bool repeatLastDialogue = true;
+
+    public UnityEvent OnDialogueEnd;
 
     private int currentSequenceIndex = 0;
 
@@ -52,6 +55,8 @@ public class DialogueGeneric : MonoBehaviour, IInteractable
                 currentSequenceIndex = dialogueSequences.Length - 1;
             }
             // Se nenhum dos dois, mantém o índice além do limite (desabilita interação)
+
+            OnDialogueEnd?.Invoke();
         }
     }
 

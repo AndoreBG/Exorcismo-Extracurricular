@@ -1,6 +1,4 @@
 using System;
-using UnityEditor.Animations;
-using UnityEditor.ShaderGraph.Internal;
 using UnityEngine;
 using UnityEngine.Events;
 

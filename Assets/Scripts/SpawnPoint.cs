@@ -4,22 +4,30 @@ public class SpawnPoint : MonoBehaviour
 {
     [SerializeField] private string pointName;
 
-    void Start()
+    // Propriedade pública para o PlayerSceneHandler acessar
+    public string PointName => pointName;
+
+    // Remova o Start() - não precisa mais fazer nada aqui!
+
+    // Visualização no Editor
+    void OnDrawGizmos()
     {
-        // Verificar se este é o spawn point correto
-        string savedSpawnPoint = PlayerPrefs.GetString("SpawnPoint", "");
+        Gizmos.color = Color.green;
+        Gizmos.DrawWireSphere(transform.position, 0.5f);
+        Gizmos.DrawIcon(transform.position, "sv_icon_dot3_pix16_gizmo", true);
+    }
 
-        if (savedSpawnPoint == pointName)
-        {
-            // Posicionar o player aqui
-            GameObject player = GameObject.FindGameObjectWithTag("Player");
-            if (player != null)
-            {
-                player.transform.position = transform.position;
-            }
+    void OnDrawGizmosSelected()
+    {
+        Gizmos.color = Color.cyan;
+        Gizmos.DrawWireSphere(transform.position, 0.7f);
 
-            // Limpar para próxima vez
-            PlayerPrefs.DeleteKey("SpawnPoint");
-        }
+#if UNITY_EDITOR
+        // Mostrar o nome do spawn point
+        GUIStyle style = new GUIStyle();
+        style.normal.textColor = Color.white;
+        style.fontSize = 14;
+        UnityEditor.Handles.Label(transform.position + Vector3.up * 0.8f, pointName, style);
+#endif
     }
 }

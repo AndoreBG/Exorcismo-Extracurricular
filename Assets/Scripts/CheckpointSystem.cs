@@ -70,23 +70,46 @@ public class CheckpointSystem : MonoBehaviour
 
     void Awake()
     {
+        // Corrigir o singleton para funcionar entre cenas
         if (Instance != null && Instance != this)
         {
-            Destroy(this);
-            return;
+            // Se já existe uma instância, verificar se ela ainda é válida
+            if (Instance.gameObject == null)
+            {
+                // A instância antiga foi destruída, usar esta nova
+                Instance = this;
+            }
+            else
+            {
+                Destroy(this);
+                return;
+            }
         }
-
-        Instance = this;
+        else
+        {
+            Instance = this;
+        }
 
         audioSource = GetComponent<AudioSource>();
         if (audioSource == null)
             audioSource = gameObject.AddComponent<AudioSource>();
 
+        // BUSCAR PLAYER E COMPONENTES
         player = GameObject.FindGameObjectWithTag("Player");
-        playerHealth = player?.GetComponent<avatarHealth>();
-        playerMagic = player?.GetComponent<magicSystem>();
-        playerMovement = player?.GetComponent<avatarMovement>();
-        playerAnimator = player?.GetComponent<Animator>();
+
+        if (player != null)
+        {
+            playerHealth = player.GetComponent<avatarHealth>();
+            playerMagic = player.GetComponent<magicSystem>();
+            playerMovement = player.GetComponent<avatarMovement>();
+
+            // O Animator está no FILHO "Sprite", não no pai!
+            // Opção 1: Buscar no filho
+            playerAnimator = player.GetComponentInChildren<Animator>();
+
+            // Opção 2: Se você tem a referência no avatarHealth, use ela
+            // playerAnimator = playerHealth?.avatarAnimator;
+        }
 
         ValidateReferences();
     }
@@ -113,19 +136,6 @@ public class CheckpointSystem : MonoBehaviour
         if (debugMode && Input.GetKeyDown(KeyCode.F5))
         {
             DebugInfo();
-        }
-    }
-        
-    private void FixedUpdate()
-    {
-        if (playerAnimator == null)
-        {
-            Debug.LogWarning("[Checkpoint System] Avatar Animator NULO");
-            playerAnimator = playerHealth?.avatarAnimator;
-        }
-        else
-        {
-            Debug.LogWarning("[Checkpoint System] ACHOU!!");
         }
     }
 
@@ -205,45 +215,153 @@ public class CheckpointSystem : MonoBehaviour
 
     public void RespawnPlayer()
     {
-        if (isRespawning) return;
+        Debug.Log("[CheckpointSystem] RespawnPlayer() CHAMADO!");
+        Debug.Log($"[CheckpointSystem] isRespawning: {isRespawning}");
+        Debug.Log($"[CheckpointSystem] Instance: {Instance}");
 
+        if (isRespawning)
+        {
+            Debug.Log("[CheckpointSystem] JÁ ESTÁ RESPAWNANDO - ABORTANDO");
+            return;
+        }
+
+        Debug.Log("[CheckpointSystem] Iniciando RespawnSequence...");
         StartCoroutine(RespawnSequence());
     }
 
+    // ========== BUSCA DE PLAYER (NOVO MÉTODO) ==========
+
+    GameObject FindPlayerObject()
+    {
+        // Método 1: Por tag
+        GameObject player = GameObject.FindGameObjectWithTag("Player");
+
+        if (player != null)
+        {
+            // Verificar se é o objeto certo (tem avatarHealth)
+            avatarHealth health = player.GetComponent<avatarHealth>();
+            if (health != null)
+            {
+                Debug.Log($"[CheckpointSystem] Player encontrado por tag: {player.name}");
+                return player;
+            }
+
+            // Se não tem, buscar no pai
+            health = player.GetComponentInParent<avatarHealth>();
+            if (health != null)
+            {
+                Debug.Log($"[CheckpointSystem] Player encontrado no pai: {health.gameObject.name}");
+                return health.gameObject;
+            }
+
+            // Buscar no root
+            GameObject root = player.transform.root.gameObject;
+            health = root.GetComponent<avatarHealth>();
+            if (health != null)
+            {
+                Debug.Log($"[CheckpointSystem] Player encontrado no root: {root.name}");
+                return root;
+            }
+        }
+
+        // Método 2: Buscar diretamente pelo componente
+        avatarHealth[] allHealths = FindObjectsByType<avatarHealth>(FindObjectsSortMode.None);
+        if (allHealths.Length > 0)
+        {
+            Debug.Log($"[CheckpointSystem] Player encontrado por componente: {allHealths[0].gameObject.name}");
+            return allHealths[0].gameObject;
+        }
+
+        // Método 3: Buscar por nome
+        GameObject avatar = GameObject.Find("Avatar");
+        if (avatar != null)
+        {
+            Debug.Log($"[CheckpointSystem] Player encontrado por nome: {avatar.name}");
+            return avatar;
+        }
+
+        Debug.LogError("[CheckpointSystem] PLAYER NÃO ENCONTRADO POR NENHUM MÉTODO!");
+        return null;
+    }
+
+    // ========== RESPAWN ==========
+
     IEnumerator RespawnSequence()
     {
-        isRespawning = true;
+        Debug.Log("[CheckpointSystem] >>> RespawnSequence INICIOU <<<");
 
-        if (debugMode)
-            Debug.Log("[CheckpointSystem] Iniciando respawn...");
+        isRespawning = true;
 
         yield return new WaitForSeconds(respawnDelay);
 
         if (savedData == null)
         {
-            Debug.LogError("[CheckpointSystem] Sem checkpoint salvo!");
+            Debug.LogError("[CheckpointSystem] savedData é NULL!");
             isRespawning = false;
             yield break;
         }
 
-        // Respawnar
-        if (player != null)
+        // USAR O NOVO MÉTODO DE BUSCA
+        player = FindPlayerObject();
+
+        if (player == null)
         {
-            player.transform.position = savedData.position;
+            Debug.LogError("[CheckpointSystem] FALHA TOTAL AO ENCONTRAR PLAYER!");
+            isRespawning = false;
+            yield break;
         }
 
-        playerAnimator.Rebind();
+        // Buscar componentes no player encontrado
+        playerHealth = player.GetComponent<avatarHealth>();
+        playerMovement = player.GetComponent<avatarMovement>();
+        playerMagic = player.GetComponent<magicSystem>();
+        playerAnimator = player.GetComponentInChildren<Animator>();
 
+        Debug.Log($"[CheckpointSystem] Componentes - Health: {playerHealth != null}, Movement: {playerMovement != null}, Animator: {playerAnimator != null}");
+
+        // Teleportar
+        Debug.Log($"[CheckpointSystem] Teleportando para: {savedData.position}");
+
+        // Usar Rigidbody se existir
+        Rigidbody2D rb = player.GetComponent<Rigidbody2D>();
+        if (rb != null)
+        {
+            rb.bodyType = RigidbodyType2D.Kinematic;
+            rb.linearVelocity = Vector2.zero;
+            rb.position = savedData.position;
+        }
+
+        player.transform.position = savedData.position;
+
+        Physics2D.SyncTransforms();
+
+        yield return new WaitForFixedUpdate();
+
+        if (rb != null)
+        {
+            rb.bodyType = RigidbodyType2D.Dynamic;
+        }
+
+        // Resetar animator
+        if (playerAnimator != null)
+        {
+            playerAnimator.Rebind();
+            playerAnimator.Update(0f);
+        }
+
+        // Respawn do health
         if (playerHealth != null)
         {
             playerHealth.Respawn(savedData.position);
         }
 
+        // Restaurar energia
         if (playerMagic != null && savedData.playerEnergy > playerMagic.CurrentEnergy)
         {
             playerMagic.RestoreEnergy(savedData.playerEnergy - playerMagic.CurrentEnergy);
         }
 
+        // Habilitar movimento
         if (playerMovement != null)
         {
             playerMovement.enabled = true;
@@ -262,11 +380,9 @@ public class CheckpointSystem : MonoBehaviour
         }
 
         OnPlayerRespawned?.Invoke();
-
         isRespawning = false;
 
-        if (debugMode)
-            Debug.Log("[CheckpointSystem] Respawn completo");
+        Debug.Log($"[CheckpointSystem] >>> RESPAWN CONCLUÍDO em {player.transform.position} <<<");
     }
 
     public Vector3 GetLastCheckpointPosition()
