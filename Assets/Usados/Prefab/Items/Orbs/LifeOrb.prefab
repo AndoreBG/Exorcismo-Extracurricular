@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6469034491435027502}
   - component: {fileID: 2082585705440652524}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Sprite Light 2D
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -94,7 +94,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1268550175034573188}
   - component: {fileID: 612515842107443583}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Spot Light 2D
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -182,7 +182,7 @@ GameObject:
   - component: {fileID: 5847183433356469408}
   - component: {fileID: 6188530649434311613}
   - component: {fileID: 7617244152097045171}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: LifeOrb
   m_TagString: Untagged
   m_Icon: {fileID: 0}
