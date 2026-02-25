@@ -39,6 +39,19 @@ Esta era caótica ficou conhecida como a **"Idade Média Tecnomágica"** - o pre
 
 ---
 
+<p align="center">
+  <a href="https://mikagamesdev.itch.io/exorcismo-extracurricular">
+    <img src="https://img.shields.io/badge/Jogue%20Exorcismo%20Extracurricular-itch.io-ef2d05?style=for-the-badge&logo=itchdotio&logoColor=white" />
+  </a>
+</p>
+
+<p align="center">
+  <img src="https://img.itch.zone/aW1hZ2UvNDEyMzg0OC8yNDU3MzU0NC5wbmc=/original/RRK%2BXj.png" width="45%" />
+  <img src="https://img.itch.zone/aW1hZ2UvNDEyMzg0OC8yNDU3MzU0NS5wbmc=/original/UQAkLN.png" width="45%" />
+</p>
+
+---
+
 ## 🛠️ Tecnologias
 
 - **Engine**: <a href="https://download.unity3d.com/download_unity/d3d30d158480/Windows64EditorInstaller/UnitySetup64-6000.2.10f1.exe">Unity 2D ver. 6000.2.10f1</a>
