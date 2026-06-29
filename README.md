@@ -4,8 +4,6 @@
 ![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow?style=for-the-badge)
 ![Gênero](https://img.shields.io/badge/Gêneros-Survival%202D%20|%20ARPG%20|%20TwinStick-red?style=for-the-badge)
 
-<br>
-
 ## 📜 História
 
 **Sarah** sonha em se tornar uma maga, mas há um obstáculo em seu caminho: a temida disciplina **Exorcismo e Criaturas Decrépitas**. Com notas baixas e a reprovação se aproximando, seu orientador decide que teoria não é suficiente - é hora de prática real.
