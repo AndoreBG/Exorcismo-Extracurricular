@@ -2,9 +2,9 @@
 
 ![Unity](https://img.shields.io/badge/Unity-2D-black?style=for-the-badge&logo=unity)
 ![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow?style=for-the-badge)
-![Gênero](https://img.shields.io/badge/Gêneros-Survival%202D%20ARPG%20TwinStick-red?style=for-the-badge)
+![Gênero](https://img.shields.io/badge/Gêneros-Survival%202D%20|%20ARPG%20|%20TwinStick-red?style=for-the-badge)
 
----
+<br>
 
 ## 📜 História
 
@@ -12,7 +12,7 @@
 
 > *No escuro, eles podem reivindicar seu corpo. Na luz, você se torna o alvo.*
 
----
+<br>
 
 ## 🌍 Contexto
 
@@ -26,7 +26,7 @@ Mas como toda grande descoberta, a magia trouxe consequências. Sua energia come
 
 Esta era caótica ficou conhecida como a **"Idade Média Tecnomágica"** - o prelúdio do que viria a ser a grande era onde magia e tecnologia se fundiriam em criações além da compreensão humana.
 
----
+<br>
 
 ## 🎮 Características
 
@@ -37,7 +37,7 @@ Esta era caótica ficou conhecida como a **"Idade Média Tecnomágica"** - o pre
 - **🗺️ Locais Únicos**: Explore cenários decadentes e atmosféricos
 - **⚡ Progressão de Personagem**: Aprenda novas magias e aprimore suas habilidades
 
----
+<br>
 
 <p align="center">
   <a href="https://mikagamesdev.itch.io/exorcismo-extracurricular">
@@ -50,7 +50,7 @@ Esta era caótica ficou conhecida como a **"Idade Média Tecnomágica"** - o pre
   <img src="https://img.itch.zone/aW1hZ2UvNDEyMzg0OC8yNDU3MzU0NS5wbmc=/original/UQAkLN.png" width="45%" />
 </p>
 
----
+<br>
 
 ## 🛠️ Tecnologias
 
